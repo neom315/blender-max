@@ -2,8 +2,8 @@
 <h1 align="center">Blender Max</h1>
 <h3 align="center">For Max users, in Blender.</h3>
 <p align="center">A familiar interface. Blender’s tools and possibilities.</p>
-<p align="center"><strong>Version 0.6.0</strong> · Blender 5.0–5.2 target range · GPL-3.0-or-later</p>
-<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.6.0.zip">Download 0.6.0</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a></p>
+<p align="center"><strong>Version 0.6.1</strong> · Blender 5.0–5.2 target range · GPL-3.0-or-later</p>
+<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.6.1.zip">Download 0.6.1</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a></p>
 
 ![Blender Max workspace](studio-max.png)
 
@@ -60,7 +60,7 @@ Use familiar editor layouts while keeping Blender’s native material, shader an
 
 ## Installation
 
-1. [Download `blender_max-0.6.0.zip`](https://neom315.github.io/blender-max/blender_max-0.6.0.zip). Keep the archive zipped.
+1. [Download `blender_max-0.6.1.zip`](https://neom315.github.io/blender-max/blender_max-0.6.1.zip). Keep the archive zipped.
 2. In Blender, open **Edit → Preferences → Get Extensions**.
 3. Open the menu at the top right and choose **Install from Disk**.
 4. Select the extension ZIP and enable it.
@@ -120,7 +120,7 @@ Yes. Blender Max is free and distributed under GPL-3.0-or-later.
 
 ## Downloads and project files
 
-- [Installable extension — version 0.6.0](https://neom315.github.io/blender-max/blender_max-0.6.0.zip)
+- [Installable extension — version 0.6.1](https://neom315.github.io/blender-max/blender_max-0.6.1.zip)
 - [GitHub Releases](https://github.com/neom315/blender-max/releases)
 - [Interactive website and workflow showcase](https://neom315.github.io/blender-max/)
 

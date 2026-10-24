@@ -9,3 +9,15 @@
 .footer-identity{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px;margin-bottom:12px}.footer-identity .brand{font-size:16px;color:var(--text)}.footer-identity span{font-size:12px;font-weight:600;color:var(--cyan)}
 .site-footer>p{max-width:800px;margin:0 0 13px}.site-footer a:not(.brand){color:var(--cyan)}.site-footer .footer-note{font-size:12px;color:#a2aaa5}.site-footer .legal{font-size:11px;max-width:800px;color:#939d96;margin-bottom:0}
 @media(max-width:700px){.closing-inner{padding:55px 5vw;min-height:0;flex-direction:column;align-items:flex-start;gap:28px}.closing h2{font-size:29px}.closing-action{text-align:left}.site-footer{padding:30px 5vw 40px}.footer-identity{gap:6px 12px}}
+/* Workflow demonstrations: a muted looping clip over its poster, with a play/pause control in the corner. */
+[hidden]{display:none!important}
+.workflow-media{position:relative;background:#242626}
+.showcase video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#242626}
+.media-toggle{position:absolute;right:12px;bottom:12px;display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:6px 12px 6px 10px;border:1px solid #ffffff2b;border-radius:5px;background:#1a1c1ce0;color:var(--text);font-size:12px;line-height:1}
+.media-toggle:hover{background:#303433}
+.media-toggle:focus-visible{outline-offset:2px}
+.media-icon{display:block;width:10px;height:11px;background:linear-gradient(90deg,currentColor 0 34%,transparent 34% 66%,currentColor 66%)}
+.media-toggle.is-paused .media-icon{background:currentColor;clip-path:polygon(0 0,100% 50%,0 100%)}
+@media(max-width:700px){.media-toggle{right:8px;bottom:8px;min-height:30px;padding:5px 10px 5px 9px}}
+.media-credit{position:absolute;left:12px;bottom:12px;margin:0;padding:5px 8px;border-radius:4px;background:#1a1c1cc7;color:#c9cfcb;font-size:11px;line-height:1.3}
+@media(max-width:700px){.media-credit{left:8px;bottom:8px;max-width:58%;font-size:10px}}

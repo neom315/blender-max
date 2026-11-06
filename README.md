@@ -2,8 +2,8 @@
 <h1 align="center">Blender Max</h1>
 <h3 align="center">For Max users, in Blender.</h3>
 <p align="center">A familiar interface. Blender’s tools and possibilities.</p>
-<p align="center"><strong>Version 0.6.9</strong> · Blender 5.0–5.2 target range · GPL-3.0-or-later</p>
-<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.6.9.zip">Download 0.6.9</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a></p>
+<p align="center"><strong>Version 0.7.0</strong> · Blender 5.0–5.2 target range · GPL-3.0-or-later</p>
+<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.7.0.zip">Download 0.7.0</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a></p>
 
 ![Blender Max — For Max users, in Blender](readme-hero.png)
 
@@ -34,7 +34,7 @@ Work with a familiar Command Panel, modifier stack, quad menus, Scene Explorer a
 | Viewports | Top, Front, Left and Perspective views, active-view highlighting and ViewCube navigation. |
 | Materials | Slate-style and Compact material editing over Blender’s native shaders. |
 | Animation | Timeline, track bar, playback controls and Auto Key workflows. |
-| Switching | A top-bar switch between Blender Max and Blender’s own interface. |
+| Switching | A top-bar switch, **MaxFlow** / **Blender**, between Blender Max and Blender’s own interface. |
 
 ### Modifier workflow
 
@@ -60,17 +60,17 @@ Use familiar editor layouts while keeping Blender’s native material, shader an
 
 ## Installation
 
-1. [Download `blender_max-0.6.9.zip`](https://neom315.github.io/blender-max/blender_max-0.6.9.zip). Keep the archive zipped.
+1. [Download `blender_max-0.7.0.zip`](https://neom315.github.io/blender-max/blender_max-0.7.0.zip). Keep the archive zipped.
 2. In Blender, open **Edit → Preferences → Get Extensions**.
 3. Open the menu at the top right and choose **Install from Disk**.
 4. Select the extension ZIP and enable it.
-5. Choose **Blender Max** in the top bar. Some existing workspaces may still display **Blender Studio Max**.
+5. Choose **MaxFlow** in the top bar: inside Blender the extension is called MaxFlow. Workspaces saved by older versions as **Blender Max** or **Blender Studio Max** are renamed when the file opens.
 
 Use the extension ZIP above, rather than GitHub’s automatically generated source archive, to install the add-on.
 
 ## Switching workspaces
 
-Choose **Blender Max** in the top bar to enter the Max-style workspace. Choose **Blender** to return to Blender’s interface and controls.
+Choose **MaxFlow** in the top bar to enter the Max-style workspace. Choose **Blender** to return to Blender’s interface and controls.
 
 Your scene remains in Blender. This makes it easy to follow a Blender tutorial, then return to your familiar workspace.
 
@@ -120,7 +120,7 @@ Yes. Blender Max is free and distributed under GPL-3.0-or-later.
 
 ## Downloads and project files
 
-- [Installable extension — version 0.6.9](https://neom315.github.io/blender-max/blender_max-0.6.9.zip)
+- [Installable extension — version 0.7.0](https://neom315.github.io/blender-max/blender_max-0.7.0.zip)
 - [GitHub Releases](https://github.com/neom315/blender-max/releases)
 - [Interactive website and workflow showcase](https://neom315.github.io/blender-max/)
 

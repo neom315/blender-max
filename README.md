@@ -3,7 +3,7 @@
 <h3 align="center">For Max users, in Blender.</h3>
 <p align="center">A familiar interface. Blender’s tools and possibilities.</p>
 <p align="center"><strong>Version 0.8.1</strong> · Blender 5.0–5.2 target range · GPL-3.0-or-later</p>
-<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.8.1.zip">Download 0.8.1</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a></p>
+<p align="center"><a href="https://neom315.github.io/blender-max/">Website</a> · <a href="https://neom315.github.io/blender-max/blender_max-0.8.1.zip">Download 0.8.1</a> · <a href="#installation">Install</a> · <a href="#quick-start">Quick start</a> · <a href="#faq">FAQ</a> · <a href="https://buy.stripe.com/bJe8wO1GJfF05hu3U62Ry00">Donate ♥</a></p>
 
 ![Blender Max — For Max users, in Blender](readme-hero.png)
 
@@ -116,7 +116,7 @@ No. Blender Max works with Blender’s scene and data systems; it does not add `
 
 ### Is it free?
 
-Yes. Blender Max is free and distributed under GPL-3.0-or-later.
+Yes. Blender Max is free and distributed under GPL-3.0-or-later. If it saves you time, you can [support its development with a donation](https://buy.stripe.com/bJe8wO1GJfF05hu3U62Ry00) of any amount.
 
 ## Downloads and project files
 

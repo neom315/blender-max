@@ -1,0 +1,9724 @@
+# MaxFlow interface strings.
+# Copy this file to <locale>.po (zh_HANT.po for Traditional Chinese, ja_JP.po, de_DE.po...),
+# fill in each msgstr and put the file in blender_max/translations/. Leave a msgstr
+# empty to keep the English text. See docs/TRANSLATING.md.
+msgid ""
+msgstr ""
+"Project-Id-Version: MaxFlow 0.8.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+
+#: __init__.py:6 chrome.py:452 chrome.py:431 i18n.py:15 (+4)
+msgid "MaxFlow"
+msgstr ""
+
+#: __init__.py:10
+msgid "Top bar > MaxFlow"
+msgstr ""
+
+#: __init__.py:11
+msgid "A 3ds Max-style workspace, Command Panel and quad menus"
+msgstr ""
+
+#: __init__.py:13
+msgid "Interface"
+msgstr ""
+
+#: __init__.py:51
+msgid "MaxFlow: could not disable"
+msgstr ""
+
+#: __init__.py:64
+msgid "MaxFlow: preferences migrated from Blender Studio Max"
+msgstr ""
+
+#: animation_ui.py:101 animation_ui.py:111 editors.py:156 surfaces.py:1272 (+2)
+msgid "Position"
+msgstr ""
+
+#: animation_ui.py:101 animation_ui.py:111 animation_ui.py:112 animation_ui.py:112 (+5)
+msgid "Rotation"
+msgstr ""
+
+#: animation_ui.py:102
+msgid "Quaternion"
+msgstr ""
+
+#: animation_ui.py:102 surfaces.py:1248
+msgid "Axis Angle"
+msgstr ""
+
+#: animation_ui.py:103 animation_ui.py:113 editors.py:157 flyouts.py:94 (+11)
+msgid "Scale"
+msgstr ""
+
+#: animation_ui.py:113 surfaces.py:644 surfaces.py:955 surfaces.py:851 (+4)
+msgid "Parameters"
+msgstr ""
+
+#: animation_ui.py:121
+msgid "Objects"
+msgstr ""
+
+#: animation_ui.py:130 surfaces.py:1218
+msgid "Transform"
+msgstr ""
+
+#: animation_ui.py:286
+msgid "Move Keys Horizontally"
+msgstr ""
+
+#: animation_ui.py:287
+msgid "Move Keys Vertically"
+msgstr ""
+
+#: animation_ui.py:288
+msgid "Scale Keys"
+msgstr ""
+
+#: animation_ui.py:289
+msgid "Scale Values"
+msgstr ""
+
+#: animation_ui.py:290 animation_ui.py:333
+msgid "Add Keys"
+msgstr ""
+
+#: animation_ui.py:292 animation_ui.py:320 keymap.py:35 material_ui.py:1207 (+7)
+msgid "Zoom Extents"
+msgstr ""
+
+#: animation_ui.py:293 animation_ui.py:321
+msgid "Zoom Selected"
+msgstr ""
+
+#: animation_ui.py:303
+msgid "Show Tangents"
+msgstr ""
+
+#: animation_ui.py:305 animation_ui.py:347
+msgid "Edit Keys"
+msgstr ""
+
+#: animation_ui.py:306 animation_ui.py:347
+msgid "Edit Ranges"
+msgstr ""
+
+#: animation_ui.py:307
+msgid "Snap to Frames"
+msgstr ""
+
+#: animation_ui.py:308 operators.py:737 operators.py:756
+msgid "Controller"
+msgstr ""
+
+#: animation_ui.py:309
+msgid "Key Window"
+msgstr ""
+
+#: animation_ui.py:314 animation_ui.py:374
+msgid "Editor"
+msgstr ""
+
+#: animation_ui.py:314 animation_ui.py:372 editors.py:308 max_menus.py:879 (+1)
+msgid "Curve Editor"
+msgstr ""
+
+#: animation_ui.py:315 animation_ui.py:372 editors.py:309 max_menus.py:880 (+1)
+msgid "Dope Sheet"
+msgstr ""
+
+#: animation_ui.py:316
+msgid "Return to Viewports"
+msgstr ""
+
+#: animation_ui.py:317 animation_ui.py:374 flyouts.py:487 material_ui.py:1517 (+10)
+msgid "Edit"
+msgstr ""
+
+#: animation_ui.py:317 scene_ui.py:231 surfaces.py:364 ui.py:142 (+1)
+msgid "Undo"
+msgstr ""
+
+#: animation_ui.py:317 keymap.py:82 scene_ui.py:231 surfaces.py:365 (+2)
+msgid "Redo"
+msgstr ""
+
+#: animation_ui.py:318
+msgid "Cut Keys"
+msgstr ""
+
+#: animation_ui.py:318
+msgid "Copy Keys"
+msgstr ""
+
+#: animation_ui.py:319
+msgid "Paste Keys"
+msgstr ""
+
+#: animation_ui.py:320 animation_ui.py:374 flyouts.py:106 material_ui.py:1533 (+5)
+msgid "View"
+msgstr ""
+
+#: animation_ui.py:322
+msgid "Enable Auto-Zoom"
+msgstr ""
+
+#: animation_ui.py:324
+msgid "Constant Interpolation"
+msgstr ""
+
+#: animation_ui.py:325
+msgid "Linear Interpolation"
+msgstr ""
+
+#: animation_ui.py:326
+msgid "Bezier Interpolation"
+msgstr ""
+
+#: animation_ui.py:327
+msgid "Mute Selected Tracks"
+msgstr ""
+
+#: animation_ui.py:328
+msgid "Constant Extrapolation"
+msgstr ""
+
+#: animation_ui.py:329
+msgid "Linear Extrapolation"
+msgstr ""
+
+#: animation_ui.py:330 animation_ui.py:374
+msgid "Keys"
+msgstr ""
+
+#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1230
+msgid "Invert Selection"
+msgstr ""
+
+#: animation_ui.py:334 trackbar.py:142
+msgid "Key Properties..."
+msgstr ""
+
+#: animation_ui.py:336 animation_ui.py:374
+msgid "Tangents"
+msgstr ""
+
+#: animation_ui.py:337 animation_ui.py:798 flyouts.py:393 surfaces.py:1634 (+1)
+msgid "Auto"
+msgstr ""
+
+#: animation_ui.py:337
+msgid "Clamped"
+msgstr ""
+
+#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:634
+msgid "Custom"
+msgstr ""
+
+#: animation_ui.py:338
+msgid "Unified"
+msgstr ""
+
+#: animation_ui.py:338 animation_ui.py:799 editors.py:209 flyouts.py:391 (+4)
+msgid "Linear"
+msgstr ""
+
+#: animation_ui.py:338
+msgid "Flat"
+msgstr ""
+
+#: animation_ui.py:338 commands.py:1335 flyouts.py:391 trackbar.py:276
+msgid "Step"
+msgstr ""
+
+#: animation_ui.py:339 animation_ui.py:1079 animation_ui.py:374 editors.py:299 (+1)
+msgid "Time"
+msgstr ""
+
+#: animation_ui.py:339
+msgid "Reverse Selected Time"
+msgstr ""
+
+#: animation_ui.py:340
+msgid "Scale Selected Time 50%"
+msgstr ""
+
+#: animation_ui.py:341
+msgid "Scale Selected Time 200%"
+msgstr ""
+
+#: animation_ui.py:342
+msgid "Insert 10 Frames"
+msgstr ""
+
+#: animation_ui.py:343
+msgid "Delete 10 Frames"
+msgstr ""
+
+#: animation_ui.py:344 animation_ui.py:374
+msgid "Show"
+msgstr ""
+
+#: animation_ui.py:344 animation_ui.py:810
+msgid "Selected Objects Only"
+msgstr ""
+
+#: animation_ui.py:345 animation_ui.py:812 flyouts.py:444 scene_ui.py:233 (+1)
+msgid "Expand All"
+msgstr ""
+
+#: animation_ui.py:345 animation_ui.py:812
+msgid "Collapse Objects"
+msgstr ""
+
+#: animation_ui.py:346
+msgid "Show Tangent Handles"
+msgstr ""
+
+#: animation_ui.py:373 scene_ui.py:244
+msgid "Viewports"
+msgstr ""
+
+#: animation_ui.py:460
+msgid "Tangent Handle"
+msgstr ""
+
+#: animation_ui.py:463
+msgid "Animation Key"
+msgstr ""
+
+#: animation_ui.py:481
+msgid "Move Range"
+msgstr ""
+
+#: animation_ui.py:482
+msgid "Range Start"
+msgstr ""
+
+#: animation_ui.py:483
+msgid "Range End"
+msgstr ""
+
+#: animation_ui.py:493
+msgid "Animation Keys"
+msgstr ""
+
+#: animation_ui.py:510
+msgid "Drag keys to move  |  Ctrl: add selection  |  MMB: pan  |  Wheel: zoom"
+msgstr ""
+
+#: animation_ui.py:543
+msgid "Delete Animation Keys"
+msgstr ""
+
+#: animation_ui.py:553 editors.py:205
+msgid "Set Key Interpolation"
+msgstr ""
+
+#: animation_ui.py:569
+msgid "Set Key Tangents"
+msgstr ""
+
+#: animation_ui.py:611
+msgid "Edit Animation Keys"
+msgstr ""
+
+#: animation_ui.py:650
+msgid "Paste Animation Keys"
+msgstr ""
+
+#: animation_ui.py:761
+msgid "Edit Animation Tracks"
+msgstr ""
+
+#: animation_ui.py:797
+msgid "Isolate Curve"
+msgstr ""
+
+#: animation_ui.py:799
+msgid "Stepped"
+msgstr ""
+
+#: animation_ui.py:800
+msgid "Break Tangents"
+msgstr ""
+
+#: animation_ui.py:800
+msgid "Unify Tangents"
+msgstr ""
+
+#: animation_ui.py:805
+msgid "Override All Locks"
+msgstr ""
+
+#: animation_ui.py:806
+msgid "Conceal"
+msgstr ""
+
+#: animation_ui.py:806
+msgid "Expose"
+msgstr ""
+
+#: animation_ui.py:806
+msgid "Unlock Leaves"
+msgstr ""
+
+#: animation_ui.py:806
+msgid "Unlock"
+msgstr ""
+
+#: animation_ui.py:806
+msgid "Lock"
+msgstr ""
+
+#: animation_ui.py:807
+msgid "Manual Navigation"
+msgstr ""
+
+#: animation_ui.py:808
+msgid "Auto Expand"
+msgstr ""
+
+#: animation_ui.py:808
+msgid "Children"
+msgstr ""
+
+#: animation_ui.py:808 flyouts.py:403 material_ui.py:38 material_ui.py:39 (+7)
+msgid "Materials"
+msgstr ""
+
+#: animation_ui.py:808 flyouts.py:174 flyouts.py:403 max_menus.py:624
+msgid "Modifiers"
+msgstr ""
+
+#: animation_ui.py:808
+msgid "Base Objects"
+msgstr ""
+
+#: animation_ui.py:809
+msgid "Animated"
+msgstr ""
+
+#: animation_ui.py:809
+msgid "Keyable"
+msgstr ""
+
+#: animation_ui.py:809 surfaces.py:912
+msgid "Limits"
+msgstr ""
+
+#: animation_ui.py:809
+msgid "XYZ Components"
+msgstr ""
+
+#: animation_ui.py:809 editors.py:173
+msgid "Transforms"
+msgstr ""
+
+#: animation_ui.py:811 flyouts.py:235 flyouts.py:445 scene_ui.py:233 (+1)
+msgid "Collapse All"
+msgstr ""
+
+#: animation_ui.py:811
+msgid "Collapse Tracks"
+msgstr ""
+
+#: animation_ui.py:813
+msgid "Expand Tracks"
+msgstr ""
+
+#: animation_ui.py:813
+msgid "Expand Objects"
+msgstr ""
+
+#: animation_ui.py:814
+msgid "Properties..."
+msgstr ""
+
+#: animation_ui.py:814
+msgid "Assign Controller..."
+msgstr ""
+
+#: animation_ui.py:815
+msgid "Add/Edit Parameters..."
+msgstr ""
+
+#: animation_ui.py:815
+msgid "View Attribute Dialog..."
+msgstr ""
+
+#: animation_ui.py:815
+msgid "Collect Parameters"
+msgstr ""
+
+#: animation_ui.py:816
+msgid "Publish Parameters..."
+msgstr ""
+
+#: animation_ui.py:816 commands.py:1181 flyouts.py:230 operators.py:735 (+1)
+msgid "Copy"
+msgstr ""
+
+#: animation_ui.py:816
+msgid "Paste..."
+msgstr ""
+
+#: animation_ui.py:816 flyouts.py:233
+msgid "Make Unique"
+msgstr ""
+
+#: animation_ui.py:817
+msgid "Limit Controller:"
+msgstr ""
+
+#: animation_ui.py:817
+msgid "Toggle Limit"
+msgstr ""
+
+#: animation_ui.py:817
+msgid "Set Upper Limit"
+msgstr ""
+
+#: animation_ui.py:817
+msgid "Set Lower Limit"
+msgstr ""
+
+#: animation_ui.py:818
+msgid "Remove Limit"
+msgstr ""
+
+#: animation_ui.py:818
+msgid "Copy Limit Only"
+msgstr ""
+
+#: animation_ui.py:818
+msgid "Paste Limit Only"
+msgstr ""
+
+#: animation_ui.py:819
+msgid "XRef Tracks State"
+msgstr ""
+
+#: animation_ui.py:819
+msgid "Use XRefed"
+msgstr ""
+
+#: animation_ui.py:819
+msgid "Use Local"
+msgstr ""
+
+#: animation_ui.py:820 max_menus.py:678
+msgid "Load Animation..."
+msgstr ""
+
+#: animation_ui.py:820 max_menus.py:678
+msgid "Save Animation..."
+msgstr ""
+
+#: animation_ui.py:918 animation_ui.py:796
+msgid "Add/Remove Keys"
+msgstr ""
+
+#: animation_ui.py:919 animation_ui.py:285 animation_ui.py:796 chrome.py:815
+msgid "Move Keys"
+msgstr ""
+
+#: animation_ui.py:920 animation_ui.py:330 animation_ui.py:805 flyouts.py:515 (+8)
+msgid "Select All"
+msgstr ""
+
+#: animation_ui.py:921 animation_ui.py:331 animation_ui.py:804 flyouts.py:516 (+9)
+msgid "Select None"
+msgstr ""
+
+#: animation_ui.py:922 animation_ui.py:804 keymap.py:93 material_ui.py:1195 (+3)
+msgid "Select Invert"
+msgstr ""
+
+#: animation_ui.py:923 animation_ui.py:803 flyouts.py:435 keymap.py:119 (+3)
+msgid "Select Children"
+msgstr ""
+
+#: animation_ui.py:924
+msgid "Frame Horizontal and Value Extents"
+msgstr ""
+
+#: animation_ui.py:925
+msgid "Frame Horizontal Extents"
+msgstr ""
+
+#: animation_ui.py:926
+msgid "Frame Horizontal Extents Keys"
+msgstr ""
+
+#: animation_ui.py:927 animation_ui.py:295 animation_ui.py:323 interactions.py:550 (+2)
+msgid "Zoom"
+msgstr ""
+
+#: animation_ui.py:928 interactions.py:551 keymap.py:38 trackbar.py:459
+msgid "Zoom Region"
+msgstr ""
+
+#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323 utility_editors.py:900 (+1)
+msgid "Pan"
+msgstr ""
+
+#: animation_ui.py:930 chrome.py:138 interactions.py:49 max_menus.py:1004 (+3)
+msgid "Left"
+msgstr ""
+
+#: animation_ui.py:930
+msgid "Nudge Keys Left"
+msgstr ""
+
+#: animation_ui.py:931 chrome.py:138 interactions.py:49 max_menus.py:1005 (+3)
+msgid "Right"
+msgstr ""
+
+#: animation_ui.py:931
+msgid "Nudge Keys Right"
+msgstr ""
+
+#: animation_ui.py:932
+msgid "Move Highlight Up"
+msgstr ""
+
+#: animation_ui.py:933
+msgid "Move Highlight Down"
+msgstr ""
+
+#: animation_ui.py:934
+msgid "Scroll Up"
+msgstr ""
+
+#: animation_ui.py:935
+msgid "Scroll Down"
+msgstr ""
+
+#: animation_ui.py:936 animation_ui.py:937
+msgid "Expand Track Toggle"
+msgstr ""
+
+#: animation_ui.py:937
+msgid "Enter"
+msgstr ""
+
+#: animation_ui.py:938
+msgid "Expand Object Toggle"
+msgstr ""
+
+#: animation_ui.py:939
+msgid "Snap Frames"
+msgstr ""
+
+#: animation_ui.py:940 animation_ui.py:284
+msgid "Filters"
+msgstr ""
+
+#: animation_ui.py:942
+msgid "Copy (keys)"
+msgstr ""
+
+#: animation_ui.py:943
+msgid "Paste (keys)"
+msgstr ""
+
+#: animation_ui.py:944 animation_ui.py:291 animation_ui.py:319 animation_ui.py:335 (+2)
+msgid "Delete Keys"
+msgstr ""
+
+#: animation_ui.py:944
+msgid "Track View Delete"
+msgstr ""
+
+#: animation_ui.py:1054 chrome.py:27 editor_host.py:8 editor_host.py:10 (+2)
+msgid "Dope"
+msgstr ""
+
+#: animation_ui.py:1069
+msgid "Add Animation Keys"
+msgstr ""
+
+#: animation_ui.py:1077
+msgid "Key Properties"
+msgstr ""
+
+#: animation_ui.py:1080 material_ui.py:57
+msgid "Value"
+msgstr ""
+
+#: animation_ui.py:1093
+msgid "Select one or more animation keys"
+msgstr ""
+
+#: animation_ui.py:1103
+msgid "Changes offset all selected keys."
+msgstr ""
+
+#: animation_ui.py:1107
+msgid "Select keys and open Key Properties"
+msgstr ""
+
+#: chrome.py:27 chrome.py:536 editor_host.py:8 editor_host.py:9 (+19)
+msgid "Slate"
+msgstr ""
+
+#: chrome.py:27 chrome.py:536 editor_host.py:8 editor_host.py:9 (+12)
+msgid "Compact"
+msgstr ""
+
+#: chrome.py:27 editor_host.py:8 editor_host.py:10 editor_host.py:91 (+10)
+msgid "Render"
+msgstr ""
+
+#: chrome.py:28 chrome.py:112 chrome.py:1177
+msgid "Toolbar"
+msgstr ""
+
+#: chrome.py:28 chrome.py:114 chrome.py:671 chrome.py:687 (+1)
+msgid "Command"
+msgstr ""
+
+#: chrome.py:28 chrome.py:636 chrome.py:116 chrome.py:1177 (+3)
+msgid "Timeline"
+msgstr ""
+
+#: chrome.py:28 chrome.py:118 chrome.py:1177 flyouts.py:463 (+1)
+msgid "Ribbon"
+msgstr ""
+
+#: chrome.py:28 chrome.py:1177 chrome.py:120
+msgid "Sidebar"
+msgstr ""
+
+#: chrome.py:28 chrome.py:675 chrome.py:1177 chrome.py:122
+msgid "Explorer"
+msgstr ""
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1000 max_menus.py:417 (+2)
+msgid "Top"
+msgstr ""
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1001 max_menus.py:418 (+2)
+msgid "Bottom"
+msgstr ""
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1002 max_menus.py:415 (+2)
+msgid "Front"
+msgstr ""
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1003 max_menus.py:416 (+2)
+msgid "Back"
+msgstr ""
+
+#: chrome.py:218 max_menus.py:1053 surfaces.py:504 surfaces.py:508 (+2)
+msgid "Standard"
+msgstr ""
+
+#: chrome.py:218 max_menus.py:1052
+msgid "High Quality"
+msgstr ""
+
+#: chrome.py:218 flyouts.py:149 ui.py:66
+msgid "ActiveShade"
+msgstr ""
+
+#: chrome.py:220 max_menus.py:1085
+msgid "Wireframe Override"
+msgstr ""
+
+#: chrome.py:220 max_menus.py:1080
+msgid "Hidden Line"
+msgstr ""
+
+#: chrome.py:222 max_menus.py:1079
+msgid "Flat Color"
+msgstr ""
+
+#: chrome.py:222 max_menus.py:1081
+msgid "Clay"
+msgstr ""
+
+#: chrome.py:224 chrome.py:222 max_menus.py:1076
+msgid "Default Shading"
+msgstr ""
+
+#: chrome.py:429
+msgid "Workspaces: Default"
+msgstr ""
+
+#: chrome.py:430 operators.py:51 preferences.py:28 ui.py:98
+msgid "Blender"
+msgstr ""
+
+#: chrome.py:457 surfaces.py:1765
+msgid "Find"
+msgstr ""
+
+#: chrome.py:468 commands.py:1512 edit_poly.py:61 edit_poly.py:65 (+8)
+msgid "Name"
+msgstr ""
+
+#: chrome.py:532
+msgid "Max Field Edit"
+msgstr ""
+
+#: chrome.py:566
+msgid "MaxFlow Interface Events"
+msgstr ""
+
+#: commands.py:206 commands.py:605 flyouts.py:28 operators.py:652
+msgid "Not available in Blender"
+msgstr ""
+
+#: commands.py:212
+msgid "No Hold buffer to fetch"
+msgstr ""
+
+#: commands.py:385
+msgid "Select a spot or directional light"
+msgstr ""
+
+#: commands.py:400
+msgid "Select an object with sub-objects"
+msgstr ""
+
+#: commands.py:412
+msgid "Safe frames show in camera views: the scene has no camera"
+msgstr ""
+
+#: commands.py:429
+msgid "The object has no modifiers"
+msgstr ""
+
+#: commands.py:440
+msgid "Choose a sub-object level of an Editable Poly"
+msgstr ""
+
+#: commands.py:453
+msgid "PhysCamera"
+msgstr ""
+
+#: commands.py:473
+msgid "Open Edges: choose a sub-object level of an Editable Poly"
+msgstr ""
+
+#: commands.py:537 max_menus.py:722 max_menus.py:701 max_menus.py:706 (+1)
+msgid "Script"
+msgstr ""
+
+#: commands.py:538 commands.py:540
+msgid "MAXScript Editor"
+msgstr ""
+
+#: commands.py:544 keymap.py:86 operators.py:824 operators.py:810
+msgid "Scripting Listener"
+msgstr ""
+
+#: commands.py:546 max_menus.py:919
+msgid "Macro Recorder"
+msgstr ""
+
+#: commands.py:554 max_menus.py:1027
+msgid "Schematic View"
+msgstr ""
+
+#: commands.py:554 max_menus.py:890
+msgid "Layer Explorer"
+msgstr ""
+
+#: commands.py:558
+msgid "Material Explorer"
+msgstr ""
+
+#: commands.py:560
+msgid "Motion Mixer"
+msgstr ""
+
+#: commands.py:610 keymap.py:81 max_menus.py:260
+msgid "Fetch"
+msgstr ""
+
+#: commands.py:610
+msgid "About to Fetch. OK?"
+msgstr ""
+
+#: commands.py:622
+msgid "Max Command"
+msgstr ""
+
+#: commands.py:667
+msgid "UVW Mapping Gizmo"
+msgstr ""
+
+#: commands.py:677 params.py:461 utility_editors.py:77 utility_editors.py:88
+msgid "UVMap"
+msgstr ""
+
+#: commands.py:689 max_menus.py:663 max_menus.py:607 operators.py:676 (+1)
+msgid "Bend"
+msgstr ""
+
+#: commands.py:689 max_menus.py:665 max_menus.py:607 params.py:62 (+1)
+msgid "Twist"
+msgstr ""
+
+#: commands.py:689 max_menus.py:665 max_menus.py:607 surfaces.py:782
+msgid "Taper"
+msgstr ""
+
+#: commands.py:690 max_menus.py:664 max_menus.py:607
+msgid "Stretch"
+msgstr ""
+
+#: commands.py:690 commands.py:637 material_ui.py:45 max_menus.py:663 (+4)
+msgid "Noise"
+msgstr ""
+
+#: commands.py:690 max_menus.py:664
+msgid "Noise Plus"
+msgstr ""
+
+#: commands.py:691 max_menus.py:663 max_menus.py:595 max_menus.py:604 (+4)
+msgid "Displace"
+msgstr ""
+
+#: commands.py:692 max_menus.py:663
+msgid "Mirror"
+msgstr ""
+
+#: commands.py:692 max_menus.py:636 operators.py:675 surfaces.py:782
+msgid "Symmetry"
+msgstr ""
+
+#: commands.py:693 max_menus.py:664 operators.py:675 surfaces.py:782
+msgid "Shell"
+msgstr ""
+
+#: commands.py:693 flyouts.py:501 flyouts.py:503 flyouts.py:505 (+9)
+msgid "Chamfer"
+msgstr ""
+
+#: commands.py:694 max_menus.py:658 operators.py:674 surfaces.py:782
+msgid "TurboSmooth"
+msgstr ""
+
+#: commands.py:694 flyouts.py:494 keymap.py:153 max_menus.py:658
+msgid "MeshSmooth"
+msgstr ""
+
+#: commands.py:695 max_menus.py:658
+msgid "OpenSubdiv"
+msgstr ""
+
+#: commands.py:695 max_menus.py:671
+msgid "Subdivide"
+msgstr ""
+
+#: commands.py:696 flyouts.py:494 max_menus.py:636 surfaces.py:1015
+msgid "Tessellate"
+msgstr ""
+
+#: commands.py:696 flyouts.py:489 max_menus.py:664 operators.py:676 (+2)
+msgid "Relax"
+msgstr ""
+
+#: commands.py:697 max_menus.py:664 max_menus.py:590 operators.py:440 (+1)
+msgid "Push"
+msgstr ""
+
+#: commands.py:697 max_menus.py:665
+msgid "Spherify"
+msgstr ""
+
+#: commands.py:697 max_menus.py:665 max_menus.py:603 surfaces.py:516
+msgid "Wave"
+msgstr ""
+
+#: commands.py:698 max_menus.py:664 max_menus.py:603 surfaces.py:516
+msgid "Ripple"
+msgstr ""
+
+#: commands.py:698 flyouts.py:510 max_menus.py:635
+msgid "Optimize"
+msgstr ""
+
+#: commands.py:698 max_menus.py:635 operators.py:677
+msgid "ProOptimizer"
+msgstr ""
+
+#: commands.py:699 max_menus.py:636
+msgid "Vertex Weld"
+msgstr ""
+
+#: commands.py:699 flyouts.py:500 flyouts.py:503 operators.py:963 (+5)
+msgid "Weld"
+msgstr ""
+
+#: commands.py:699 max_menus.py:634
+msgid "Edit Normals"
+msgstr ""
+
+#: commands.py:700 max_menus.py:636
+msgid "Weighted Normals"
+msgstr ""
+
+#: commands.py:700 max_menus.py:642
+msgid "Skin"
+msgstr ""
+
+#: commands.py:700 max_menus.py:643
+msgid "Skin Wrap"
+msgstr ""
+
+#: commands.py:701 max_menus.py:643 max_menus.py:669
+msgid "Surf Deform"
+msgstr ""
+
+#: commands.py:701 max_menus.py:642
+msgid "Path Deform"
+msgstr ""
+
+#: commands.py:701 max_menus.py:642
+msgid "Path Deform (WSM)"
+msgstr ""
+
+#: commands.py:702 max_menus.py:660 surfaces.py:782
+msgid "FFD 2x2x2"
+msgstr ""
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD 3x3x3"
+msgstr ""
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD 4x4x4"
+msgstr ""
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD Box"
+msgstr ""
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD Cylinder"
+msgstr ""
+
+#: commands.py:703 max_menus.py:652
+msgid "UVW Map"
+msgstr ""
+
+#: commands.py:703 max_menus.py:500 operators.py:432 operators.py:678 (+2)
+msgid "Boolean"
+msgstr ""
+
+#: commands.py:703 max_menus.py:501 surfaces.py:489
+msgid "ProBoolean"
+msgstr ""
+
+#: commands.py:704 commands.py:1242 operators.py:675
+msgid "Array"
+msgstr ""
+
+#: commands.py:704 max_menus.py:631
+msgid "Lathe"
+msgstr ""
+
+#: commands.py:704 max_menus.py:638 operators.py:677
+msgid "Turn To Mesh"
+msgstr ""
+
+#: commands.py:705
+msgid "Retopology"
+msgstr ""
+
+#: commands.py:705 flyouts.py:510 max_menus.py:500 max_menus.py:605 (+3)
+msgid "Conform"
+msgstr ""
+
+#: commands.py:705 max_menus.py:663
+msgid "Conform Modifier"
+msgstr ""
+
+#: commands.py:706 max_menus.py:634
+msgid "Attribute Transfer"
+msgstr ""
+
+#: commands.py:706 max_menus.py:655
+msgid "Point Cache"
+msgstr ""
+
+#: commands.py:706 max_menus.py:655
+msgid "Point Cache (WSM)"
+msgstr ""
+
+#: commands.py:707 max_menus.py:635
+msgid "MultiRes"
+msgstr ""
+
+#: commands.py:707 max_menus.py:641
+msgid "Melt"
+msgstr ""
+
+#: commands.py:707 commands.py:711 commands.py:750 edit_poly.py:29 (+3)
+msgid "Edit Poly"
+msgstr ""
+
+#: commands.py:707 commands.py:711 commands.py:750 edit_poly.py:29 (+1)
+msgid "Edit Mesh"
+msgstr ""
+
+#: commands.py:707 max_menus.py:634
+msgid "Cap Holes"
+msgstr ""
+
+#: commands.py:707 max_menus.py:664
+msgid "Slice"
+msgstr ""
+
+#: commands.py:708 max_menus.py:635
+msgid "Normal Modifier"
+msgstr ""
+
+#: commands.py:708 max_menus.py:635
+msgid "Quadify Mesh"
+msgstr ""
+
+#: commands.py:708 max_menus.py:638
+msgid "Turn To Poly"
+msgstr ""
+
+#: commands.py:708 max_menus.py:641
+msgid "Morpher"
+msgstr ""
+
+#: commands.py:710 commands.py:738 flyouts.py:498 flyouts.py:391 (+11)
+msgid "Smooth"
+msgstr ""
+
+#: commands.py:710 commands.py:741 commands.py:742 max_menus.py:645 (+2)
+msgid "Cloth"
+msgstr ""
+
+#: commands.py:710 commands.py:741 max_menus.py:641
+msgid "Flex"
+msgstr ""
+
+#: commands.py:710 commands.py:748 max_menus.py:652
+msgid "Unwrap UVW"
+msgstr ""
+
+#: commands.py:710 commands.py:744 max_menus.py:648
+msgid "Hair and Fur (WSM)"
+msgstr ""
+
+#: commands.py:710 commands.py:760 commands.py:764 flyouts.py:500 (+13)
+msgid "Extrude"
+msgstr ""
+
+#: commands.py:710 commands.py:760 max_menus.py:631
+msgid "Renderable Spline Modifier"
+msgstr ""
+
+#: commands.py:710 commands.py:760 flyouts.py:507 quad.py:116 (+1)
+msgid "Bevel"
+msgstr ""
+
+#: commands.py:720 operators.py:684
+msgid "Add Modifier"
+msgstr ""
+
+#: commands.py:731 commands.py:797 commands.py:1503 surfaces.py:774 (+2)
+msgid "Select an object"
+msgstr ""
+
+#: commands.py:790
+msgid "Add Constraint"
+msgstr ""
+
+#: commands.py:892
+msgid "Viewport Shading"
+msgstr ""
+
+#: commands.py:936
+msgid "Drag from a child to its parent object"
+msgstr ""
+
+#: commands.py:936
+msgid "Drag from an object to a space warp"
+msgstr ""
+
+#: commands.py:937
+msgid "Pick Align Target Object"
+msgstr ""
+
+#: commands.py:937
+msgid "Pick the constraint target"
+msgstr ""
+
+#: commands.py:938
+msgid "Pick objects to hide; right-click to finish"
+msgstr ""
+
+#: commands.py:938
+msgid "Pick objects to freeze; right-click to finish"
+msgstr ""
+
+#: commands.py:939
+msgid "Pick objects to unfreeze; right-click to finish"
+msgstr ""
+
+#: commands.py:939
+msgid "Pick a group to attach to"
+msgstr ""
+
+#: commands.py:940
+msgid "Pick an object for the reference coordinate system"
+msgstr ""
+
+#: commands.py:940
+msgid "Pick an object for the modifier"
+msgstr ""
+
+#: commands.py:941
+msgid "Pick an object to attach"
+msgstr ""
+
+#: commands.py:946 surfaces.py:983
+msgid "Pick Object"
+msgstr ""
+
+#: commands.py:1011
+msgid "Pick a space warp (force field)"
+msgstr ""
+
+#: commands.py:1021
+msgid "Blender space warps affect simulations (cloth, soft body, particles) only"
+msgstr ""
+
+#: commands.py:1048
+msgid "Pick a member of a group"
+msgstr ""
+
+#: commands.py:1074
+msgid "Attach: return to the Edit Poly top level first"
+msgstr ""
+
+#: commands.py:1099
+msgid "Align Selection"
+msgstr ""
+
+#: commands.py:1101 surfaces.py:508 utility_editors.py:1310
+msgid "Target"
+msgstr ""
+
+#: commands.py:1102
+msgid "X Position"
+msgstr ""
+
+#: commands.py:1103
+msgid "Y Position"
+msgstr ""
+
+#: commands.py:1104
+msgid "Z Position"
+msgstr ""
+
+#: commands.py:1105
+msgid "Minimum"
+msgstr ""
+
+#: commands.py:1105 params.py:122 params.py:123 params.py:124
+msgid "Center"
+msgstr ""
+
+#: commands.py:1105
+msgid "Pivot Point"
+msgstr ""
+
+#: commands.py:1105
+msgid "Maximum"
+msgstr ""
+
+#: commands.py:1106
+msgid "Current Object"
+msgstr ""
+
+#: commands.py:1107
+msgid "Target Object"
+msgstr ""
+
+#: commands.py:1108 commands.py:1111
+msgid "X Axis"
+msgstr ""
+
+#: commands.py:1109 commands.py:1112
+msgid "Y Axis"
+msgstr ""
+
+#: commands.py:1110 commands.py:1113
+msgid "Z Axis"
+msgstr ""
+
+#: commands.py:1121
+msgid "Align Position (World):"
+msgstr ""
+
+#: commands.py:1130
+msgid "Align Orientation (Local):"
+msgstr ""
+
+#: commands.py:1136
+msgid "Match Scale:"
+msgstr ""
+
+#: commands.py:1181
+msgid "No Clone"
+msgstr ""
+
+#: commands.py:1181 operators.py:735 operators.py:737
+msgid "Instance"
+msgstr ""
+
+#: commands.py:1181 max_menus.py:235 operators.py:736
+msgid "Reference"
+msgstr ""
+
+#: commands.py:1196
+msgid "Mirror: World Coordinates"
+msgstr ""
+
+#: commands.py:1198 surfaces.py:910
+msgid "Mirror Axis"
+msgstr ""
+
+#: commands.py:1199 edit_poly.py:63 surfaces.py:911 ui.py:74
+msgid "Offset"
+msgstr ""
+
+#: commands.py:1200
+msgid "Clone Selection"
+msgstr ""
+
+#: commands.py:1204
+msgid "Select objects to mirror"
+msgstr ""
+
+#: commands.py:1213
+msgid "Clone Selection:"
+msgstr ""
+
+#: commands.py:1244 max_menus.py:265 quad.py:80 toolbar.py:174 (+3)
+msgid "Move"
+msgstr ""
+
+#: commands.py:1245 max_menus.py:266 quad.py:80 toolbar.py:180 (+4)
+msgid "Rotate"
+msgstr ""
+
+#: commands.py:1246
+msgid "Scale %"
+msgstr ""
+
+#: commands.py:1247
+msgid "Type of Object"
+msgstr ""
+
+#: commands.py:1256
+msgid "Select objects to array"
+msgstr ""
+
+#: commands.py:1263
+msgid "Array Transformation: World Coordinates (Use Pivot Point Center)"
+msgstr ""
+
+#: commands.py:1264
+msgid "Incremental Move"
+msgstr ""
+
+#: commands.py:1265
+msgid "Incremental Rotate"
+msgstr ""
+
+#: commands.py:1266
+msgid "Incremental Scale %"
+msgstr ""
+
+#: commands.py:1270
+msgid "Array Dimensions"
+msgstr ""
+
+#: commands.py:1306 commands.py:1314 max_menus.py:381
+msgid "Group"
+msgstr ""
+
+#: commands.py:1308
+msgid "Group name"
+msgstr ""
+
+#: commands.py:1308
+msgid "Group001"
+msgstr ""
+
+#: commands.py:1312
+msgid "Select objects to group"
+msgstr ""
+
+#: commands.py:1323
+msgid "Rename Objects"
+msgstr ""
+
+#: commands.py:1325 commands.py:1326
+msgid "Base Name"
+msgstr ""
+
+#: commands.py:1327 commands.py:1328
+msgid "Prefix"
+msgstr ""
+
+#: commands.py:1329
+msgid "Remove First"
+msgstr ""
+
+#: commands.py:1330
+msgid "Remove Last"
+msgstr ""
+
+#: commands.py:1331 commands.py:1332
+msgid "Suffix"
+msgstr ""
+
+#: commands.py:1333
+msgid "Numbered"
+msgstr ""
+
+#: commands.py:1334
+msgid "Base Number"
+msgstr ""
+
+#: commands.py:1338 flyouts.py:226 flyouts.py:432
+msgid "Rename"
+msgstr ""
+
+#: commands.py:1387 commands.py:1405
+msgid "Select From Scene"
+msgstr ""
+
+#: commands.py:1389 flyouts.py:515 flyouts.py:185 material_ui.py:1526 (+10)
+msgid "Select"
+msgstr ""
+
+#: commands.py:1389
+msgid "Unhide"
+msgstr ""
+
+#: commands.py:1390
+msgid "Unfreeze"
+msgstr ""
+
+#: commands.py:1405
+msgid "Hide Objects"
+msgstr ""
+
+#: commands.py:1405
+msgid "Unhide Objects"
+msgstr ""
+
+#: commands.py:1406
+msgid "Freeze Objects"
+msgstr ""
+
+#: commands.py:1406
+msgid "Unfreeze Objects"
+msgstr ""
+
+#: commands.py:1433
+msgid "Selection Set Action"
+msgstr ""
+
+#: commands.py:1443
+msgid "Select objects first"
+msgstr ""
+
+#: commands.py:1469 commands.py:1477 surfaces.py:400 surfaces.py:402 (+2)
+msgid "Named Selection Sets"
+msgstr ""
+
+#: commands.py:1470
+msgid "New Set"
+msgstr ""
+
+#: commands.py:1470 commands.py:1445 toolbar.py:106
+msgid "Selection Set"
+msgstr ""
+
+#: commands.py:1480
+msgid "Create New Set"
+msgstr ""
+
+#: commands.py:1484 toolbar.py:153
+msgid "No selection sets"
+msgstr ""
+
+#: commands.py:1499 max_menus.py:885
+msgid "Object Properties"
+msgstr ""
+
+#: commands.py:1511
+msgid "Object Information"
+msgstr ""
+
+#: commands.py:1516
+msgid "Scene Root"
+msgstr ""
+
+#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:454
+msgid "None"
+msgstr ""
+
+#: commands.py:1519
+msgid "Interactivity"
+msgstr ""
+
+#: commands.py:1520 commands.py:1389 flyouts.py:427 keymap.py:159 (+1)
+msgid "Hide"
+msgstr ""
+
+#: commands.py:1521 commands.py:1390 flyouts.py:429 surfaces.py:1362
+msgid "Freeze"
+msgstr ""
+
+#: commands.py:1523 surfaces.py:1377
+msgid "Display Properties"
+msgstr ""
+
+#: commands.py:1525 surfaces.py:1374
+msgid "Edges Only"
+msgstr ""
+
+#: commands.py:1526
+msgid "Display in Front"
+msgstr ""
+
+#: commands.py:1528
+msgid "Rendering Control"
+msgstr ""
+
+#: commands.py:1529
+msgid "Not Renderable"
+msgstr ""
+
+#: commands.py:1530
+msgid "Visible to Camera"
+msgstr ""
+
+#: commands.py:1531 surfaces.py:704
+msgid "Cast Shadows"
+msgstr ""
+
+#: commands.py:1532
+msgid "Visible to Reflection/Refraction"
+msgstr ""
+
+#: commands.py:1540
+msgid "Settings"
+msgstr ""
+
+#: commands.py:1551 max_menus.py:884
+msgid "Light Lister"
+msgstr ""
+
+#: commands.py:1551 interactions.py:662
+msgid "Grid and Snap Settings"
+msgstr ""
+
+#: commands.py:1551
+msgid "Viewport Configuration"
+msgstr ""
+
+#: commands.py:1552
+msgid "Environment and Effects"
+msgstr ""
+
+#: commands.py:1552
+msgid "Exposure Control"
+msgstr ""
+
+#: commands.py:1552
+msgid "Color Management"
+msgstr ""
+
+#: commands.py:1553
+msgid "Print Size Assistant"
+msgstr ""
+
+#: commands.py:1553 flyouts.py:415
+msgid "Units Setup"
+msgstr ""
+
+#: commands.py:1553 flyouts.py:416
+msgid "Summary Info"
+msgstr ""
+
+#: commands.py:1554
+msgid "Render Passes (AOVs)"
+msgstr ""
+
+#: commands.py:1554 toolbar.py:16
+msgid "Light Groups"
+msgstr ""
+
+#: commands.py:1568
+msgid "Add Light Group"
+msgstr ""
+
+#: commands.py:1574
+msgid "No lights in the scene"
+msgstr ""
+
+#: commands.py:1580
+msgid "Multiplier"
+msgstr ""
+
+#: commands.py:1586 max_menus.py:533 surfaces.py:500
+msgid "Angle"
+msgstr ""
+
+#: commands.py:1597
+msgid "Toggle 4 Viewports / Maximize"
+msgstr ""
+
+#: commands.py:1603 material_ui.py:955 operators.py:578 operators.py:579
+msgid "Background"
+msgstr ""
+
+#: commands.py:1605 material_ui.py:1445 material_ui.py:846 material_ui.py:1382 (+2)
+msgid "Color"
+msgstr ""
+
+#: commands.py:1605 commands.py:1608
+msgid "Background Color"
+msgstr ""
+
+#: commands.py:1606
+msgid "Strength"
+msgstr ""
+
+#: commands.py:1606
+msgid "Level"
+msgstr ""
+
+#: commands.py:1619
+msgid "Image Width"
+msgstr ""
+
+#: commands.py:1620
+msgid "Image Height"
+msgstr ""
+
+#: commands.py:1625
+msgid "System Unit Scale"
+msgstr ""
+
+#: commands.py:1631 surfaces.py:426
+msgid "Untitled"
+msgstr ""
+
+#: commands.py:1643 surfaces.py:1463
+msgid "Run Script"
+msgstr ""
+
+#: commands.py:1704 commands.py:1705
+msgid "Viewport Render"
+msgstr ""
+
+#: commands.py:1727
+msgid "Choose a camera or a viewport before rendering"
+msgstr ""
+
+#: commands.py:1729 commands.py:1731
+msgid "Default Light"
+msgstr ""
+
+#: commands.py:1763 flyouts.py:149 ui.py:66
+msgid "Render Production"
+msgstr ""
+
+#: commands.py:1792
+msgid "Measure Distance"
+msgstr ""
+
+#: commands.py:1797
+msgid "Pick the first point; right-click cancels"
+msgstr ""
+
+#: commands.py:1810
+msgid "Pick the second point"
+msgstr ""
+
+#: edit_poly.py:21
+msgid "MaxFlow Edit Poly"
+msgstr ""
+
+#: edit_poly.py:35
+msgid "Edit Poly layers keep moves only: use this on the base Editable Poly"
+msgstr ""
+
+#: edit_poly.py:47
+msgid "MaxFlow Edit Poly layer: moves each vertex by the offset stored in the mesh attribute named by Layer"
+msgstr ""
+
+#: edit_poly.py:48 edit_poly.py:52 edit_poly.py:62 edit_poly.py:62 (+10)
+msgid "Geometry"
+msgstr ""
+
+#: edit_poly.py:49 edit_poly.py:61 edit_poly.py:65 scene_ui.py:20
+msgid "Layer"
+msgstr ""
+
+#: edit_poly.py:284
+msgid "Edit Poly keeps moves: the added or deleted vertices went to the base object"
+msgstr ""
+
+#: edit_poly.py:388 keymap.py:220
+msgid "MaxFlow:"
+msgstr ""
+
+#: editor_host.py:9 material_ui.py:1501 operators.py:808
+msgid "Slate Material Editor"
+msgstr ""
+
+#: editor_host.py:9 material_ui.py:1502 operators.py:830 operators.py:808
+msgid "Compact Material Editor"
+msgstr ""
+
+#: editor_host.py:9
+msgid "Track View - Curve Editor"
+msgstr ""
+
+#: editor_host.py:10
+msgid "Track View - Dope Sheet"
+msgstr ""
+
+#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:436
+msgid "Edit UVWs"
+msgstr ""
+
+#: editor_host.py:10 flyouts.py:413 keymap.py:85 operators.py:809
+msgid "Render Setup"
+msgstr ""
+
+#: editor_host.py:10 flyouts.py:423 flyouts.py:440 flyouts.py:414 (+5)
+msgid "Scene Explorer"
+msgstr ""
+
+#: editor_host.py:141 utility_editors.py:551
+msgid "Cycles"
+msgstr ""
+
+#: editor_host.py:285 max_menus.py:148 max_menus.py:998 max_menus.py:413 (+1)
+msgid "Perspective"
+msgstr ""
+
+#: editors.py:51 material_ui.py:953
+msgid "New Material"
+msgstr ""
+
+#: editors.py:52
+msgid "Create a Blender Principled material and assign it to the active object"
+msgstr ""
+
+#: editors.py:59
+msgid "Select an editable object that supports materials"
+msgstr ""
+
+#: editors.py:61
+msgid "Max Material"
+msgstr ""
+
+#: editors.py:69 material_ui.py:511 material_ui.py:1192 material_ui.py:1213 (+4)
+msgid "Assign Material to Selection"
+msgstr ""
+
+#: editors.py:70
+msgid "Assign the active material to selected objects, or selected faces in Edit Mode"
+msgstr ""
+
+#: editors.py:79
+msgid "Choose a material and select editable objects"
+msgstr ""
+
+#: editors.py:89 material_ui.py:1509 material_ui.py:1521 material_ui.py:1238
+msgid "Duplicate Material"
+msgstr ""
+
+#: editors.py:90
+msgid "Make an independent copy of the active material in its current slot"
+msgstr ""
+
+#: editors.py:96
+msgid "Select an object with a material"
+msgstr ""
+
+#: editors.py:104
+msgid "Remove Material Slot"
+msgstr ""
+
+#: editors.py:105
+msgid "Remove the active material slot; keep the material datablock"
+msgstr ""
+
+#: editors.py:111
+msgid "Select an object with material slots in Object Mode"
+msgstr ""
+
+#: editors.py:151
+msgid "Set Transform Keys"
+msgstr ""
+
+#: editors.py:152
+msgid "Insert Blender transform keys for selected objects or pose bones at the current frame"
+msgstr ""
+
+#: editors.py:154
+msgid "Channels"
+msgstr ""
+
+#: editors.py:155
+msgid "Position / Rotation / Scale"
+msgstr ""
+
+#: editors.py:157 ui.py:75
+msgid "Key Filters"
+msgstr ""
+
+#: editors.py:157
+msgid "Channels chosen in Key Filters"
+msgstr ""
+
+#: editors.py:163
+msgid "Select editable objects or pose bones"
+msgstr ""
+
+#: editors.py:179
+msgid "No matching keys removed"
+msgstr ""
+
+#: editors.py:179
+msgid "No keys inserted"
+msgstr ""
+
+#: editors.py:181
+msgid "Removed"
+msgstr ""
+
+#: editors.py:181
+msgid "Keyed"
+msgstr ""
+
+#: editors.py:206
+msgid "Set interpolation on keys at the current frame for selected objects or selected pose bones"
+msgstr ""
+
+#: editors.py:208 surfaces.py:1170
+msgid "Interpolation"
+msgstr ""
+
+#: editors.py:209 max_menus.py:722 max_menus.py:705
+msgid "Bezier"
+msgstr ""
+
+#: editors.py:210
+msgid "Constant"
+msgstr ""
+
+#: editors.py:232
+msgid "No keys on the current frame"
+msgstr ""
+
+#: editors.py:241
+msgid "Node Editor"
+msgstr ""
+
+#: editors.py:243
+msgid "Blender Principled materials"
+msgstr ""
+
+#: editors.py:246
+msgid "Select an object with material support."
+msgstr ""
+
+#: editors.py:261
+msgid "Assign to Selection"
+msgstr ""
+
+#: editors.py:268 material_ui.py:60 material_ui.py:342 material_ui.py:816
+msgid "Base Color"
+msgstr ""
+
+#: editors.py:268 material_ui.py:60 material_ui.py:344 material_ui.py:816
+msgid "Metallic"
+msgstr ""
+
+#: editors.py:268 material_ui.py:60 material_ui.py:343 material_ui.py:816
+msgid "Roughness"
+msgstr ""
+
+#: editors.py:268 material_ui.py:60 material_ui.py:816
+msgid "Alpha"
+msgstr ""
+
+#: editors.py:275
+msgid "Edit this shader in Node Editor."
+msgstr ""
+
+#: editors.py:281 editors.py:277
+msgid "Viewport Color"
+msgstr ""
+
+#: editors.py:287 ui.py:122
+msgid "Auto Key"
+msgstr ""
+
+#: editors.py:290
+msgid "Auto Key uses Blender keying rules."
+msgstr ""
+
+#: editors.py:292 keymap.py:55 ui.py:123
+msgid "Set Keys"
+msgstr ""
+
+#: editors.py:294
+msgid "Key Channels"
+msgstr ""
+
+#: editors.py:295
+msgid "Current Key Interpolation"
+msgstr ""
+
+#: editors.py:297 ui.py:120
+msgid "Start"
+msgstr ""
+
+#: flyouts.py:29
+msgid "This 3ds Max command has no Blender equivalent"
+msgstr ""
+
+#: flyouts.py:41
+msgid "Set Option"
+msgstr ""
+
+#: flyouts.py:67 surfaces.py:371 ui.py:52
+msgid "Selection Filter"
+msgstr ""
+
+#: flyouts.py:71 params.py:51 surfaces.py:324 surfaces.py:371 (+1)
+msgid "All"
+msgstr ""
+
+#: flyouts.py:71 max_menus.py:518 scene_ui.py:16 surfaces.py:324 (+3)
+msgid "Shapes"
+msgstr ""
+
+#: flyouts.py:71 max_menus.py:996 max_menus.py:535 operators.py:202 (+5)
+msgid "Lights"
+msgstr ""
+
+#: flyouts.py:72 max_menus.py:995 max_menus.py:554 max_menus.py:673 (+6)
+msgid "Cameras"
+msgstr ""
+
+#: flyouts.py:72 max_menus.py:563 scene_ui.py:18 surfaces.py:325 (+3)
+msgid "Helpers"
+msgstr ""
+
+#: flyouts.py:72 surfaces.py:325
+msgid "Warps"
+msgstr ""
+
+#: flyouts.py:74
+msgid "Combos..."
+msgstr ""
+
+#: flyouts.py:76
+msgid "IK Chain Object"
+msgstr ""
+
+#: flyouts.py:78
+msgid "CAT Bone"
+msgstr ""
+
+#: flyouts.py:82 max_menus.py:284 ui.py:50
+msgid "Selection Region"
+msgstr ""
+
+#: flyouts.py:86 surfaces.py:374
+msgid "Rectangular Selection Region"
+msgstr ""
+
+#: flyouts.py:86
+msgid "Circular Selection Region"
+msgstr ""
+
+#: flyouts.py:87
+msgid "Fence Selection Region"
+msgstr ""
+
+#: flyouts.py:87
+msgid "Lasso Selection Region"
+msgstr ""
+
+#: flyouts.py:87 max_menus.py:289
+msgid "Paint Selection Region"
+msgstr ""
+
+#: flyouts.py:90
+msgid "Window (off: Crossing)"
+msgstr ""
+
+#: flyouts.py:97 max_gizmo.py:784
+msgid "Select and Uniform Scale"
+msgstr ""
+
+#: flyouts.py:97
+msgid "Select and Non-uniform Scale"
+msgstr ""
+
+#: flyouts.py:97
+msgid "Select and Squash"
+msgstr ""
+
+#: flyouts.py:102 interactions.py:648 surfaces.py:382 ui.py:54
+msgid "Reference Coordinate System"
+msgstr ""
+
+#: flyouts.py:106 surfaces.py:322
+msgid "Parent"
+msgstr ""
+
+#: flyouts.py:106 surfaces.py:322
+msgid "Local"
+msgstr ""
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Gimbal"
+msgstr ""
+
+#: flyouts.py:107 max_menus.py:1035 max_menus.py:566 operators.py:439 (+3)
+msgid "Grid"
+msgstr ""
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Working"
+msgstr ""
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Local Aligned"
+msgstr ""
+
+#: flyouts.py:109 surfaces.py:323
+msgid "Pick"
+msgstr ""
+
+#: flyouts.py:113 interactions.py:655
+msgid "Transform Center"
+msgstr ""
+
+#: flyouts.py:117 surfaces.py:383
+msgid "Use Pivot Point Center"
+msgstr ""
+
+#: flyouts.py:117
+msgid "Use Selection Center"
+msgstr ""
+
+#: flyouts.py:118
+msgid "Use Transform Coordinate Center"
+msgstr ""
+
+#: flyouts.py:124 flyouts.py:496 keymap.py:69 max_menus.py:324 (+1)
+msgid "Align"
+msgstr ""
+
+#: flyouts.py:128 max_menus.py:325
+msgid "Align..."
+msgstr ""
+
+#: flyouts.py:129 keymap.py:70 max_menus.py:326 toolbar.py:10
+msgid "Quick Align"
+msgstr ""
+
+#: flyouts.py:130 max_menus.py:331
+msgid "Normal Align..."
+msgstr ""
+
+#: flyouts.py:131
+msgid "Place Highlight..."
+msgstr ""
+
+#: flyouts.py:132 max_menus.py:332
+msgid "Align Camera"
+msgstr ""
+
+#: flyouts.py:133 max_menus.py:330
+msgid "Align to View..."
+msgstr ""
+
+#: flyouts.py:137 keymap.py:53 max_menus.py:844 max_menus.py:878 (+3)
+msgid "Material Editor"
+msgstr ""
+
+#: flyouts.py:140 max_menus.py:845
+msgid "Compact Material Editor..."
+msgstr ""
+
+#: flyouts.py:141 max_menus.py:846
+msgid "Slate Material Editor..."
+msgstr ""
+
+#: flyouts.py:149 ui.py:66
+msgid "Render Iterative"
+msgstr ""
+
+#: flyouts.py:154 ui.py:34
+msgid "Object Category"
+msgstr ""
+
+#: flyouts.py:180 surfaces.py:780
+msgid "Modifier List"
+msgstr ""
+
+#: flyouts.py:185 max_menus.py:278
+msgid "Select By"
+msgstr ""
+
+#: flyouts.py:189
+msgid "SELECTION MODIFIERS"
+msgstr ""
+
+#: flyouts.py:189
+msgid "WORLD-SPACE MODIFIERS"
+msgstr ""
+
+#: flyouts.py:189
+msgid "OBJECT-SPACE MODIFIERS"
+msgstr ""
+
+#: flyouts.py:203 surfaces.py:835
+msgid "Configure Modifier Sets"
+msgstr ""
+
+#: flyouts.py:207 ui.py:45
+msgid "Show Buttons"
+msgstr ""
+
+#: flyouts.py:208
+msgid "Configure Modifier Sets..."
+msgstr ""
+
+#: flyouts.py:209
+msgid "Show All Sets in List"
+msgstr ""
+
+#: flyouts.py:213
+msgid "Modifier Stack"
+msgstr ""
+
+#: flyouts.py:229 flyouts.py:488 keymap.py:151 operators.py:963 (+2)
+msgid "Cut"
+msgstr ""
+
+#: flyouts.py:231
+msgid "Paste"
+msgstr ""
+
+#: flyouts.py:234
+msgid "Collapse To"
+msgstr ""
+
+#: flyouts.py:237 surfaces.py:104
+msgid "On"
+msgstr ""
+
+#: flyouts.py:238
+msgid "Off in Viewport"
+msgstr ""
+
+#: flyouts.py:239
+msgid "Off in Renderer"
+msgstr ""
+
+#: flyouts.py:241
+msgid "Move Up"
+msgstr ""
+
+#: flyouts.py:242
+msgid "Move Down"
+msgstr ""
+
+#: flyouts.py:245
+msgid "Convert to: Editable Poly"
+msgstr ""
+
+#: flyouts.py:246
+msgid "Convert to: Editable Mesh"
+msgstr ""
+
+#: flyouts.py:247
+msgid "Convert to: Editable Spline"
+msgstr ""
+
+#: flyouts.py:255 operators.py:710
+msgid "Modifier Stack Action"
+msgstr ""
+
+#: flyouts.py:267
+msgid "Rename Modifier"
+msgstr ""
+
+#: flyouts.py:283
+msgid "Select an Edit Poly modifier"
+msgstr ""
+
+#: flyouts.py:323
+msgid "Return to the top level first"
+msgstr ""
+
+#: flyouts.py:375
+msgid "Choose"
+msgstr ""
+
+#: flyouts.py:388
+msgid "Key Tangents"
+msgstr ""
+
+#: flyouts.py:393 trackbar.py:276
+msgid "Fast"
+msgstr ""
+
+#: flyouts.py:393 trackbar.py:276
+msgid "Slow"
+msgstr ""
+
+#: flyouts.py:398
+msgid "Set Key Filters"
+msgstr ""
+
+#: flyouts.py:403
+msgid "Object Parameters"
+msgstr ""
+
+#: flyouts.py:403
+msgid "Custom Attributes"
+msgstr ""
+
+#: flyouts.py:403
+msgid "Other"
+msgstr ""
+
+#: flyouts.py:408 max_menus.py:759 surfaces.py:1424 surfaces.py:569 (+1)
+msgid "Utilities"
+msgstr ""
+
+#: flyouts.py:417 preferences.py:39
+msgid "Shortcut Reference"
+msgstr ""
+
+#: flyouts.py:419
+msgid "Return to Blender"
+msgstr ""
+
+#: flyouts.py:428 flyouts.py:495 keymap.py:75 keymap.py:160 (+6)
+msgid "Unhide All"
+msgstr ""
+
+#: flyouts.py:430 quad.py:67 scene_ui.py:229 surfaces.py:1367 (+1)
+msgid "Unfreeze All"
+msgstr ""
+
+#: flyouts.py:436 max_menus.py:297 quad.py:89
+msgid "Object Properties..."
+msgstr ""
+
+#: flyouts.py:443
+msgid "Open Scene Explorer"
+msgstr ""
+
+#: flyouts.py:450
+msgid "Expand or Collapse All"
+msgstr ""
+
+#: flyouts.py:466
+msgid "Show Full Ribbon"
+msgstr ""
+
+#: flyouts.py:467
+msgid "Minimize to Panel Titles"
+msgstr ""
+
+#: flyouts.py:468 ui.py:64
+msgid "Show Ribbon"
+msgstr ""
+
+#: flyouts.py:480 surfaces.py:1859 surfaces.py:1860
+msgid "Polygon Modeling"
+msgstr ""
+
+#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1234
+msgid "Vertex"
+msgstr ""
+
+#: flyouts.py:480 params.py:124 quad.py:96 surfaces.py:743 (+1)
+msgid "Edge"
+msgstr ""
+
+#: flyouts.py:480 quad.py:96 surfaces.py:743
+msgid "Border"
+msgstr ""
+
+#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1234
+msgid "Polygon"
+msgstr ""
+
+#: flyouts.py:480 quad.py:97 surfaces.py:743
+msgid "Element"
+msgstr ""
+
+#: flyouts.py:481
+msgid "Top Level"
+msgstr ""
+
+#: flyouts.py:481
+msgid "Collapse Stack"
+msgstr ""
+
+#: flyouts.py:482
+msgid "Convert to Poly"
+msgstr ""
+
+#: flyouts.py:483
+msgid "Apply Edit Poly Mod"
+msgstr ""
+
+#: flyouts.py:484 keymap.py:123 ui.py:44
+msgid "Show End Result"
+msgstr ""
+
+#: flyouts.py:485 surfaces.py:1860
+msgid "Modify Selection"
+msgstr ""
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Grow"
+msgstr ""
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Shrink"
+msgstr ""
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Loop"
+msgstr ""
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Ring"
+msgstr ""
+
+#: flyouts.py:486
+msgid "Similar"
+msgstr ""
+
+#: flyouts.py:486
+msgid "Fill"
+msgstr ""
+
+#: flyouts.py:486
+msgid "Step Loop"
+msgstr ""
+
+#: flyouts.py:487
+msgid "Preserve UVs"
+msgstr ""
+
+#: flyouts.py:487 quad.py:102
+msgid "Repeat"
+msgstr ""
+
+#: flyouts.py:487 surfaces.py:1015
+msgid "QuickSlice"
+msgstr ""
+
+#: flyouts.py:487 operators.py:963
+msgid "SwiftLoop"
+msgstr ""
+
+#: flyouts.py:488
+msgid "P Connect"
+msgstr ""
+
+#: flyouts.py:488 max_menus.py:686 max_menus.py:741
+msgid "Constraints"
+msgstr ""
+
+#: flyouts.py:489 surfaces.py:1860
+msgid "Geometry (All)"
+msgstr ""
+
+#: flyouts.py:489 max_menus.py:389 max_menus.py:399 quad.py:104 (+1)
+msgid "Attach"
+msgstr ""
+
+#: flyouts.py:489 keymap.py:152 max_menus.py:390 max_menus.py:399 (+2)
+msgid "Detach"
+msgstr ""
+
+#: flyouts.py:490 keymap.py:150 quad.py:104 surfaces.py:1014 (+2)
+msgid "Collapse"
+msgstr ""
+
+#: flyouts.py:490
+msgid "Cap Poly"
+msgstr ""
+
+#: flyouts.py:490
+msgid "Quadrify All"
+msgstr ""
+
+#: flyouts.py:490 surfaces.py:1015
+msgid "Slice Plane"
+msgstr ""
+
+#: flyouts.py:491 surfaces.py:1860
+msgid "Loops"
+msgstr ""
+
+#: flyouts.py:491 flyouts.py:501 flyouts.py:504 flyouts.py:506 (+10)
+msgid "Connect"
+msgstr ""
+
+#: flyouts.py:491
+msgid "Insert Loop"
+msgstr ""
+
+#: flyouts.py:491
+msgid "Remove Loop"
+msgstr ""
+
+#: flyouts.py:492
+msgid "Distance Connect"
+msgstr ""
+
+#: flyouts.py:492
+msgid "Flow Connect"
+msgstr ""
+
+#: flyouts.py:492
+msgid "Build End"
+msgstr ""
+
+#: flyouts.py:492
+msgid "Build Corner"
+msgstr ""
+
+#: flyouts.py:493 surfaces.py:1860
+msgid "Tris"
+msgstr ""
+
+#: flyouts.py:493 flyouts.py:509 surfaces.py:1011 surfaces.py:1012
+msgid "Retriangulate"
+msgstr ""
+
+#: flyouts.py:493 surfaces.py:1006 surfaces.py:1011 surfaces.py:1012
+msgid "Turn"
+msgstr ""
+
+#: flyouts.py:493
+msgid "Quadrify"
+msgstr ""
+
+#: flyouts.py:494 surfaces.py:1860
+msgid "Subdivision"
+msgstr ""
+
+#: flyouts.py:494
+msgid "Use Displacement"
+msgstr ""
+
+#: flyouts.py:495 surfaces.py:1860
+msgid "Visibility"
+msgstr ""
+
+#: flyouts.py:495 surfaces.py:1017 surfaces.py:1354 ui.py:176
+msgid "Hide Selected"
+msgstr ""
+
+#: flyouts.py:495 keymap.py:74 quad.py:64 quad.py:105 (+3)
+msgid "Hide Unselected"
+msgstr ""
+
+#: flyouts.py:496 keymap.py:154 surfaces.py:1016
+msgid "Make Planar"
+msgstr ""
+
+#: flyouts.py:497
+msgid "To View"
+msgstr ""
+
+#: flyouts.py:497
+msgid "To Grid"
+msgstr ""
+
+#: flyouts.py:498 surfaces.py:1860
+msgid "Properties"
+msgstr ""
+
+#: flyouts.py:498
+msgid "Hard"
+msgstr ""
+
+#: flyouts.py:498
+msgid "Smooth 30"
+msgstr ""
+
+#: flyouts.py:499 surfaces.py:1125
+msgid "Set ID"
+msgstr ""
+
+#: flyouts.py:499 surfaces.py:1126
+msgid "Select ID"
+msgstr ""
+
+#: flyouts.py:500 surfaces.py:1866
+msgid "Vertices"
+msgstr ""
+
+#: flyouts.py:500 flyouts.py:502 material_ui.py:898 operators.py:965 (+4)
+msgid "Remove"
+msgstr ""
+
+#: flyouts.py:500 keymap.py:148 quad.py:109 surfaces.py:1000
+msgid "Break"
+msgstr ""
+
+#: flyouts.py:501 flyouts.py:503 quad.py:110 quad.py:113 (+2)
+msgid "Target Weld"
+msgstr ""
+
+#: flyouts.py:502 surfaces.py:1866
+msgid "Edges"
+msgstr ""
+
+#: flyouts.py:502 quad.py:112 quad.py:114 quad.py:116 (+4)
+msgid "Insert Vertex"
+msgstr ""
+
+#: flyouts.py:502 quad.py:111 surfaces.py:1003
+msgid "Split"
+msgstr ""
+
+#: flyouts.py:504 flyouts.py:505 flyouts.py:508 operators.py:962 (+3)
+msgid "Bridge"
+msgstr ""
+
+#: flyouts.py:504 quad.py:113 quad.py:115
+msgid "Create Shape"
+msgstr ""
+
+#: flyouts.py:505 surfaces.py:1866
+msgid "Borders"
+msgstr ""
+
+#: flyouts.py:505 keymap.py:149 quad.py:114 surfaces.py:1007
+msgid "Cap"
+msgstr ""
+
+#: flyouts.py:507 surfaces.py:1866
+msgid "Polygons"
+msgstr ""
+
+#: flyouts.py:507 quad.py:116 surfaces.py:1009
+msgid "Outline"
+msgstr ""
+
+#: flyouts.py:507 operators.py:961 quad.py:117 surfaces.py:1010
+msgid "Inset"
+msgstr ""
+
+#: flyouts.py:508 flyouts.py:509 operators.py:964 surfaces.py:1010 (+1)
+msgid "Flip"
+msgstr ""
+
+#: flyouts.py:508
+msgid "Hinge"
+msgstr ""
+
+#: flyouts.py:508
+msgid "Extrude on Spline"
+msgstr ""
+
+#: flyouts.py:509 surfaces.py:1866 utility_editors.py:788
+msgid "Elements"
+msgstr ""
+
+#: flyouts.py:510 surfaces.py:1861
+msgid "PolyDraw"
+msgstr ""
+
+#: flyouts.py:510 max_menus.py:591 operators.py:440 surfaces.py:513
+msgid "Drag"
+msgstr ""
+
+#: flyouts.py:510
+msgid "Step Build"
+msgstr ""
+
+#: flyouts.py:510
+msgid "Extend"
+msgstr ""
+
+#: flyouts.py:510
+msgid "Strips"
+msgstr ""
+
+#: flyouts.py:511 flyouts.py:548 surfaces.py:1861
+msgid "Paint Deform"
+msgstr ""
+
+#: flyouts.py:511
+msgid "Shift"
+msgstr ""
+
+#: flyouts.py:511
+msgid "Push/Pull"
+msgstr ""
+
+#: flyouts.py:512
+msgid "Relax/Soften"
+msgstr ""
+
+#: flyouts.py:512
+msgid "Smudge"
+msgstr ""
+
+#: flyouts.py:513
+msgid "Flatten"
+msgstr ""
+
+#: flyouts.py:513
+msgid "Pinch/Spread"
+msgstr ""
+
+#: flyouts.py:514 surfaces.py:1861
+msgid "Defaults"
+msgstr ""
+
+#: flyouts.py:514
+msgid "Freeform Defaults"
+msgstr ""
+
+#: flyouts.py:516 surfaces.py:1347
+msgid "Invert"
+msgstr ""
+
+#: flyouts.py:517 surfaces.py:1862
+msgid "Stored Selections"
+msgstr ""
+
+#: flyouts.py:517
+msgid "Copy Store 1"
+msgstr ""
+
+#: flyouts.py:517
+msgid "Paste Store 1"
+msgstr ""
+
+#: flyouts.py:517
+msgid "Add"
+msgstr ""
+
+#: flyouts.py:517
+msgid "Subtract"
+msgstr ""
+
+#: flyouts.py:517
+msgid "Intersect"
+msgstr ""
+
+#: flyouts.py:518 surfaces.py:1862 surfaces.py:1428
+msgid "Sets"
+msgstr ""
+
+#: flyouts.py:518 max_menus.py:295 surfaces.py:394 toolbar.py:157
+msgid "Manage Selection Sets..."
+msgstr ""
+
+#: flyouts.py:519 surfaces.py:1862
+msgid "By Random"
+msgstr ""
+
+#: flyouts.py:519
+msgid "Select Random"
+msgstr ""
+
+#: flyouts.py:554
+msgid "Paint Deform needs an Editable Poly"
+msgstr ""
+
+#: flyouts.py:570 flyouts.py:489 max_menus.py:458 quad.py:109 (+5)
+msgid "Create"
+msgstr ""
+
+#: flyouts.py:596 flyouts.py:604 surfaces.py:1631
+msgid "Time Configuration"
+msgstr ""
+
+#: flyouts.py:606
+msgid "Frame Rate"
+msgstr ""
+
+#: flyouts.py:608
+msgid "Film"
+msgstr ""
+
+#: flyouts.py:613
+msgid "Playback"
+msgstr ""
+
+#: flyouts.py:614
+msgid "Real Time"
+msgstr ""
+
+#: flyouts.py:616 max_menus.py:677 max_menus.py:640
+msgid "Animation"
+msgstr ""
+
+#: flyouts.py:618
+msgid "Start Time"
+msgstr ""
+
+#: flyouts.py:619
+msgid "End Time"
+msgstr ""
+
+#: flyouts.py:621
+msgid "Current Time"
+msgstr ""
+
+#: icons.py:116
+msgid "Non-simple icon outline"
+msgstr ""
+
+#: interactions.py:70 operators.py:645
+msgid "Create Object"
+msgstr ""
+
+#: interactions.py:102
+msgid "Drag to define the base; release, then move to set the next dimension"
+msgstr ""
+
+#: interactions.py:186 operators.py:539
+msgid "Fillet"
+msgstr ""
+
+#: interactions.py:249
+msgid "Move the mouse to set the next dimension; click to finish"
+msgstr ""
+
+#: interactions.py:355 keymap.py:19 quad.py:463
+msgid "Select Object"
+msgstr ""
+
+#: interactions.py:507 interactions.py:518 surfaces.py:778 surfaces.py:585 (+3)
+msgid "Object Color"
+msgstr ""
+
+#: interactions.py:522
+msgid "Next new object"
+msgstr ""
+
+#: interactions.py:527
+msgid "Modifier Parameters"
+msgstr ""
+
+#: interactions.py:539
+msgid "Select a modifier in the stack"
+msgstr ""
+
+#: interactions.py:549
+msgid "Navigate Viewport"
+msgstr ""
+
+#: interactions.py:550 keymap.py:39 trackbar.py:460 trackbar.py:461 (+1)
+msgid "Pan View"
+msgstr ""
+
+#: interactions.py:550 keymap.py:40 trackbar.py:462 trackbar.py:463
+msgid "Orbit"
+msgstr ""
+
+#: interactions.py:550 surfaces.py:1644 trackbar.py:373
+msgid "Zoom All"
+msgstr ""
+
+#: interactions.py:551 keymap.py:36 trackbar.py:455 trackbar.py:457
+msgid "Zoom Extents All"
+msgstr ""
+
+#: interactions.py:573 keymap.py:23
+msgid "Select and Place"
+msgstr ""
+
+#: interactions.py:574
+msgid "Place selected objects on another visible mesh, aligned to its surface"
+msgstr ""
+
+#: interactions.py:594
+msgid "Place on a visible surface. Click to finish; Esc or right-click restores the original transform."
+msgstr ""
+
+#: interactions.py:672
+msgid "Object Categories"
+msgstr ""
+
+#: keymap.py:20 max_gizmo.py:764
+msgid "Select and Move"
+msgstr ""
+
+#: keymap.py:21 max_gizmo.py:774
+msgid "Select and Rotate"
+msgstr ""
+
+#: keymap.py:22 max_gizmo.py:566
+msgid "Select and Scale"
+msgstr ""
+
+#: keymap.py:24
+msgid "Vertex level"
+msgstr ""
+
+#: keymap.py:25
+msgid "Edge level"
+msgstr ""
+
+#: keymap.py:27
+msgid "Polygon level"
+msgstr ""
+
+#: keymap.py:28
+msgid "Border level"
+msgstr ""
+
+#: keymap.py:29
+msgid "Element level"
+msgstr ""
+
+#: keymap.py:30 max_menus.py:1090
+msgid "Shade Selected Faces"
+msgstr ""
+
+#: keymap.py:31
+msgid "Wireframe / Smooth + Highlights"
+msgstr ""
+
+#: keymap.py:32 max_menus.py:1086 operators.py:213
+msgid "Edged Faces"
+msgstr ""
+
+#: keymap.py:33 max_menus.py:971
+msgid "Show Grids"
+msgstr ""
+
+#: keymap.py:34 material_ui.py:1206 operators.py:236 trackbar.py:454 (+2)
+msgid "Zoom Extents Selected"
+msgstr ""
+
+#: keymap.py:41 material_ui.py:1535
+msgid "Zoom In"
+msgstr ""
+
+#: keymap.py:42 material_ui.py:1535
+msgid "Zoom Out"
+msgstr ""
+
+#: keymap.py:43 max_menus.py:405
+msgid "Undo View Change"
+msgstr ""
+
+#: keymap.py:44 max_menus.py:406
+msgid "Redo View Change"
+msgstr ""
+
+#: keymap.py:45
+msgid "Front view"
+msgstr ""
+
+#: keymap.py:46
+msgid "Left view"
+msgstr ""
+
+#: keymap.py:47
+msgid "Top view"
+msgstr ""
+
+#: keymap.py:48
+msgid "Perspective view"
+msgstr ""
+
+#: keymap.py:49
+msgid "Orthographic view"
+msgstr ""
+
+#: keymap.py:50
+msgid "Camera view"
+msgstr ""
+
+#: keymap.py:51 max_menus.py:963 operators.py:285
+msgid "Maximize Viewport Toggle"
+msgstr ""
+
+#: keymap.py:52 max_menus.py:456 operators.py:252
+msgid "Expert Mode"
+msgstr ""
+
+#: keymap.py:54 max_menus.py:263 quad.py:88
+msgid "Clone"
+msgstr ""
+
+#: keymap.py:56
+msgid "Auto Key Mode Toggle"
+msgstr ""
+
+#: keymap.py:57
+msgid "Previous Frame"
+msgstr ""
+
+#: keymap.py:58
+msgid "Next Frame"
+msgstr ""
+
+#: keymap.py:59 keymap.py:128 operators.py:784
+msgid "Selection Lock Toggle"
+msgstr ""
+
+#: keymap.py:61
+msgid "Sidebar (Add-on Panels)"
+msgstr ""
+
+#: keymap.py:62 max_menus.py:360
+msgid "Snaps Toggle"
+msgstr ""
+
+#: keymap.py:63 max_menus.py:361
+msgid "Angle Snap Toggle"
+msgstr ""
+
+#: keymap.py:64
+msgid "Select by Name"
+msgstr ""
+
+#: keymap.py:65
+msgid "Window/Crossing Toggle"
+msgstr ""
+
+#: keymap.py:66 max_menus.py:276 quad.py:83
+msgid "Select Similar"
+msgstr ""
+
+#: keymap.py:67
+msgid "Select Ancestor"
+msgstr ""
+
+#: keymap.py:68
+msgid "Select Child"
+msgstr ""
+
+#: keymap.py:71 surfaces.py:1194
+msgid "Affect Pivot Only"
+msgstr ""
+
+#: keymap.py:72 max_menus.py:312 quad.py:70 toolbar.py:14
+msgid "Isolate Selection"
+msgstr ""
+
+#: keymap.py:73 quad.py:63 scene_ui.py:227 toolbar.py:13
+msgid "Hide Selection"
+msgstr ""
+
+#: keymap.py:76 max_menus.py:180
+msgid "Show Statistics"
+msgstr ""
+
+#: keymap.py:77
+msgid "Environment"
+msgstr ""
+
+#: keymap.py:78
+msgid "Search 3ds Max Commands"
+msgstr ""
+
+#: keymap.py:80 max_menus.py:259
+msgid "Hold"
+msgstr ""
+
+#: keymap.py:83
+msgid "Render Last"
+msgstr ""
+
+#: keymap.py:87 quad.py:431 toolbar.py:162
+msgid "Transform Type-In"
+msgstr ""
+
+#: keymap.py:88
+msgid "Go to Start Frame"
+msgstr ""
+
+#: keymap.py:89
+msgid "Go to End Frame"
+msgstr ""
+
+#: keymap.py:90
+msgid "Play Animation"
+msgstr ""
+
+#: keymap.py:95
+msgid "Transform Gizmo X Constraint"
+msgstr ""
+
+#: keymap.py:96
+msgid "Transform Gizmo Y Constraint"
+msgstr ""
+
+#: keymap.py:97
+msgid "Transform Gizmo Z Constraint"
+msgstr ""
+
+#: keymap.py:98
+msgid "Transform Gizmo Plane Constraint Cycle"
+msgstr ""
+
+#: keymap.py:99
+msgid "Transform Gizmo Size Down"
+msgstr ""
+
+#: keymap.py:100
+msgid "Transform Gizmo Size Up"
+msgstr ""
+
+#: keymap.py:101 max_menus.py:217
+msgid "Save Incremental (+)"
+msgstr ""
+
+#: keymap.py:102
+msgid "Spot/Directional Light View"
+msgstr ""
+
+#: keymap.py:103
+msgid "Hide Geometry Toggle"
+msgstr ""
+
+#: keymap.py:104
+msgid "Hide Shapes Toggle"
+msgstr ""
+
+#: keymap.py:105
+msgid "Hide Lights Toggle"
+msgstr ""
+
+#: keymap.py:106
+msgid "Hide Cameras Toggle"
+msgstr ""
+
+#: keymap.py:107
+msgid "Hide Helpers Toggle"
+msgstr ""
+
+#: keymap.py:108
+msgid "Cycle Selection Method"
+msgstr ""
+
+#: keymap.py:109
+msgid "Illuminate with Default / Scene Lights"
+msgstr ""
+
+#: keymap.py:110
+msgid "Sound Toggle"
+msgstr ""
+
+#: keymap.py:111 max_menus.py:410
+msgid "Redraw All Views"
+msgstr ""
+
+#: keymap.py:112
+msgid "Sub-object Selection Toggle"
+msgstr ""
+
+#: keymap.py:113
+msgid "Home View"
+msgstr ""
+
+#: keymap.py:114
+msgid "Selection/Preview Highlights Toggle"
+msgstr ""
+
+#: keymap.py:115
+msgid "Viewport Safeframes Toggle"
+msgstr ""
+
+#: keymap.py:116
+msgid "Group Attach"
+msgstr ""
+
+#: keymap.py:117
+msgid "Pan Viewport"
+msgstr ""
+
+#: keymap.py:118 trackbar.py:325
+msgid "Isolate Selection Toggle"
+msgstr ""
+
+#: keymap.py:120 surfaces.py:386
+msgid "Keyboard Shortcut Override Toggle"
+msgstr ""
+
+#: keymap.py:121
+msgid "Zoom Out 2X"
+msgstr ""
+
+#: keymap.py:122
+msgid "Center Point Cycle"
+msgstr ""
+
+#: keymap.py:124 keymap.py:125 max_menus.py:431 max_menus.py:559
+msgid "Create Physical Camera From View"
+msgstr ""
+
+#: keymap.py:126 max_menus.py:432 max_menus.py:560
+msgid "Create Standard Camera From View"
+msgstr ""
+
+#: keymap.py:127
+msgid "WalkThrough View Mode"
+msgstr ""
+
+#: keymap.py:129
+msgid "Viewports quad (views)"
+msgstr ""
+
+#: keymap.py:137
+msgid "Select Sub-object Loop"
+msgstr ""
+
+#: keymap.py:138
+msgid "Select Sub-object Ring"
+msgstr ""
+
+#: keymap.py:139 keymap.py:140
+msgid "Grow Selection"
+msgstr ""
+
+#: keymap.py:141 keymap.py:142
+msgid "Shrink Selection"
+msgstr ""
+
+#: keymap.py:143
+msgid "Extrude Mode"
+msgstr ""
+
+#: keymap.py:144
+msgid "Extrude Face"
+msgstr ""
+
+#: keymap.py:145
+msgid "Bevel Mode"
+msgstr ""
+
+#: keymap.py:146
+msgid "Chamfer Mode"
+msgstr ""
+
+#: keymap.py:155
+msgid "Quickslice Mode"
+msgstr ""
+
+#: keymap.py:156
+msgid "Target Weld Mode"
+msgstr ""
+
+#: keymap.py:157 surfaces.py:1102
+msgid "Use Soft Selection"
+msgstr ""
+
+#: keymap.py:158
+msgid "Repeat Last Operation"
+msgstr ""
+
+#: keymap.py:161
+msgid "Ignore Backfacing in Selections"
+msgstr ""
+
+#: keymap.py:162
+msgid "Swift Loop"
+msgstr ""
+
+#: keymap.py:163
+msgid "Spin Edge"
+msgstr ""
+
+#: keymap.py:262 max_menus.py:1155
+msgid "Object Mode"
+msgstr ""
+
+#: keymap.py:293
+msgid "Font"
+msgstr ""
+
+#: material_ui.py:38 material_ui.py:191 material_ui.py:248
+msgid "Physical Material"
+msgstr ""
+
+#: material_ui.py:39
+msgid "Diffuse"
+msgstr ""
+
+#: material_ui.py:40
+msgid "Glass"
+msgstr ""
+
+#: material_ui.py:41 material_ui.py:821 material_ui.py:821 utility_editors.py:758
+msgid "Emission"
+msgstr ""
+
+#: material_ui.py:42
+msgid "Mix Material"
+msgstr ""
+
+#: material_ui.py:43
+msgid "Material Output"
+msgstr ""
+
+#: material_ui.py:44 material_ui.py:45 material_ui.py:46 material_ui.py:47 (+12)
+msgid "Maps"
+msgstr ""
+
+#: material_ui.py:44
+msgid "Bitmap"
+msgstr ""
+
+#: material_ui.py:46
+msgid "Checker"
+msgstr ""
+
+#: material_ui.py:47 material_ui.py:879
+msgid "Gradient"
+msgstr ""
+
+#: material_ui.py:48
+msgid "Voronoi"
+msgstr ""
+
+#: material_ui.py:49
+msgid "Color Correction"
+msgstr ""
+
+#: material_ui.py:50
+msgid "Color Ramp"
+msgstr ""
+
+#: material_ui.py:51
+msgid "Bump"
+msgstr ""
+
+#: material_ui.py:52
+msgid "Normal Map"
+msgstr ""
+
+#: material_ui.py:53
+msgid "Texture Coordinates"
+msgstr ""
+
+#: material_ui.py:54 utility_editors.py:1252 utility_editors.py:527 utility_editors.py:439
+msgid "Mapping"
+msgstr ""
+
+#: material_ui.py:55
+msgid "Math"
+msgstr ""
+
+#: material_ui.py:56
+msgid "RGB Color"
+msgstr ""
+
+#: material_ui.py:60 material_ui.py:816 utility_editors.py:756
+msgid "Normal"
+msgstr ""
+
+#: material_ui.py:61
+msgid "Coat Weight"
+msgstr ""
+
+#: material_ui.py:61
+msgid "Emission Color"
+msgstr ""
+
+#: material_ui.py:61
+msgid "Emission Strength"
+msgstr ""
+
+#: material_ui.py:240
+msgid "Choose a material first"
+msgstr ""
+
+#: material_ui.py:510
+msgid "Select Tool"
+msgstr ""
+
+#: material_ui.py:510
+msgid "Pick Material from Object"
+msgstr ""
+
+#: material_ui.py:511
+msgid "Put Material to Scene"
+msgstr ""
+
+#: material_ui.py:512 material_ui.py:1198
+msgid "Delete Selected"
+msgstr ""
+
+#: material_ui.py:512 material_ui.py:1201
+msgid "Move Children"
+msgstr ""
+
+#: material_ui.py:513 material_ui.py:1202
+msgid "Hide Unused Nodeslots"
+msgstr ""
+
+#: material_ui.py:514 material_ui.py:954 material_ui.py:963
+msgid "Show Shaded Material in Viewport"
+msgstr ""
+
+#: material_ui.py:515
+msgid "Show Background in Preview"
+msgstr ""
+
+#: material_ui.py:517 material_ui.py:1199 material_ui.py:1521 material_ui.py:1535
+msgid "Lay Out All"
+msgstr ""
+
+#: material_ui.py:517 material_ui.py:1200 material_ui.py:1311
+msgid "Lay Out Children"
+msgstr ""
+
+#: material_ui.py:518 material_ui.py:587 material_ui.py:1203 material_ui.py:1545
+msgid "Material/Map Browser"
+msgstr ""
+
+#: material_ui.py:518 material_ui.py:1204 material_ui.py:1545 max_menus.py:881
+msgid "Parameter Editor"
+msgstr ""
+
+#: material_ui.py:519 material_ui.py:961 material_ui.py:572
+msgid "Select by Material"
+msgstr ""
+
+#: material_ui.py:590
+msgid "Search by Name..."
+msgstr ""
+
+#: material_ui.py:642 material_ui.py:577
+msgid "View 1"
+msgstr ""
+
+#: material_ui.py:655
+msgid "Double-click a material in the browser to create it."
+msgstr ""
+
+#: material_ui.py:656
+msgid "Create Physical Material"
+msgstr ""
+
+#: material_ui.py:678
+msgid "ShaderNodeTex"
+msgstr ""
+
+#: material_ui.py:754
+msgid "Mapped"
+msgstr ""
+
+#: material_ui.py:781
+msgid "Material Parameter Editor"
+msgstr ""
+
+#: material_ui.py:781 material_ui.py:826
+msgid "Material Parameters"
+msgstr ""
+
+#: material_ui.py:786
+msgid "No material selected"
+msgstr ""
+
+#: material_ui.py:787 material_ui.py:1225 material_ui.py:1566 material_ui.py:1508
+msgid "Create Material"
+msgstr ""
+
+#: material_ui.py:801
+msgid "Shader"
+msgstr ""
+
+#: material_ui.py:803
+msgid "Enable Physical Material"
+msgstr ""
+
+#: material_ui.py:806
+msgid "Basic Parameters"
+msgstr ""
+
+#: material_ui.py:811
+msgid "Mute"
+msgstr ""
+
+#: material_ui.py:816
+msgid "Base Color and Reflections"
+msgstr ""
+
+#: material_ui.py:816
+msgid "Diffuse Roughness"
+msgstr ""
+
+#: material_ui.py:817 material_ui.py:817
+msgid "Specular"
+msgstr ""
+
+#: material_ui.py:817
+msgid "Tangent"
+msgstr ""
+
+#: material_ui.py:817
+msgid "Anisotropic"
+msgstr ""
+
+#: material_ui.py:818
+msgid "Coating"
+msgstr ""
+
+#: material_ui.py:818
+msgid "Coat"
+msgstr ""
+
+#: material_ui.py:819
+msgid "Transparency"
+msgstr ""
+
+#: material_ui.py:819
+msgid "Transmission"
+msgstr ""
+
+#: material_ui.py:820
+msgid "Sub-Surface Scattering"
+msgstr ""
+
+#: material_ui.py:820
+msgid "Subsurface"
+msgstr ""
+
+#: material_ui.py:822 material_ui.py:822
+msgid "Sheen"
+msgstr ""
+
+#: material_ui.py:825
+msgid "Additional Parameters"
+msgstr ""
+
+#: material_ui.py:826
+msgid "Map Parameters"
+msgstr ""
+
+#: material_ui.py:837
+msgid "No numeric inputs"
+msgstr ""
+
+#: material_ui.py:840 utility_editors.py:739
+msgid "Output"
+msgstr ""
+
+#: material_ui.py:865
+msgid "Open Bitmap..."
+msgstr ""
+
+#: material_ui.py:866
+msgid "No image selected"
+msgstr ""
+
+#: material_ui.py:884
+msgid "Ramp Color"
+msgstr ""
+
+#: material_ui.py:887
+msgid "Add Stop"
+msgstr ""
+
+#: material_ui.py:894
+msgid "No maps assigned"
+msgstr ""
+
+#: material_ui.py:907 material_ui.py:1205 material_ui.py:1545
+msgid "Navigator"
+msgstr ""
+
+#: material_ui.py:916
+msgid "Frame All Nodes"
+msgstr ""
+
+#: material_ui.py:955
+msgid "Sample Slots"
+msgstr ""
+
+#: material_ui.py:956 material_ui.py:861 utility_editors.py:1260 utility_editors.py:440 (+1)
+msgid "Options"
+msgstr ""
+
+#: material_ui.py:961
+msgid "Make Material Copy"
+msgstr ""
+
+#: material_ui.py:962
+msgid "Reset Map/Mtl to Default Settings"
+msgstr ""
+
+#: material_ui.py:962
+msgid "Make Preview"
+msgstr ""
+
+#: material_ui.py:969 material_ui.py:979
+msgid "Preview approximation"
+msgstr ""
+
+#: material_ui.py:974
+msgid "Active Sample"
+msgstr ""
+
+#: material_ui.py:1079
+msgid "Connect Material Map"
+msgstr ""
+
+#: material_ui.py:1087
+msgid "Move Material Nodes"
+msgstr ""
+
+#: material_ui.py:1152 material_ui.py:1086 material_ui.py:1367
+msgid "Create Material Map"
+msgstr ""
+
+#: material_ui.py:1197
+msgid "Select Tree"
+msgstr ""
+
+#: material_ui.py:1208 material_ui.py:1535
+msgid "Pan to Selected"
+msgstr ""
+
+#: material_ui.py:1209
+msgid "Update Selected Previews"
+msgstr ""
+
+#: material_ui.py:1214 material_ui.py:953 material_ui.py:960 material_ui.py:571
+msgid "Get Material"
+msgstr ""
+
+#: material_ui.py:1227
+msgid "Enable Material Shader"
+msgstr ""
+
+#: material_ui.py:1242
+msgid "Clear Material Sample Slot"
+msgstr ""
+
+#: material_ui.py:1247
+msgid "Create Material Sample"
+msgstr ""
+
+#: material_ui.py:1280
+msgid "Delete Material Nodes"
+msgstr ""
+
+#: material_ui.py:1357
+msgid "Lay Out Material Nodes"
+msgstr ""
+
+#: material_ui.py:1372
+msgid "Remove Material Map Connection"
+msgstr ""
+
+#: material_ui.py:1386
+msgid "Assign Bitmap Map"
+msgstr ""
+
+#: material_ui.py:1392
+msgid "Add Color Ramp Stop"
+msgstr ""
+
+#: material_ui.py:1396
+msgid "Remove Color Ramp Stop"
+msgstr ""
+
+#: material_ui.py:1406
+msgid "Material Editor Action"
+msgstr ""
+
+#: material_ui.py:1428 material_ui.py:516 material_ui.py:1293
+msgid "Material ID Channel"
+msgstr ""
+
+#: material_ui.py:1438
+msgid "Color Selector"
+msgstr ""
+
+#: material_ui.py:1473
+msgid "Open Bitmap"
+msgstr ""
+
+#: material_ui.py:1485
+msgid "The selected file could not be decoded as an image"
+msgstr ""
+
+#: material_ui.py:1499 material_ui.py:497
+msgid "Modes"
+msgstr ""
+
+#: material_ui.py:1508
+msgid "Get Material from Selected Object"
+msgstr ""
+
+#: material_ui.py:1510 material_ui.py:812
+msgid "Select By Material"
+msgstr ""
+
+#: material_ui.py:1510
+msgid "Show Material in Viewport"
+msgstr ""
+
+#: material_ui.py:1511
+msgid "Update Preview"
+msgstr ""
+
+#: material_ui.py:1520
+msgid "Delete Selected Nodes"
+msgstr ""
+
+#: material_ui.py:1520
+msgid "Show All / Main Inputs"
+msgstr ""
+
+#: material_ui.py:1528
+msgid "Select All Nodes"
+msgstr ""
+
+#: material_ui.py:1529
+msgid "Select Objects By Material"
+msgstr ""
+
+#: material_ui.py:1543 material_ui.py:499 max_menus.py:299 scene_ui.py:245 (+3)
+msgid "Tools"
+msgstr ""
+
+#: material_ui.py:1550
+msgid "Materials and Maps"
+msgstr ""
+
+#: material_ui.py:1561
+msgid "Scene Materials"
+msgstr ""
+
+#: material_ui.py:1565
+msgid "No scene materials"
+msgstr ""
+
+#: material_ui.py:1570 material_ui.py:1421
+msgid "Material Option"
+msgstr ""
+
+#: max_gizmo.py:765
+msgid "Move with the 3ds Max move gizmo: axis arrows, plane corners and the view-plane square"
+msgstr ""
+
+#: max_gizmo.py:775
+msgid "Rotate with the 3ds Max rotate gizmo: axis rings, the view ring and free rotation inside"
+msgstr ""
+
+#: max_gizmo.py:785
+msgid "Scale with the 3ds Max scale gizmo: uniform centre, plane bands and axes"
+msgstr ""
+
+#: max_menus.py:29
+msgid "Item(%r, %r)"
+msgstr ""
+
+#: max_menus.py:44
+msgid "Sub(%r, %d items)"
+msgstr ""
+
+#: max_menus.py:141 ui.py:90
+msgid "Show the ViewCube"
+msgstr ""
+
+#: max_menus.py:143
+msgid "Show For Active View"
+msgstr ""
+
+#: max_menus.py:143
+msgid "Show For All Views"
+msgstr ""
+
+#: max_menus.py:147 max_menus.py:999 max_menus.py:414 operators.py:121
+msgid "Orthographic"
+msgstr ""
+
+#: max_menus.py:150
+msgid "Set Current View as Home"
+msgstr ""
+
+#: max_menus.py:150
+msgid "Set Current View as Front"
+msgstr ""
+
+#: max_menus.py:150
+msgid "Reset Front"
+msgstr ""
+
+#: max_menus.py:152 max_menus.py:163 max_menus.py:192
+msgid "Configure..."
+msgstr ""
+
+#: max_menus.py:155
+msgid "Toggle SteeringWheels"
+msgstr ""
+
+#: max_menus.py:157
+msgid "View Object Wheel"
+msgstr ""
+
+#: max_menus.py:158
+msgid "Tour Building Wheel"
+msgstr ""
+
+#: max_menus.py:159
+msgid "Full Navigation Wheel"
+msgstr ""
+
+#: max_menus.py:161
+msgid "Mini View Object Wheel"
+msgstr ""
+
+#: max_menus.py:161
+msgid "Mini Tour Building Wheel"
+msgstr ""
+
+#: max_menus.py:161
+msgid "Mini Full Navigation Wheel"
+msgstr ""
+
+#: max_menus.py:166
+msgid "Enable Transparency"
+msgstr ""
+
+#: max_menus.py:169
+msgid "Standard Display"
+msgstr ""
+
+#: max_menus.py:169
+msgid "Standard Display with Maps"
+msgstr ""
+
+#: max_menus.py:169
+msgid "Hardware Display"
+msgstr ""
+
+#: max_menus.py:169
+msgid "Hardware Display with Maps"
+msgstr ""
+
+#: max_menus.py:170
+msgid "Shaded Materials without Maps"
+msgstr ""
+
+#: max_menus.py:171
+msgid "Shaded Materials with Maps"
+msgstr ""
+
+#: max_menus.py:172
+msgid "Realistic Materials without Maps"
+msgstr ""
+
+#: max_menus.py:173
+msgid "Realistic Materials with Maps"
+msgstr ""
+
+#: max_menus.py:175
+msgid "Override Off"
+msgstr ""
+
+#: max_menus.py:176
+msgid "Override with UV Checker"
+msgstr ""
+
+#: max_menus.py:177
+msgid "Override with Fast Shader"
+msgstr ""
+
+#: max_menus.py:177
+msgid "Override with Rendering Setting"
+msgstr ""
+
+#: max_menus.py:181
+msgid "Face Orientation"
+msgstr ""
+
+#: max_menus.py:182
+msgid "Overlapping Faces"
+msgstr ""
+
+#: max_menus.py:183
+msgid "Open Edges"
+msgstr ""
+
+#: max_menus.py:185
+msgid "Multiple Edges"
+msgstr ""
+
+#: max_menus.py:185
+msgid "Isolated Vertices"
+msgstr ""
+
+#: max_menus.py:185
+msgid "Overlapping Vertices"
+msgstr ""
+
+#: max_menus.py:185
+msgid "T-Vertices"
+msgstr ""
+
+#: max_menus.py:186
+msgid "Missing UVW Coordinates"
+msgstr ""
+
+#: max_menus.py:186
+msgid "Flipped UVW Faces"
+msgstr ""
+
+#: max_menus.py:186
+msgid "Overlapped UVW Faces"
+msgstr ""
+
+#: max_menus.py:188
+msgid "Select Results"
+msgstr ""
+
+#: max_menus.py:190 surfaces.py:1375
+msgid "See-Through"
+msgstr ""
+
+#: max_menus.py:190
+msgid "Auto Update"
+msgstr ""
+
+#: max_menus.py:190
+msgid "Display On Top"
+msgstr ""
+
+#: max_menus.py:195
+msgid "Gradient Color"
+msgstr ""
+
+#: max_menus.py:196
+msgid "Solid Color"
+msgstr ""
+
+#: max_menus.py:198
+msgid "Environment Background"
+msgstr ""
+
+#: max_menus.py:198
+msgid "Custom Image File"
+msgstr ""
+
+#: max_menus.py:200
+msgid "Configure Viewport Background..."
+msgstr ""
+
+#: max_menus.py:204
+msgid "File"
+msgstr ""
+
+#: max_menus.py:205 max_menus.py:1012 max_menus.py:1019 max_menus.py:1028
+msgid "New"
+msgstr ""
+
+#: max_menus.py:206
+msgid "New All"
+msgstr ""
+
+#: max_menus.py:207
+msgid "New from Template"
+msgstr ""
+
+#: max_menus.py:209 surfaces.py:1209
+msgid "Reset"
+msgstr ""
+
+#: max_menus.py:210
+msgid "Open..."
+msgstr ""
+
+#: max_menus.py:211
+msgid "Open Recent"
+msgstr ""
+
+#: max_menus.py:212 surfaces.py:435
+msgid "Autobackup"
+msgstr ""
+
+#: max_menus.py:213
+msgid "View Image File..."
+msgstr ""
+
+#: max_menus.py:215
+msgid "Save"
+msgstr ""
+
+#: max_menus.py:216
+msgid "Save As..."
+msgstr ""
+
+#: max_menus.py:218
+msgid "Save Copy As..."
+msgstr ""
+
+#: max_menus.py:219
+msgid "Save Selected..."
+msgstr ""
+
+#: max_menus.py:219
+msgid "Archive..."
+msgstr ""
+
+#: max_menus.py:221
+msgid "Import"
+msgstr ""
+
+#: max_menus.py:222
+msgid "Import..."
+msgstr ""
+
+#: max_menus.py:223
+msgid "Merge..."
+msgstr ""
+
+#: max_menus.py:224
+msgid "Replace..."
+msgstr ""
+
+#: max_menus.py:224
+msgid "Link Revit"
+msgstr ""
+
+#: max_menus.py:224
+msgid "Link FBX"
+msgstr ""
+
+#: max_menus.py:224
+msgid "Link AutoCAD"
+msgstr ""
+
+#: max_menus.py:226
+msgid "Export"
+msgstr ""
+
+#: max_menus.py:227
+msgid "Export..."
+msgstr ""
+
+#: max_menus.py:228
+msgid "Export Selected..."
+msgstr ""
+
+#: max_menus.py:228
+msgid "Publish to DWF..."
+msgstr ""
+
+#: max_menus.py:228
+msgid "Real-Time Exporter..."
+msgstr ""
+
+#: max_menus.py:230
+msgid "Send to"
+msgstr ""
+
+#: max_menus.py:231
+msgid "Send to Maya"
+msgstr ""
+
+#: max_menus.py:232
+msgid "Send to Motion Builder"
+msgstr ""
+
+#: max_menus.py:233
+msgid "Send to Mudbox"
+msgstr ""
+
+#: max_menus.py:236
+msgid "XRef Objects..."
+msgstr ""
+
+#: max_menus.py:237
+msgid "XRef Scene..."
+msgstr ""
+
+#: max_menus.py:238
+msgid "Manage Links"
+msgstr ""
+
+#: max_menus.py:239
+msgid "Asset Tracking Toggle"
+msgstr ""
+
+#: max_menus.py:241
+msgid "Project"
+msgstr ""
+
+#: max_menus.py:242
+msgid "Recent Projects"
+msgstr ""
+
+#: max_menus.py:243
+msgid "Set Active Project..."
+msgstr ""
+
+#: max_menus.py:245
+msgid "Create Empty..."
+msgstr ""
+
+#: max_menus.py:245
+msgid "Create Default..."
+msgstr ""
+
+#: max_menus.py:245
+msgid "Create From Current..."
+msgstr ""
+
+#: max_menus.py:249
+msgid "Summary Info..."
+msgstr ""
+
+#: max_menus.py:250
+msgid "File Properties..."
+msgstr ""
+
+#: max_menus.py:251 max_menus.py:903
+msgid "Preferences..."
+msgstr ""
+
+#: max_menus.py:253
+msgid "Exit"
+msgstr ""
+
+#: max_menus.py:256
+msgid "Undo Scene Operation"
+msgstr ""
+
+#: max_menus.py:257
+msgid "Redo Scene Operation"
+msgstr ""
+
+#: max_menus.py:262
+msgid "Del"
+msgstr ""
+
+#: max_menus.py:268 quad.py:82
+msgid "Placement"
+msgstr ""
+
+#: max_menus.py:269
+msgid "Transform Type-In..."
+msgstr ""
+
+#: max_menus.py:270
+msgid "Transform Toolbox..."
+msgstr ""
+
+#: max_menus.py:277 ui.py:162
+msgid "Select Instances"
+msgstr ""
+
+#: max_menus.py:280
+msgid "Layer..."
+msgstr ""
+
+#: max_menus.py:285
+msgid "Rectangular Region"
+msgstr ""
+
+#: max_menus.py:286
+msgid "Circular Region"
+msgstr ""
+
+#: max_menus.py:287
+msgid "Fence Region"
+msgstr ""
+
+#: max_menus.py:288
+msgid "Lasso Region"
+msgstr ""
+
+#: max_menus.py:292
+msgid "Crossing"
+msgstr ""
+
+#: max_menus.py:300
+msgid "Scene Explorer..."
+msgstr ""
+
+#: max_menus.py:301
+msgid "Layer Explorer..."
+msgstr ""
+
+#: max_menus.py:302
+msgid "Crease Explorer..."
+msgstr ""
+
+#: max_menus.py:303
+msgid "All Global Explorers"
+msgstr ""
+
+#: max_menus.py:304
+msgid "Manage Local Explorers..."
+msgstr ""
+
+#: max_menus.py:305
+msgid "Local Scene Explorers"
+msgstr ""
+
+#: max_menus.py:307
+msgid "Containers"
+msgstr ""
+
+#: max_menus.py:308
+msgid "Local Content"
+msgstr ""
+
+#: max_menus.py:309
+msgid "Inherited Content"
+msgstr ""
+
+#: max_menus.py:313 quad.py:69
+msgid "End Isolate"
+msgstr ""
+
+#: max_menus.py:314 quad.py:68
+msgid "Zoom Extents On Isolate"
+msgstr ""
+
+#: max_menus.py:316
+msgid "Display Floater..."
+msgstr ""
+
+#: max_menus.py:318
+msgid "Manage Scene States..."
+msgstr ""
+
+#: max_menus.py:318
+msgid "Manage Templates..."
+msgstr ""
+
+#: max_menus.py:320
+msgid "Light Lister..."
+msgstr ""
+
+#: max_menus.py:322 surfaces.py:405
+msgid "Mirror..."
+msgstr ""
+
+#: max_menus.py:323
+msgid "Array..."
+msgstr ""
+
+#: max_menus.py:327
+msgid "Spacing Tool..."
+msgstr ""
+
+#: max_menus.py:328
+msgid "Clone and Align ..."
+msgstr ""
+
+#: max_menus.py:332
+msgid "Place Highlight"
+msgstr ""
+
+#: max_menus.py:334
+msgid "Snapshot..."
+msgstr ""
+
+#: max_menus.py:336
+msgid "Flow Studio"
+msgstr ""
+
+#: max_menus.py:337
+msgid "Launch Flow Studio"
+msgstr ""
+
+#: max_menus.py:340
+msgid "Rename Objects..."
+msgstr ""
+
+#: max_menus.py:342
+msgid "Assign Vertex Colors..."
+msgstr ""
+
+#: max_menus.py:342
+msgid "Color Clipboard..."
+msgstr ""
+
+#: max_menus.py:342
+msgid "Perspective Match..."
+msgstr ""
+
+#: max_menus.py:344
+msgid "Viewport Canvas..."
+msgstr ""
+
+#: max_menus.py:346
+msgid "Screen Capture"
+msgstr ""
+
+#: max_menus.py:351
+msgid "Open Preview Animation folder..."
+msgstr ""
+
+#: max_menus.py:354
+msgid "Grids and Snaps"
+msgstr ""
+
+#: max_menus.py:355
+msgid "Grid and Snap Settings..."
+msgstr ""
+
+#: max_menus.py:357 ui.py:19
+msgid "Show Home Grid"
+msgstr ""
+
+#: max_menus.py:358
+msgid "Activate Home Grid"
+msgstr ""
+
+#: max_menus.py:358
+msgid "Activate Grid Object"
+msgstr ""
+
+#: max_menus.py:358
+msgid "Align Grid to View"
+msgstr ""
+
+#: max_menus.py:362 surfaces.py:391
+msgid "Percent Snap Toggle"
+msgstr ""
+
+#: max_menus.py:363
+msgid "Enable Axis Constraints in Snaps"
+msgstr ""
+
+#: max_menus.py:365
+msgid "Snap Working Pivot Tools"
+msgstr ""
+
+#: max_menus.py:366 quad.py:84
+msgid "Place Working Pivot"
+msgstr ""
+
+#: max_menus.py:367
+msgid "Selection Pivot"
+msgstr ""
+
+#: max_menus.py:368 quad.py:85
+msgid "Align Working Pivot"
+msgstr ""
+
+#: max_menus.py:368 quad.py:85
+msgid "Reset Working Pivot"
+msgstr ""
+
+#: max_menus.py:370
+msgid "Align Pivot To Working Pivot"
+msgstr ""
+
+#: max_menus.py:372
+msgid "Place Pivot Bounding Box"
+msgstr ""
+
+#: max_menus.py:374
+msgid "Create Grid From Working Pivot"
+msgstr ""
+
+#: max_menus.py:374
+msgid "Create Point From Working Pivot"
+msgstr ""
+
+#: max_menus.py:376
+msgid "Measure Distance..."
+msgstr ""
+
+#: max_menus.py:378
+msgid "Channel Info..."
+msgstr ""
+
+#: max_menus.py:379
+msgid "Mesh Inspector"
+msgstr ""
+
+#: max_menus.py:379
+msgid "Activate Mesh Inspector"
+msgstr ""
+
+#: max_menus.py:379
+msgid "Mesh Auto Repair"
+msgstr ""
+
+#: max_menus.py:382 ui.py:148
+msgid "Group..."
+msgstr ""
+
+#: max_menus.py:383 ui.py:149
+msgid "Ungroup"
+msgstr ""
+
+#: max_menus.py:385 max_menus.py:397
+msgid "Open"
+msgstr ""
+
+#: max_menus.py:386
+msgid "Open Recursively"
+msgstr ""
+
+#: max_menus.py:387 max_menus.py:397
+msgid "Close"
+msgstr ""
+
+#: max_menus.py:392 max_menus.py:401
+msgid "Explode"
+msgstr ""
+
+#: max_menus.py:394
+msgid "Assembly"
+msgstr ""
+
+#: max_menus.py:395
+msgid "Assemble"
+msgstr ""
+
+#: max_menus.py:395
+msgid "Disassemble"
+msgstr ""
+
+#: max_menus.py:404
+msgid "Views"
+msgstr ""
+
+#: max_menus.py:409
+msgid "Viewports Configuration..."
+msgstr ""
+
+#: max_menus.py:412
+msgid "Set Active Viewport"
+msgstr ""
+
+#: max_menus.py:434
+msgid "Show Materials in Viewport As"
+msgstr ""
+
+#: max_menus.py:436 quad.py:71
+msgid "Viewport Lighting and Shadows"
+msgstr ""
+
+#: max_menus.py:437 max_menus.py:1062 quad.py:71
+msgid "Auto Display Selected Lights"
+msgstr ""
+
+#: max_menus.py:439 max_menus.py:1064 quad.py:72
+msgid "Lock Selected Lights"
+msgstr ""
+
+#: max_menus.py:439 max_menus.py:1064 quad.py:72
+msgid "Unlock Selected Lights"
+msgstr ""
+
+#: max_menus.py:446
+msgid "Show Transform Gizmo"
+msgstr ""
+
+#: max_menus.py:447
+msgid "Show Ghosting"
+msgstr ""
+
+#: max_menus.py:448
+msgid "Show Key Times"
+msgstr ""
+
+#: max_menus.py:449
+msgid "Shade Selected"
+msgstr ""
+
+#: max_menus.py:450
+msgid "Show Dependencies"
+msgstr ""
+
+#: max_menus.py:452
+msgid "Update During Spinner Drag"
+msgstr ""
+
+#: max_menus.py:453
+msgid "Adaptive Degradation"
+msgstr ""
+
+#: max_menus.py:454
+msgid "Progressive Display"
+msgstr ""
+
+#: max_menus.py:459 surfaces.py:481
+msgid "Standard Primitives"
+msgstr ""
+
+#: max_menus.py:460 operators.py:430 params.py:10 params.py:122 (+1)
+msgid "Box"
+msgstr ""
+
+#: max_menus.py:461 operators.py:430 params.py:10 surfaces.py:481
+msgid "Cone"
+msgstr ""
+
+#: max_menus.py:462 operators.py:430 params.py:10 surfaces.py:481
+msgid "Sphere"
+msgstr ""
+
+#: max_menus.py:463 operators.py:430 params.py:10 surfaces.py:481
+msgid "GeoSphere"
+msgstr ""
+
+#: max_menus.py:464 operators.py:430 params.py:10 surfaces.py:482
+msgid "Cylinder"
+msgstr ""
+
+#: max_menus.py:465 operators.py:430 params.py:10 surfaces.py:482
+msgid "Tube"
+msgstr ""
+
+#: max_menus.py:466 operators.py:431 params.py:10 surfaces.py:482
+msgid "Torus"
+msgstr ""
+
+#: max_menus.py:467 operators.py:431 params.py:10 surfaces.py:482
+msgid "Pyramid"
+msgstr ""
+
+#: max_menus.py:468 operators.py:431 params.py:10 surfaces.py:483
+msgid "Teapot"
+msgstr ""
+
+#: max_menus.py:469 operators.py:431 params.py:10 surfaces.py:483
+msgid "Plane"
+msgstr ""
+
+#: max_menus.py:470 operators.py:431 surfaces.py:483
+msgid "TextPlus"
+msgstr ""
+
+#: max_menus.py:472 surfaces.py:484
+msgid "Extended Primitives"
+msgstr ""
+
+#: max_menus.py:473 surfaces.py:484
+msgid "Hedra"
+msgstr ""
+
+#: max_menus.py:473 surfaces.py:484
+msgid "Torus Knot"
+msgstr ""
+
+#: max_menus.py:474
+msgid "Chamfer Box"
+msgstr ""
+
+#: max_menus.py:475
+msgid "Chamfer Cylinder"
+msgstr ""
+
+#: max_menus.py:476
+msgid "Oil Tank"
+msgstr ""
+
+#: max_menus.py:477 operators.py:432 surfaces.py:485
+msgid "Capsule"
+msgstr ""
+
+#: max_menus.py:478 surfaces.py:485
+msgid "Spindle"
+msgstr ""
+
+#: max_menus.py:478
+msgid "L-Extrusion"
+msgstr ""
+
+#: max_menus.py:478 surfaces.py:485
+msgid "Gengon"
+msgstr ""
+
+#: max_menus.py:478
+msgid "C-Extrusion"
+msgstr ""
+
+#: max_menus.py:478 surfaces.py:486
+msgid "RingWave"
+msgstr ""
+
+#: max_menus.py:478 surfaces.py:486
+msgid "Hose"
+msgstr ""
+
+#: max_menus.py:478 surfaces.py:486
+msgid "Prism"
+msgstr ""
+
+#: max_menus.py:480
+msgid "AEC Objects"
+msgstr ""
+
+#: max_menus.py:481
+msgid "Foliage"
+msgstr ""
+
+#: max_menus.py:481
+msgid "Railing"
+msgstr ""
+
+#: max_menus.py:481
+msgid "Wall"
+msgstr ""
+
+#: max_menus.py:483
+msgid "Pivot Door"
+msgstr ""
+
+#: max_menus.py:483
+msgid "Sliding Door"
+msgstr ""
+
+#: max_menus.py:483
+msgid "BiFold Door"
+msgstr ""
+
+#: max_menus.py:485
+msgid "Straight Stair"
+msgstr ""
+
+#: max_menus.py:485
+msgid "L-Type Stair"
+msgstr ""
+
+#: max_menus.py:485
+msgid "U-Type Stair"
+msgstr ""
+
+#: max_menus.py:485
+msgid "Spiral Stair"
+msgstr ""
+
+#: max_menus.py:488
+msgid "Awning Window"
+msgstr ""
+
+#: max_menus.py:488
+msgid "Casement Window"
+msgstr ""
+
+#: max_menus.py:488
+msgid "Fixed Window"
+msgstr ""
+
+#: max_menus.py:488
+msgid "Pivoted Window"
+msgstr ""
+
+#: max_menus.py:488
+msgid "Sliding Window"
+msgstr ""
+
+#: max_menus.py:489
+msgid "Projected Window"
+msgstr ""
+
+#: max_menus.py:491
+msgid "MCG Tools"
+msgstr ""
+
+#: max_menus.py:499
+msgid "Compound"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:487
+msgid "Morph"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:487
+msgid "Scatter"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:487
+msgid "BlobMesh"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:488
+msgid "ShapeMerge"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:488
+msgid "Terrain"
+msgstr ""
+
+#: max_menus.py:500 surfaces.py:488
+msgid "Loft"
+msgstr ""
+
+#: max_menus.py:501 surfaces.py:488
+msgid "Mesher"
+msgstr ""
+
+#: max_menus.py:501 surfaces.py:489
+msgid "ProCutter"
+msgstr ""
+
+#: max_menus.py:502
+msgid "Particles"
+msgstr ""
+
+#: max_menus.py:503
+msgid "Particle Flow Source"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Spray"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Snow"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Blizzard"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:490
+msgid "PArray"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:491
+msgid "PCloud"
+msgstr ""
+
+#: max_menus.py:505 surfaces.py:491
+msgid "Super Spray"
+msgstr ""
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Patch Grids"
+msgstr ""
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Quad Patch"
+msgstr ""
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Tri Patch"
+msgstr ""
+
+#: max_menus.py:509
+msgid "CV Surface"
+msgstr ""
+
+#: max_menus.py:510
+msgid "Point Surface"
+msgstr ""
+
+#: max_menus.py:512 operators.py:442 surfaces.py:499
+msgid "CV Curve"
+msgstr ""
+
+#: max_menus.py:513 operators.py:442 surfaces.py:499
+msgid "Point Curve"
+msgstr ""
+
+#: max_menus.py:515
+msgid "Point Cloud"
+msgstr ""
+
+#: max_menus.py:516
+msgid "Dynamics"
+msgstr ""
+
+#: max_menus.py:516
+msgid "Damper"
+msgstr ""
+
+#: max_menus.py:516 max_menus.py:706
+msgid "Spring"
+msgstr ""
+
+#: max_menus.py:519 operators.py:433 surfaces.py:496
+msgid "Line"
+msgstr ""
+
+#: max_menus.py:520 operators.py:433 params.py:123 surfaces.py:496
+msgid "Rectangle"
+msgstr ""
+
+#: max_menus.py:521 operators.py:433 surfaces.py:496
+msgid "Circle"
+msgstr ""
+
+#: max_menus.py:522 operators.py:433 surfaces.py:496
+msgid "Ellipse"
+msgstr ""
+
+#: max_menus.py:523 operators.py:433 surfaces.py:496
+msgid "Arc"
+msgstr ""
+
+#: max_menus.py:524 operators.py:433 surfaces.py:497
+msgid "Donut"
+msgstr ""
+
+#: max_menus.py:525 operators.py:434 surfaces.py:497
+msgid "NGon"
+msgstr ""
+
+#: max_menus.py:526 operators.py:434 surfaces.py:497
+msgid "Star"
+msgstr ""
+
+#: max_menus.py:528 operators.py:434 surfaces.py:497
+msgid "Helix"
+msgstr ""
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Section"
+msgstr ""
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Egg"
+msgstr ""
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Freehand"
+msgstr ""
+
+#: max_menus.py:531
+msgid "ShapeBoolean"
+msgstr ""
+
+#: max_menus.py:533
+msgid "Extended Shapes"
+msgstr ""
+
+#: max_menus.py:533 surfaces.py:500
+msgid "WRectangle"
+msgstr ""
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Channel"
+msgstr ""
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Tee"
+msgstr ""
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Wide Flange"
+msgstr ""
+
+#: max_menus.py:536
+msgid "Photometric Lights"
+msgstr ""
+
+#: max_menus.py:537 operators.py:436 surfaces.py:503
+msgid "Target Light"
+msgstr ""
+
+#: max_menus.py:538 operators.py:436 surfaces.py:503
+msgid "Free Light"
+msgstr ""
+
+#: max_menus.py:540
+msgid "Standard Lights"
+msgstr ""
+
+#: max_menus.py:541
+msgid "Target Spotlight"
+msgstr ""
+
+#: max_menus.py:542
+msgid "Free Spotlight"
+msgstr ""
+
+#: max_menus.py:543
+msgid "Target Directional"
+msgstr ""
+
+#: max_menus.py:544
+msgid "Directional"
+msgstr ""
+
+#: max_menus.py:545 operators.py:435 surfaces.py:505
+msgid "Omni"
+msgstr ""
+
+#: max_menus.py:546 operators.py:436 surfaces.py:505
+msgid "Skylight"
+msgstr ""
+
+#: max_menus.py:548
+msgid "Add Default Lights to Scene"
+msgstr ""
+
+#: max_menus.py:551 max_menus.py:616
+msgid "Daylight System"
+msgstr ""
+
+#: max_menus.py:552 operators.py:437 surfaces.py:503
+msgid "Sun Positioner"
+msgstr ""
+
+#: max_menus.py:555 operators.py:438
+msgid "Free Camera"
+msgstr ""
+
+#: max_menus.py:556 operators.py:438
+msgid "Target Camera"
+msgstr ""
+
+#: max_menus.py:557 operators.py:438 surfaces.py:735
+msgid "Physical Camera"
+msgstr ""
+
+#: max_menus.py:564 operators.py:439 surfaces.py:509 surfaces.py:735
+msgid "Dummy"
+msgstr ""
+
+#: max_menus.py:565
+msgid "Expose Transform"
+msgstr ""
+
+#: max_menus.py:568 surfaces.py:509
+msgid "Container"
+msgstr ""
+
+#: max_menus.py:569 operators.py:439 surfaces.py:511
+msgid "Arrow"
+msgstr ""
+
+#: max_menus.py:571
+msgid "Tape Measure"
+msgstr ""
+
+#: max_menus.py:572 operators.py:439 surfaces.py:510
+msgid "Protractor"
+msgstr ""
+
+#: max_menus.py:573 operators.py:440 surfaces.py:510
+msgid "Compass"
+msgstr ""
+
+#: max_menus.py:575
+msgid "Camera Point"
+msgstr ""
+
+#: max_menus.py:577
+msgid "Influence Helper"
+msgstr ""
+
+#: max_menus.py:579 surfaces.py:509
+msgid "Delegate"
+msgstr ""
+
+#: max_menus.py:579 surfaces.py:509
+msgid "Crowd"
+msgstr ""
+
+#: max_menus.py:581 utility_editors.py:655 utility_editors.py:660
+msgid "Atmospherics"
+msgstr ""
+
+#: max_menus.py:581
+msgid "Box Gizmo"
+msgstr ""
+
+#: max_menus.py:581
+msgid "Cylinder Gizmo"
+msgstr ""
+
+#: max_menus.py:581
+msgid "Sphere Gizmo"
+msgstr ""
+
+#: max_menus.py:582
+msgid "Manipulators"
+msgstr ""
+
+#: max_menus.py:582
+msgid "Slider"
+msgstr ""
+
+#: max_menus.py:582
+msgid "Plane Angle"
+msgstr ""
+
+#: max_menus.py:582
+msgid "Cone Angle"
+msgstr ""
+
+#: max_menus.py:583
+msgid "Particle Flow"
+msgstr ""
+
+#: max_menus.py:584
+msgid "Speed by Icon"
+msgstr ""
+
+#: max_menus.py:584
+msgid "Find Target"
+msgstr ""
+
+#: max_menus.py:584
+msgid "Particle Paint"
+msgstr ""
+
+#: max_menus.py:584
+msgid "Birth Texture"
+msgstr ""
+
+#: max_menus.py:584
+msgid "Initial State"
+msgstr ""
+
+#: max_menus.py:585
+msgid "Group Select"
+msgstr ""
+
+#: max_menus.py:587
+msgid "SpaceWarps"
+msgstr ""
+
+#: max_menus.py:588 surfaces.py:513
+msgid "Forces"
+msgstr ""
+
+#: max_menus.py:589 operators.py:440 surfaces.py:513
+msgid "Motor"
+msgstr ""
+
+#: max_menus.py:592 operators.py:440 surfaces.py:513
+msgid "Vortex"
+msgstr ""
+
+#: max_menus.py:593 operators.py:441 surfaces.py:514
+msgid "Path Follow"
+msgstr ""
+
+#: max_menus.py:594 surfaces.py:513
+msgid "PBomb"
+msgstr ""
+
+#: max_menus.py:596 operators.py:441 surfaces.py:514
+msgid "Gravity"
+msgstr ""
+
+#: max_menus.py:597 operators.py:440 surfaces.py:514
+msgid "Wind"
+msgstr ""
+
+#: max_menus.py:600 surfaces.py:515
+msgid "Deflectors"
+msgstr ""
+
+#: max_menus.py:601 surfaces.py:515
+msgid "POmniFlect"
+msgstr ""
+
+#: max_menus.py:601 surfaces.py:515
+msgid "SOmniFlect"
+msgstr ""
+
+#: max_menus.py:601
+msgid "SDeflector"
+msgstr ""
+
+#: max_menus.py:601 surfaces.py:515
+msgid "UOmniFlect"
+msgstr ""
+
+#: max_menus.py:601
+msgid "UDeflector"
+msgstr ""
+
+#: max_menus.py:601 surfaces.py:515
+msgid "Deflector"
+msgstr ""
+
+#: max_menus.py:602 surfaces.py:516
+msgid "Geometric/Deformable"
+msgstr ""
+
+#: max_menus.py:603 surfaces.py:516
+msgid "FFD(Box)"
+msgstr ""
+
+#: max_menus.py:603 surfaces.py:516
+msgid "FFD(Cyl)"
+msgstr ""
+
+#: max_menus.py:605 surfaces.py:517
+msgid "Bomb"
+msgstr ""
+
+#: max_menus.py:607
+msgid "Modifier-Based"
+msgstr ""
+
+#: max_menus.py:608
+msgid "Particles & Dynamics"
+msgstr ""
+
+#: max_menus.py:609
+msgid "Vector Field"
+msgstr ""
+
+#: max_menus.py:612 surfaces.py:523 ui.py:33
+msgid "Systems"
+msgstr ""
+
+#: max_menus.py:613
+msgid "Bones IK Chain"
+msgstr ""
+
+#: max_menus.py:614 surfaces.py:519
+msgid "Biped"
+msgstr ""
+
+#: max_menus.py:619 max_menus.py:769
+msgid "Fluids"
+msgstr ""
+
+#: max_menus.py:620 max_menus.py:770
+msgid "Liquid"
+msgstr ""
+
+#: max_menus.py:621 max_menus.py:771
+msgid "Fluid Loader"
+msgstr ""
+
+#: max_menus.py:625
+msgid "Selection Modifiers"
+msgstr ""
+
+#: max_menus.py:626
+msgid "FFD Select"
+msgstr ""
+
+#: max_menus.py:626
+msgid "Mesh Select"
+msgstr ""
+
+#: max_menus.py:626
+msgid "Patch Select"
+msgstr ""
+
+#: max_menus.py:626
+msgid "Poly Select"
+msgstr ""
+
+#: max_menus.py:626
+msgid "Select By Channel"
+msgstr ""
+
+#: max_menus.py:626
+msgid "Spline Select"
+msgstr ""
+
+#: max_menus.py:627
+msgid "Volume Select"
+msgstr ""
+
+#: max_menus.py:629
+msgid "Patch/Spline Editing"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Cross Section"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Delete Patch"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Delete Spline"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Edit Patch"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Edit Spline"
+msgstr ""
+
+#: max_menus.py:630
+msgid "Spline Chamfer"
+msgstr ""
+
+#: max_menus.py:631
+msgid "Normalize Spline"
+msgstr ""
+
+#: max_menus.py:631
+msgid "Sweep"
+msgstr ""
+
+#: max_menus.py:631
+msgid "Trim/Extend"
+msgstr ""
+
+#: max_menus.py:632
+msgid "Optimize Spline"
+msgstr ""
+
+#: max_menus.py:632
+msgid "Spline Mirror"
+msgstr ""
+
+#: max_menus.py:632
+msgid "Spline Relax"
+msgstr ""
+
+#: max_menus.py:633
+msgid "Mesh Editing"
+msgstr ""
+
+#: max_menus.py:634
+msgid "Delete Mesh"
+msgstr ""
+
+#: max_menus.py:635
+msgid "Face Extrude"
+msgstr ""
+
+#: max_menus.py:636
+msgid "STL Check"
+msgstr ""
+
+#: max_menus.py:636
+msgid "Vertex Paint"
+msgstr ""
+
+#: max_menus.py:638
+msgid "Conversion"
+msgstr ""
+
+#: max_menus.py:638
+msgid "Turn To Patch"
+msgstr ""
+
+#: max_menus.py:641
+msgid "Attribute Holder"
+msgstr ""
+
+#: max_menus.py:641
+msgid "Linked XForm"
+msgstr ""
+
+#: max_menus.py:641
+msgid "Patch Deform"
+msgstr ""
+
+#: max_menus.py:641
+msgid "Patch Deform (WSM)"
+msgstr ""
+
+#: max_menus.py:642
+msgid "Spline Influence"
+msgstr ""
+
+#: max_menus.py:642
+msgid "Spline Morph"
+msgstr ""
+
+#: max_menus.py:642
+msgid "Spline Overlap"
+msgstr ""
+
+#: max_menus.py:643
+msgid "Skin Morph"
+msgstr ""
+
+#: max_menus.py:643
+msgid "Skin Wrap Patch"
+msgstr ""
+
+#: max_menus.py:643
+msgid "SplineIk Control"
+msgstr ""
+
+#: max_menus.py:643
+msgid "Surf Deform (WSM)"
+msgstr ""
+
+#: max_menus.py:645
+msgid "Garment Maker"
+msgstr ""
+
+#: max_menus.py:645
+msgid "Welder"
+msgstr ""
+
+#: max_menus.py:647
+msgid "Hair and Fur"
+msgstr ""
+
+#: max_menus.py:651
+msgid "UV Coordinates"
+msgstr ""
+
+#: max_menus.py:652
+msgid "Camera Map"
+msgstr ""
+
+#: max_menus.py:652
+msgid "Camera Map (WSM)"
+msgstr ""
+
+#: max_menus.py:652
+msgid "MapScaler (WSM)"
+msgstr ""
+
+#: max_menus.py:652 surfaces.py:922
+msgid "Projection"
+msgstr ""
+
+#: max_menus.py:653
+msgid "UVW Mapping Add"
+msgstr ""
+
+#: max_menus.py:653
+msgid "UVW Mapping Clear"
+msgstr ""
+
+#: max_menus.py:653
+msgid "UVW XForm"
+msgstr ""
+
+#: max_menus.py:655
+msgid "Cache Tools"
+msgstr ""
+
+#: max_menus.py:657
+msgid "Subdivision Surfaces"
+msgstr ""
+
+#: max_menus.py:658
+msgid "Crease"
+msgstr ""
+
+#: max_menus.py:658
+msgid "CreaseSet"
+msgstr ""
+
+#: max_menus.py:658
+msgid "HSDS Modifier"
+msgstr ""
+
+#: max_menus.py:660
+msgid "Free Form Deformers"
+msgstr ""
+
+#: max_menus.py:662
+msgid "Parametric Deformers"
+msgstr ""
+
+#: max_menus.py:663
+msgid "Affect Region"
+msgstr ""
+
+#: max_menus.py:663
+msgid "Data Channel"
+msgstr ""
+
+#: max_menus.py:664
+msgid "Physique"
+msgstr ""
+
+#: max_menus.py:664
+msgid "Preserve"
+msgstr ""
+
+#: max_menus.py:664 max_menus.py:607
+msgid "Skew"
+msgstr ""
+
+#: max_menus.py:665
+msgid "Squeeze"
+msgstr ""
+
+#: max_menus.py:665
+msgid "Substitute"
+msgstr ""
+
+#: max_menus.py:665
+msgid "XForm"
+msgstr ""
+
+#: max_menus.py:667 max_menus.py:631
+msgid "Surface"
+msgstr ""
+
+#: max_menus.py:667 max_menus.py:669
+msgid "Disp Approx"
+msgstr ""
+
+#: max_menus.py:667
+msgid "Displace Mesh (WSM)"
+msgstr ""
+
+#: max_menus.py:667
+msgid "Material By Element"
+msgstr ""
+
+#: max_menus.py:669
+msgid "NURBS Editing"
+msgstr ""
+
+#: max_menus.py:669
+msgid "Surface Select"
+msgstr ""
+
+#: max_menus.py:671
+msgid "Radiosity"
+msgstr ""
+
+#: max_menus.py:671
+msgid "Subdivide (WSM)"
+msgstr ""
+
+#: max_menus.py:674
+msgid "Camera Correction"
+msgstr ""
+
+#: max_menus.py:680
+msgid "IK Solvers"
+msgstr ""
+
+#: max_menus.py:681
+msgid "HI Solver"
+msgstr ""
+
+#: max_menus.py:681
+msgid "HD Solver"
+msgstr ""
+
+#: max_menus.py:681
+msgid "IK Limb Solver"
+msgstr ""
+
+#: max_menus.py:683
+msgid "SplineIK Solver"
+msgstr ""
+
+#: max_menus.py:687 max_menus.py:708
+msgid "Attachment Constraint"
+msgstr ""
+
+#: max_menus.py:688 max_menus.py:711
+msgid "Surface Constraint"
+msgstr ""
+
+#: max_menus.py:690 max_menus.py:709
+msgid "Path Constraint"
+msgstr ""
+
+#: max_menus.py:691 max_menus.py:710
+msgid "Position Constraint"
+msgstr ""
+
+#: max_menus.py:693 max_menus.py:700
+msgid "Link Constraint"
+msgstr ""
+
+#: max_menus.py:695 max_menus.py:718
+msgid "LookAt Constraint"
+msgstr ""
+
+#: max_menus.py:696 max_menus.py:719
+msgid "Orientation Constraint"
+msgstr ""
+
+#: max_menus.py:699
+msgid "Transform Controllers"
+msgstr ""
+
+#: max_menus.py:701
+msgid "Position/Rotation/Scale"
+msgstr ""
+
+#: max_menus.py:703
+msgid "Position Controllers"
+msgstr ""
+
+#: max_menus.py:705
+msgid "TCB Position"
+msgstr ""
+
+#: max_menus.py:713
+msgid "Rotation Controllers"
+msgstr ""
+
+#: max_menus.py:715
+msgid "Euler X Y Z"
+msgstr ""
+
+#: max_menus.py:715 surfaces.py:1248
+msgid "TCB Rotation"
+msgstr ""
+
+#: max_menus.py:721
+msgid "Scale Controllers"
+msgstr ""
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715
+msgid "Audio"
+msgstr ""
+
+#: max_menus.py:722 max_menus.py:705
+msgid "Expression"
+msgstr ""
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715 surfaces.py:1418
+msgid "Motion Capture"
+msgstr ""
+
+#: max_menus.py:722
+msgid "TCB Scale"
+msgstr ""
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715
+msgid "Reaction"
+msgstr ""
+
+#: max_menus.py:723 max_menus.py:706
+msgid "X Y Z"
+msgstr ""
+
+#: max_menus.py:723 max_menus.py:701 max_menus.py:706 max_menus.py:716
+msgid "List"
+msgstr ""
+
+#: max_menus.py:724 max_menus.py:492
+msgid "MCG Controllers"
+msgstr ""
+
+#: max_menus.py:725 max_menus.py:493
+msgid "MCG LookAt Constraint"
+msgstr ""
+
+#: max_menus.py:725 max_menus.py:493
+msgid "MCG Ray to Surface Position Constraint"
+msgstr ""
+
+#: max_menus.py:726 max_menus.py:494
+msgid "MCG Ray to Surface Position and Orientation Constraints"
+msgstr ""
+
+#: max_menus.py:726 max_menus.py:495
+msgid "MCG Ray to Surface Transform Constraint"
+msgstr ""
+
+#: max_menus.py:727 max_menus.py:495
+msgid "MCG 1 DOF Rotation Spring Controller"
+msgstr ""
+
+#: max_menus.py:727 max_menus.py:496
+msgid "MCG 3 DOF Rotation Spring Controller"
+msgstr ""
+
+#: max_menus.py:728
+msgid "Capture Animation"
+msgstr ""
+
+#: max_menus.py:728
+msgid "Pose Mixer"
+msgstr ""
+
+#: max_menus.py:728
+msgid "Apply Max IK"
+msgstr ""
+
+#: max_menus.py:729
+msgid "MassFX"
+msgstr ""
+
+#: max_menus.py:730
+msgid "Rigid Bodies"
+msgstr ""
+
+#: max_menus.py:731
+msgid "Set Selected as Dynamic Rigid Body"
+msgstr ""
+
+#: max_menus.py:732
+msgid "Set Selected as Kinematic Rigid Body"
+msgstr ""
+
+#: max_menus.py:733
+msgid "Set Selected as Static Rigid Body"
+msgstr ""
+
+#: max_menus.py:735
+msgid "Create Dynamic Ragdoll"
+msgstr ""
+
+#: max_menus.py:735
+msgid "Create Kinematic Ragdoll"
+msgstr ""
+
+#: max_menus.py:735
+msgid "Remove Ragdoll"
+msgstr ""
+
+#: max_menus.py:738
+msgid "Create mCloth"
+msgstr ""
+
+#: max_menus.py:739
+msgid "Remove mCloth"
+msgstr ""
+
+#: max_menus.py:742
+msgid "Create Rigid Constraint"
+msgstr ""
+
+#: max_menus.py:743
+msgid "Create Slide Constraint"
+msgstr ""
+
+#: max_menus.py:744
+msgid "Create Hinge Constraint"
+msgstr ""
+
+#: max_menus.py:745
+msgid "Create Twist Constraint"
+msgstr ""
+
+#: max_menus.py:746
+msgid "Create Ball-and-Socket Constraint"
+msgstr ""
+
+#: max_menus.py:747
+msgid "Create Universal Constraint"
+msgstr ""
+
+#: max_menus.py:749
+msgid "Simulation"
+msgstr ""
+
+#: max_menus.py:750
+msgid "Play Simulation"
+msgstr ""
+
+#: max_menus.py:751
+msgid "Step Simulation"
+msgstr ""
+
+#: max_menus.py:752
+msgid "Reset Simulation"
+msgstr ""
+
+#: max_menus.py:754
+msgid "Bake All Objects"
+msgstr ""
+
+#: max_menus.py:755
+msgid "Bake Selected Objects"
+msgstr ""
+
+#: max_menus.py:756
+msgid "Unbake All Objects"
+msgstr ""
+
+#: max_menus.py:757
+msgid "Unbake Selected Objects"
+msgstr ""
+
+#: max_menus.py:760
+msgid "Show MassFX Tools"
+msgstr ""
+
+#: max_menus.py:760
+msgid "Open Dynamics Explorer"
+msgstr ""
+
+#: max_menus.py:762
+msgid "Validate MassFX Scene"
+msgstr ""
+
+#: max_menus.py:762
+msgid "Export MassFX Scene"
+msgstr ""
+
+#: max_menus.py:764
+msgid "Capture Current Transforms"
+msgstr ""
+
+#: max_menus.py:766
+msgid "About MassFX"
+msgstr ""
+
+#: max_menus.py:771 max_menus.py:598
+msgid "Motion Field"
+msgstr ""
+
+#: max_menus.py:771
+msgid "Simulation View"
+msgstr ""
+
+#: max_menus.py:774
+msgid "Offset Controllers"
+msgstr ""
+
+#: max_menus.py:774
+msgid "Add Offset Controllers"
+msgstr ""
+
+#: max_menus.py:774
+msgid "Delete Offset Controllers"
+msgstr ""
+
+#: max_menus.py:774
+msgid "Remove All"
+msgstr ""
+
+#: max_menus.py:775
+msgid "Parameter Editor..."
+msgstr ""
+
+#: max_menus.py:775
+msgid "Parameter Collector..."
+msgstr ""
+
+#: max_menus.py:777
+msgid "Wire Parameters"
+msgstr ""
+
+#: max_menus.py:777 quad.py:90
+msgid "Wire Parameters..."
+msgstr ""
+
+#: max_menus.py:777
+msgid "Parameter Wire Dialog..."
+msgstr ""
+
+#: max_menus.py:779
+msgid "Animation Layers..."
+msgstr ""
+
+#: max_menus.py:781
+msgid "Reaction Manager..."
+msgstr ""
+
+#: max_menus.py:783
+msgid "Bone Tools..."
+msgstr ""
+
+#: max_menus.py:785
+msgid "Set as Skin Pose"
+msgstr ""
+
+#: max_menus.py:785
+msgid "Assume Skin Pose"
+msgstr ""
+
+#: max_menus.py:785
+msgid "Skin Pose Mode"
+msgstr ""
+
+#: max_menus.py:787
+msgid "Toggle Limits"
+msgstr ""
+
+#: max_menus.py:789
+msgid "Delete Selected Animation"
+msgstr ""
+
+#: max_menus.py:791 surfaces.py:1857
+msgid "Populate"
+msgstr ""
+
+#: max_menus.py:792
+msgid "Populate Tools..."
+msgstr ""
+
+#: max_menus.py:794
+msgid "Walkthrough Assistant..."
+msgstr ""
+
+#: max_menus.py:795
+msgid "Presets"
+msgstr ""
+
+#: max_menus.py:796
+msgid "Load Preset"
+msgstr ""
+
+#: max_menus.py:798
+msgid "Add Scene Preset to Selected"
+msgstr ""
+
+#: max_menus.py:798
+msgid "Remove Preset from Selected"
+msgstr ""
+
+#: max_menus.py:800
+msgid "Create Preset"
+msgstr ""
+
+#: max_menus.py:802
+msgid "Remove Preset From Disk"
+msgstr ""
+
+#: max_menus.py:805
+msgid "Graph Editors"
+msgstr ""
+
+#: max_menus.py:806
+msgid "Track View - Curve Editor..."
+msgstr ""
+
+#: max_menus.py:807
+msgid "Track View - Dope Sheet..."
+msgstr ""
+
+#: max_menus.py:808
+msgid "New Track View..."
+msgstr ""
+
+#: max_menus.py:809
+msgid "Delete Track View..."
+msgstr ""
+
+#: max_menus.py:810
+msgid "Saved Track Views"
+msgstr ""
+
+#: max_menus.py:811
+msgid "Saved Track View 1"
+msgstr ""
+
+#: max_menus.py:811
+msgid "Saved Track View 2"
+msgstr ""
+
+#: max_menus.py:811
+msgid "Saved Track View 3"
+msgstr ""
+
+#: max_menus.py:811
+msgid "Saved Track View 4"
+msgstr ""
+
+#: max_menus.py:812
+msgid "Saved Track View 5"
+msgstr ""
+
+#: max_menus.py:812
+msgid "Saved Track View 6"
+msgstr ""
+
+#: max_menus.py:812
+msgid "Saved Track View 7"
+msgstr ""
+
+#: max_menus.py:812
+msgid "Saved Track View 8"
+msgstr ""
+
+#: max_menus.py:813
+msgid "Saved Track View 9"
+msgstr ""
+
+#: max_menus.py:813
+msgid "Saved Track View 10"
+msgstr ""
+
+#: max_menus.py:813
+msgid "Saved Track View 11"
+msgstr ""
+
+#: max_menus.py:813
+msgid "Saved Track View 12"
+msgstr ""
+
+#: max_menus.py:814
+msgid "Saved Track View 13"
+msgstr ""
+
+#: max_menus.py:816
+msgid "New Schematic View..."
+msgstr ""
+
+#: max_menus.py:817
+msgid "Delete Schematic View..."
+msgstr ""
+
+#: max_menus.py:818
+msgid "Saved Schematic Views"
+msgstr ""
+
+#: max_menus.py:819
+msgid "Saved Schematic View 1"
+msgstr ""
+
+#: max_menus.py:819
+msgid "Saved Schematic View 2"
+msgstr ""
+
+#: max_menus.py:819
+msgid "Saved Schematic View 3"
+msgstr ""
+
+#: max_menus.py:819
+msgid "Saved Schematic View 4"
+msgstr ""
+
+#: max_menus.py:820
+msgid "Saved Schematic View 5"
+msgstr ""
+
+#: max_menus.py:820
+msgid "Saved Schematic View 6"
+msgstr ""
+
+#: max_menus.py:820
+msgid "Saved Schematic View 7"
+msgstr ""
+
+#: max_menus.py:820
+msgid "Saved Schematic View 8"
+msgstr ""
+
+#: max_menus.py:821
+msgid "Saved Schematic View 9"
+msgstr ""
+
+#: max_menus.py:821
+msgid "Saved Schematic View 10"
+msgstr ""
+
+#: max_menus.py:821
+msgid "Saved Schematic View 11"
+msgstr ""
+
+#: max_menus.py:822
+msgid "Saved Schematic View 12"
+msgstr ""
+
+#: max_menus.py:822
+msgid "Saved Schematic View 13"
+msgstr ""
+
+#: max_menus.py:824
+msgid "Particle View Toggle"
+msgstr ""
+
+#: max_menus.py:826
+msgid "Motion Mixer..."
+msgstr ""
+
+#: max_menus.py:828 surfaces.py:1162
+msgid "Rendering"
+msgstr ""
+
+#: max_menus.py:830
+msgid "Render Setup..."
+msgstr ""
+
+#: max_menus.py:831
+msgid "Rendered Frame Window..."
+msgstr ""
+
+#: max_menus.py:833
+msgid "Radiosity..."
+msgstr ""
+
+#: max_menus.py:833
+msgid "Light Tracer..."
+msgstr ""
+
+#: max_menus.py:835
+msgid "Scene Converter..."
+msgstr ""
+
+#: max_menus.py:837
+msgid "Exposure Control..."
+msgstr ""
+
+#: max_menus.py:839
+msgid "Environment..."
+msgstr ""
+
+#: max_menus.py:840
+msgid "Effects..."
+msgstr ""
+
+#: max_menus.py:840
+msgid "Raytracer Settings..."
+msgstr ""
+
+#: max_menus.py:840
+msgid "Raytrace Global Include/Exclude..."
+msgstr ""
+
+#: max_menus.py:842
+msgid "Render to Texture..."
+msgstr ""
+
+#: max_menus.py:842
+msgid "Render Surface Map..."
+msgstr ""
+
+#: max_menus.py:848
+msgid "Material/Map Browser..."
+msgstr ""
+
+#: max_menus.py:849
+msgid "Material Explorer..."
+msgstr ""
+
+#: max_menus.py:851
+msgid "Video Post..."
+msgstr ""
+
+#: max_menus.py:853
+msgid "Panorama Exporter..."
+msgstr ""
+
+#: max_menus.py:854
+msgid "Print Size Assistant..."
+msgstr ""
+
+#: max_menus.py:856
+msgid "Color Management..."
+msgstr ""
+
+#: max_menus.py:857
+msgid "Compare Media in RAM Player..."
+msgstr ""
+
+#: max_menus.py:859
+msgid "Customize"
+msgstr ""
+
+#: max_menus.py:860
+msgid "Customize User Interface..."
+msgstr ""
+
+#: max_menus.py:861
+msgid "Hotkey Editor..."
+msgstr ""
+
+#: max_menus.py:862
+msgid "Menu Editor..."
+msgstr ""
+
+#: max_menus.py:864
+msgid "Load Custom UI Scheme..."
+msgstr ""
+
+#: max_menus.py:864
+msgid "Save Custom UI Scheme..."
+msgstr ""
+
+#: max_menus.py:866
+msgid "Custom Defaults Switcher..."
+msgstr ""
+
+#: max_menus.py:868
+msgid "Revert to Startup UI Layout"
+msgstr ""
+
+#: max_menus.py:868
+msgid "Lock UI Layout"
+msgstr ""
+
+#: max_menus.py:870
+msgid "Show UI"
+msgstr ""
+
+#: max_menus.py:871 ui.py:23
+msgid "Command Panel"
+msgstr ""
+
+#: max_menus.py:871
+msgid "Shared Views"
+msgstr ""
+
+#: max_menus.py:871
+msgid "Time Slider"
+msgstr ""
+
+#: max_menus.py:871
+msgid "Viewport Layout Tabs"
+msgstr ""
+
+#: max_menus.py:875
+msgid "Main Toolbar"
+msgstr ""
+
+#: max_menus.py:875
+msgid "Floating Toolbars"
+msgstr ""
+
+#: max_menus.py:877
+msgid "Show Editors"
+msgstr ""
+
+#: max_menus.py:883
+msgid "Asset Tracking"
+msgstr ""
+
+#: max_menus.py:886
+msgid "Particle View"
+msgstr ""
+
+#: max_menus.py:888
+msgid "Show Explorers"
+msgstr ""
+
+#: max_menus.py:892
+msgid "Crease Explorer"
+msgstr ""
+
+#: max_menus.py:892
+msgid "Container Explorer"
+msgstr ""
+
+#: max_menus.py:892
+msgid "Dynamics Explorer"
+msgstr ""
+
+#: max_menus.py:892
+msgid "Light Explorer"
+msgstr ""
+
+#: max_menus.py:893
+msgid "Missing Plug-in Explorer"
+msgstr ""
+
+#: max_menus.py:893
+msgid "Revit Property Explorer"
+msgstr ""
+
+#: max_menus.py:896 max_menus.py:247 surfaces.py:430
+msgid "Configure Project Paths..."
+msgstr ""
+
+#: max_menus.py:897
+msgid "Configure User and System Paths..."
+msgstr ""
+
+#: max_menus.py:899
+msgid "Units Setup..."
+msgstr ""
+
+#: max_menus.py:901
+msgid "Plug-in Manager..."
+msgstr ""
+
+#: max_menus.py:905
+msgid "Scripting"
+msgstr ""
+
+#: max_menus.py:906
+msgid "Install Max Creation Graph (.mcg) Package..."
+msgstr ""
+
+#: max_menus.py:908
+msgid "New Max Creation Graph"
+msgstr ""
+
+#: max_menus.py:908
+msgid "Open Max Creation Graph..."
+msgstr ""
+
+#: max_menus.py:908 max_menus.py:881
+msgid "Max Creation Graph Editor"
+msgstr ""
+
+#: max_menus.py:910
+msgid "Create MCG Geometry..."
+msgstr ""
+
+#: max_menus.py:910
+msgid "Create and Apply MCG Modifier..."
+msgstr ""
+
+#: max_menus.py:912 surfaces.py:1462
+msgid "New Script"
+msgstr ""
+
+#: max_menus.py:913
+msgid "Open Script..."
+msgstr ""
+
+#: max_menus.py:914
+msgid "Run Script..."
+msgstr ""
+
+#: max_menus.py:916
+msgid "Scripting Listener..."
+msgstr ""
+
+#: max_menus.py:917
+msgid "Scripting Editor..."
+msgstr ""
+
+#: max_menus.py:921
+msgid "Visual MAXScript Editor..."
+msgstr ""
+
+#: max_menus.py:923
+msgid "Debugger Dialog..."
+msgstr ""
+
+#: max_menus.py:925
+msgid "MAXScript Help..."
+msgstr ""
+
+#: max_menus.py:927
+msgid "Python Help..."
+msgstr ""
+
+#: max_menus.py:930
+msgid "Help"
+msgstr ""
+
+#: max_menus.py:931
+msgid "Blender Manual"
+msgstr ""
+
+#: max_menus.py:932
+msgid "What's New"
+msgstr ""
+
+#: max_menus.py:933
+msgid "Welcome Screen"
+msgstr ""
+
+#: max_menus.py:934
+msgid "Plugin Help..."
+msgstr ""
+
+#: max_menus.py:935
+msgid "Developer Resources"
+msgstr ""
+
+#: max_menus.py:936
+msgid "Blender Python API"
+msgstr ""
+
+#: max_menus.py:937
+msgid "Blender Developer Documentation"
+msgstr ""
+
+#: max_menus.py:940
+msgid "Search 3ds Max Commands..."
+msgstr ""
+
+#: max_menus.py:942
+msgid "Feedback"
+msgstr ""
+
+#: max_menus.py:943
+msgid "Report a MaxFlow Problem..."
+msgstr ""
+
+#: max_menus.py:945
+msgid "Services and Support"
+msgstr ""
+
+#: max_menus.py:946
+msgid "Blender Support"
+msgstr ""
+
+#: max_menus.py:948
+msgid "Resources and Tools"
+msgstr ""
+
+#: max_menus.py:949
+msgid "Blender Extensions"
+msgstr ""
+
+#: max_menus.py:950
+msgid "Diagnose Video Hardware"
+msgstr ""
+
+#: max_menus.py:951
+msgid "Keyboard Shortcut Map"
+msgstr ""
+
+#: max_menus.py:953
+msgid "Product Information"
+msgstr ""
+
+#: max_menus.py:954
+msgid "Blender Home Page"
+msgstr ""
+
+#: max_menus.py:956
+msgid "About Blender"
+msgstr ""
+
+#: max_menus.py:964
+msgid "Active Viewport"
+msgstr ""
+
+#: max_menus.py:965
+msgid "Active Viewport 1"
+msgstr ""
+
+#: max_menus.py:965
+msgid "Active Viewport 2"
+msgstr ""
+
+#: max_menus.py:965
+msgid "Active Viewport 3"
+msgstr ""
+
+#: max_menus.py:965
+msgid "Active Viewport 4"
+msgstr ""
+
+#: max_menus.py:966
+msgid "Disable Viewport"
+msgstr ""
+
+#: max_menus.py:968
+msgid "Presentation Mode"
+msgstr ""
+
+#: max_menus.py:973 max_menus.py:428
+msgid "ViewCube"
+msgstr ""
+
+#: max_menus.py:974 max_menus.py:429
+msgid "SteeringWheels"
+msgstr ""
+
+#: max_menus.py:978
+msgid "Create Preview"
+msgstr ""
+
+#: max_menus.py:979 max_menus.py:348
+msgid "Capture Still Image..."
+msgstr ""
+
+#: max_menus.py:980 max_menus.py:347
+msgid "Create Preview Animation..."
+msgstr ""
+
+#: max_menus.py:982 max_menus.py:350
+msgid "Play Preview Animation..."
+msgstr ""
+
+#: max_menus.py:983 max_menus.py:351
+msgid "Save Preview Animation As..."
+msgstr ""
+
+#: max_menus.py:986
+msgid "Configure Viewports..."
+msgstr ""
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Float Viewport"
+msgstr ""
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Floating Viewport - 2"
+msgstr ""
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Floating Viewport - 3"
+msgstr ""
+
+#: max_menus.py:1007 max_menus.py:426 max_menus.py:423
+msgid "Restore Active View"
+msgstr ""
+
+#: max_menus.py:1008 max_menus.py:425 max_menus.py:422
+msgid "Save Active View"
+msgstr ""
+
+#: max_menus.py:1010
+msgid "Extended Viewports"
+msgstr ""
+
+#: max_menus.py:1011
+msgid "Track View"
+msgstr ""
+
+#: max_menus.py:1015
+msgid "Saved Trackview 1"
+msgstr ""
+
+#: max_menus.py:1015
+msgid "Saved Trackview 2"
+msgstr ""
+
+#: max_menus.py:1015
+msgid "Saved Trackview 3"
+msgstr ""
+
+#: max_menus.py:1015
+msgid "Saved Trackview 4"
+msgstr ""
+
+#: max_menus.py:1016
+msgid "Saved Trackview 5"
+msgstr ""
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 1"
+msgstr ""
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 2"
+msgstr ""
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 3"
+msgstr ""
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 4"
+msgstr ""
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 5"
+msgstr ""
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 6"
+msgstr ""
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 7"
+msgstr ""
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 8"
+msgstr ""
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 9"
+msgstr ""
+
+#: max_menus.py:1025
+msgid "Viewport Scene Explorer 10"
+msgstr ""
+
+#: max_menus.py:1025 surfaces.py:1427
+msgid "More..."
+msgstr ""
+
+#: max_menus.py:1031
+msgid "Schematic View Save 1"
+msgstr ""
+
+#: max_menus.py:1031
+msgid "Schematic View Save 2"
+msgstr ""
+
+#: max_menus.py:1031
+msgid "Schematic View Save 3"
+msgstr ""
+
+#: max_menus.py:1032
+msgid "Schematic View Save 4"
+msgstr ""
+
+#: max_menus.py:1032
+msgid "Schematic View Save 5"
+msgstr ""
+
+#: max_menus.py:1035
+msgid "Display Planes"
+msgstr ""
+
+#: max_menus.py:1036 operators.py:910
+msgid "Shape"
+msgstr ""
+
+#: max_menus.py:1039
+msgid "Extended Views 1"
+msgstr ""
+
+#: max_menus.py:1039
+msgid "Extended Views 2"
+msgstr ""
+
+#: max_menus.py:1039
+msgid "Extended Views 3"
+msgstr ""
+
+#: max_menus.py:1039
+msgid "Extended Views 4"
+msgstr ""
+
+#: max_menus.py:1039
+msgid "Extended Views 5"
+msgstr ""
+
+#: max_menus.py:1040
+msgid "Extended Views 6"
+msgstr ""
+
+#: max_menus.py:1040
+msgid "Extended Views 7"
+msgstr ""
+
+#: max_menus.py:1040
+msgid "Extended Views 8"
+msgstr ""
+
+#: max_menus.py:1040
+msgid "Extended Views 9"
+msgstr ""
+
+#: max_menus.py:1041
+msgid "Extended Views 10"
+msgstr ""
+
+#: max_menus.py:1044
+msgid "Show Safe Frames"
+msgstr ""
+
+#: max_menus.py:1046
+msgid "Viewport Clipping"
+msgstr ""
+
+#: max_menus.py:1046
+msgid "Select Viewport Node"
+msgstr ""
+
+#: max_menus.py:1046
+msgid "Select Viewport Node Target"
+msgstr ""
+
+#: max_menus.py:1048
+msgid "Undo Viewport Operation"
+msgstr ""
+
+#: max_menus.py:1049
+msgid "Redo Viewport Operation"
+msgstr ""
+
+#: max_menus.py:1054
+msgid "Performance"
+msgstr ""
+
+#: max_menus.py:1055
+msgid "DX Mode"
+msgstr ""
+
+#: max_menus.py:1056
+msgid "User Defined"
+msgstr ""
+
+#: max_menus.py:1058
+msgid "Lighting and Shadows"
+msgstr ""
+
+#: max_menus.py:1059
+msgid "Illuminate with Default Lights"
+msgstr ""
+
+#: max_menus.py:1060
+msgid "Illuminate with Scene Lights"
+msgstr ""
+
+#: max_menus.py:1061
+msgid "Scene Lights Control"
+msgstr ""
+
+#: max_menus.py:1067
+msgid "Progressive Skylight"
+msgstr ""
+
+#: max_menus.py:1068 quad.py:125 utility_editors.py:719
+msgid "Shadows"
+msgstr ""
+
+#: max_menus.py:1072
+msgid "Viewports Configuration"
+msgstr ""
+
+#: max_menus.py:1073 max_menus.py:408
+msgid "Active Viewport Settings"
+msgstr ""
+
+#: max_menus.py:1077
+msgid "Facets"
+msgstr ""
+
+#: max_menus.py:1078
+msgid "Bounding Box"
+msgstr ""
+
+#: max_menus.py:1082
+msgid "Model Assist"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Stylized"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Graphite"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Color Pencil"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Ink"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Color Ink"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Acrylic"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Pastel"
+msgstr ""
+
+#: max_menus.py:1083
+msgid "Tech"
+msgstr ""
+
+#: max_menus.py:1088
+msgid "Display Selected"
+msgstr ""
+
+#: max_menus.py:1089
+msgid "Display Selected With Edged Faces"
+msgstr ""
+
+#: max_menus.py:1093 max_menus.py:444
+msgid "Viewport Background"
+msgstr ""
+
+#: max_menus.py:1095
+msgid "Viewport Preferences"
+msgstr ""
+
+#: max_menus.py:1096
+msgid "Viewport Filter"
+msgstr ""
+
+#: max_menus.py:1203
+msgid "Not Available"
+msgstr ""
+
+#: max_menus.py:1250
+msgid "Blender menu %s is not available"
+msgstr ""
+
+#: max_menus.py:1254
+msgid "Needs %s, which is not available"
+msgstr ""
+
+#: max_menus.py:1289
+msgid "Sub %r is used twice; give each place its own Sub"
+msgstr ""
+
+#: max_menus.py:1294
+msgid "Views - General Viewport Label Menu"
+msgstr ""
+
+#: max_menus.py:1294
+msgid "Views - POV Viewport Label Menu"
+msgstr ""
+
+#: max_menus.py:1295
+msgid "Views - Shading Viewport Nitrous Label Menu"
+msgstr ""
+
+#: max_menus.py:1295
+msgid "Views - Viewport Preferences"
+msgstr ""
+
+#: operators.py:41
+msgid "No 3D viewport is open"
+msgstr ""
+
+#: operators.py:49
+msgid "Switch Environment"
+msgstr ""
+
+#: operators.py:50
+msgid "Switch between the original Blender workspace and MaxFlow"
+msgstr ""
+
+#: operators.py:92
+msgid "Select Transform Tool"
+msgstr ""
+
+#: operators.py:127
+msgid "Viewport Direction"
+msgstr ""
+
+#: operators.py:141
+msgid "No cameras in scene"
+msgstr ""
+
+#: operators.py:157
+msgid "View Through Object"
+msgstr ""
+
+#: operators.py:198
+msgid "No cameras in the scene"
+msgstr ""
+
+#: operators.py:207
+msgid "No spot or directional lights in the scene"
+msgstr ""
+
+#: operators.py:212
+msgid "Viewport Display"
+msgstr ""
+
+#: operators.py:213
+msgid "Wireframe"
+msgstr ""
+
+#: operators.py:368
+msgid "Sub-object Level"
+msgstr ""
+
+#: operators.py:387 params.py:32
+msgid "Primitive"
+msgstr ""
+
+#: operators.py:432 surfaces.py:484
+msgid "ChamferBox"
+msgstr ""
+
+#: operators.py:432 surfaces.py:484
+msgid "ChamferCyl"
+msgstr ""
+
+#: operators.py:435 surfaces.py:504
+msgid "Target Spot"
+msgstr ""
+
+#: operators.py:435 surfaces.py:504
+msgid "Free Spot"
+msgstr ""
+
+#: operators.py:435 surfaces.py:504
+msgid "Target Direct"
+msgstr ""
+
+#: operators.py:436 surfaces.py:505
+msgid "Free Direct"
+msgstr ""
+
+#: operators.py:437 surfaces.py:506
+msgid "Arnold Light"
+msgstr ""
+
+#: operators.py:439 surfaces.py:510
+msgid "Tape"
+msgstr ""
+
+#: operators.py:441
+msgid "Turbulence"
+msgstr ""
+
+#: operators.py:442 scene_ui.py:18 surfaces.py:519
+msgid "Bones"
+msgstr ""
+
+#: operators.py:442 surfaces.py:493
+msgid "CV Surf"
+msgstr ""
+
+#: operators.py:442 surfaces.py:493
+msgid "Point Surf"
+msgstr ""
+
+#: operators.py:548
+msgid "Select an operand object for Boolean"
+msgstr ""
+
+#: operators.py:580
+msgid "Skylight maps to the scene World background (set to white)"
+msgstr ""
+
+#: operators.py:618
+msgid "Bone001"
+msgstr ""
+
+#: operators.py:679
+msgid "Geometry Nodes"
+msgstr ""
+
+#: operators.py:720
+msgid "Return to Object level to apply a modifier"
+msgstr ""
+
+#: operators.py:733 operators.py:748
+msgid "Clone Options"
+msgstr ""
+
+#: operators.py:735
+msgid "Independent object data"
+msgstr ""
+
+#: operators.py:735
+msgid "Shared object data"
+msgstr ""
+
+#: operators.py:736
+msgid "Shared object data (Blender has no one-way references)"
+msgstr ""
+
+#: operators.py:739
+msgid "Number of Copies"
+msgstr ""
+
+#: operators.py:744
+msgid "Select objects to clone"
+msgstr ""
+
+#: operators.py:762
+msgid "Select objects at Object level"
+msgstr ""
+
+#: operators.py:806
+msgid "Open Editor"
+msgstr ""
+
+#: operators.py:811
+msgid "Floating Window"
+msgstr ""
+
+#: operators.py:841
+msgid "MaxFlow Shortcut Reference"
+msgstr ""
+
+#: operators.py:856
+msgid "MMB pan · Alt+MMB orbit · Ctrl+Alt+MMB zoom · Wheel zoom · Right-click quad menu"
+msgstr ""
+
+#: operators.py:861 quad.py:344
+msgid "Quad Menu"
+msgstr ""
+
+#: operators.py:964
+msgid "Unify Normals"
+msgstr ""
+
+#: operators.py:966 utility_editors.py:528
+msgid "Unwrap"
+msgstr ""
+
+#: operators.py:971
+msgid "Editable Poly Command"
+msgstr ""
+
+#: operators.py:974
+msgid "Confirm on Release"
+msgstr ""
+
+#: operators.py:974
+msgid "Set the amount when the mouse button is released (dragging from the command); otherwise the next click sets it"
+msgstr ""
+
+#: operators.py:999
+msgid "Choose a sub-object level first (1-5)"
+msgstr ""
+
+#: params.py:33
+msgid "Length"
+msgstr ""
+
+#: params.py:34
+msgid "Width"
+msgstr ""
+
+#: params.py:35
+msgid "Height"
+msgstr ""
+
+#: params.py:36
+msgid "Depth"
+msgstr ""
+
+#: params.py:37
+msgid "Radius"
+msgstr ""
+
+#: params.py:38
+msgid "Radius 1"
+msgstr ""
+
+#: params.py:39
+msgid "Radius 2"
+msgstr ""
+
+#: params.py:40
+msgid "Length Segs"
+msgstr ""
+
+#: params.py:41
+msgid "Width Segs"
+msgstr ""
+
+#: params.py:42
+msgid "Height Segs"
+msgstr ""
+
+#: params.py:43
+msgid "Depth Segs"
+msgstr ""
+
+#: params.py:44
+msgid "Cap Segments"
+msgstr ""
+
+#: params.py:45 params.py:51
+msgid "Sides"
+msgstr ""
+
+#: params.py:46 params.py:47 params.py:48 params.py:52
+msgid "Segments"
+msgstr ""
+
+#: params.py:51
+msgid "Smooth the whole torus"
+msgstr ""
+
+#: params.py:51
+msgid "Smooth bands running around the torus"
+msgstr ""
+
+#: params.py:52
+msgid "Faceted torus"
+msgstr ""
+
+#: params.py:52
+msgid "Smooth each segment as a ring"
+msgstr ""
+
+#: params.py:54 params.py:96
+msgid "Squash"
+msgstr ""
+
+#: params.py:55 params.py:53 params.py:98
+msgid "Hemisphere"
+msgstr ""
+
+#: params.py:56 params.py:97
+msgid "Geodesic Base Type"
+msgstr ""
+
+#: params.py:57
+msgid "Tetra"
+msgstr ""
+
+#: params.py:57
+msgid "Tetrahedron base"
+msgstr ""
+
+#: params.py:57
+msgid "Octa"
+msgstr ""
+
+#: params.py:57
+msgid "Octahedron base"
+msgstr ""
+
+#: params.py:57
+msgid "Icosa"
+msgstr ""
+
+#: params.py:57
+msgid "Icosahedron base"
+msgstr ""
+
+#: params.py:58 params.py:88
+msgid "Slice On"
+msgstr ""
+
+#: params.py:59
+msgid "Slice From"
+msgstr ""
+
+#: params.py:60
+msgid "Slice To"
+msgstr ""
+
+#: params.py:63 params.py:96
+msgid "Base To Pivot"
+msgstr ""
+
+#: params.py:64 params.py:105
+msgid "Body"
+msgstr ""
+
+#: params.py:65 params.py:105
+msgid "Handle"
+msgstr ""
+
+#: params.py:66 params.py:106
+msgid "Spout"
+msgstr ""
+
+#: params.py:67 params.py:106
+msgid "Lid"
+msgstr ""
+
+#: params.py:68 params.py:89
+msgid "Generate Mapping Coords."
+msgstr ""
+
+#: params.py:69 params.py:89
+msgid "Real-World Map Size"
+msgstr ""
+
+#: params.py:88
+msgid "Slice From:"
+msgstr ""
+
+#: params.py:88
+msgid "Slice To:"
+msgstr ""
+
+#: params.py:90
+msgid "Height Segments:"
+msgstr ""
+
+#: params.py:90
+msgid "Cap Segments:"
+msgstr ""
+
+#: params.py:90 params.py:102 surfaces.py:1167
+msgid "Sides:"
+msgstr ""
+
+#: params.py:92 params.py:107
+msgid "Length Segs:"
+msgstr ""
+
+#: params.py:93 params.py:103 params.py:107
+msgid "Width Segs:"
+msgstr ""
+
+#: params.py:93 params.py:104
+msgid "Height Segs:"
+msgstr ""
+
+#: params.py:95
+msgid "Hemisphere:"
+msgstr ""
+
+#: params.py:97 params.py:105 params.py:102 params.py:95 (+2)
+msgid "Segments:"
+msgstr ""
+
+#: params.py:98
+msgid "Base to Pivot"
+msgstr ""
+
+#: params.py:101
+msgid "Rotation:"
+msgstr ""
+
+#: params.py:101
+msgid "Twist:"
+msgstr ""
+
+#: params.py:104
+msgid "Depth Segs:"
+msgstr ""
+
+#: params.py:110 params.py:119 params.py:92 params.py:107
+msgid "Length:"
+msgstr ""
+
+#: params.py:110 params.py:117 params.py:119 params.py:92 (+3)
+msgid "Width:"
+msgstr ""
+
+#: params.py:110 params.py:111 params.py:114 params.py:115 (+7)
+msgid "Height:"
+msgstr ""
+
+#: params.py:111 params.py:101 params.py:94 params.py:100
+msgid "Radius 1:"
+msgstr ""
+
+#: params.py:111 params.py:101 params.py:94 params.py:100
+msgid "Radius 2:"
+msgstr ""
+
+#: params.py:112 params.py:113 params.py:114 params.py:118 (+4)
+msgid "Radius:"
+msgstr ""
+
+#: params.py:115
+msgid "Inner Radius:"
+msgstr ""
+
+#: params.py:115
+msgid "Outer Radius:"
+msgstr ""
+
+#: params.py:116
+msgid "Major Radius:"
+msgstr ""
+
+#: params.py:116
+msgid "Minor Radius:"
+msgstr ""
+
+#: params.py:117 params.py:103
+msgid "Depth:"
+msgstr ""
+
+#: params.py:122 runtime.py:366 runtime.py:390
+msgid "Cube"
+msgstr ""
+
+#: params.py:122
+msgid "Diameter"
+msgstr ""
+
+#: params.py:123
+msgid "Base/Apex"
+msgstr ""
+
+#: params.py:123
+msgid "Square"
+msgstr ""
+
+#: preferences.py:13
+msgid "Start in MaxFlow"
+msgstr ""
+
+#: preferences.py:14
+msgid "Max gray colors"
+msgstr ""
+
+#: preferences.py:15
+msgid "Temporarily apply original gray UI colors; restore the previous colors on exit"
+msgstr ""
+
+#: preferences.py:17
+msgid "Custom Splash Image"
+msgstr ""
+
+#: preferences.py:18
+msgid "PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's own splash is 1000 x 500 px; the version number is drawn at the top right"
+msgstr ""
+
+#: preferences.py:25
+msgid "MaxFlow · 0.8.3 development preview"
+msgstr ""
+
+#: preferences.py:33
+msgid "Switch back to Blender before changing the color option."
+msgstr ""
+
+#: preferences.py:37
+msgid "Splash: 1000 x 500 px like the original; used at startup while Max mode is on."
+msgstr ""
+
+#: preferences.py:38
+msgid "Materials, modifiers and animation use Blender data."
+msgstr ""
+
+#: quad.py:61
+msgid "Show Motion Paths"
+msgstr ""
+
+#: quad.py:62 quad.py:62
+msgid "Manage State Sets..."
+msgstr ""
+
+#: quad.py:62
+msgid "State Sets"
+msgstr ""
+
+#: quad.py:65
+msgid "Unhide by Name"
+msgstr ""
+
+#: quad.py:66 scene_ui.py:228 toolbar.py:14
+msgid "Freeze Selection"
+msgstr ""
+
+#: quad.py:74
+msgid "Convert to Editable Spline"
+msgstr ""
+
+#: quad.py:75
+msgid "Convert to Editable Mesh"
+msgstr ""
+
+#: quad.py:76
+msgid "Convert to Editable Poly"
+msgstr ""
+
+#: quad.py:77
+msgid "Convert to Deformable gPoly"
+msgstr ""
+
+#: quad.py:77
+msgid "Convert to Editable Patch"
+msgstr ""
+
+#: quad.py:77
+msgid "Convert to NURBS"
+msgstr ""
+
+#: quad.py:86
+msgid "Snap Pivot"
+msgstr ""
+
+#: quad.py:86
+msgid "Pivot to Bounding Box"
+msgstr ""
+
+#: quad.py:87
+msgid "Pivot to Working Pivot"
+msgstr ""
+
+#: quad.py:90 surfaces.py:412
+msgid "Curve Editor..."
+msgstr ""
+
+#: quad.py:90
+msgid "Dope Sheet..."
+msgstr ""
+
+#: quad.py:91
+msgid "Convert To:"
+msgstr ""
+
+#: quad.py:95
+msgid "Sub-objects"
+msgstr ""
+
+#: quad.py:95
+msgid "Top-level"
+msgstr ""
+
+#: quad.py:99
+msgid "Convert to Vertex"
+msgstr ""
+
+#: quad.py:100
+msgid "Convert to Edge"
+msgstr ""
+
+#: quad.py:101
+msgid "Convert to Face"
+msgstr ""
+
+#: quad.py:103
+msgid "Quickslice"
+msgstr ""
+
+#: quad.py:106
+msgid "NURMS Toggle"
+msgstr ""
+
+#: quad.py:113 quad.py:117 surfaces.py:1011 surfaces.py:1012
+msgid "Edit Triangulation"
+msgstr ""
+
+#: quad.py:117
+msgid "Hinge from Edge"
+msgstr ""
+
+#: quad.py:117
+msgid "Extrude along Spline"
+msgstr ""
+
+#: quad.py:117
+msgid "Flip Normals"
+msgstr ""
+
+#: quad.py:124
+msgid "Light On"
+msgstr ""
+
+#: quad.py:124
+msgid "Light Off"
+msgstr ""
+
+#: quad.py:127
+msgid "Select Target"
+msgstr ""
+
+#: quad.py:129
+msgid "Set Active Camera"
+msgstr ""
+
+#: quad.py:170 surfaces.py:75
+msgid "Fonts"
+msgstr ""
+
+#: quad.py:170 surfaces.py:75
+msgid "C:/Windows"
+msgstr ""
+
+#: quad.py:432
+msgid "Choose the transform and open its Type-In dialog, like the option box in Max"
+msgstr ""
+
+#: quad.py:442 quad.py:106 surfaces.py:1090
+msgid "Ignore Backfacing"
+msgstr ""
+
+#: quad.py:451
+msgid "Light On/Off"
+msgstr ""
+
+#: runtime.py:18
+msgid "Blender Studio Max"
+msgstr ""
+
+#: runtime.py:18
+msgid "Blender Max"
+msgstr ""
+
+#: runtime.py:150
+msgid "MaxFlow: invalid theme recovery data; snapshot retained"
+msgstr ""
+
+#: runtime.py:452
+msgid "The MaxFlow workspace could not be appended"
+msgstr ""
+
+#: runtime.py:477 runtime.py:482
+msgid "Layout"
+msgstr ""
+
+#: runtime.py:576
+msgid "MaxFlow switch failed:"
+msgstr ""
+
+#: scene_ui.py:19
+msgid "Other Objects"
+msgstr ""
+
+#: scene_ui.py:20
+msgid "Type"
+msgstr ""
+
+#: scene_ui.py:21
+msgid "Frozen"
+msgstr ""
+
+#: scene_ui.py:21
+msgid "Hidden"
+msgstr ""
+
+#: scene_ui.py:21
+msgid "Renderable"
+msgstr ""
+
+#: scene_ui.py:169
+msgid "Scene Explorer Property"
+msgstr ""
+
+#: scene_ui.py:196
+msgid "Scene Explorer Link"
+msgstr ""
+
+#: scene_ui.py:224
+msgid "Select Parents"
+msgstr ""
+
+#: scene_ui.py:224 scene_ui.py:234
+msgid "Find Selected Object"
+msgstr ""
+
+#: scene_ui.py:225
+msgid "Display All Types"
+msgstr ""
+
+#: scene_ui.py:225
+msgid "Display No Types"
+msgstr ""
+
+#: scene_ui.py:226
+msgid "Invert Object Filters"
+msgstr ""
+
+#: scene_ui.py:226
+msgid "Show Hidden Objects"
+msgstr ""
+
+#: scene_ui.py:227
+msgid "Show Frozen Objects"
+msgstr ""
+
+#: scene_ui.py:230 ui.py:145
+msgid "Rename..."
+msgstr ""
+
+#: scene_ui.py:230
+msgid "Delete Selection"
+msgstr ""
+
+#: scene_ui.py:231 surfaces.py:368 toolbar.py:9
+msgid "Unlink Selection"
+msgstr ""
+
+#: scene_ui.py:232
+msgid "Sort By Hierarchy"
+msgstr ""
+
+#: scene_ui.py:232
+msgid "Sort By Layer"
+msgstr ""
+
+#: scene_ui.py:245 scene_ui.py:225 surfaces.py:1864 surfaces.py:569 (+4)
+msgid "Display"
+msgstr ""
+
+#: scene_ui.py:247
+msgid "Search:"
+msgstr ""
+
+#: scene_ui.py:298
+msgid "Ctrl: add/remove    Shift: range    Drag name: link to parent"
+msgstr ""
+
+#: scene_ui.py:304
+msgid "Scroll Objects"
+msgstr ""
+
+#: scene_ui.py:350
+msgid "Scene Explorer Display"
+msgstr ""
+
+#: scene_ui.py:375
+msgid "Delete Objects"
+msgstr ""
+
+#: scene_ui.py:455
+msgid "Search Scene Explorer"
+msgstr ""
+
+#: scene_ui.py:456
+msgid "Name or Layer"
+msgstr ""
+
+#: scene_ui.py:468
+msgid "Rename Object"
+msgstr ""
+
+#: scene_ui.py:475
+msgid "Select an editable object"
+msgstr ""
+
+#: surfaces.py:41 surfaces.py:626 ui.py:39
+msgid "Keyboard Entry"
+msgstr ""
+
+#: surfaces.py:41 surfaces.py:1100
+msgid "Soft Selection"
+msgstr ""
+
+#: surfaces.py:41 surfaces.py:1137
+msgid "Subdivision Surface"
+msgstr ""
+
+#: surfaces.py:41 surfaces.py:1129
+msgid "Polygon: Smoothing Groups"
+msgstr ""
+
+#: surfaces.py:42 utility_editors.py:685 utility_editors.py:688
+msgid "Email Notifications"
+msgstr ""
+
+#: surfaces.py:42 utility_editors.py:685 utility_editors.py:690
+msgid "Scripts"
+msgstr ""
+
+#: surfaces.py:42 utility_editors.py:685
+msgid "Assign Renderer"
+msgstr ""
+
+#: surfaces.py:104
+msgid "Off"
+msgstr ""
+
+#: surfaces.py:263
+msgid "Drag to change; right-click resets"
+msgstr ""
+
+#: surfaces.py:292 ui.py:18
+msgid "Search All Objects"
+msgstr ""
+
+#: surfaces.py:367
+msgid "Select and Link"
+msgstr ""
+
+#: surfaces.py:369
+msgid "Bind to Space Warp"
+msgstr ""
+
+#: surfaces.py:372
+msgid "Select Object (Q)"
+msgstr ""
+
+#: surfaces.py:373
+msgid "Select by Name (H)"
+msgstr ""
+
+#: surfaces.py:375
+msgid "Window/Crossing (Shift+O)"
+msgstr ""
+
+#: surfaces.py:378
+msgid "Select and Move (W)"
+msgstr ""
+
+#: surfaces.py:379
+msgid "Select and Rotate (E)"
+msgstr ""
+
+#: surfaces.py:380
+msgid "Select and Uniform Scale (R)"
+msgstr ""
+
+#: surfaces.py:381
+msgid "Select and Place (Y)"
+msgstr ""
+
+#: surfaces.py:385 ui.py:57
+msgid "Select and Manipulate"
+msgstr ""
+
+#: surfaces.py:389
+msgid "Snaps Toggle (S)"
+msgstr ""
+
+#: surfaces.py:390
+msgid "Angle Snap Toggle (A)"
+msgstr ""
+
+#: surfaces.py:392
+msgid "Spinner Snap Toggle"
+msgstr ""
+
+#: surfaces.py:399 toolbar.py:104
+msgid "Create Selection Set"
+msgstr ""
+
+#: surfaces.py:406
+msgid "Align... (Alt+A)"
+msgstr ""
+
+#: surfaces.py:408
+msgid "Toggle Scene Explorer"
+msgstr ""
+
+#: surfaces.py:409
+msgid "Toggle Layer Explorer"
+msgstr ""
+
+#: surfaces.py:411
+msgid "Toggle Ribbon"
+msgstr ""
+
+#: surfaces.py:413
+msgid "Schematic View (Open)"
+msgstr ""
+
+#: surfaces.py:417
+msgid "Compact Material Editor (M)"
+msgstr ""
+
+#: surfaces.py:417
+msgid "Slate Material Editor (M)"
+msgstr ""
+
+#: surfaces.py:419
+msgid "Render Setup... (F10)"
+msgstr ""
+
+#: surfaces.py:420 utility_editors.py:680
+msgid "Rendered Frame Window"
+msgstr ""
+
+#: surfaces.py:422
+msgid "Render Production (Shift+Q)"
+msgstr ""
+
+#: surfaces.py:428
+msgid "Project Folder"
+msgstr ""
+
+#: surfaces.py:429
+msgid "Open File..."
+msgstr ""
+
+#: surfaces.py:431
+msgid "New Scene"
+msgstr ""
+
+#: surfaces.py:432
+msgid "Project Settings"
+msgstr ""
+
+#: surfaces.py:441
+msgid "Arnold RenderView → Render Result"
+msgstr ""
+
+#: surfaces.py:442
+msgid "Render in Arnold Render View → Render active view"
+msgstr ""
+
+#: surfaces.py:443
+msgid "IPR → Rendered viewport shading"
+msgstr ""
+
+#: surfaces.py:444
+msgid "Flow Render (cloud; not available)"
+msgstr ""
+
+#: surfaces.py:445
+msgid "Flow Render Monitor (not available)"
+msgstr ""
+
+#: surfaces.py:446
+msgid "Enable Denoiser(s)"
+msgstr ""
+
+#: surfaces.py:448
+msgid "Arnold Light → Area light"
+msgstr ""
+
+#: surfaces.py:450
+msgid "Arnold Alembic → Import Alembic"
+msgstr ""
+
+#: surfaces.py:451
+msgid "Arnold Volume → Import OpenVDB"
+msgstr ""
+
+#: surfaces.py:453
+msgid "Bake Selected Geometries → Snapshot mesh"
+msgstr ""
+
+#: surfaces.py:454
+msgid "Add Arnold Properties Modifier → Object Properties"
+msgstr ""
+
+#: surfaces.py:456
+msgid "Arbitrary Output Variables (AOVs) → Render passes"
+msgstr ""
+
+#: surfaces.py:457
+msgid "AOV Light Group Manager → Light groups"
+msgstr ""
+
+#: surfaces.py:458
+msgid "Operator Graph (not available)"
+msgstr ""
+
+#: surfaces.py:485
+msgid "OilTank"
+msgstr ""
+
+#: surfaces.py:485
+msgid "L-Ext"
+msgstr ""
+
+#: surfaces.py:486
+msgid "C-Ext"
+msgstr ""
+
+#: surfaces.py:487
+msgid "Compound Objects"
+msgstr ""
+
+#: surfaces.py:490
+msgid "PF Source"
+msgstr ""
+
+#: surfaces.py:493
+msgid "NURBS Surfaces"
+msgstr ""
+
+#: surfaces.py:496
+msgid "Splines"
+msgstr ""
+
+#: surfaces.py:499
+msgid "NURBS Curves"
+msgstr ""
+
+#: surfaces.py:500
+msgid "Extended Splines"
+msgstr ""
+
+#: surfaces.py:503
+msgid "Photometric"
+msgstr ""
+
+#: surfaces.py:506
+msgid "Arnold"
+msgstr ""
+
+#: surfaces.py:508
+msgid "Physical"
+msgstr ""
+
+#: surfaces.py:508
+msgid "Free"
+msgstr ""
+
+#: surfaces.py:509
+msgid "ExposeTm"
+msgstr ""
+
+#: surfaces.py:515
+msgid "PDynaFlect"
+msgstr ""
+
+#: surfaces.py:519
+msgid "Ring Array"
+msgstr ""
+
+#: surfaces.py:519
+msgid "Sunlight"
+msgstr ""
+
+#: surfaces.py:519
+msgid "Daylight"
+msgstr ""
+
+#: surfaces.py:522 surfaces.py:1319 ui.py:33
+msgid "Space Warps"
+msgstr ""
+
+#: surfaces.py:567 ui.py:25
+msgid "Modify"
+msgstr ""
+
+#: surfaces.py:568 ui.py:26
+msgid "Hierarchy"
+msgstr ""
+
+#: surfaces.py:568 ui.py:27
+msgid "Motion"
+msgstr ""
+
+#: surfaces.py:574
+msgid "Search All Objects..."
+msgstr ""
+
+#: surfaces.py:580
+msgid "Name and Color"
+msgstr ""
+
+#: surfaces.py:600
+msgid "Object Type"
+msgstr ""
+
+#: surfaces.py:602 ui.py:35
+msgid "AutoGrid"
+msgstr ""
+
+#: surfaces.py:609
+msgid "No tools in this category"
+msgstr ""
+
+#: surfaces.py:619
+msgid "Creation Method"
+msgstr ""
+
+#: surfaces.py:698
+msgid "Intensity/Color/Attenuation"
+msgstr ""
+
+#: surfaces.py:700
+msgid "Multiplier:"
+msgstr ""
+
+#: surfaces.py:701
+msgid "Color:"
+msgstr ""
+
+#: surfaces.py:703
+msgid "Light Color"
+msgstr ""
+
+#: surfaces.py:710
+msgid "Lens:"
+msgstr ""
+
+#: surfaces.py:711
+msgid "FOV:"
+msgstr ""
+
+#: surfaces.py:712
+msgid "Orthographic Projection"
+msgstr ""
+
+#: surfaces.py:714
+msgid "Near Clip:"
+msgstr ""
+
+#: surfaces.py:733
+msgid "Editable Poly"
+msgstr ""
+
+#: surfaces.py:733
+msgid "Editable Spline"
+msgstr ""
+
+#: surfaces.py:733
+msgid "NURBS Surface"
+msgstr ""
+
+#: surfaces.py:734
+msgid "Omni Light"
+msgstr ""
+
+#: surfaces.py:734
+msgid "Spot Light"
+msgstr ""
+
+#: surfaces.py:734
+msgid "Direct Light"
+msgstr ""
+
+#: surfaces.py:734
+msgid "Area Light"
+msgstr ""
+
+#: surfaces.py:735
+msgid "Helper"
+msgstr ""
+
+#: surfaces.py:736
+msgid "FFD Lattice"
+msgstr ""
+
+#: surfaces.py:815
+msgid "Turn modifier on/off"
+msgstr ""
+
+#: surfaces.py:820 surfaces.py:825
+msgid "Expand sub-object levels"
+msgstr ""
+
+#: surfaces.py:831 ui.py:42
+msgid "Pin Stack"
+msgstr ""
+
+#: surfaces.py:832
+msgid "Show end result on/off toggle"
+msgstr ""
+
+#: surfaces.py:833
+msgid "Make unique"
+msgstr ""
+
+#: surfaces.py:834
+msgid "Remove modifier from the stack"
+msgstr ""
+
+#: surfaces.py:853
+msgid "Text:"
+msgstr ""
+
+#: surfaces.py:855 surfaces.py:720
+msgid "Size:"
+msgstr ""
+
+#: surfaces.py:856
+msgid "Tracking:"
+msgstr ""
+
+#: surfaces.py:907 surfaces.py:913 surfaces.py:1141
+msgid "Iterations:"
+msgstr ""
+
+#: surfaces.py:907
+msgid "Render Iters:"
+msgstr ""
+
+#: surfaces.py:907
+msgid "Quality:"
+msgstr ""
+
+#: surfaces.py:907
+msgid "Smooth Result"
+msgstr ""
+
+#: surfaces.py:908 surfaces.py:909 surfaces.py:912
+msgid "Amount:"
+msgstr ""
+
+#: surfaces.py:908
+msgid "Tension:"
+msgstr ""
+
+#: surfaces.py:908 surfaces.py:912
+msgid "Angle:"
+msgstr ""
+
+#: surfaces.py:908 surfaces.py:912
+msgid "Limit Effect"
+msgstr ""
+
+#: surfaces.py:909
+msgid "Offset:"
+msgstr ""
+
+#: surfaces.py:909
+msgid "Even"
+msgstr ""
+
+#: surfaces.py:909
+msgid "Straighten Corners"
+msgstr ""
+
+#: surfaces.py:910
+msgid "Slice Along Mirror"
+msgstr ""
+
+#: surfaces.py:910
+msgid "Weld Seam"
+msgstr ""
+
+#: surfaces.py:910 surfaces.py:918
+msgid "Threshold:"
+msgstr ""
+
+#: surfaces.py:911
+msgid "Count:"
+msgstr ""
+
+#: surfaces.py:912
+msgid "Axis"
+msgstr ""
+
+#: surfaces.py:913
+msgid "Relax Value:"
+msgstr ""
+
+#: surfaces.py:914
+msgid "Vertex %:"
+msgstr ""
+
+#: surfaces.py:915 surfaces.py:919
+msgid "Strength:"
+msgstr ""
+
+#: surfaces.py:915
+msgid "Center:"
+msgstr ""
+
+#: surfaces.py:915 surfaces.py:923
+msgid "Direction"
+msgstr ""
+
+#: surfaces.py:916
+msgid "Amplitude:"
+msgstr ""
+
+#: surfaces.py:916
+msgid "Wave Length:"
+msgstr ""
+
+#: surfaces.py:916
+msgid "Speed:"
+msgstr ""
+
+#: surfaces.py:916
+msgid "Phase:"
+msgstr ""
+
+#: surfaces.py:917
+msgid "Percent:"
+msgstr ""
+
+#: surfaces.py:920
+msgid "Struts Radius:"
+msgstr ""
+
+#: surfaces.py:920
+msgid "Struts Only"
+msgstr ""
+
+#: surfaces.py:921
+msgid "Operation"
+msgstr ""
+
+#: surfaces.py:921
+msgid "Solver"
+msgstr ""
+
+#: surfaces.py:922
+msgid "Standoff:"
+msgstr ""
+
+#: surfaces.py:923
+msgid "Degrees:"
+msgstr ""
+
+#: surfaces.py:923
+msgid "Weld Core"
+msgstr ""
+
+#: surfaces.py:924
+msgid "Voxel Size:"
+msgstr ""
+
+#: surfaces.py:925
+msgid "Quad Method"
+msgstr ""
+
+#: surfaces.py:926
+msgid "Weight:"
+msgstr ""
+
+#: surfaces.py:926
+msgid "Weighting"
+msgstr ""
+
+#: surfaces.py:982
+msgid "Object:"
+msgstr ""
+
+#: surfaces.py:982 utility_editors.py:774
+msgid "Target:"
+msgstr ""
+
+#: surfaces.py:985
+msgid "More Parameters..."
+msgstr ""
+
+#: surfaces.py:1000
+msgid "Edit Vertices"
+msgstr ""
+
+#: surfaces.py:1002
+msgid "Remove Isolated Vertices"
+msgstr ""
+
+#: surfaces.py:1003
+msgid "Edit Edges"
+msgstr ""
+
+#: surfaces.py:1005 surfaces.py:1008
+msgid "Create Shape From Selection"
+msgstr ""
+
+#: surfaces.py:1007
+msgid "Edit Borders"
+msgstr ""
+
+#: surfaces.py:1009
+msgid "Edit Polygons"
+msgstr ""
+
+#: surfaces.py:1010
+msgid "Hinge From Edge"
+msgstr ""
+
+#: surfaces.py:1011
+msgid "Extrude Along Spline"
+msgstr ""
+
+#: surfaces.py:1012
+msgid "Edit Elements"
+msgstr ""
+
+#: surfaces.py:1014
+msgid "Repeat Last"
+msgstr ""
+
+#: surfaces.py:1015
+msgid "MSmooth"
+msgstr ""
+
+#: surfaces.py:1016
+msgid "View Align"
+msgstr ""
+
+#: surfaces.py:1016
+msgid "Grid Align"
+msgstr ""
+
+#: surfaces.py:1018
+msgid "Delete Isolated Vertices"
+msgstr ""
+
+#: surfaces.py:1023
+msgid "Whole Object Selected"
+msgstr ""
+
+#: surfaces.py:1078
+msgid "Edit Poly Mode"
+msgstr ""
+
+#: surfaces.py:1080
+msgid "Moves stay in this modifier and"
+msgstr ""
+
+#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1043
+msgid "Selection"
+msgstr ""
+
+#: surfaces.py:1092
+msgid "By Angle:"
+msgstr ""
+
+#: surfaces.py:1103
+msgid "Falloff:"
+msgstr ""
+
+#: surfaces.py:1115
+msgid "Edit Geometry"
+msgstr ""
+
+#: surfaces.py:1121
+msgid "Polygon: Material IDs"
+msgstr ""
+
+#: surfaces.py:1123
+msgid "Set ID:"
+msgstr ""
+
+#: surfaces.py:1132
+msgid "Auto Smooth"
+msgstr ""
+
+#: surfaces.py:1133
+msgid "Clear All"
+msgstr ""
+
+#: surfaces.py:1139
+msgid "Use NURMS Subdivision"
+msgstr ""
+
+#: surfaces.py:1164
+msgid "Enable In Viewport"
+msgstr ""
+
+#: surfaces.py:1166
+msgid "Thickness:"
+msgstr ""
+
+#: surfaces.py:1172
+msgid "Steps:"
+msgstr ""
+
+#: surfaces.py:1189 ui.py:68
+msgid "Pivot"
+msgstr ""
+
+#: surfaces.py:1189 ui.py:68
+msgid "Link Info"
+msgstr ""
+
+#: surfaces.py:1191
+msgid "Adjust Pivot"
+msgstr ""
+
+#: surfaces.py:1193
+msgid "Move/Rotate/Scale:"
+msgstr ""
+
+#: surfaces.py:1195
+msgid "Affect Object Only"
+msgstr ""
+
+#: surfaces.py:1196
+msgid "Affect Hierarchy Only"
+msgstr ""
+
+#: surfaces.py:1197
+msgid "Alignment:"
+msgstr ""
+
+#: surfaces.py:1198 toolbar.py:11
+msgid "Center to Object"
+msgstr ""
+
+#: surfaces.py:1199 toolbar.py:11
+msgid "Align to World"
+msgstr ""
+
+#: surfaces.py:1200 toolbar.py:11
+msgid "Reset Pivot"
+msgstr ""
+
+#: surfaces.py:1203
+msgid "Working Pivot"
+msgstr ""
+
+#: surfaces.py:1206
+msgid "Edit Working Pivot"
+msgstr ""
+
+#: surfaces.py:1207
+msgid "Use Working Pivot"
+msgstr ""
+
+#: surfaces.py:1208
+msgid "Align To View"
+msgstr ""
+
+#: surfaces.py:1210
+msgid "Place Pivot To: Surface"
+msgstr ""
+
+#: surfaces.py:1213
+msgid "Adjust Transform"
+msgstr ""
+
+#: surfaces.py:1215
+msgid "Don't Affect Children"
+msgstr ""
+
+#: surfaces.py:1216
+msgid "Reset:"
+msgstr ""
+
+#: surfaces.py:1222
+msgid "Inverse Kinematics"
+msgstr ""
+
+#: surfaces.py:1224
+msgid "Interactive IK"
+msgstr ""
+
+#: surfaces.py:1224
+msgid "Apply IK"
+msgstr ""
+
+#: surfaces.py:1224
+msgid "Apply Only To Keys"
+msgstr ""
+
+#: surfaces.py:1228
+msgid "Locks"
+msgstr ""
+
+#: surfaces.py:1236
+msgid "Inherit"
+msgstr ""
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Move:"
+msgstr ""
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Rotate:"
+msgstr ""
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Scale:"
+msgstr ""
+
+#: surfaces.py:1247
+msgid "Euler XYZ"
+msgstr ""
+
+#: surfaces.py:1247
+msgid "Euler XZY"
+msgstr ""
+
+#: surfaces.py:1247
+msgid "Euler YXZ"
+msgstr ""
+
+#: surfaces.py:1247
+msgid "Euler YZX"
+msgstr ""
+
+#: surfaces.py:1247
+msgid "Euler ZXY"
+msgstr ""
+
+#: surfaces.py:1248
+msgid "Euler ZYX"
+msgstr ""
+
+#: surfaces.py:1258
+msgid "Assign Controller"
+msgstr ""
+
+#: surfaces.py:1260
+msgid "Transform : Position/Rotation/Scale"
+msgstr ""
+
+#: surfaces.py:1261
+msgid "Position : Position XYZ"
+msgstr ""
+
+#: surfaces.py:1263
+msgid "Assign Rotation Controller"
+msgstr ""
+
+#: surfaces.py:1264
+msgid "Scale : Bezier Scale"
+msgstr ""
+
+#: surfaces.py:1267
+msgid "PRS Parameters"
+msgstr ""
+
+#: surfaces.py:1270 trackbar.py:157
+msgid "Create Key"
+msgstr ""
+
+#: surfaces.py:1271
+msgid "Delete Key"
+msgstr ""
+
+#: surfaces.py:1277
+msgid "Key Info (Basic)"
+msgstr ""
+
+#: surfaces.py:1279
+msgid "Time:"
+msgstr ""
+
+#: surfaces.py:1283
+msgid "In/Out: Interpolation..."
+msgstr ""
+
+#: surfaces.py:1288 surfaces.py:1253 ui.py:69
+msgid "Motion Paths"
+msgstr ""
+
+#: surfaces.py:1290
+msgid "Hide Motion Path"
+msgstr ""
+
+#: surfaces.py:1290
+msgid "Show Motion Path"
+msgstr ""
+
+#: surfaces.py:1292
+msgid "Start Time:"
+msgstr ""
+
+#: surfaces.py:1293
+msgid "End Time:"
+msgstr ""
+
+#: surfaces.py:1294
+msgid "Samples:"
+msgstr ""
+
+#: surfaces.py:1320 surfaces.py:490
+msgid "Particle Systems"
+msgstr ""
+
+#: surfaces.py:1320
+msgid "Bone Objects"
+msgstr ""
+
+#: surfaces.py:1327
+msgid "Display Color"
+msgstr ""
+
+#: surfaces.py:1330
+msgid "Wireframe:"
+msgstr ""
+
+#: surfaces.py:1332 surfaces.py:1335
+msgid "Material Color"
+msgstr ""
+
+#: surfaces.py:1333
+msgid "Shaded:"
+msgstr ""
+
+#: surfaces.py:1339
+msgid "Hide by Category"
+msgstr ""
+
+#: surfaces.py:1355
+msgid "Hide by Name..."
+msgstr ""
+
+#: surfaces.py:1355
+msgid "Hide by Hit"
+msgstr ""
+
+#: surfaces.py:1356
+msgid "Unhide by Name..."
+msgstr ""
+
+#: surfaces.py:1359 ui.py:70
+msgid "Hide Frozen Objects"
+msgstr ""
+
+#: surfaces.py:1365
+msgid "Freeze Selected"
+msgstr ""
+
+#: surfaces.py:1365 toolbar.py:15
+msgid "Freeze Unselected"
+msgstr ""
+
+#: surfaces.py:1366
+msgid "Freeze by Name..."
+msgstr ""
+
+#: surfaces.py:1366
+msgid "Freeze by Hit"
+msgstr ""
+
+#: surfaces.py:1367
+msgid "Unfreeze by Name..."
+msgstr ""
+
+#: surfaces.py:1368
+msgid "Unfreeze by Hit"
+msgstr ""
+
+#: surfaces.py:1374 surfaces.py:1381
+msgid "Display as Box"
+msgstr ""
+
+#: surfaces.py:1374
+msgid "Backface Cull"
+msgstr ""
+
+#: surfaces.py:1374
+msgid "Vertex Ticks"
+msgstr ""
+
+#: surfaces.py:1375
+msgid "Trajectory"
+msgstr ""
+
+#: surfaces.py:1375
+msgid "Ignore Extents"
+msgstr ""
+
+#: surfaces.py:1375 ui.py:71
+msgid "Show Frozen in Gray"
+msgstr ""
+
+#: surfaces.py:1376
+msgid "Never Degrade"
+msgstr ""
+
+#: surfaces.py:1376
+msgid "Vertex Colors"
+msgstr ""
+
+#: surfaces.py:1376
+msgid "Shaded"
+msgstr ""
+
+#: surfaces.py:1398
+msgid "Link Display"
+msgstr ""
+
+#: surfaces.py:1400
+msgid "Display Links"
+msgstr ""
+
+#: surfaces.py:1401
+msgid "Link Replaces Object"
+msgstr ""
+
+#: surfaces.py:1417
+msgid "Perspective Match"
+msgstr ""
+
+#: surfaces.py:1417
+msgid "Color Clipboard"
+msgstr ""
+
+#: surfaces.py:1417 surfaces.py:1445
+msgid "Measure"
+msgstr ""
+
+#: surfaces.py:1418
+msgid "Reset XForm"
+msgstr ""
+
+#: surfaces.py:1418 surfaces.py:1460
+msgid "MAXScript"
+msgstr ""
+
+#: surfaces.py:1418
+msgid "Flight Studio"
+msgstr ""
+
+#: surfaces.py:1440
+msgid "Output Type: Modifier Stack Result"
+msgstr ""
+
+#: surfaces.py:1441
+msgid "Collapse Selected"
+msgstr ""
+
+#: surfaces.py:1448
+msgid "No object"
+msgstr ""
+
+#: surfaces.py:1454
+msgid "Reset Transform"
+msgstr ""
+
+#: surfaces.py:1456
+msgid "Reset Selected"
+msgstr ""
+
+#: surfaces.py:1462
+msgid "Open Listener"
+msgstr ""
+
+#: surfaces.py:1463
+msgid "Open Script"
+msgstr ""
+
+#: surfaces.py:1471 utility_editors.py:502
+msgid "Select a mesh object"
+msgstr ""
+
+#: surfaces.py:1525
+msgid "Time Slider (right-click: Create Key)"
+msgstr ""
+
+#: surfaces.py:1529 surfaces.py:1623
+msgid "Previous Frame (,)"
+msgstr ""
+
+#: surfaces.py:1530 surfaces.py:1625
+msgid "Next Frame (.)"
+msgstr ""
+
+#: surfaces.py:1534
+msgid "Open Mini Curve Editor"
+msgstr ""
+
+#: surfaces.py:1539 trackbar.py:102 trackbar.py:138
+msgid "Track Bar"
+msgstr ""
+
+#: surfaces.py:1581
+msgid "Scripting Mini"
+msgstr ""
+
+#: surfaces.py:1582
+msgid "MAXScript Mini Listener"
+msgstr ""
+
+#: surfaces.py:1584
+msgid "None Selected"
+msgstr ""
+
+#: surfaces.py:1589
+msgid "Isolate Selection Toggle (Alt+Q)"
+msgstr ""
+
+#: surfaces.py:1591
+msgid "Selection Lock Toggle (Space)"
+msgstr ""
+
+#: surfaces.py:1593
+msgid "Absolute Mode Transform Type-In (click for Offset Mode)"
+msgstr ""
+
+#: surfaces.py:1608
+msgid "Safe Scene Script Execution (Blender: Auto Run Python Scripts is off)"
+msgstr ""
+
+#: surfaces.py:1609
+msgid "Enabled:"
+msgstr ""
+
+#: surfaces.py:1609
+msgid "Disabled:"
+msgstr ""
+
+#: surfaces.py:1617
+msgid "Add Time Tag"
+msgstr ""
+
+#: surfaces.py:1618
+msgid "Time Tags: add, edit, delete or go to a tag"
+msgstr ""
+
+#: surfaces.py:1622
+msgid "Go to Start (Home)"
+msgstr ""
+
+#: surfaces.py:1624
+msgid "Play Animation (/)"
+msgstr ""
+
+#: surfaces.py:1626
+msgid "Go to End (End)"
+msgstr ""
+
+#: surfaces.py:1629
+msgid "Key Mode Toggle: Previous/Next jump between keys"
+msgstr ""
+
+#: surfaces.py:1633
+msgid "Set Keys (K)"
+msgstr ""
+
+#: surfaces.py:1634
+msgid "Toggle Auto Key Mode (N)"
+msgstr ""
+
+#: surfaces.py:1635
+msgid "Set K."
+msgstr ""
+
+#: surfaces.py:1636
+msgid "Toggle Set Key Mode"
+msgstr ""
+
+#: surfaces.py:1637
+msgid "Selection Set for Set Keys"
+msgstr ""
+
+#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1303
+msgid "Selected"
+msgstr ""
+
+#: surfaces.py:1639 trackbar.py:291
+msgid "Default In/Out Tangents for New Keys"
+msgstr ""
+
+#: surfaces.py:1641
+msgid "Filters..."
+msgstr ""
+
+#: surfaces.py:1641
+msgid "Open Filters Dialog (Set Key Filters)"
+msgstr ""
+
+#: surfaces.py:1645
+msgid "Zoom Extents Selected (Z)"
+msgstr ""
+
+#: surfaces.py:1647 trackbar.py:456 trackbar.py:376
+msgid "Zoom Extents All Selected"
+msgstr ""
+
+#: surfaces.py:1648 trackbar.py:458 trackbar.py:459 trackbar.py:374
+msgid "Field-of-View"
+msgstr ""
+
+#: surfaces.py:1649
+msgid "Pan View (Ctrl+P)"
+msgstr ""
+
+#: surfaces.py:1650
+msgid "Orbit (Ctrl+R)"
+msgstr ""
+
+#: surfaces.py:1651
+msgid "Maximize Viewport Toggle (Alt+W)"
+msgstr ""
+
+#: surfaces.py:1664
+msgid "Click and drag to begin creation process"
+msgstr ""
+
+#: surfaces.py:1666
+msgid "Click and drag to select and move objects"
+msgstr ""
+
+#: surfaces.py:1666
+msgid "Click and drag to select and rotate objects"
+msgstr ""
+
+#: surfaces.py:1667
+msgid "Click and drag to select and scale objects (uniformly)"
+msgstr ""
+
+#: surfaces.py:1669
+msgid "Click or click-and-drag to select objects"
+msgstr ""
+
+#: surfaces.py:1695
+msgid "Display Geometry"
+msgstr ""
+
+#: surfaces.py:1695
+msgid "Display Shapes"
+msgstr ""
+
+#: surfaces.py:1695
+msgid "Display Lights"
+msgstr ""
+
+#: surfaces.py:1696
+msgid "Display Cameras"
+msgstr ""
+
+#: surfaces.py:1696
+msgid "Display Helpers"
+msgstr ""
+
+#: surfaces.py:1696
+msgid "Display Space Warps"
+msgstr ""
+
+#: surfaces.py:1697
+msgid "Display Groups"
+msgstr ""
+
+#: surfaces.py:1697
+msgid "Display Object XRefs"
+msgstr ""
+
+#: surfaces.py:1697
+msgid "Display Bone Objects"
+msgstr ""
+
+#: surfaces.py:1698
+msgid "Display Containers"
+msgstr ""
+
+#: surfaces.py:1698
+msgid "Display Frozen Objects"
+msgstr ""
+
+#: surfaces.py:1698
+msgid "Display Hidden Objects"
+msgstr ""
+
+#: surfaces.py:1761
+msgid "Display All"
+msgstr ""
+
+#: surfaces.py:1761
+msgid "Display None"
+msgstr ""
+
+#: surfaces.py:1761
+msgid "Invert Display"
+msgstr ""
+
+#: surfaces.py:1767
+msgid "Name (Sorted Ascending)"
+msgstr ""
+
+#: surfaces.py:1782
+msgid "Expand"
+msgstr ""
+
+#: surfaces.py:1785
+msgid "Hide/Unhide"
+msgstr ""
+
+#: surfaces.py:1796
+msgid "Freeze/Unfreeze"
+msgstr ""
+
+#: surfaces.py:1798
+msgid "Default"
+msgstr ""
+
+#: surfaces.py:1857
+msgid "Modeling"
+msgstr ""
+
+#: surfaces.py:1857
+msgid "Freeform"
+msgstr ""
+
+#: surfaces.py:1857
+msgid "Object Paint"
+msgstr ""
+
+#: surfaces.py:1862 surfaces.py:1088
+msgid "By Vertex"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Angle"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Normal"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Perspective"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Half"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Pivot Distance"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By View"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Symmetry"
+msgstr ""
+
+#: surfaces.py:1862
+msgid "By Numeric"
+msgstr ""
+
+#: surfaces.py:1863
+msgid "Paint Objects"
+msgstr ""
+
+#: surfaces.py:1863
+msgid "Brush Settings"
+msgstr ""
+
+#: surfaces.py:1864
+msgid "Define Flows"
+msgstr ""
+
+#: surfaces.py:1864
+msgid "Define Idle Areas"
+msgstr ""
+
+#: surfaces.py:1864
+msgid "Simulate"
+msgstr ""
+
+#: surfaces.py:1864
+msgid "Edit Selected"
+msgstr ""
+
+#: surfaces.py:1900
+msgid "Ribbon display options"
+msgstr ""
+
+#: surfaces.py:1929
+msgid "Max Action"
+msgstr ""
+
+#: surfaces.py:1965
+msgid "Max Edit"
+msgstr ""
+
+#: toolbar.py:9
+msgid "Link / Parent"
+msgstr ""
+
+#: toolbar.py:9
+msgid "Rectangular Selection"
+msgstr ""
+
+#: toolbar.py:10
+msgid "Circular Selection"
+msgstr ""
+
+#: toolbar.py:10
+msgid "Lasso Selection"
+msgstr ""
+
+#: toolbar.py:12
+msgid "Working Pivot Align To View"
+msgstr ""
+
+#: toolbar.py:12
+msgid "Symmetry Modifier"
+msgstr ""
+
+#: toolbar.py:12
+msgid "Array Modifier"
+msgstr ""
+
+#: toolbar.py:13
+msgid "Smooth Shading"
+msgstr ""
+
+#: toolbar.py:13
+msgid "Flat Shading"
+msgstr ""
+
+#: toolbar.py:16
+msgid "Interactive Render"
+msgstr ""
+
+#: toolbar.py:16
+msgid "Denoiser"
+msgstr ""
+
+#: toolbar.py:16
+msgid "Render Passes"
+msgstr ""
+
+#: toolbar.py:21
+msgid "Max Toolbar Action"
+msgstr ""
+
+#: toolbar.py:56
+msgid "Denoising is a Cycles render setting"
+msgstr ""
+
+#: toolbar.py:106
+msgid "Set Name"
+msgstr ""
+
+#: toolbar.py:114
+msgid "Select objects before creating a selection set"
+msgstr ""
+
+#: toolbar.py:131
+msgid "Recall Selection Set"
+msgstr ""
+
+#: toolbar.py:183
+msgid "Absolute:World"
+msgstr ""
+
+#: toolbar.py:186
+msgid "Offset:World"
+msgstr ""
+
+#: toolbar.py:193 toolbar.py:188
+msgid "Apply Offset"
+msgstr ""
+
+#: trackbar.py:104 trackbar.py:146
+msgid "Delete Selected Keys"
+msgstr ""
+
+#: trackbar.py:104
+msgid "Goto Time"
+msgstr ""
+
+#: trackbar.py:105 trackbar.py:147
+msgid "Select All Keys"
+msgstr ""
+
+#: trackbar.py:110
+msgid "Select keys on the track bar first"
+msgstr ""
+
+#: trackbar.py:123
+msgid "Filter"
+msgstr ""
+
+#: trackbar.py:130
+msgid "Configure"
+msgstr ""
+
+#: trackbar.py:134
+msgid "Key Mode (Previous/Next Key)"
+msgstr ""
+
+#: trackbar.py:159
+msgid "Source Time"
+msgstr ""
+
+#: trackbar.py:160
+msgid "Destination Time"
+msgstr ""
+
+#: trackbar.py:174
+msgid "Select objects and at least one transform"
+msgstr ""
+
+#: trackbar.py:197
+msgid "Time Tag"
+msgstr ""
+
+#: trackbar.py:199 trackbar.py:241
+msgid "Add Tag"
+msgstr ""
+
+#: trackbar.py:199
+msgid "Edit Tag"
+msgstr ""
+
+#: trackbar.py:199
+msgid "Go to Tag"
+msgstr ""
+
+#: trackbar.py:200
+msgid "Tag Name"
+msgstr ""
+
+#: trackbar.py:208
+msgid "No time tag at the current frame"
+msgstr ""
+
+#: trackbar.py:220
+msgid "Tag"
+msgstr ""
+
+#: trackbar.py:237
+msgid "Time Tags"
+msgstr ""
+
+#: trackbar.py:243
+msgid "Edit Tag..."
+msgstr ""
+
+#: trackbar.py:243 trackbar.py:199
+msgid "Delete Tag"
+msgstr ""
+
+#: trackbar.py:256 ui.py:82
+msgid "Key Selection Set"
+msgstr ""
+
+#: trackbar.py:266
+msgid "Selection Sets"
+msgstr ""
+
+#: trackbar.py:292
+msgid "Sets Blender's interpolation and handle type for new keys (Preferences > Animation)"
+msgstr ""
+
+#: trackbar.py:309
+msgid "Default In/Out Tangents"
+msgstr ""
+
+#: trackbar.py:326
+msgid "Show only the selection in the active viewport, or end isolation (Alt+Q)"
+msgstr ""
+
+#: trackbar.py:334
+msgid "Toggle Auto Key Mode"
+msgstr ""
+
+#: trackbar.py:335
+msgid "Record transforms as keys while Auto Key is on (N)"
+msgstr ""
+
+#: trackbar.py:348
+msgid "Previous/Next Frame"
+msgstr ""
+
+#: trackbar.py:349
+msgid "One frame back or forward; with Key Mode on, the previous or next key of the selection"
+msgstr ""
+
+#: trackbar.py:372
+msgid "Viewport Navigation"
+msgstr ""
+
+#: trackbar.py:373
+msgid "Zoom every viewport together"
+msgstr ""
+
+#: trackbar.py:374
+msgid "Change the perspective field of view"
+msgstr ""
+
+#: trackbar.py:375
+msgid "Frame all objects in the active viewport"
+msgstr ""
+
+#: trackbar.py:376
+msgid "Frame the selection in every viewport"
+msgstr ""
+
+#: trackbar.py:461 trackbar.py:377
+msgid "Walk Through"
+msgstr ""
+
+#: trackbar.py:463 trackbar.py:377
+msgid "Orbit Selected"
+msgstr ""
+
+#: trackbar.py:464 trackbar.py:378
+msgid "Orbit Point of Interest"
+msgstr ""
+
+#: trackbar.py:474
+msgid "Safe Scene Script Execution"
+msgstr ""
+
+#: trackbar.py:475
+msgid "Blender's protection against Python scripts embedded in scene files (Preferences > Save & Load)"
+msgstr ""
+
+#: trackbar.py:479
+msgid "Scripts in this file were blocked"
+msgstr ""
+
+#: ui.py:13
+msgid "Search Scene"
+msgstr ""
+
+#: ui.py:20
+msgid "Grid Spacing"
+msgstr ""
+
+#: ui.py:24
+msgid "Create objects"
+msgstr ""
+
+#: ui.py:25
+msgid "Modifier stack and mesh tools"
+msgstr ""
+
+#: ui.py:26
+msgid "Pivots and linking"
+msgstr ""
+
+#: ui.py:27
+msgid "Controllers, keys and motion paths"
+msgstr ""
+
+#: ui.py:28
+msgid "Visibility and viewport display"
+msgstr ""
+
+#: ui.py:29
+msgid "Scene and object utilities"
+msgstr ""
+
+#: ui.py:30
+msgid "Material assignment and shader controls"
+msgstr ""
+
+#: ui.py:31
+msgid "Category"
+msgstr ""
+
+#: ui.py:36
+msgid "Creation Tool"
+msgstr ""
+
+#: ui.py:40
+msgid "Selected Modifier"
+msgstr ""
+
+#: ui.py:43
+msgid "Show Sub-object Levels"
+msgstr ""
+
+#: ui.py:48
+msgid "Material ID"
+msgstr ""
+
+#: ui.py:51
+msgid "Window/Crossing"
+msgstr ""
+
+#: ui.py:51
+msgid "On: objects must be fully inside the region (Window); off: Crossing"
+msgstr ""
+
+#: ui.py:58
+msgid "Keyboard Shortcut Override"
+msgstr ""
+
+#: ui.py:59
+msgid "On: 3ds Max shortcuts; off: Blender shortcuts"
+msgstr ""
+
+#: ui.py:60
+msgid "Snaps"
+msgstr ""
+
+#: ui.py:61 ui.py:62
+msgid "Spinner Snap"
+msgstr ""
+
+#: ui.py:73
+msgid "Offset Mode Transform Type-In"
+msgstr ""
+
+#: ui.py:79
+msgid "Key Mode Toggle"
+msgstr ""
+
+#: ui.py:79
+msgid "Previous and Next Frame jump between keys of the selection"
+msgstr ""
+
+#: ui.py:80
+msgid "Set Key Mode"
+msgstr ""
+
+#: ui.py:80
+msgid "Pose freely, then commit keys with the Set Keys button (K)"
+msgstr ""
+
+#: ui.py:82
+msgid "Named selection set keyed by Set Keys; empty keys the selection"
+msgstr ""
+
+#: ui.py:83
+msgid "Track Bar Filter"
+msgstr ""
+
+#: ui.py:84
+msgid "All Keys"
+msgstr ""
+
+#: ui.py:84
+msgid "All Transform Keys"
+msgstr ""
+
+#: ui.py:84
+msgid "Current Transform: Position"
+msgstr ""
+
+#: ui.py:85
+msgid "Current Transform: Rotation"
+msgstr ""
+
+#: ui.py:85
+msgid "Current Transform: Scale"
+msgstr ""
+
+#: ui.py:87
+msgid "Show Frame Numbers"
+msgstr ""
+
+#: ui.py:88
+msgid "Cursor Position"
+msgstr ""
+
+#: ui.py:150
+msgid "Unlink Selected"
+msgstr ""
+
+#: ui.py:163
+msgid "Select Dependents"
+msgstr ""
+
+#: ui.py:165
+msgid "Find..."
+msgstr ""
+
+#: utility_editors.py:21 utility_editors.py:610 utility_editors.py:788 utility_editors.py:788
+msgid "Common"
+msgstr ""
+
+#: utility_editors.py:230
+msgid "The mesh topology changed during the UV edit"
+msgstr ""
+
+#: utility_editors.py:267
+msgid "Finish editing the other object before editing these UVs"
+msgstr ""
+
+#: utility_editors.py:273
+msgid "No editor area is available for UV operations"
+msgstr ""
+
+#: utility_editors.py:314 utility_editors.py:63 utility_editors.py:1112
+msgid "Select an editable mesh object"
+msgstr ""
+
+#: utility_editors.py:326
+msgid "Select the texture vertices to weld"
+msgstr ""
+
+#: utility_editors.py:329
+msgid "The mesh has no polygon faces to map"
+msgstr ""
+
+#: utility_editors.py:354
+msgid "The UV operation was cancelled by Blender"
+msgstr ""
+
+#: utility_editors.py:452
+msgid "CheckerPattern"
+msgstr ""
+
+#: utility_editors.py:500
+msgid "The mesh has no faces"
+msgstr ""
+
+#: utility_editors.py:502
+msgid "Create UV coordinates with Unwrap or Flatten Mapping"
+msgstr ""
+
+#: utility_editors.py:517
+msgid "Selection Modes"
+msgstr ""
+
+#: utility_editors.py:523
+msgid "Quick Transform"
+msgstr ""
+
+#: utility_editors.py:524 utility_editors.py:1245
+msgid "Rotate +90°"
+msgstr ""
+
+#: utility_editors.py:524 utility_editors.py:1245
+msgid "Mirror Horizontal"
+msgstr ""
+
+#: utility_editors.py:524 utility_editors.py:1246
+msgid "Mirror Vertical"
+msgstr ""
+
+#: utility_editors.py:528
+msgid "Flatten Mapping"
+msgstr ""
+
+#: utility_editors.py:528 utility_editors.py:1255
+msgid "Pack Islands"
+msgstr ""
+
+#: utility_editors.py:528 utility_editors.py:1255
+msgid "Rescale Islands"
+msgstr ""
+
+#: utility_editors.py:531
+msgid "Selection and Pins"
+msgstr ""
+
+#: utility_editors.py:532 utility_editors.py:1230
+msgid "Selection From Base"
+msgstr ""
+
+#: utility_editors.py:532 utility_editors.py:1231
+msgid "Selection To Base"
+msgstr ""
+
+#: utility_editors.py:537
+msgid "Selected Polygons Only"
+msgstr ""
+
+#: utility_editors.py:539
+msgid "MMB: Pan   Wheel: Zoom   W/E/R: Transform   Esc: Cancel"
+msgstr ""
+
+#: utility_editors.py:563
+msgid "Choose a Camera"
+msgstr ""
+
+#: utility_editors.py:611 utility_editors.py:611
+msgid "Common Parameters"
+msgstr ""
+
+#: utility_editors.py:613
+msgid "Time Output"
+msgstr ""
+
+#: utility_editors.py:615
+msgid "Single"
+msgstr ""
+
+#: utility_editors.py:616
+msgid "Every Nth Frame:"
+msgstr ""
+
+#: utility_editors.py:620
+msgid "Range:"
+msgstr ""
+
+#: utility_editors.py:622
+msgid "To"
+msgstr ""
+
+#: utility_editors.py:624
+msgid "File Number Base:"
+msgstr ""
+
+#: utility_editors.py:626
+msgid "Frames"
+msgstr ""
+
+#: utility_editors.py:631
+msgid "Auto Region Selected"
+msgstr ""
+
+#: utility_editors.py:634
+msgid "HDTV (video)"
+msgstr ""
+
+#: utility_editors.py:638 utility_editors.py:639
+msgid "Aperture Width(mm):"
+msgstr ""
+
+#: utility_editors.py:642
+msgid "Aperture Width(mm): 36.000"
+msgstr ""
+
+#: utility_editors.py:652
+msgid "Pixel Aspect:"
+msgstr ""
+
+#: utility_editors.py:655
+msgid "Effects"
+msgstr ""
+
+#: utility_editors.py:655 utility_editors.py:660
+msgid "Displacement"
+msgstr ""
+
+#: utility_editors.py:656
+msgid "Video Color Check"
+msgstr ""
+
+#: utility_editors.py:656
+msgid "Render to Fields"
+msgstr ""
+
+#: utility_editors.py:661
+msgid "Render Hidden Geometry"
+msgstr ""
+
+#: utility_editors.py:661
+msgid "Area Lights/Shadows as Points"
+msgstr ""
+
+#: utility_editors.py:661
+msgid "Force 2-Sided"
+msgstr ""
+
+#: utility_editors.py:661
+msgid "Super Black"
+msgstr ""
+
+#: utility_editors.py:663
+msgid "Advanced Lighting"
+msgstr ""
+
+#: utility_editors.py:664
+msgid "Use Advanced Lighting"
+msgstr ""
+
+#: utility_editors.py:665
+msgid "Compute Advanced Lighting when Required"
+msgstr ""
+
+#: utility_editors.py:666
+msgid "Bitmap Performance and Memory Options"
+msgstr ""
+
+#: utility_editors.py:667
+msgid "Bitmap Proxies / Paging Disabled"
+msgstr ""
+
+#: utility_editors.py:668
+msgid "Setup..."
+msgstr ""
+
+#: utility_editors.py:669
+msgid "Render Output"
+msgstr ""
+
+#: utility_editors.py:673
+msgid "Put Image File List(s) in Output Path(s)"
+msgstr ""
+
+#: utility_editors.py:674
+msgid "Create Now"
+msgstr ""
+
+#: utility_editors.py:675
+msgid "Autodesk ME Image Sequence File (.imsq)"
+msgstr ""
+
+#: utility_editors.py:676
+msgid "Legacy 3ds Max Image File List (.ifl)"
+msgstr ""
+
+#: utility_editors.py:677
+msgid "Use Device"
+msgstr ""
+
+#: utility_editors.py:679
+msgid "Devices..."
+msgstr ""
+
+#: utility_editors.py:682
+msgid "Skip Existing Images"
+msgstr ""
+
+#: utility_editors.py:689
+msgid "Enable Notifications"
+msgstr ""
+
+#: utility_editors.py:691
+msgid "Pre-Render: Enable"
+msgstr ""
+
+#: utility_editors.py:692
+msgid "Post-Render: Enable"
+msgstr ""
+
+#: utility_editors.py:694
+msgid "Production:"
+msgstr ""
+
+#: utility_editors.py:694
+msgid "Material Editor:"
+msgstr ""
+
+#: utility_editors.py:694
+msgid "ActiveShade:"
+msgstr ""
+
+#: utility_editors.py:709 utility_editors.py:716
+msgid "Render Samples"
+msgstr ""
+
+#: utility_editors.py:709 utility_editors.py:716
+msgid "Viewport Samples"
+msgstr ""
+
+#: utility_editors.py:710
+msgid "Max Bounces"
+msgstr ""
+
+#: utility_editors.py:710
+msgid "Diffuse Bounces"
+msgstr ""
+
+#: utility_editors.py:711
+msgid "Glossy Bounces"
+msgstr ""
+
+#: utility_editors.py:711
+msgid "Transmission Bounces"
+msgstr ""
+
+#: utility_editors.py:712
+msgid "Transparent Bounces"
+msgstr ""
+
+#: utility_editors.py:712
+msgid "Noise Threshold"
+msgstr ""
+
+#: utility_editors.py:713
+msgid "Denoising"
+msgstr ""
+
+#: utility_editors.py:713
+msgid "Adaptive Sampling"
+msgstr ""
+
+#: utility_editors.py:717
+msgid "Shadow Rays"
+msgstr ""
+
+#: utility_editors.py:717
+msgid "Shadow Steps"
+msgstr ""
+
+#: utility_editors.py:718
+msgid "Volume Samples"
+msgstr ""
+
+#: utility_editors.py:718
+msgid "Light Threshold"
+msgstr ""
+
+#: utility_editors.py:719
+msgid "Ray Tracing"
+msgstr ""
+
+#: utility_editors.py:722
+msgid "Render Anti-Aliasing"
+msgstr ""
+
+#: utility_editors.py:741
+msgid "File Format:"
+msgstr ""
+
+#: utility_editors.py:744
+msgid "Output %:"
+msgstr ""
+
+#: utility_editors.py:747
+msgid "Transparent Background"
+msgstr ""
+
+#: utility_editors.py:749
+msgid "Motion Blur"
+msgstr ""
+
+#: utility_editors.py:756
+msgid "Z Depth"
+msgstr ""
+
+#: utility_editors.py:756
+msgid "Mist"
+msgstr ""
+
+#: utility_editors.py:757
+msgid "Diffuse Color"
+msgstr ""
+
+#: utility_editors.py:757
+msgid "Specular (Glossy) Color"
+msgstr ""
+
+#: utility_editors.py:758
+msgid "Ambient Occlusion"
+msgstr ""
+
+#: utility_editors.py:759
+msgid "Shadow"
+msgstr ""
+
+#: utility_editors.py:759
+msgid "Cryptomatte Object"
+msgstr ""
+
+#: utility_editors.py:760
+msgid "Cryptomatte Material"
+msgstr ""
+
+#: utility_editors.py:775 utility_editors.py:1313
+msgid "Production Rendering Mode"
+msgstr ""
+
+#: utility_editors.py:776
+msgid "Preset:"
+msgstr ""
+
+#: utility_editors.py:777
+msgid "No preset selected"
+msgstr ""
+
+#: utility_editors.py:778
+msgid "Renderer:"
+msgstr ""
+
+#: utility_editors.py:781
+msgid "Render Animation"
+msgstr ""
+
+#: utility_editors.py:782 utility_editors.py:670
+msgid "Save File"
+msgstr ""
+
+#: utility_editors.py:783 utility_editors.py:671
+msgid "Files..."
+msgstr ""
+
+#: utility_editors.py:784
+msgid "View to Render:"
+msgstr ""
+
+#: utility_editors.py:786
+msgid "Lock View (not available in Blender)"
+msgstr ""
+
+#: utility_editors.py:788 utility_editors.py:762 utility_editors.py:762
+msgid "Render Elements"
+msgstr ""
+
+#: utility_editors.py:888
+msgid "Freeform Mode (Select)"
+msgstr ""
+
+#: utility_editors.py:889
+msgid "Texture Vertex Move Mode"
+msgstr ""
+
+#: utility_editors.py:890
+msgid "Texture Vertex Rotate Mode"
+msgstr ""
+
+#: utility_editors.py:891
+msgid "Texture Vertex Scale Mode"
+msgstr ""
+
+#: utility_editors.py:892
+msgid "Vertex sub-object level"
+msgstr ""
+
+#: utility_editors.py:893
+msgid "Edge sub-object level"
+msgstr ""
+
+#: utility_editors.py:894
+msgid "Polygon sub-object level"
+msgstr ""
+
+#: utility_editors.py:901
+msgid "Rotate +90"
+msgstr ""
+
+#: utility_editors.py:902
+msgid "Rotate -90"
+msgstr ""
+
+#: utility_editors.py:903
+msgid "Pack"
+msgstr ""
+
+#: utility_editors.py:904
+msgid "Quick Peel Unfold"
+msgstr ""
+
+#: utility_editors.py:905
+msgid "Texture Vertex Weld Selected"
+msgstr ""
+
+#: utility_editors.py:964 utility_editors.py:970
+msgid "UV Selection"
+msgstr ""
+
+#: utility_editors.py:1077
+msgid "Render Output Size"
+msgstr ""
+
+#: utility_editors.py:1143
+msgid "Render Output File"
+msgstr ""
+
+#: utility_editors.py:1171
+msgid "Max Editor Setting"
+msgstr ""
+
+#: utility_editors.py:1182
+msgid "The camera is no longer in this scene"
+msgstr ""
+
+#: utility_editors.py:1191
+msgid "Unknown editor setting"
+msgstr ""
+
+#: utility_editors.py:1199
+msgid "Edit UVWs Action"
+msgstr ""
+
+#: utility_editors.py:1222 utility_editors.py:532
+msgid "Pin Selected"
+msgstr ""
+
+#: utility_editors.py:1223 utility_editors.py:532
+msgid "Unpin Selected"
+msgstr ""
+
+#: utility_editors.py:1242
+msgid "Region Select"
+msgstr ""
+
+#: utility_editors.py:1254
+msgid "Unwrap (Angle Based)"
+msgstr ""
+
+#: utility_editors.py:1254 utility_editors.py:1108
+msgid "Flatten Mapping (Smart UV Project)"
+msgstr ""
+
+#: utility_editors.py:1262
+msgid "Show Checker Pattern"
+msgstr ""
+
+#: utility_editors.py:1263
+msgid "Display Only Selected Polygons"
+msgstr ""
+
+#: utility_editors.py:1267 utility_editors.py:704 utility_editors.py:788 utility_editors.py:705
+msgid "Renderer"
+msgstr ""
+
+#: utility_editors.py:1273
+msgid "View to Render"
+msgstr ""
+
+#: utility_editors.py:1281
+msgid "Add a camera to this scene"
+msgstr ""
+
+#: utility_editors.py:1285 utility_editors.py:632
+msgid "Output Size"
+msgstr ""
+
+#: utility_editors.py:1287
+msgid "HDTV 1280 × 720"
+msgstr ""
+
+#: utility_editors.py:1287
+msgid "HDTV 1920 × 1080"
+msgstr ""
+
+#: utility_editors.py:1288
+msgid "UHD 3840 × 2160"
+msgstr ""
+
+#: utility_editors.py:1288
+msgid "Square 1024 × 1024"
+msgstr ""
+
+#: utility_editors.py:1289
+msgid "Square 2048 × 2048"
+msgstr ""
+
+#: utility_editors.py:1295 utility_editors.py:628
+msgid "Area to Render"
+msgstr ""
+
+#: utility_editors.py:1300 utility_editors.py:629
+msgid "Crop"
+msgstr ""
+
+#: utility_editors.py:1303
+msgid "Blowup"
+msgstr ""
+
+#: utility_editors.py:1314
+msgid "Iterative Rendering Mode"
+msgstr ""
+
+#: utility_editors.py:1314
+msgid "ActiveShade Mode"
+msgstr ""
+
+#: utility_editors.py:1314
+msgid "Submit to Network Rendering"
+msgstr ""
+
+#: utility_editors.py:1321
+msgid "Output File Format"
+msgstr ""
+

@@ -2636,9 +2636,7 @@ msgstr "壓平"
 
 #: flyouts.py:513
 msgid "Pinch/Spread"
-msgstr ""
-"壓平\n"
-"捏合/展開"
+msgstr "捏合/展開"
 
 #: flyouts.py:514 surfaces.py:1861
 msgid "Defaults"
@@ -6111,7 +6109,7 @@ msgstr "Max Creation Graph編輯器"
 
 #: max_menus.py:910
 msgid "Create MCG Geometry..."
-msgstr "建立MCG幾何.."
+msgstr "建立MCG幾何..."
 
 #: max_menus.py:910
 msgid "Create and Apply MCG Modifier..."
@@ -7104,8 +7102,8 @@ msgstr ""
 "1000x500px；版本號碼會顯示在右上角"
 
 #: preferences.py:25
-msgid "MaxFlow · 0.8.3 development preview"
-msgstr "MaxFlow·0.8.3開發預覽版"
+msgid "Development preview"
+msgstr "開發預覽版"
 
 #: preferences.py:33
 msgid "Switch back to Blender before changing the color option."
@@ -7740,7 +7738,7 @@ msgstr "倍增器："
 
 #: surfaces.py:701
 msgid "Color:"
-msgstr "色彩"
+msgstr "色彩："
 
 #: surfaces.py:703
 msgid "Light Color"

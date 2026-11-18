@@ -4,7 +4,7 @@
 # empty to keep the English text. See docs/TRANSLATING.md.
 msgid ""
 msgstr ""
-"Project-Id-Version: MaxFlow 0.8.3\n"
+"Project-Id-Version: MaxFlow 0.8.4\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,6 +34,10 @@ msgstr ""
 msgid "MaxFlow: preferences migrated from Blender Studio Max"
 msgstr ""
 
+#: animation_ui.py:35 animation_ui.py:363 animation_ui.py:300 animation_ui.py:419 (+17)
+msgid "Curve"
+msgstr ""
+
 #: animation_ui.py:101 animation_ui.py:111 editors.py:156 surfaces.py:1272 (+2)
 msgid "Position"
 msgstr ""
@@ -56,6 +60,10 @@ msgstr ""
 
 #: animation_ui.py:113 surfaces.py:644 surfaces.py:955 surfaces.py:851 (+4)
 msgid "Parameters"
+msgstr ""
+
+#: animation_ui.py:118 flyouts.py:106 operators.py:575 surfaces.py:322
+msgid "World"
 msgstr ""
 
 #: animation_ui.py:121
@@ -166,6 +174,10 @@ msgstr ""
 msgid "Enable Auto-Zoom"
 msgstr ""
 
+#: animation_ui.py:324 animation_ui.py:374
+msgid "Curves"
+msgstr ""
+
 #: animation_ui.py:324
 msgid "Constant Interpolation"
 msgstr ""
@@ -194,7 +206,7 @@ msgstr ""
 msgid "Keys"
 msgstr ""
 
-#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1230
+#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1231
 msgid "Invert Selection"
 msgstr ""
 
@@ -214,7 +226,7 @@ msgstr ""
 msgid "Clamped"
 msgstr ""
 
-#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:634
+#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:635
 msgid "Custom"
 msgstr ""
 
@@ -336,6 +348,10 @@ msgstr ""
 
 #: animation_ui.py:797
 msgid "Isolate Curve"
+msgstr ""
+
+#: animation_ui.py:798 trackbar.py:275
+msgid "Spline"
 msgstr ""
 
 #: animation_ui.py:799
@@ -562,7 +578,7 @@ msgstr ""
 msgid "Zoom Region"
 msgstr ""
 
-#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323 utility_editors.py:900 (+1)
+#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323 utility_editors.py:901 (+1)
 msgid "Pan"
 msgstr ""
 
@@ -674,6 +690,10 @@ msgstr ""
 msgid "Render"
 msgstr ""
 
+#: chrome.py:27 editor_host.py:8 editor_host.py:10 editor_host.py:300 (+2)
+msgid "Scene"
+msgstr ""
+
 #: chrome.py:28 chrome.py:112 chrome.py:1177
 msgid "Toolbar"
 msgstr ""
@@ -750,7 +770,7 @@ msgstr ""
 msgid "Workspaces: Default"
 msgstr ""
 
-#: chrome.py:430 operators.py:51 preferences.py:28 ui.py:98
+#: chrome.py:430 operators.py:51 preferences.py:30 ui.py:98
 msgid "Blender"
 msgstr ""
 
@@ -854,7 +874,7 @@ msgstr ""
 msgid "UVW Mapping Gizmo"
 msgstr ""
 
-#: commands.py:677 params.py:461 utility_editors.py:77 utility_editors.py:88
+#: commands.py:677 params.py:461 utility_editors.py:78 utility_editors.py:89
 msgid "UVMap"
 msgstr ""
 
@@ -884,6 +904,10 @@ msgstr ""
 
 #: commands.py:691 max_menus.py:663 max_menus.py:595 max_menus.py:604 (+4)
 msgid "Displace"
+msgstr ""
+
+#: commands.py:691 keymap.py:293 max_menus.py:663
+msgid "Lattice"
 msgstr ""
 
 #: commands.py:692 max_menus.py:663
@@ -1210,7 +1234,7 @@ msgstr ""
 msgid "Align Selection"
 msgstr ""
 
-#: commands.py:1101 surfaces.py:508 utility_editors.py:1310
+#: commands.py:1101 surfaces.py:508 utility_editors.py:1311
 msgid "Target"
 msgstr ""
 
@@ -1374,6 +1398,10 @@ msgstr ""
 msgid "Base Name"
 msgstr ""
 
+#: commands.py:1326 operators.py:735 operators.py:753
+msgid "Object"
+msgstr ""
+
 #: commands.py:1327 commands.py:1328
 msgid "Prefix"
 msgstr ""
@@ -1474,7 +1502,7 @@ msgstr ""
 msgid "Scene Root"
 msgstr ""
 
-#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:454
+#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:455
 msgid "None"
 msgstr ""
 
@@ -1678,6 +1706,10 @@ msgstr ""
 msgid "Layer"
 msgstr ""
 
+#: edit_poly.py:63
+msgid "Attribute"
+msgstr ""
+
 #: edit_poly.py:284
 msgid "Edit Poly keeps moves: the added or deleted vertices went to the base object"
 msgstr ""
@@ -1702,7 +1734,7 @@ msgstr ""
 msgid "Track View - Dope Sheet"
 msgstr ""
 
-#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:436
+#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:437
 msgid "Edit UVWs"
 msgstr ""
 
@@ -1714,7 +1746,7 @@ msgstr ""
 msgid "Scene Explorer"
 msgstr ""
 
-#: editor_host.py:141 utility_editors.py:551
+#: editor_host.py:141 utility_editors.py:552
 msgid "Cycles"
 msgstr ""
 
@@ -1744,6 +1776,10 @@ msgstr ""
 
 #: editors.py:70
 msgid "Assign the active material to selected objects, or selected faces in Edit Mode"
+msgstr ""
+
+#: editors.py:72 material_ui.py:1506 material_ui.py:797 material_ui.py:87 (+4)
+msgid "Material"
 msgstr ""
 
 #: editors.py:79
@@ -1942,8 +1978,16 @@ msgstr ""
 msgid "Combos..."
 msgstr ""
 
+#: flyouts.py:75 surfaces.py:325 surfaces.py:736
+msgid "Bone"
+msgstr ""
+
 #: flyouts.py:76
 msgid "IK Chain Object"
+msgstr ""
+
+#: flyouts.py:77 max_menus.py:567 operators.py:439 surfaces.py:510 (+1)
+msgid "Point"
 msgstr ""
 
 #: flyouts.py:78
@@ -1992,6 +2036,10 @@ msgstr ""
 
 #: flyouts.py:102 interactions.py:648 surfaces.py:382 ui.py:54
 msgid "Reference Coordinate System"
+msgstr ""
+
+#: flyouts.py:106 max_menus.py:1155 surfaces.py:322
+msgid "Screen"
 msgstr ""
 
 #: flyouts.py:106 surfaces.py:322
@@ -2222,7 +2270,7 @@ msgstr ""
 msgid "Utilities"
 msgstr ""
 
-#: flyouts.py:417 preferences.py:39
+#: flyouts.py:417 preferences.py:41
 msgid "Shortcut Reference"
 msgstr ""
 
@@ -2266,7 +2314,7 @@ msgstr ""
 msgid "Polygon Modeling"
 msgstr ""
 
-#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1234
+#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1235
 msgid "Vertex"
 msgstr ""
 
@@ -2278,7 +2326,7 @@ msgstr ""
 msgid "Border"
 msgstr ""
 
-#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1234
+#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1235
 msgid "Polygon"
 msgstr ""
 
@@ -2558,7 +2606,7 @@ msgstr ""
 msgid "Extrude on Spline"
 msgstr ""
 
-#: flyouts.py:509 surfaces.py:1866 utility_editors.py:788
+#: flyouts.py:509 surfaces.py:1866 utility_editors.py:789
 msgid "Elements"
 msgstr ""
 
@@ -2704,6 +2752,10 @@ msgstr ""
 
 #: flyouts.py:621
 msgid "Current Time"
+msgstr ""
+
+#: i18n.py:16
+msgid "Operator"
 msgstr ""
 
 #: icons.py:116
@@ -3102,6 +3154,10 @@ msgstr ""
 msgid "WalkThrough View Mode"
 msgstr ""
 
+#: keymap.py:128
+msgid "Space"
+msgstr ""
+
 #: keymap.py:129
 msgid "Viewports quad (views)"
 msgstr ""
@@ -3170,6 +3226,18 @@ msgstr ""
 msgid "Object Mode"
 msgstr ""
 
+#: keymap.py:263 max_menus.py:1155
+msgid "Mesh"
+msgstr ""
+
+#: keymap.py:293
+msgid "Armature"
+msgstr ""
+
+#: keymap.py:293
+msgid "Pose"
+msgstr ""
+
 #: keymap.py:293
 msgid "Font"
 msgstr ""
@@ -3186,7 +3254,7 @@ msgstr ""
 msgid "Glass"
 msgstr ""
 
-#: material_ui.py:41 material_ui.py:821 material_ui.py:821 utility_editors.py:758
+#: material_ui.py:41 material_ui.py:821 material_ui.py:821 utility_editors.py:759
 msgid "Emission"
 msgstr ""
 
@@ -3238,7 +3306,7 @@ msgstr ""
 msgid "Texture Coordinates"
 msgstr ""
 
-#: material_ui.py:54 utility_editors.py:1252 utility_editors.py:527 utility_editors.py:439
+#: material_ui.py:54 utility_editors.py:1253 utility_editors.py:528 utility_editors.py:440
 msgid "Mapping"
 msgstr ""
 
@@ -3250,7 +3318,7 @@ msgstr ""
 msgid "RGB Color"
 msgstr ""
 
-#: material_ui.py:60 material_ui.py:816 utility_editors.py:756
+#: material_ui.py:60 material_ui.py:816 utility_editors.py:757
 msgid "Normal"
 msgstr ""
 
@@ -3438,7 +3506,7 @@ msgstr ""
 msgid "No numeric inputs"
 msgstr ""
 
-#: material_ui.py:840 utility_editors.py:739
+#: material_ui.py:840 utility_editors.py:740
 msgid "Output"
 msgstr ""
 
@@ -3470,11 +3538,11 @@ msgstr ""
 msgid "Frame All Nodes"
 msgstr ""
 
-#: material_ui.py:955
+#: material_ui.py:955 material_ui.py:1005
 msgid "Sample Slots"
 msgstr ""
 
-#: material_ui.py:956 material_ui.py:861 utility_editors.py:1260 utility_editors.py:440 (+1)
+#: material_ui.py:956 material_ui.py:861 utility_editors.py:1261 utility_editors.py:441 (+1)
 msgid "Options"
 msgstr ""
 
@@ -3626,7 +3694,7 @@ msgstr ""
 msgid "Materials and Maps"
 msgstr ""
 
-#: material_ui.py:1561
+#: material_ui.py:1561 material_ui.py:610
 msgid "Scene Materials"
 msgstr ""
 
@@ -4702,6 +4770,10 @@ msgstr ""
 msgid "Star"
 msgstr ""
 
+#: max_menus.py:527 operators.py:434 operators.py:554 surfaces.py:733 (+1)
+msgid "Text"
+msgstr ""
+
 #: max_menus.py:528 operators.py:434 surfaces.py:497
 msgid "Helix"
 msgstr ""
@@ -4850,7 +4922,7 @@ msgstr ""
 msgid "Crowd"
 msgstr ""
 
-#: max_menus.py:581 utility_editors.py:655 utility_editors.py:660
+#: max_menus.py:581 utility_editors.py:656 utility_editors.py:661
 msgid "Atmospherics"
 msgstr ""
 
@@ -6466,7 +6538,7 @@ msgstr ""
 msgid "Progressive Skylight"
 msgstr ""
 
-#: max_menus.py:1068 quad.py:125 utility_editors.py:719
+#: max_menus.py:1068 quad.py:125 utility_editors.py:720
 msgid "Shadows"
 msgstr ""
 
@@ -6542,6 +6614,10 @@ msgstr ""
 msgid "Viewport Filter"
 msgstr ""
 
+#: max_menus.py:1155 max_menus.py:291
+msgid "Window"
+msgstr ""
+
 #: max_menus.py:1203
 msgid "Not Available"
 msgstr ""
@@ -6588,6 +6664,10 @@ msgstr ""
 
 #: operators.py:92
 msgid "Select Transform Tool"
+msgstr ""
+
+#: operators.py:116 runtime.py:367 runtime.py:390
+msgid "Camera"
 msgstr ""
 
 #: operators.py:127
@@ -6746,7 +6826,7 @@ msgstr ""
 msgid "Unify Normals"
 msgstr ""
 
-#: operators.py:966 utility_editors.py:528
+#: operators.py:966 utility_editors.py:529
 msgid "Unwrap"
 msgstr ""
 
@@ -7050,19 +7130,19 @@ msgstr ""
 msgid "PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's own splash is 1000 x 500 px; the version number is drawn at the top right"
 msgstr ""
 
-#: preferences.py:25
-msgid "MaxFlow · 0.8.3 development preview"
+#: preferences.py:27
+msgid "Development preview"
 msgstr ""
 
-#: preferences.py:33
+#: preferences.py:35
 msgid "Switch back to Blender before changing the color option."
 msgstr ""
 
-#: preferences.py:37
+#: preferences.py:39
 msgid "Splash: 1000 x 500 px like the original; used at startup while Max mode is on."
 msgstr ""
 
-#: preferences.py:38
+#: preferences.py:40
 msgid "Materials, modifiers and animation use Blender data."
 msgstr ""
 
@@ -7226,6 +7306,10 @@ msgstr ""
 msgid "MaxFlow: invalid theme recovery data; snapshot retained"
 msgstr ""
 
+#: runtime.py:368 runtime.py:390 surfaces.py:734
+msgid "Light"
+msgstr ""
+
 #: runtime.py:452
 msgid "The MaxFlow workspace could not be appended"
 msgstr ""
@@ -7370,15 +7454,15 @@ msgstr ""
 msgid "Polygon: Smoothing Groups"
 msgstr ""
 
-#: surfaces.py:42 utility_editors.py:685 utility_editors.py:688
+#: surfaces.py:42 utility_editors.py:686 utility_editors.py:689
 msgid "Email Notifications"
 msgstr ""
 
-#: surfaces.py:42 utility_editors.py:685 utility_editors.py:690
+#: surfaces.py:42 utility_editors.py:686 utility_editors.py:691
 msgid "Scripts"
 msgstr ""
 
-#: surfaces.py:42 utility_editors.py:685
+#: surfaces.py:42 utility_editors.py:686
 msgid "Assign Renderer"
 msgstr ""
 
@@ -7482,7 +7566,7 @@ msgstr ""
 msgid "Render Setup... (F10)"
 msgstr ""
 
-#: surfaces.py:420 utility_editors.py:680
+#: surfaces.py:420 utility_editors.py:681
 msgid "Rendered Frame Window"
 msgstr ""
 
@@ -7930,7 +8014,7 @@ msgstr ""
 msgid "Object:"
 msgstr ""
 
-#: surfaces.py:982 utility_editors.py:774
+#: surfaces.py:982 utility_editors.py:775
 msgid "Target:"
 msgstr ""
 
@@ -8006,7 +8090,7 @@ msgstr ""
 msgid "Moves stay in this modifier and"
 msgstr ""
 
-#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1043
+#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1044
 msgid "Selection"
 msgstr ""
 
@@ -8422,7 +8506,7 @@ msgstr ""
 msgid "Open Script"
 msgstr ""
 
-#: surfaces.py:1471 utility_editors.py:502
+#: surfaces.py:1471 utility_editors.py:503
 msgid "Select a mesh object"
 msgstr ""
 
@@ -8526,7 +8610,7 @@ msgstr ""
 msgid "Selection Set for Set Keys"
 msgstr ""
 
-#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1303
+#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1304
 msgid "Selected"
 msgstr ""
 
@@ -9138,587 +9222,591 @@ msgstr ""
 msgid "Find..."
 msgstr ""
 
-#: utility_editors.py:21 utility_editors.py:610 utility_editors.py:788 utility_editors.py:788
+#: utility_editors.py:22 utility_editors.py:611 utility_editors.py:789 utility_editors.py:789
 msgid "Common"
 msgstr ""
 
-#: utility_editors.py:230
+#: utility_editors.py:231
 msgid "The mesh topology changed during the UV edit"
 msgstr ""
 
-#: utility_editors.py:267
+#: utility_editors.py:268
 msgid "Finish editing the other object before editing these UVs"
 msgstr ""
 
-#: utility_editors.py:273
+#: utility_editors.py:274
 msgid "No editor area is available for UV operations"
 msgstr ""
 
-#: utility_editors.py:314 utility_editors.py:63 utility_editors.py:1112
+#: utility_editors.py:315 utility_editors.py:64 utility_editors.py:1113
 msgid "Select an editable mesh object"
 msgstr ""
 
-#: utility_editors.py:326
+#: utility_editors.py:327
 msgid "Select the texture vertices to weld"
 msgstr ""
 
-#: utility_editors.py:329
+#: utility_editors.py:330
 msgid "The mesh has no polygon faces to map"
 msgstr ""
 
-#: utility_editors.py:354
+#: utility_editors.py:355
 msgid "The UV operation was cancelled by Blender"
 msgstr ""
 
-#: utility_editors.py:452
+#: utility_editors.py:447 utility_editors.py:1301 utility_editors.py:630
+msgid "Region"
+msgstr ""
+
+#: utility_editors.py:453
 msgid "CheckerPattern"
 msgstr ""
 
-#: utility_editors.py:500
+#: utility_editors.py:501
 msgid "The mesh has no faces"
 msgstr ""
 
-#: utility_editors.py:502
+#: utility_editors.py:503
 msgid "Create UV coordinates with Unwrap or Flatten Mapping"
 msgstr ""
 
-#: utility_editors.py:517
+#: utility_editors.py:518
 msgid "Selection Modes"
 msgstr ""
 
-#: utility_editors.py:523
+#: utility_editors.py:524
 msgid "Quick Transform"
 msgstr ""
 
-#: utility_editors.py:524 utility_editors.py:1245
+#: utility_editors.py:525 utility_editors.py:1246
 msgid "Rotate +90°"
 msgstr ""
 
-#: utility_editors.py:524 utility_editors.py:1245
+#: utility_editors.py:525 utility_editors.py:1246
 msgid "Mirror Horizontal"
 msgstr ""
 
-#: utility_editors.py:524 utility_editors.py:1246
+#: utility_editors.py:525 utility_editors.py:1247
 msgid "Mirror Vertical"
 msgstr ""
 
-#: utility_editors.py:528
+#: utility_editors.py:529
 msgid "Flatten Mapping"
 msgstr ""
 
-#: utility_editors.py:528 utility_editors.py:1255
+#: utility_editors.py:529 utility_editors.py:1256
 msgid "Pack Islands"
 msgstr ""
 
-#: utility_editors.py:528 utility_editors.py:1255
+#: utility_editors.py:529 utility_editors.py:1256
 msgid "Rescale Islands"
 msgstr ""
 
-#: utility_editors.py:531
+#: utility_editors.py:532
 msgid "Selection and Pins"
 msgstr ""
 
-#: utility_editors.py:532 utility_editors.py:1230
+#: utility_editors.py:533 utility_editors.py:1231
 msgid "Selection From Base"
 msgstr ""
 
-#: utility_editors.py:532 utility_editors.py:1231
+#: utility_editors.py:533 utility_editors.py:1232
 msgid "Selection To Base"
 msgstr ""
 
-#: utility_editors.py:537
+#: utility_editors.py:538
 msgid "Selected Polygons Only"
 msgstr ""
 
-#: utility_editors.py:539
+#: utility_editors.py:540
 msgid "MMB: Pan   Wheel: Zoom   W/E/R: Transform   Esc: Cancel"
 msgstr ""
 
-#: utility_editors.py:563
+#: utility_editors.py:564
 msgid "Choose a Camera"
 msgstr ""
 
-#: utility_editors.py:611 utility_editors.py:611
+#: utility_editors.py:612 utility_editors.py:612
 msgid "Common Parameters"
 msgstr ""
 
-#: utility_editors.py:613
+#: utility_editors.py:614
 msgid "Time Output"
 msgstr ""
 
-#: utility_editors.py:615
+#: utility_editors.py:616
 msgid "Single"
 msgstr ""
 
-#: utility_editors.py:616
+#: utility_editors.py:617
 msgid "Every Nth Frame:"
 msgstr ""
 
-#: utility_editors.py:620
+#: utility_editors.py:621
 msgid "Range:"
 msgstr ""
 
-#: utility_editors.py:622
+#: utility_editors.py:623
 msgid "To"
 msgstr ""
 
-#: utility_editors.py:624
+#: utility_editors.py:625
 msgid "File Number Base:"
 msgstr ""
 
-#: utility_editors.py:626
+#: utility_editors.py:627
 msgid "Frames"
 msgstr ""
 
-#: utility_editors.py:631
+#: utility_editors.py:632
 msgid "Auto Region Selected"
 msgstr ""
 
-#: utility_editors.py:634
+#: utility_editors.py:635
 msgid "HDTV (video)"
 msgstr ""
 
-#: utility_editors.py:638 utility_editors.py:639
+#: utility_editors.py:639 utility_editors.py:640
 msgid "Aperture Width(mm):"
 msgstr ""
 
-#: utility_editors.py:642
+#: utility_editors.py:643
 msgid "Aperture Width(mm): 36.000"
 msgstr ""
 
-#: utility_editors.py:652
+#: utility_editors.py:653
 msgid "Pixel Aspect:"
 msgstr ""
 
-#: utility_editors.py:655
+#: utility_editors.py:656
 msgid "Effects"
 msgstr ""
 
-#: utility_editors.py:655 utility_editors.py:660
+#: utility_editors.py:656 utility_editors.py:661
 msgid "Displacement"
 msgstr ""
 
-#: utility_editors.py:656
+#: utility_editors.py:657
 msgid "Video Color Check"
 msgstr ""
 
-#: utility_editors.py:656
+#: utility_editors.py:657
 msgid "Render to Fields"
 msgstr ""
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Render Hidden Geometry"
 msgstr ""
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Area Lights/Shadows as Points"
 msgstr ""
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Force 2-Sided"
 msgstr ""
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Super Black"
 msgstr ""
 
-#: utility_editors.py:663
+#: utility_editors.py:664
 msgid "Advanced Lighting"
 msgstr ""
 
-#: utility_editors.py:664
+#: utility_editors.py:665
 msgid "Use Advanced Lighting"
 msgstr ""
 
-#: utility_editors.py:665
+#: utility_editors.py:666
 msgid "Compute Advanced Lighting when Required"
 msgstr ""
 
-#: utility_editors.py:666
+#: utility_editors.py:667
 msgid "Bitmap Performance and Memory Options"
 msgstr ""
 
-#: utility_editors.py:667
+#: utility_editors.py:668
 msgid "Bitmap Proxies / Paging Disabled"
 msgstr ""
 
-#: utility_editors.py:668
+#: utility_editors.py:669
 msgid "Setup..."
 msgstr ""
 
-#: utility_editors.py:669
+#: utility_editors.py:670
 msgid "Render Output"
 msgstr ""
 
-#: utility_editors.py:673
+#: utility_editors.py:674
 msgid "Put Image File List(s) in Output Path(s)"
 msgstr ""
 
-#: utility_editors.py:674
+#: utility_editors.py:675
 msgid "Create Now"
 msgstr ""
 
-#: utility_editors.py:675
+#: utility_editors.py:676
 msgid "Autodesk ME Image Sequence File (.imsq)"
 msgstr ""
 
-#: utility_editors.py:676
+#: utility_editors.py:677
 msgid "Legacy 3ds Max Image File List (.ifl)"
 msgstr ""
 
-#: utility_editors.py:677
+#: utility_editors.py:678
 msgid "Use Device"
 msgstr ""
 
-#: utility_editors.py:679
+#: utility_editors.py:680
 msgid "Devices..."
 msgstr ""
 
-#: utility_editors.py:682
+#: utility_editors.py:683
 msgid "Skip Existing Images"
 msgstr ""
 
-#: utility_editors.py:689
+#: utility_editors.py:690
 msgid "Enable Notifications"
 msgstr ""
 
-#: utility_editors.py:691
+#: utility_editors.py:692
 msgid "Pre-Render: Enable"
 msgstr ""
 
-#: utility_editors.py:692
+#: utility_editors.py:693
 msgid "Post-Render: Enable"
 msgstr ""
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "Production:"
 msgstr ""
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "Material Editor:"
 msgstr ""
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "ActiveShade:"
 msgstr ""
 
-#: utility_editors.py:709 utility_editors.py:716
+#: utility_editors.py:710 utility_editors.py:717
 msgid "Render Samples"
 msgstr ""
 
-#: utility_editors.py:709 utility_editors.py:716
+#: utility_editors.py:710 utility_editors.py:717
 msgid "Viewport Samples"
 msgstr ""
 
-#: utility_editors.py:710
+#: utility_editors.py:711
 msgid "Max Bounces"
 msgstr ""
 
-#: utility_editors.py:710
+#: utility_editors.py:711
 msgid "Diffuse Bounces"
 msgstr ""
 
-#: utility_editors.py:711
+#: utility_editors.py:712
 msgid "Glossy Bounces"
 msgstr ""
 
-#: utility_editors.py:711
+#: utility_editors.py:712
 msgid "Transmission Bounces"
 msgstr ""
 
-#: utility_editors.py:712
+#: utility_editors.py:713
 msgid "Transparent Bounces"
 msgstr ""
 
-#: utility_editors.py:712
+#: utility_editors.py:713
 msgid "Noise Threshold"
 msgstr ""
 
-#: utility_editors.py:713
+#: utility_editors.py:714
 msgid "Denoising"
 msgstr ""
 
-#: utility_editors.py:713
+#: utility_editors.py:714
 msgid "Adaptive Sampling"
 msgstr ""
 
-#: utility_editors.py:717
+#: utility_editors.py:718
 msgid "Shadow Rays"
 msgstr ""
 
-#: utility_editors.py:717
+#: utility_editors.py:718
 msgid "Shadow Steps"
 msgstr ""
 
-#: utility_editors.py:718
+#: utility_editors.py:719
 msgid "Volume Samples"
 msgstr ""
 
-#: utility_editors.py:718
+#: utility_editors.py:719
 msgid "Light Threshold"
 msgstr ""
 
-#: utility_editors.py:719
+#: utility_editors.py:720
 msgid "Ray Tracing"
 msgstr ""
 
-#: utility_editors.py:722
+#: utility_editors.py:723
 msgid "Render Anti-Aliasing"
 msgstr ""
 
-#: utility_editors.py:741
+#: utility_editors.py:742
 msgid "File Format:"
 msgstr ""
 
-#: utility_editors.py:744
+#: utility_editors.py:745
 msgid "Output %:"
 msgstr ""
 
-#: utility_editors.py:747
+#: utility_editors.py:748
 msgid "Transparent Background"
 msgstr ""
 
-#: utility_editors.py:749
+#: utility_editors.py:750
 msgid "Motion Blur"
 msgstr ""
 
-#: utility_editors.py:756
+#: utility_editors.py:757
 msgid "Z Depth"
 msgstr ""
 
-#: utility_editors.py:756
+#: utility_editors.py:757
 msgid "Mist"
 msgstr ""
 
-#: utility_editors.py:757
+#: utility_editors.py:758
 msgid "Diffuse Color"
 msgstr ""
 
-#: utility_editors.py:757
+#: utility_editors.py:758
 msgid "Specular (Glossy) Color"
 msgstr ""
 
-#: utility_editors.py:758
+#: utility_editors.py:759
 msgid "Ambient Occlusion"
 msgstr ""
 
-#: utility_editors.py:759
+#: utility_editors.py:760
 msgid "Shadow"
 msgstr ""
 
-#: utility_editors.py:759
+#: utility_editors.py:760
 msgid "Cryptomatte Object"
 msgstr ""
 
-#: utility_editors.py:760
+#: utility_editors.py:761
 msgid "Cryptomatte Material"
 msgstr ""
 
-#: utility_editors.py:775 utility_editors.py:1313
+#: utility_editors.py:776 utility_editors.py:1314
 msgid "Production Rendering Mode"
 msgstr ""
 
-#: utility_editors.py:776
+#: utility_editors.py:777
 msgid "Preset:"
 msgstr ""
 
-#: utility_editors.py:777
+#: utility_editors.py:778
 msgid "No preset selected"
 msgstr ""
 
-#: utility_editors.py:778
+#: utility_editors.py:779
 msgid "Renderer:"
 msgstr ""
 
-#: utility_editors.py:781
+#: utility_editors.py:782
 msgid "Render Animation"
 msgstr ""
 
-#: utility_editors.py:782 utility_editors.py:670
+#: utility_editors.py:783 utility_editors.py:671
 msgid "Save File"
 msgstr ""
 
-#: utility_editors.py:783 utility_editors.py:671
+#: utility_editors.py:784 utility_editors.py:672
 msgid "Files..."
 msgstr ""
 
-#: utility_editors.py:784
+#: utility_editors.py:785
 msgid "View to Render:"
 msgstr ""
 
-#: utility_editors.py:786
+#: utility_editors.py:787
 msgid "Lock View (not available in Blender)"
 msgstr ""
 
-#: utility_editors.py:788 utility_editors.py:762 utility_editors.py:762
+#: utility_editors.py:789 utility_editors.py:763 utility_editors.py:763
 msgid "Render Elements"
 msgstr ""
 
-#: utility_editors.py:888
+#: utility_editors.py:889
 msgid "Freeform Mode (Select)"
 msgstr ""
 
-#: utility_editors.py:889
+#: utility_editors.py:890
 msgid "Texture Vertex Move Mode"
 msgstr ""
 
-#: utility_editors.py:890
+#: utility_editors.py:891
 msgid "Texture Vertex Rotate Mode"
 msgstr ""
 
-#: utility_editors.py:891
+#: utility_editors.py:892
 msgid "Texture Vertex Scale Mode"
 msgstr ""
 
-#: utility_editors.py:892
+#: utility_editors.py:893
 msgid "Vertex sub-object level"
 msgstr ""
 
-#: utility_editors.py:893
+#: utility_editors.py:894
 msgid "Edge sub-object level"
 msgstr ""
 
-#: utility_editors.py:894
+#: utility_editors.py:895
 msgid "Polygon sub-object level"
 msgstr ""
 
-#: utility_editors.py:901
+#: utility_editors.py:902
 msgid "Rotate +90"
 msgstr ""
 
-#: utility_editors.py:902
+#: utility_editors.py:903
 msgid "Rotate -90"
 msgstr ""
 
-#: utility_editors.py:903
+#: utility_editors.py:904
 msgid "Pack"
 msgstr ""
 
-#: utility_editors.py:904
+#: utility_editors.py:905
 msgid "Quick Peel Unfold"
 msgstr ""
 
-#: utility_editors.py:905
+#: utility_editors.py:906
 msgid "Texture Vertex Weld Selected"
 msgstr ""
 
-#: utility_editors.py:964 utility_editors.py:970
+#: utility_editors.py:965 utility_editors.py:971
 msgid "UV Selection"
 msgstr ""
 
-#: utility_editors.py:1077
+#: utility_editors.py:1078
 msgid "Render Output Size"
 msgstr ""
 
-#: utility_editors.py:1143
+#: utility_editors.py:1144
 msgid "Render Output File"
 msgstr ""
 
-#: utility_editors.py:1171
+#: utility_editors.py:1172
 msgid "Max Editor Setting"
 msgstr ""
 
-#: utility_editors.py:1182
+#: utility_editors.py:1183
 msgid "The camera is no longer in this scene"
 msgstr ""
 
-#: utility_editors.py:1191
+#: utility_editors.py:1192
 msgid "Unknown editor setting"
 msgstr ""
 
-#: utility_editors.py:1199
+#: utility_editors.py:1200
 msgid "Edit UVWs Action"
 msgstr ""
 
-#: utility_editors.py:1222 utility_editors.py:532
+#: utility_editors.py:1223 utility_editors.py:533
 msgid "Pin Selected"
 msgstr ""
 
-#: utility_editors.py:1223 utility_editors.py:532
+#: utility_editors.py:1224 utility_editors.py:533
 msgid "Unpin Selected"
 msgstr ""
 
-#: utility_editors.py:1242
+#: utility_editors.py:1243
 msgid "Region Select"
 msgstr ""
 
-#: utility_editors.py:1254
+#: utility_editors.py:1255
 msgid "Unwrap (Angle Based)"
 msgstr ""
 
-#: utility_editors.py:1254 utility_editors.py:1108
+#: utility_editors.py:1255 utility_editors.py:1109
 msgid "Flatten Mapping (Smart UV Project)"
 msgstr ""
 
-#: utility_editors.py:1262
+#: utility_editors.py:1263
 msgid "Show Checker Pattern"
 msgstr ""
 
-#: utility_editors.py:1263
+#: utility_editors.py:1264
 msgid "Display Only Selected Polygons"
 msgstr ""
 
-#: utility_editors.py:1267 utility_editors.py:704 utility_editors.py:788 utility_editors.py:705
+#: utility_editors.py:1268 utility_editors.py:705 utility_editors.py:789 utility_editors.py:706
 msgid "Renderer"
 msgstr ""
 
-#: utility_editors.py:1273
+#: utility_editors.py:1274
 msgid "View to Render"
 msgstr ""
 
-#: utility_editors.py:1281
+#: utility_editors.py:1282
 msgid "Add a camera to this scene"
 msgstr ""
 
-#: utility_editors.py:1285 utility_editors.py:632
+#: utility_editors.py:1286 utility_editors.py:633
 msgid "Output Size"
 msgstr ""
 
-#: utility_editors.py:1287
+#: utility_editors.py:1288
 msgid "HDTV 1280 × 720"
 msgstr ""
 
-#: utility_editors.py:1287
+#: utility_editors.py:1288
 msgid "HDTV 1920 × 1080"
 msgstr ""
 
-#: utility_editors.py:1288
+#: utility_editors.py:1289
 msgid "UHD 3840 × 2160"
 msgstr ""
 
-#: utility_editors.py:1288
+#: utility_editors.py:1289
 msgid "Square 1024 × 1024"
 msgstr ""
 
-#: utility_editors.py:1289
+#: utility_editors.py:1290
 msgid "Square 2048 × 2048"
 msgstr ""
 
-#: utility_editors.py:1295 utility_editors.py:628
+#: utility_editors.py:1296 utility_editors.py:629
 msgid "Area to Render"
 msgstr ""
 
-#: utility_editors.py:1300 utility_editors.py:629
+#: utility_editors.py:1301 utility_editors.py:630
 msgid "Crop"
 msgstr ""
 
-#: utility_editors.py:1303
+#: utility_editors.py:1304
 msgid "Blowup"
 msgstr ""
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "Iterative Rendering Mode"
 msgstr ""
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "ActiveShade Mode"
 msgstr ""
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "Submit to Network Rendering"
 msgstr ""
 
-#: utility_editors.py:1321
+#: utility_editors.py:1322
 msgid "Output File Format"
 msgstr ""
 

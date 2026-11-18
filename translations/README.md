@@ -3,6 +3,8 @@
 MaxFlow (Blender Max) follows Blender's interface language. Translations are plain
 `.po` files, the standard format of translation tools such as
 [Poedit](https://poedit.net/). Translation support starts with version 0.8.3.
+To update a translation, open it in Poedit and use **Catalog → Update from POT
+File** with the latest `maxflow.pot`.
 
 ## What gets translated
 
@@ -16,10 +18,13 @@ MaxFlow text uses only MaxFlow's translation: a label without one stays in Engli
 even where Blender has a word for it, so a translation is never mixed with
 Blender's choice of terms. Without a file for your language, MaxFlow is in English.
 
+Included: Traditional Chinese ([`zh_TW.po`](zh_TW.po)), by yoyomaimai, from
+version 0.8.4.
+
 ## Make a translation
 
 1. Download the template [`maxflow.pot`](maxflow.pot) from this folder (the
-   download button on its page). It lists every interface string (about 2,400,
+   download button on its page). It lists every interface string (about 2,450,
    most of them short menu items), each with the source file and line where it is
    used.
 2. Save it as `<locale>.po`, with the code Blender uses for your language:
@@ -27,6 +32,7 @@ Blender's choice of terms. Without a file for your language, MaxFlow is in Engli
    `ja_JP.po`, `ko_KR.po`, `de_DE.po`, `fr_FR.po`... To see the code, choose the
    language in Preferences → Interface → Translation, then type
    `bpy.context.preferences.view.language` in Blender's Python Console.
+   `zh_TW.po` and `zh_CN.po`, the names translation tools use, work too.
 3. Fill in each `msgstr`. An empty `msgstr` keeps the English text, so you can
    translate in parts. Entries marked fuzzy are not used.
 4. Keep what follows the words as it is: `...` (opens a dialog), a final `:`, and

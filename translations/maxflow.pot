@@ -4,7 +4,7 @@
 # empty to keep the English text. See docs/TRANSLATING.md.
 msgid ""
 msgstr ""
-"Project-Id-Version: MaxFlow 0.8.4\n"
+"Project-Id-Version: MaxFlow 0.8.5\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

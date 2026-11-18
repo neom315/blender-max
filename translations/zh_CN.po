@@ -4532,7 +4532,7 @@ msgstr "旋转楼梯"
 
 #: max_menus.py:488
 msgid "Awning Window"
-msg>中悬窗"
+msgstr "中悬窗"
 
 #: max_menus.py:488
 msgid "Casement Window"
@@ -4744,7 +4744,7 @@ msgstr "宽翼缘"
 
 #: max_menus.py:536
 msgid "Photometric Lights"
-pstr="光度学灯光"
+msgstr "光度学灯光"
 
 #: max_menus.py:537 operators.py:436 surfaces.py:503
 msgid "Target Light"
@@ -7050,9 +7050,9 @@ msgstr "自定义启动画面"
 msgid "PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's own splash is 1000 x 500 px; the version number is drawn at the top right"
 msgstr "开启 Max 模式时作为 Blender 启动画面显示的 PNG 或 JPEG 图像。Blender 原生启动画面尺寸为 1000 x 500 像素；版本号绘制在右上角"
 
-#: preferences.py:25
-msgid "MaxFlow · 0.8.3 development preview"
-msgstr "MaxFlow · 0.8.3 开发预览版"
+#: preferences.py:27
+msgid "Development preview"
+msgstr "开发预览版"
 
 #: preferences.py:33
 msgid "Switch back to Blender before changing the color option."
@@ -9524,7 +9524,7 @@ msgstr "预设："
 
 #: utility_editors.py:777
 msgid "No preset selected"
-gstr "未选择预设"
+msgstr "未选择预设"
 
 #: utility_editors.py:778
 msgid "Renderer:"

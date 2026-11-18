@@ -19,7 +19,8 @@ even where Blender has a word for it, so a translation is never mixed with
 Blender's choice of terms. Without a file for your language, MaxFlow is in English.
 
 Included: Traditional Chinese ([`zh_TW.po`](zh_TW.po)), by yoyomaimai, from
-version 0.8.4.
+version 0.8.4, and Simplified Chinese ([`zh_CN.po`](zh_CN.po)), by mayloglog, from
+version 0.8.5.
 
 ## Make a translation
 

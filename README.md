@@ -35,6 +35,7 @@ Work with a familiar Command Panel, modifier stack, quad menus, Scene Explorer a
 | Materials | Slate-style and Compact material editing over Blender’s native shaders. |
 | Animation | Timeline, track bar, playback controls and Auto Key workflows. |
 | Switching | A top-bar switch, **MaxFlow** / **Blender**, between Blender Max and Blender’s own interface. |
+| Languages | English, Traditional Chinese (繁體中文) and Simplified Chinese (简体中文), following Blender’s interface language. |
 
 ### Modifier workflow
 
@@ -110,6 +111,10 @@ Yes. Use the top-bar switch to return to Blender’s interface and controls with
 
 Blender 5.0–5.2.
 
+### Is it available in my language?
+
+MaxFlow follows Blender’s interface language. Traditional Chinese (繁體中文, by yoyomaimai) and Simplified Chinese (简体中文, by mayloglog) are included: choose one in **Edit → Preferences → Interface → Translation** and tick **Interface**. With other languages MaxFlow stays in English. To translate it into yours, see the [translation guide](https://github.com/neom315/blender-max/tree/main/translations).
+
 ### Can it open `.max` files?
 
 No. Blender Max works with Blender’s scene and data systems; it does not add `.max` file support.
@@ -122,6 +127,7 @@ Yes. Blender Max is free and distributed under GPL-3.0-or-later. If it saves you
 
 - [Installable extension — version 0.8.5](https://neom315.github.io/blender-max/blender_max-0.8.5.zip)
 - [GitHub Releases](https://github.com/neom315/blender-max/releases)
+- [Translations and translation guide](translations/)
 - [Interactive website and workflow showcase](https://neom315.github.io/blender-max/)
 
 This repository currently hosts the public website and extension downloads. The extension’s Python sources are included in the installable ZIP.

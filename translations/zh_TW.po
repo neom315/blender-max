@@ -1,0 +1,9788 @@
+# MaxFlow interface strings.
+# Copy this file to <locale>.po (zh_HANT.po for Traditional Chinese, ja_JP.po, de_DE.po...),
+# fill in each msgstr and put the file in blender_max/translations/. Leave a msgstr
+# empty to keep the English text. See docs/TRANSLATING.md.
+msgid ""
+msgstr ""
+"Project-Id-Version: MaxFlow 0.8.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+
+#: __init__.py:6 chrome.py:452 chrome.py:431 i18n.py:15 (+4)
+msgid "MaxFlow"
+msgstr "MaxFlow"
+
+#: __init__.py:10
+msgid "Top bar > MaxFlow"
+msgstr "頂端列 > MaxFlow"
+
+#: __init__.py:11
+msgid "A 3ds Max-style workspace, Command Panel and quad menus"
+msgstr "3dsMax風格的工作區、命令面板與四分視圖選單"
+
+#: __init__.py:13
+msgid "Interface"
+msgstr "界面"
+
+#: __init__.py:51
+msgid "MaxFlow: could not disable"
+msgstr "MaxFlow：無法停用"
+
+#: __init__.py:64
+msgid "MaxFlow: preferences migrated from Blender Studio Max"
+msgstr "MaxFlow：已從Blender Studio Max移轉偏好設定"
+
+#: animation_ui.py:101 animation_ui.py:111 editors.py:156 surfaces.py:1272 (+2)
+msgid "Position"
+msgstr "位置"
+
+#: animation_ui.py:101 animation_ui.py:111 animation_ui.py:112 (+5)
+msgid "Rotation"
+msgstr "旋轉"
+
+#: animation_ui.py:102
+msgid "Quaternion"
+msgstr "四元數"
+
+#: animation_ui.py:102 surfaces.py:1248
+msgid "Axis Angle"
+msgstr "軸角"
+
+#: animation_ui.py:103 animation_ui.py:113 editors.py:157 flyouts.py:94 (+11)
+msgid "Scale"
+msgstr "縮放"
+
+#: animation_ui.py:113 surfaces.py:644 surfaces.py:955 surfaces.py:851 (+4)
+msgid "Parameters"
+msgstr "參數"
+
+#: animation_ui.py:121
+msgid "Objects"
+msgstr "物件"
+
+#: animation_ui.py:130 surfaces.py:1218
+msgid "Transform"
+msgstr "變換"
+
+#: animation_ui.py:286
+msgid "Move Keys Horizontally"
+msgstr "水平移動關鍵格"
+
+#: animation_ui.py:287
+msgid "Move Keys Vertically"
+msgstr "垂直移動關鍵格"
+
+#: animation_ui.py:288
+msgid "Scale Keys"
+msgstr "縮放關鍵格"
+
+#: animation_ui.py:289
+msgid "Scale Values"
+msgstr "縮放數值"
+
+#: animation_ui.py:290 animation_ui.py:333
+msgid "Add Keys"
+msgstr "新增關鍵格"
+
+#: animation_ui.py:292 animation_ui.py:320 keymap.py:35 material_ui.py:1207
+#: (+7)
+msgid "Zoom Extents"
+msgstr "縮放至全部"
+
+#: animation_ui.py:293 animation_ui.py:321
+msgid "Zoom Selected"
+msgstr "縮放至選取"
+
+#: animation_ui.py:303
+msgid "Show Tangents"
+msgstr "顯示切線"
+
+#: animation_ui.py:305 animation_ui.py:347
+msgid "Edit Keys"
+msgstr "編輯關鍵格"
+
+#: animation_ui.py:306 animation_ui.py:347
+msgid "Edit Ranges"
+msgstr "編輯範圍"
+
+#: animation_ui.py:307
+msgid "Snap to Frames"
+msgstr "貼齊影格"
+
+#: animation_ui.py:308 operators.py:737 operators.py:756
+msgid "Controller"
+msgstr "控制器"
+
+#: animation_ui.py:309
+msgid "Key Window"
+msgstr "關鍵格視窗"
+
+#: animation_ui.py:314 animation_ui.py:374
+msgid "Editor"
+msgstr "編輯器"
+
+#: animation_ui.py:314 animation_ui.py:372 editors.py:308 max_menus.py:879 (+1)
+msgid "Curve Editor"
+msgstr "曲線編輯器"
+
+#: animation_ui.py:315 animation_ui.py:372 editors.py:309 max_menus.py:880 (+1)
+msgid "Dope Sheet"
+msgstr "攝影表"
+
+#: animation_ui.py:316
+msgid "Return to Viewports"
+msgstr "返回檢視"
+
+#: animation_ui.py:317 animation_ui.py:374 flyouts.py:487 material_ui.py:1517
+#: (+10)
+msgid "Edit"
+msgstr "編輯"
+
+#: animation_ui.py:317 scene_ui.py:231 surfaces.py:364 ui.py:142 (+1)
+msgid "Undo"
+msgstr "復原"
+
+#: animation_ui.py:317 keymap.py:82 scene_ui.py:231 surfaces.py:365 (+2)
+msgid "Redo"
+msgstr "重做"
+
+#: animation_ui.py:318
+msgid "Cut Keys"
+msgstr "剪下關鍵格"
+
+#: animation_ui.py:318
+msgid "Copy Keys"
+msgstr "複製關鍵格"
+
+#: animation_ui.py:319
+msgid "Paste Keys"
+msgstr "貼上關鍵格"
+
+#: animation_ui.py:320 animation_ui.py:374 flyouts.py:106 material_ui.py:1533
+#: (+5)
+msgid "View"
+msgstr "檢視"
+
+#: animation_ui.py:322
+msgid "Enable Auto-Zoom"
+msgstr "啟用自動縮放"
+
+#: animation_ui.py:324
+msgid "Constant Interpolation"
+msgstr "常數插值"
+
+#: animation_ui.py:325
+msgid "Linear Interpolation"
+msgstr "線性插值"
+
+#: animation_ui.py:326
+msgid "Bezier Interpolation"
+msgstr "貝茲線插值"
+
+#: animation_ui.py:327
+msgid "Mute Selected Tracks"
+msgstr "靜音所選軌跡"
+
+#: animation_ui.py:328
+msgid "Constant Extrapolation"
+msgstr "常數外插"
+
+#: animation_ui.py:329
+msgid "Linear Extrapolation"
+msgstr "線性外插"
+
+#: animation_ui.py:330 animation_ui.py:374
+msgid "Keys"
+msgstr "關鍵格"
+
+#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1230
+msgid "Invert Selection"
+msgstr "反轉選取"
+
+#: animation_ui.py:334 trackbar.py:142
+msgid "Key Properties..."
+msgstr "關鍵格屬性..."
+
+#: animation_ui.py:336 animation_ui.py:374
+msgid "Tangents"
+msgstr "切線"
+
+#: animation_ui.py:337 animation_ui.py:798 flyouts.py:393 surfaces.py:1634 (+1)
+msgid "Auto"
+msgstr "自動"
+
+#: animation_ui.py:337
+msgid "Clamped"
+msgstr "限制"
+
+#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:634
+msgid "Custom"
+msgstr "自訂"
+
+#: animation_ui.py:338
+msgid "Unified"
+msgstr "統一"
+
+#: animation_ui.py:338 animation_ui.py:799 editors.py:209 flyouts.py:391 (+4)
+msgid "Linear"
+msgstr "線性"
+
+#: animation_ui.py:338
+msgid "Flat"
+msgstr "平坦"
+
+#: animation_ui.py:338 commands.py:1335 flyouts.py:391 trackbar.py:276
+msgid "Step"
+msgstr "步數"
+
+#: animation_ui.py:339 animation_ui.py:1079 animation_ui.py:374 editors.py:299
+#: (+1)
+msgid "Time"
+msgstr "時間"
+
+#: animation_ui.py:339
+msgid "Reverse Selected Time"
+msgstr "反轉所選時間"
+
+#: animation_ui.py:340
+msgid "Scale Selected Time 50%"
+msgstr "將所選時間縮放為50%"
+
+#: animation_ui.py:341
+msgid "Scale Selected Time 200%"
+msgstr "將所選時間縮放為200%"
+
+#: animation_ui.py:342
+msgid "Insert 10 Frames"
+msgstr "插入10個影格"
+
+#: animation_ui.py:343
+msgid "Delete 10 Frames"
+msgstr "刪除10個影格"
+
+#: animation_ui.py:344 animation_ui.py:374
+msgid "Show"
+msgstr "顯示"
+
+#: animation_ui.py:344 animation_ui.py:810
+msgid "Selected Objects Only"
+msgstr "僅顯示所選物件"
+
+#: animation_ui.py:345 animation_ui.py:812 flyouts.py:444 scene_ui.py:233 (+1)
+msgid "Expand All"
+msgstr "全部展開"
+
+#: animation_ui.py:345 animation_ui.py:812
+msgid "Collapse Objects"
+msgstr "收合物件"
+
+#: animation_ui.py:346
+msgid "Show Tangent Handles"
+msgstr "顯示切線控制柄"
+
+#: animation_ui.py:373 scene_ui.py:244
+msgid "Viewports"
+msgstr "視圖"
+
+#: animation_ui.py:460
+msgid "Tangent Handle"
+msgstr "切線控制柄"
+
+#: animation_ui.py:463
+msgid "Animation Key"
+msgstr "動畫鍵"
+
+#: animation_ui.py:481
+msgid "Move Range"
+msgstr "移動範圍"
+
+#: animation_ui.py:482
+msgid "Range Start"
+msgstr "範圍起點"
+
+#: animation_ui.py:483
+msgid "Range End"
+msgstr "範圍終點"
+
+#: animation_ui.py:493
+msgid "Animation Keys"
+msgstr "動畫鍵"
+
+#: animation_ui.py:510
+msgid "Drag keys to move  |  Ctrl: add selection  |  MMB: pan  |  Wheel: zoom"
+msgstr "拖曳動畫鍵以移動|Ctrl：加入選取|中鍵：平移|滾輪：縮放"
+
+#: animation_ui.py:543
+msgid "Delete Animation Keys"
+msgstr "刪除動畫鍵"
+
+#: animation_ui.py:553 editors.py:205
+msgid "Set Key Interpolation"
+msgstr "設定動畫鍵插值"
+
+#: animation_ui.py:569
+msgid "Set Key Tangents"
+msgstr "設定動畫鍵切線"
+
+#: animation_ui.py:611
+msgid "Edit Animation Keys"
+msgstr "編輯動畫鍵"
+
+#: animation_ui.py:650
+msgid "Paste Animation Keys"
+msgstr "貼上動畫鍵"
+
+#: animation_ui.py:761
+msgid "Edit Animation Tracks"
+msgstr "編輯動畫軌跡"
+
+#: animation_ui.py:797
+msgid "Isolate Curve"
+msgstr "隔離曲線"
+
+#: animation_ui.py:799
+msgid "Stepped"
+msgstr "階梯式"
+
+#: animation_ui.py:800
+msgid "Break Tangents"
+msgstr "斷開切線"
+
+#: animation_ui.py:800
+msgid "Unify Tangents"
+msgstr "統一切線"
+
+#: animation_ui.py:805
+msgid "Override All Locks"
+msgstr "覆寫所有鎖定"
+
+#: animation_ui.py:806
+msgid "Conceal"
+msgstr "隱藏"
+
+#: animation_ui.py:806
+msgid "Expose"
+msgstr "顯示"
+
+#: animation_ui.py:806
+msgid "Unlock Leaves"
+msgstr "解除末端項目鎖定"
+
+#: animation_ui.py:806
+msgid "Unlock"
+msgstr "解除鎖定"
+
+#: animation_ui.py:806
+msgid "Lock"
+msgstr "鎖定"
+
+#: animation_ui.py:807
+msgid "Manual Navigation"
+msgstr "手動導覽"
+
+#: animation_ui.py:808
+msgid "Auto Expand"
+msgstr "自動展開"
+
+#: animation_ui.py:808
+msgid "Children"
+msgstr "子項目"
+
+#: animation_ui.py:808 flyouts.py:403 material_ui.py:38 material_ui.py:39 (+7)
+msgid "Materials"
+msgstr "材質"
+
+#: animation_ui.py:808 flyouts.py:174 flyouts.py:403 max_menus.py:624
+msgid "Modifiers"
+msgstr "修改器"
+
+#: animation_ui.py:808
+msgid "Base Objects"
+msgstr "基礎物件"
+
+#: animation_ui.py:809
+msgid "Animated"
+msgstr "已製作動畫"
+
+#: animation_ui.py:809
+msgid "Keyable"
+msgstr "可設為關鍵格"
+
+#: animation_ui.py:809 surfaces.py:912
+msgid "Limits"
+msgstr "限制"
+
+#: animation_ui.py:809
+msgid "XYZ Components"
+msgstr "XYZ軸分量"
+
+#: animation_ui.py:809 editors.py:173
+msgid "Transforms"
+msgstr "變換"
+
+#: animation_ui.py:811 flyouts.py:235 flyouts.py:445 scene_ui.py:233 (+1)
+msgid "Collapse All"
+msgstr "全部收合"
+
+#: animation_ui.py:811
+msgid "Collapse Tracks"
+msgstr "收合軌跡"
+
+#: animation_ui.py:813
+msgid "Expand Tracks"
+msgstr "展開軌跡"
+
+#: animation_ui.py:813
+msgid "Expand Objects"
+msgstr "展開物件"
+
+#: animation_ui.py:814
+msgid "Properties..."
+msgstr "屬性..."
+
+#: animation_ui.py:814
+msgid "Assign Controller..."
+msgstr "指定控制器..."
+
+#: animation_ui.py:815
+msgid "Add/Edit Parameters..."
+msgstr "新增/編輯參數..."
+
+#: animation_ui.py:815
+msgid "View Attribute Dialog..."
+msgstr "檢視屬性對話方塊..."
+
+#: animation_ui.py:815
+msgid "Collect Parameters"
+msgstr "收集參數"
+
+#: animation_ui.py:816
+msgid "Publish Parameters..."
+msgstr "發佈參數..."
+
+#: animation_ui.py:816 commands.py:1181 flyouts.py:230 operators.py:735 (+1)
+msgid "Copy"
+msgstr "複製"
+
+#: animation_ui.py:816
+msgid "Paste..."
+msgstr "貼上..."
+
+#: animation_ui.py:816 flyouts.py:233
+msgid "Make Unique"
+msgstr "設為唯一"
+
+#: animation_ui.py:817
+msgid "Limit Controller:"
+msgstr "限制控制器："
+
+#: animation_ui.py:817
+msgid "Toggle Limit"
+msgstr "切換限制"
+
+#: animation_ui.py:817
+msgid "Set Upper Limit"
+msgstr "設定上限"
+
+#: animation_ui.py:817
+msgid "Set Lower Limit"
+msgstr "設定下限"
+
+#: animation_ui.py:818
+msgid "Remove Limit"
+msgstr "移除限制"
+
+#: animation_ui.py:818
+msgid "Copy Limit Only"
+msgstr "僅複製限制"
+
+#: animation_ui.py:818
+msgid "Paste Limit Only"
+msgstr "僅貼上限制"
+
+#: animation_ui.py:819
+msgid "XRef Tracks State"
+msgstr "外部參照軌跡狀態"
+
+#: animation_ui.py:819
+msgid "Use XRefed"
+msgstr "使用外部參照"
+
+#: animation_ui.py:819
+msgid "Use Local"
+msgstr "使用本機"
+
+#: animation_ui.py:820 max_menus.py:678
+msgid "Load Animation..."
+msgstr "載入動畫..."
+
+#: animation_ui.py:820 max_menus.py:678
+msgid "Save Animation..."
+msgstr "儲存動畫..."
+
+#: animation_ui.py:918 animation_ui.py:796
+msgid "Add/Remove Keys"
+msgstr "新增/移除動畫鍵"
+
+#: animation_ui.py:919 animation_ui.py:285 animation_ui.py:796 chrome.py:815
+msgid "Move Keys"
+msgstr "移動動畫鍵"
+
+#: animation_ui.py:920 animation_ui.py:330 animation_ui.py:805 flyouts.py:515
+#: (+8)
+msgid "Select All"
+msgstr "全選"
+
+#: animation_ui.py:921 animation_ui.py:331 animation_ui.py:804 flyouts.py:516
+#: (+9)
+msgid "Select None"
+msgstr "取消全選"
+
+#: animation_ui.py:922 animation_ui.py:804 keymap.py:93 material_ui.py:1195
+#: (+3)
+msgid "Select Invert"
+msgstr "反向選取"
+
+#: animation_ui.py:923 animation_ui.py:803 flyouts.py:435 keymap.py:119 (+3)
+msgid "Select Children"
+msgstr "選取子項"
+
+#: animation_ui.py:924
+msgid "Frame Horizontal and Value Extents"
+msgstr "框選水平與數值範圍"
+
+#: animation_ui.py:925
+msgid "Frame Horizontal Extents"
+msgstr "框選水平範圍"
+
+#: animation_ui.py:926
+msgid "Frame Horizontal Extents Keys"
+msgstr "框選動畫鍵的水平範圍"
+
+#: animation_ui.py:927 animation_ui.py:295 animation_ui.py:323
+#: interactions.py:550 (+2)
+msgid "Zoom"
+msgstr "縮放"
+
+#: animation_ui.py:928 interactions.py:551 keymap.py:38 trackbar.py:459
+msgid "Zoom Region"
+msgstr "縮放至區域"
+
+#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323
+#: utility_editors.py:900 (+1)
+msgid "Pan"
+msgstr "平移"
+
+#: animation_ui.py:930 chrome.py:138 interactions.py:49 max_menus.py:1004 (+3)
+msgid "Left"
+msgstr "向左"
+
+#: animation_ui.py:930
+msgid "Nudge Keys Left"
+msgstr "將關鍵格向左微移"
+
+#: animation_ui.py:931 chrome.py:138 interactions.py:49 max_menus.py:1005 (+3)
+msgid "Right"
+msgstr "向右"
+
+#: animation_ui.py:931
+msgid "Nudge Keys Right"
+msgstr "將關鍵格向右微移"
+
+#: animation_ui.py:932
+msgid "Move Highlight Up"
+msgstr "向上移動高亮標示項目"
+
+#: animation_ui.py:933
+msgid "Move Highlight Down"
+msgstr "向下移動高亮標示項目"
+
+#: animation_ui.py:934
+msgid "Scroll Up"
+msgstr "向上捲動"
+
+#: animation_ui.py:935
+msgid "Scroll Down"
+msgstr "向下捲動"
+
+#: animation_ui.py:936 animation_ui.py:937
+msgid "Expand Track Toggle"
+msgstr "切換展開軌跡"
+
+#: animation_ui.py:937
+msgid "Enter"
+msgstr "確認鍵"
+
+#: animation_ui.py:938
+msgid "Expand Object Toggle"
+msgstr "切換展開物件"
+
+#: animation_ui.py:939
+msgid "Snap Frames"
+msgstr "貼齊影格"
+
+#: animation_ui.py:940 animation_ui.py:284
+msgid "Filters"
+msgstr "篩選器"
+
+#: animation_ui.py:942
+msgid "Copy (keys)"
+msgstr "複製(關鍵格)"
+
+#: animation_ui.py:943
+msgid "Paste (keys)"
+msgstr "貼上(關鍵格)"
+
+#: animation_ui.py:944 animation_ui.py:291 animation_ui.py:319
+#: animation_ui.py:335 (+2)
+msgid "Delete Keys"
+msgstr "刪除關鍵格"
+
+#: animation_ui.py:944
+msgid "Track View Delete"
+msgstr "軌跡檢視刪除"
+
+#: animation_ui.py:1054 chrome.py:27 editor_host.py:8 editor_host.py:10 (+2)
+msgid "Dope"
+msgstr "攝影表"
+
+#: animation_ui.py:1069
+msgid "Add Animation Keys"
+msgstr "新增動畫鍵"
+
+#: animation_ui.py:1077
+msgid "Key Properties"
+msgstr "鍵屬性"
+
+#: animation_ui.py:1080 material_ui.py:57
+msgid "Value"
+msgstr "數值"
+
+#: animation_ui.py:1093
+msgid "Select one or more animation keys"
+msgstr "選取一個或多個動畫鍵"
+
+#: animation_ui.py:1103
+msgid "Changes offset all selected keys."
+msgstr "變更會偏移所有選取的鍵."
+
+#: animation_ui.py:1107
+msgid "Select keys and open Key Properties"
+msgstr "選擇關鍵格並開啟關鍵格屬性"
+
+#: chrome.py:27 chrome.py:536 editor_host.py:8 editor_host.py:9 (+19)
+msgid "Slate"
+msgstr "石板"
+
+#: chrome.py:27 chrome.py:536 editor_host.py:8 editor_host.py:9 (+12)
+msgid "Compact"
+msgstr "精簡"
+
+#: chrome.py:27 editor_host.py:8 editor_host.py:10 editor_host.py:91 (+10)
+msgid "Render"
+msgstr "算圖"
+
+#: chrome.py:28 chrome.py:112 chrome.py:1177
+msgid "Toolbar"
+msgstr "工具列"
+
+#: chrome.py:28 chrome.py:114 chrome.py:671 chrome.py:687 (+1)
+msgid "Command"
+msgstr "命令"
+
+#: chrome.py:28 chrome.py:636 chrome.py:116 chrome.py:1177 (+3)
+msgid "Timeline"
+msgstr "時間軸"
+
+#: chrome.py:28 chrome.py:118 chrome.py:1177 flyouts.py:463 (+1)
+msgid "Ribbon"
+msgstr "功能區"
+
+#: chrome.py:28 chrome.py:1177 chrome.py:120
+msgid "Sidebar"
+msgstr "側邊欄"
+
+#: chrome.py:28 chrome.py:675 chrome.py:1177 chrome.py:122
+msgid "Explorer"
+msgstr "瀏覽器"
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1000 max_menus.py:417 (+2)
+msgid "Top"
+msgstr "上方"
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1001 max_menus.py:418 (+2)
+msgid "Bottom"
+msgstr "下方"
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1002 max_menus.py:415 (+2)
+msgid "Front"
+msgstr "前方"
+
+#: chrome.py:138 interactions.py:49 max_menus.py:1003 max_menus.py:416 (+2)
+msgid "Back"
+msgstr "後方"
+
+#: chrome.py:218 max_menus.py:1053 surfaces.py:504 surfaces.py:508 (+2)
+msgid "Standard"
+msgstr "標準"
+
+#: chrome.py:218 max_menus.py:1052
+msgid "High Quality"
+msgstr "高品質"
+
+#: chrome.py:218 flyouts.py:149 ui.py:66
+msgid "ActiveShade"
+msgstr "實時算圖"
+
+#: chrome.py:220 max_menus.py:1085
+msgid "Wireframe Override"
+msgstr "線框覆寫"
+
+#: chrome.py:220 max_menus.py:1080
+msgid "Hidden Line"
+msgstr "隱藏線"
+
+#: chrome.py:222 max_menus.py:1079
+msgid "Flat Color"
+msgstr "平面色彩"
+
+#: chrome.py:222 max_menus.py:1081
+msgid "Clay"
+msgstr "黏土"
+
+#: chrome.py:224 chrome.py:222 max_menus.py:1076
+msgid "Default Shading"
+msgstr "預設著色"
+
+#: chrome.py:429
+msgid "Workspaces: Default"
+msgstr "工作區：預設"
+
+#: chrome.py:430 operators.py:51 preferences.py:28 ui.py:98
+msgid "Blender"
+msgstr "Blender"
+
+#: chrome.py:457 surfaces.py:1765
+msgid "Find"
+msgstr "尋找"
+
+#: chrome.py:468 commands.py:1512 edit_poly.py:61 edit_poly.py:65 (+8)
+msgid "Name"
+msgstr "名稱"
+
+#: chrome.py:532
+msgid "Max Field Edit"
+msgstr "Max欄位編輯"
+
+#: chrome.py:566
+msgid "MaxFlow Interface Events"
+msgstr "MaxFlow界面事件"
+
+#: commands.py:206 commands.py:605 flyouts.py:28 operators.py:652
+msgid "Not available in Blender"
+msgstr "Blender中無法使用"
+
+#: commands.py:212
+msgid "No Hold buffer to fetch"
+msgstr "沒有可擷取的暫存區"
+
+#: commands.py:385
+msgid "Select a spot or directional light"
+msgstr "選取一盞點光源或方向光"
+
+#: commands.py:400
+msgid "Select an object with sub-objects"
+msgstr "選取含有次物件的物件"
+
+#: commands.py:412
+msgid "Safe frames show in camera views: the scene has no camera"
+msgstr "安全框會顯示於攝影機視圖中：場景中沒有攝影機"
+
+#: commands.py:429
+msgid "The object has no modifiers"
+msgstr "物件沒有修改器"
+
+#: commands.py:440
+msgid "Choose a sub-object level of an Editable Poly"
+msgstr "選擇可編輯多邊形的次物件層級"
+
+#: commands.py:453
+msgid "PhysCamera"
+msgstr "物理攝影機"
+
+#: commands.py:473
+msgid "Open Edges: choose a sub-object level of an Editable Poly"
+msgstr "開放邊：選擇可編輯多邊形的次物件層級"
+
+#: commands.py:537 max_menus.py:722 max_menus.py:701 max_menus.py:706 (+1)
+msgid "Script"
+msgstr "指令碼"
+
+#: commands.py:538 commands.py:540
+msgid "MAXScript Editor"
+msgstr "MAXScript編輯器"
+
+#: commands.py:544 keymap.py:86 operators.py:824 operators.py:810
+msgid "Scripting Listener"
+msgstr "指令碼監聽器"
+
+#: commands.py:546 max_menus.py:919
+msgid "Macro Recorder"
+msgstr "巨集錄製器"
+
+#: commands.py:554 max_menus.py:1027
+msgid "Schematic View"
+msgstr "架構視圖"
+
+#: commands.py:554 max_menus.py:890
+msgid "Layer Explorer"
+msgstr "圖層總管"
+
+#: commands.py:558
+msgid "Material Explorer"
+msgstr "材質總管"
+
+#: commands.py:560
+msgid "Motion Mixer"
+msgstr "動作混合器"
+
+#: commands.py:610 keymap.py:81 max_menus.py:260
+msgid "Fetch"
+msgstr "擷取"
+
+#: commands.py:610
+msgid "About to Fetch. OK?"
+msgstr "即將擷取確定嗎？"
+
+#: commands.py:622
+msgid "Max Command"
+msgstr "Max指令"
+
+#: commands.py:667
+msgid "UVW Mapping Gizmo"
+msgstr "UVW貼圖操控器"
+
+#: commands.py:677 params.py:461 utility_editors.py:77 utility_editors.py:88
+msgid "UVMap"
+msgstr "UV貼圖"
+
+#: commands.py:689 max_menus.py:663 max_menus.py:607 operators.py:676 (+1)
+msgid "Bend"
+msgstr "彎曲"
+
+#: commands.py:689 max_menus.py:665 max_menus.py:607 params.py:62 (+1)
+msgid "Twist"
+msgstr "扭轉"
+
+#: commands.py:689 max_menus.py:665 max_menus.py:607 surfaces.py:782
+msgid "Taper"
+msgstr "錐化"
+
+#: commands.py:690 max_menus.py:664 max_menus.py:607
+msgid "Stretch"
+msgstr "伸展"
+
+#: commands.py:690 commands.py:637 material_ui.py:45 max_menus.py:663 (+4)
+msgid "Noise"
+msgstr "雜訊"
+
+#: commands.py:690 max_menus.py:664
+msgid "Noise Plus"
+msgstr "雜訊增強"
+
+#: commands.py:691 max_menus.py:663 max_menus.py:595 max_menus.py:604 (+4)
+msgid "Displace"
+msgstr "置換"
+
+#: commands.py:692 max_menus.py:663
+msgid "Mirror"
+msgstr "鏡射"
+
+#: commands.py:692 max_menus.py:636 operators.py:675 surfaces.py:782
+msgid "Symmetry"
+msgstr "對稱"
+
+#: commands.py:693 max_menus.py:664 operators.py:675 surfaces.py:782
+msgid "Shell"
+msgstr "外殼"
+
+#: commands.py:693 flyouts.py:501 flyouts.py:503 flyouts.py:505 (+9)
+msgid "Chamfer"
+msgstr "倒角"
+
+#: commands.py:694 max_menus.py:658 operators.py:674 surfaces.py:782
+msgid "TurboSmooth"
+msgstr "渦輪平滑"
+
+#: commands.py:694 flyouts.py:494 keymap.py:153 max_menus.py:658
+msgid "MeshSmooth"
+msgstr "網格平滑"
+
+#: commands.py:695 max_menus.py:658
+msgid "OpenSubdiv"
+msgstr "OpenSubdiv"
+
+#: commands.py:695 max_menus.py:671
+msgid "Subdivide"
+msgstr "細分"
+
+#: commands.py:696 flyouts.py:494 max_menus.py:636 surfaces.py:1015
+msgid "Tessellate"
+msgstr "細化"
+
+#: commands.py:696 flyouts.py:489 max_menus.py:664 operators.py:676 (+2)
+msgid "Relax"
+msgstr "鬆弛"
+
+#: commands.py:697 max_menus.py:664 max_menus.py:590 operators.py:440 (+1)
+msgid "Push"
+msgstr "推擠"
+
+#: commands.py:697 max_menus.py:665
+msgid "Spherify"
+msgstr "球化"
+
+#: commands.py:697 max_menus.py:665 max_menus.py:603 surfaces.py:516
+msgid "Wave"
+msgstr "波浪"
+
+#: commands.py:698 max_menus.py:664 max_menus.py:603 surfaces.py:516
+msgid "Ripple"
+msgstr "漣漪"
+
+#: commands.py:698 flyouts.py:510 max_menus.py:635
+msgid "Optimize"
+msgstr "優化"
+
+#: commands.py:698 max_menus.py:635 operators.py:677
+msgid "ProOptimizer"
+msgstr "專業優化"
+
+#: commands.py:699 max_menus.py:636
+msgid "Vertex Weld"
+msgstr "頂點焊接"
+
+#: commands.py:699 flyouts.py:500 flyouts.py:503 operators.py:963 (+5)
+msgid "Weld"
+msgstr "焊接"
+
+#: commands.py:699 max_menus.py:634
+msgid "Edit Normals"
+msgstr "編輯法線"
+
+#: commands.py:700 max_menus.py:636
+msgid "Weighted Normals"
+msgstr "加權法線"
+
+#: commands.py:700 max_menus.py:642
+msgid "Skin"
+msgstr "表面"
+
+#: commands.py:700 max_menus.py:643
+msgid "Skin Wrap"
+msgstr "表面包裹"
+
+#: commands.py:701 max_menus.py:643 max_menus.py:669
+msgid "Surf Deform"
+msgstr "曲面變形"
+
+#: commands.py:701 max_menus.py:642
+msgid "Path Deform"
+msgstr "路徑變形"
+
+#: commands.py:701 max_menus.py:642
+msgid "Path Deform (WSM)"
+msgstr "路徑變形(WSM)"
+
+#: commands.py:702 max_menus.py:660 surfaces.py:782
+msgid "FFD 2x2x2"
+msgstr "FFD 2x2x2"
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD 3x3x3"
+msgstr "FFD 3x3x3"
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD 4x4x4"
+msgstr "FFD 4x4x4"
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD Box"
+msgstr "FFD 長方體"
+
+#: commands.py:702 max_menus.py:660
+msgid "FFD Cylinder"
+msgstr "FFD 圓柱體"
+
+#: commands.py:703 max_menus.py:652
+msgid "UVW Map"
+msgstr "UVW貼圖"
+
+#: commands.py:703 max_menus.py:500 operators.py:432 operators.py:678 (+2)
+msgid "Boolean"
+msgstr "布林"
+
+#: commands.py:703 max_menus.py:501 surfaces.py:489
+msgid "ProBoolean"
+msgstr "超級布林"
+
+#: commands.py:704 commands.py:1242 operators.py:675
+msgid "Array"
+msgstr "陣列"
+
+#: commands.py:704 max_menus.py:631
+msgid "Lathe"
+msgstr "車削"
+
+#: commands.py:704 max_menus.py:638 operators.py:677
+msgid "Turn To Mesh"
+msgstr "轉換為網格"
+
+#: commands.py:705
+msgid "Retopology"
+msgstr "重新拓樸"
+
+#: commands.py:705 flyouts.py:510 max_menus.py:500 max_menus.py:605 (+3)
+msgid "Conform"
+msgstr "貼合"
+
+#: commands.py:705 max_menus.py:663
+msgid "Conform Modifier"
+msgstr "貼合修改器"
+
+#: commands.py:706 max_menus.py:634
+msgid "Attribute Transfer"
+msgstr "屬性轉移"
+
+#: commands.py:706 max_menus.py:655
+msgid "Point Cache"
+msgstr "點快取"
+
+#: commands.py:706 max_menus.py:655
+msgid "Point Cache (WSM)"
+msgstr "點快取(WSM)"
+
+#: commands.py:707 max_menus.py:635
+msgid "MultiRes"
+msgstr "多重解析度"
+
+#: commands.py:707 max_menus.py:641
+msgid "Melt"
+msgstr "融化"
+
+#: commands.py:707 commands.py:711 commands.py:750 edit_poly.py:29 (+3)
+msgid "Edit Poly"
+msgstr "編輯多邊形"
+
+#: commands.py:707 commands.py:711 commands.py:750 edit_poly.py:29 (+1)
+msgid "Edit Mesh"
+msgstr "編輯網格"
+
+#: commands.py:707 max_menus.py:634
+msgid "Cap Holes"
+msgstr "封閉孔洞"
+
+#: commands.py:707 max_menus.py:664
+msgid "Slice"
+msgstr "切片"
+
+#: commands.py:708 max_menus.py:635
+msgid "Normal Modifier"
+msgstr "法線修改器"
+
+#: commands.py:708 max_menus.py:635
+msgid "Quadify Mesh"
+msgstr "四邊形網格"
+
+#: commands.py:708 max_menus.py:638
+msgid "Turn To Poly"
+msgstr "轉換為多邊形"
+
+#: commands.py:708 max_menus.py:641
+msgid "Morpher"
+msgstr "變形器"
+
+#: commands.py:710 commands.py:738 flyouts.py:498 flyouts.py:391 (+11)
+msgid "Smooth"
+msgstr "平滑"
+
+#: commands.py:710 commands.py:741 commands.py:742 max_menus.py:645 (+2)
+msgid "Cloth"
+msgstr "布料"
+
+#: commands.py:710 commands.py:741 max_menus.py:641
+msgid "Flex"
+msgstr "彈性"
+
+#: commands.py:710 commands.py:748 max_menus.py:652
+msgid "Unwrap UVW"
+msgstr "展開UVW"
+
+#: commands.py:710 commands.py:744 max_menus.py:648
+msgid "Hair and Fur (WSM)"
+msgstr "毛髮與皮毛(WSM)"
+
+#: commands.py:710 commands.py:760 commands.py:764 flyouts.py:500 (+13)
+msgid "Extrude"
+msgstr "擠出"
+
+#: commands.py:710 commands.py:760 max_menus.py:631
+msgid "Renderable Spline Modifier"
+msgstr "可算圖樣條線修改器"
+
+#: commands.py:710 commands.py:760 flyouts.py:507 quad.py:116 (+1)
+msgid "Bevel"
+msgstr "倒角"
+
+#: commands.py:720 operators.py:684
+msgid "Add Modifier"
+msgstr "新增修改器"
+
+#: commands.py:731 commands.py:797 commands.py:1503 surfaces.py:774 (+2)
+msgid "Select an object"
+msgstr "選取物件"
+
+#: commands.py:790
+msgid "Add Constraint"
+msgstr "新增約束"
+
+#: commands.py:892
+msgid "Viewport Shading"
+msgstr "檢視著色"
+
+#: commands.py:936
+msgid "Drag from a child to its parent object"
+msgstr "從子物件拖曳至其父級物件"
+
+#: commands.py:936
+msgid "Drag from an object to a space warp"
+msgstr "從物件拖曳至空間扭曲"
+
+#: commands.py:937
+msgid "Pick Align Target Object"
+msgstr "挑選對齊目標物件"
+
+#: commands.py:937
+msgid "Pick the constraint target"
+msgstr "選取約束目標"
+
+#: commands.py:938
+msgid "Pick objects to hide; right-click to finish"
+msgstr "選取要隱藏的物件；按右鍵完成"
+
+#: commands.py:938
+msgid "Pick objects to freeze; right-click to finish"
+msgstr "選取要凍結的物件；按右鍵完成"
+
+#: commands.py:939
+msgid "Pick objects to unfreeze; right-click to finish"
+msgstr "選取要解除凍結的物件；按右鍵完成"
+
+#: commands.py:939
+msgid "Pick a group to attach to"
+msgstr "選取要附加至的群組"
+
+#: commands.py:940
+msgid "Pick an object for the reference coordinate system"
+msgstr "選取參考座標系統的物件"
+
+#: commands.py:940
+msgid "Pick an object for the modifier"
+msgstr "選取修改器的物件"
+
+#: commands.py:941
+msgid "Pick an object to attach"
+msgstr "選取要附加的物件"
+
+#: commands.py:946 surfaces.py:983
+msgid "Pick Object"
+msgstr "選取物件"
+
+#: commands.py:1011
+msgid "Pick a space warp (force field)"
+msgstr "選取空間扭曲(力場)"
+
+#: commands.py:1021
+msgid ""
+"Blender space warps affect simulations (cloth, soft body, particles) only"
+msgstr "Blender空間扭曲只會影響模擬(布料 柔體 粒子)"
+
+#: commands.py:1048
+msgid "Pick a member of a group"
+msgstr "選取群組中的成員"
+
+#: commands.py:1074
+msgid "Attach: return to the Edit Poly top level first"
+msgstr "附加：請先返回編輯多邊形頂層"
+
+#: commands.py:1099
+msgid "Align Selection"
+msgstr "對齊選取項目"
+
+#: commands.py:1101 surfaces.py:508 utility_editors.py:1310
+msgid "Target"
+msgstr "目標"
+
+#: commands.py:1102
+msgid "X Position"
+msgstr "X位置"
+
+#: commands.py:1103
+msgid "Y Position"
+msgstr "Y位置"
+
+#: commands.py:1104
+msgid "Z Position"
+msgstr "Z位置"
+
+#: commands.py:1105
+msgid "Minimum"
+msgstr "最小值"
+
+#: commands.py:1105 params.py:122 params.py:123 params.py:124
+msgid "Center"
+msgstr "中心"
+
+#: commands.py:1105
+msgid "Pivot Point"
+msgstr "樞紐點"
+
+#: commands.py:1105
+msgid "Maximum"
+msgstr "最大值"
+
+#: commands.py:1106
+msgid "Current Object"
+msgstr "目前物件"
+
+#: commands.py:1107
+msgid "Target Object"
+msgstr "目標物件"
+
+#: commands.py:1108 commands.py:1111
+msgid "X Axis"
+msgstr "X軸"
+
+#: commands.py:1109 commands.py:1112
+msgid "Y Axis"
+msgstr "Y軸"
+
+#: commands.py:1110 commands.py:1113
+msgid "Z Axis"
+msgstr "Z軸"
+
+#: commands.py:1121
+msgid "Align Position (World):"
+msgstr "對齊位置(世界座標)："
+
+#: commands.py:1130
+msgid "Align Orientation (Local):"
+msgstr "對齊方向(區域座標)："
+
+#: commands.py:1136
+msgid "Match Scale:"
+msgstr "符合比例："
+
+#: commands.py:1181
+msgid "No Clone"
+msgstr "不複製"
+
+#: commands.py:1181 operators.py:735 operators.py:737
+msgid "Instance"
+msgstr "實例"
+
+#: commands.py:1181 max_menus.py:235 operators.py:736
+msgid "Reference"
+msgstr "參考"
+
+#: commands.py:1196
+msgid "Mirror: World Coordinates"
+msgstr "鏡射：世界座標"
+
+#: commands.py:1198 surfaces.py:910
+msgid "Mirror Axis"
+msgstr "鏡射軸"
+
+#: commands.py:1199 edit_poly.py:63 surfaces.py:911 ui.py:74
+msgid "Offset"
+msgstr "偏移"
+
+#: commands.py:1200
+msgid "Clone Selection"
+msgstr "複製選取項目"
+
+#: commands.py:1204
+msgid "Select objects to mirror"
+msgstr "選取要鏡射的物件"
+
+#: commands.py:1213
+msgid "Clone Selection:"
+msgstr "複製選取項目："
+
+#: commands.py:1244 max_menus.py:265 quad.py:80 toolbar.py:174 (+3)
+msgid "Move"
+msgstr "移動"
+
+#: commands.py:1245 max_menus.py:266 quad.py:80 toolbar.py:180 (+4)
+msgid "Rotate"
+msgstr "旋轉"
+
+#: commands.py:1246
+msgid "Scale %"
+msgstr "縮放%"
+
+#: commands.py:1247
+msgid "Type of Object"
+msgstr "物件類型"
+
+#: commands.py:1256
+msgid "Select objects to array"
+msgstr "選取要建立陣列的物件"
+
+#: commands.py:1263
+msgid "Array Transformation: World Coordinates (Use Pivot Point Center)"
+msgstr "陣列變換：世界座標(使用樞紐點中心)"
+
+#: commands.py:1264
+msgid "Incremental Move"
+msgstr "增量移動"
+
+#: commands.py:1265
+msgid "Incremental Rotate"
+msgstr "增量旋轉"
+
+#: commands.py:1266
+msgid "Incremental Scale %"
+msgstr "增量縮放%"
+
+#: commands.py:1270
+msgid "Array Dimensions"
+msgstr "陣列尺寸"
+
+#: commands.py:1306 commands.py:1314 max_menus.py:381
+msgid "Group"
+msgstr "群組"
+
+#: commands.py:1308
+msgid "Group name"
+msgstr "群組名稱"
+
+#: commands.py:1308
+msgid "Group001"
+msgstr "群組001"
+
+#: commands.py:1312
+msgid "Select objects to group"
+msgstr "選取要群組的物件"
+
+#: commands.py:1323
+msgid "Rename Objects"
+msgstr "重新命名物件"
+
+#: commands.py:1325 commands.py:1326
+msgid "Base Name"
+msgstr "基底名稱"
+
+#: commands.py:1327 commands.py:1328
+msgid "Prefix"
+msgstr "前綴"
+
+#: commands.py:1329
+msgid "Remove First"
+msgstr "移除開頭"
+
+#: commands.py:1330
+msgid "Remove Last"
+msgstr "移除結尾"
+
+#: commands.py:1331 commands.py:1332
+msgid "Suffix"
+msgstr "後綴"
+
+#: commands.py:1333
+msgid "Numbered"
+msgstr "加上編號"
+
+#: commands.py:1334
+msgid "Base Number"
+msgstr "基底編號"
+
+#: commands.py:1338 flyouts.py:226 flyouts.py:432
+msgid "Rename"
+msgstr "重新命名"
+
+#: commands.py:1387 commands.py:1405
+msgid "Select From Scene"
+msgstr "從場景選取"
+
+#: commands.py:1389 flyouts.py:515 flyouts.py:185 material_ui.py:1526 (+10)
+msgid "Select"
+msgstr "選取"
+
+#: commands.py:1389
+msgid "Unhide"
+msgstr "取消隱藏"
+
+#: commands.py:1390
+msgid "Unfreeze"
+msgstr "取消凍結"
+
+#: commands.py:1405
+msgid "Hide Objects"
+msgstr "隱藏物件"
+
+#: commands.py:1405
+msgid "Unhide Objects"
+msgstr "取消隱藏物件"
+
+#: commands.py:1406
+msgid "Freeze Objects"
+msgstr "凍結物件"
+
+#: commands.py:1406
+msgid "Unfreeze Objects"
+msgstr "取消凍結物件"
+
+#: commands.py:1433
+msgid "Selection Set Action"
+msgstr "選取設置動作"
+
+#: commands.py:1443
+msgid "Select objects first"
+msgstr "請先選取物件"
+
+#: commands.py:1469 commands.py:1477 surfaces.py:400 surfaces.py:402 (+2)
+msgid "Named Selection Sets"
+msgstr "命名選取設置"
+
+#: commands.py:1470
+msgid "New Set"
+msgstr "新增設置"
+
+#: commands.py:1470 commands.py:1445 toolbar.py:106
+msgid "Selection Set"
+msgstr "選取設置"
+
+#: commands.py:1480
+msgid "Create New Set"
+msgstr "建立新設置"
+
+#: commands.py:1484 toolbar.py:153
+msgid "No selection sets"
+msgstr "沒有選取設置"
+
+#: commands.py:1499 max_menus.py:885
+msgid "Object Properties"
+msgstr "物件屬性"
+
+#: commands.py:1511
+msgid "Object Information"
+msgstr "物件資訊"
+
+#: commands.py:1516
+msgid "Scene Root"
+msgstr "場景根節點"
+
+#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:454
+msgid "None"
+msgstr "無"
+
+#: commands.py:1519
+msgid "Interactivity"
+msgstr "互動性"
+
+#: commands.py:1520 commands.py:1389 flyouts.py:427 keymap.py:159 (+1)
+msgid "Hide"
+msgstr "隱藏"
+
+#: commands.py:1521 commands.py:1390 flyouts.py:429 surfaces.py:1362
+msgid "Freeze"
+msgstr "凍結"
+
+#: commands.py:1523 surfaces.py:1377
+msgid "Display Properties"
+msgstr "顯示屬性"
+
+#: commands.py:1525 surfaces.py:1374
+msgid "Edges Only"
+msgstr "僅顯示邊"
+
+#: commands.py:1526
+msgid "Display in Front"
+msgstr "顯示於最前"
+
+#: commands.py:1528
+msgid "Rendering Control"
+msgstr "算圖控制"
+
+#: commands.py:1529
+msgid "Not Renderable"
+msgstr "不可算圖"
+
+#: commands.py:1530
+msgid "Visible to Camera"
+msgstr "攝影機可見"
+
+#: commands.py:1531 surfaces.py:704
+msgid "Cast Shadows"
+msgstr "投射陰影"
+
+#: commands.py:1532
+msgid "Visible to Reflection/Refraction"
+msgstr "對反射/折射可見"
+
+#: commands.py:1540
+msgid "Settings"
+msgstr "設定"
+
+#: commands.py:1551 max_menus.py:884
+msgid "Light Lister"
+msgstr "光源清單"
+
+#: commands.py:1551 interactions.py:662
+msgid "Grid and Snap Settings"
+msgstr "格線與吸附設定"
+
+#: commands.py:1551
+msgid "Viewport Configuration"
+msgstr "檢視組態"
+
+#: commands.py:1552
+msgid "Environment and Effects"
+msgstr "環境與特效"
+
+#: commands.py:1552
+msgid "Exposure Control"
+msgstr "曝光控制"
+
+#: commands.py:1552
+msgid "Color Management"
+msgstr "色彩管理"
+
+#: commands.py:1553
+msgid "Print Size Assistant"
+msgstr "列印尺寸助手"
+
+#: commands.py:1553 flyouts.py:415
+msgid "Units Setup"
+msgstr "單位設定"
+
+#: commands.py:1553 flyouts.py:416
+msgid "Summary Info"
+msgstr "摘要資訊"
+
+#: commands.py:1554
+msgid "Render Passes (AOVs)"
+msgstr "算圖通道(AOV)"
+
+#: commands.py:1554 toolbar.py:16
+msgid "Light Groups"
+msgstr "光源群組"
+
+#: commands.py:1568
+msgid "Add Light Group"
+msgstr "新增光源群組"
+
+#: commands.py:1574
+msgid "No lights in the scene"
+msgstr "場景中沒有光源"
+
+#: commands.py:1580
+msgid "Multiplier"
+msgstr "倍率"
+
+#: commands.py:1586 max_menus.py:533 surfaces.py:500
+msgid "Angle"
+msgstr "角度"
+
+#: commands.py:1597
+msgid "Toggle 4 Viewports / Maximize"
+msgstr "切換四視圖檢視/最大化"
+
+#: commands.py:1603 material_ui.py:955 operators.py:578 operators.py:579
+msgid "Background"
+msgstr "背景"
+
+#: commands.py:1605 material_ui.py:1445 material_ui.py:846 material_ui.py:1382
+#: (+2)
+msgid "Color"
+msgstr "顏色"
+
+#: commands.py:1605 commands.py:1608
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: commands.py:1606
+msgid "Strength"
+msgstr "強度"
+
+#: commands.py:1606
+msgid "Level"
+msgstr "層級"
+
+#: commands.py:1619
+msgid "Image Width"
+msgstr "影像寬度"
+
+#: commands.py:1620
+msgid "Image Height"
+msgstr "影像高度"
+
+#: commands.py:1625
+msgid "System Unit Scale"
+msgstr "系統單位比例"
+
+#: commands.py:1631 surfaces.py:426
+msgid "Untitled"
+msgstr "未命名"
+
+#: commands.py:1643 surfaces.py:1463
+msgid "Run Script"
+msgstr "執行指令碼"
+
+#: commands.py:1704 commands.py:1705
+msgid "Viewport Render"
+msgstr "檢視算圖"
+
+#: commands.py:1727
+msgid "Choose a camera or a viewport before rendering"
+msgstr "算圖前請選擇攝影機或檢視"
+
+#: commands.py:1729 commands.py:1731
+msgid "Default Light"
+msgstr "預設燈光"
+
+#: commands.py:1763 flyouts.py:149 ui.py:66
+msgid "Render Production"
+msgstr "正式算圖"
+
+#: commands.py:1792
+msgid "Measure Distance"
+msgstr "測量距離"
+
+#: commands.py:1797
+msgid "Pick the first point; right-click cancels"
+msgstr "選取第一個點；按右鍵取消"
+
+#: commands.py:1810
+msgid "Pick the second point"
+msgstr "選取第二個點"
+
+#: edit_poly.py:21
+msgid "MaxFlow Edit Poly"
+msgstr "MaxFlow編輯多邊形"
+
+#: edit_poly.py:35
+msgid "Edit Poly layers keep moves only: use this on the base Editable Poly"
+msgstr "編輯多邊形圖層只保留移動：請用於基礎可編輯多邊形"
+
+#: edit_poly.py:47
+msgid ""
+"MaxFlow Edit Poly layer: moves each vertex by the offset stored in the mesh "
+"attribute named by Layer"
+msgstr "MaxFlow編輯多邊形圖層：依據名為圖層的網格屬性，移動每個頂點"
+
+#: edit_poly.py:48 edit_poly.py:52 edit_poly.py:62 (+10)
+msgid "Geometry"
+msgstr "幾何體"
+
+#: edit_poly.py:49 edit_poly.py:61 edit_poly.py:65 scene_ui.py:20
+msgid "Layer"
+msgstr "圖層"
+
+#: edit_poly.py:284
+msgid ""
+"Edit Poly keeps moves: the added or deleted vertices went to the base object"
+msgstr "編輯多邊形只保留移動：新增或刪除的頂點已移至基礎物件"
+
+#: edit_poly.py:388 keymap.py:220
+msgid "MaxFlow:"
+msgstr "MaxFlow："
+
+#: editor_host.py:9 material_ui.py:1501 operators.py:808
+msgid "Slate Material Editor"
+msgstr "石板材質編輯器"
+
+#: editor_host.py:9 material_ui.py:1502 operators.py:830 operators.py:808
+msgid "Compact Material Editor"
+msgstr "精簡材質編輯器"
+
+#: editor_host.py:9
+msgid "Track View - Curve Editor"
+msgstr "軌跡檢視-曲線編輯器"
+
+#: editor_host.py:10
+msgid "Track View - Dope Sheet"
+msgstr "軌跡檢視-攝影表"
+
+#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:436
+msgid "Edit UVWs"
+msgstr "編輯UVW"
+
+#: editor_host.py:10 flyouts.py:413 keymap.py:85 operators.py:809
+msgid "Render Setup"
+msgstr "算圖設定"
+
+#: editor_host.py:10 flyouts.py:423 flyouts.py:440 flyouts.py:414 (+5)
+msgid "Scene Explorer"
+msgstr "場景總管"
+
+#: editor_host.py:141 utility_editors.py:551
+msgid "Cycles"
+msgstr "Cycles"
+
+#: editor_host.py:285 max_menus.py:148 max_menus.py:998 max_menus.py:413 (+1)
+msgid "Perspective"
+msgstr "透視"
+
+#: editors.py:51 material_ui.py:953
+msgid "New Material"
+msgstr "新增材質"
+
+#: editors.py:52
+msgid "Create a Blender Principled material and assign it to the active object"
+msgstr "建立Blender原則性材質並指派給作用中的物件"
+
+#: editors.py:59
+msgid "Select an editable object that supports materials"
+msgstr "選取支援材質的可編輯物件"
+
+#: editors.py:61
+msgid "Max Material"
+msgstr "Max材質"
+
+#: editors.py:69 material_ui.py:511 material_ui.py:1192 material_ui.py:1213
+#: (+4)
+msgid "Assign Material to Selection"
+msgstr "將材質指派給選取項目"
+
+#: editors.py:70
+msgid ""
+"Assign the active material to selected objects, or selected faces in Edit "
+"Mode"
+msgstr "將作用中的材質指派給選取的物件，或編輯模式中選取的面"
+
+#: editors.py:79
+msgid "Choose a material and select editable objects"
+msgstr "選擇材質並選取可編輯物件"
+
+#: editors.py:89 material_ui.py:1509 material_ui.py:1521 material_ui.py:1238
+msgid "Duplicate Material"
+msgstr "複製材質"
+
+#: editors.py:90
+msgid "Make an independent copy of the active material in its current slot"
+msgstr "在目前的插槽中建立作用中材質的獨立副本"
+
+#: editors.py:96
+msgid "Select an object with a material"
+msgstr "選取具有材質的物件"
+
+#: editors.py:104
+msgid "Remove Material Slot"
+msgstr "移除材質槽"
+
+#: editors.py:105
+msgid "Remove the active material slot; keep the material datablock"
+msgstr "移除作用中的材質槽；保留材質資料區塊"
+
+#: editors.py:111
+msgid "Select an object with material slots in Object Mode"
+msgstr "在物件模式中選取具有材質槽的物件"
+
+#: editors.py:151
+msgid "Set Transform Keys"
+msgstr "設定變換鍵"
+
+#: editors.py:152
+msgid ""
+"Insert Blender transform keys for selected objects or pose bones at the "
+"current frame"
+msgstr "在目前影格為選取的物件或姿勢骨骼插入Blender變換鍵"
+
+#: editors.py:154
+msgid "Channels"
+msgstr "通道"
+
+#: editors.py:155
+msgid "Position / Rotation / Scale"
+msgstr "位置/旋轉/縮放"
+
+#: editors.py:157 ui.py:75
+msgid "Key Filters"
+msgstr "關鍵格篩選器"
+
+#: editors.py:157
+msgid "Channels chosen in Key Filters"
+msgstr "關鍵格篩選器中選取的通道"
+
+#: editors.py:163
+msgid "Select editable objects or pose bones"
+msgstr "選取可編輯物件或姿勢骨骼"
+
+#: editors.py:179
+msgid "No matching keys removed"
+msgstr "未移除符合條件的關鍵格"
+
+#: editors.py:179
+msgid "No keys inserted"
+msgstr "未插入關鍵格"
+
+#: editors.py:181
+msgid "Removed"
+msgstr "已移除"
+
+#: editors.py:181
+msgid "Keyed"
+msgstr "已設定關鍵格"
+
+#: editors.py:206
+msgid ""
+"Set interpolation on keys at the current frame for selected objects or "
+"selected pose bones"
+msgstr "為選取的物件或姿勢骨骼，在目前影格的關鍵格上設定插值"
+
+#: editors.py:208 surfaces.py:1170
+msgid "Interpolation"
+msgstr "插值"
+
+#: editors.py:209 max_menus.py:722 max_menus.py:705
+msgid "Bezier"
+msgstr "貝茲線"
+
+#: editors.py:210
+msgid "Constant"
+msgstr "常數"
+
+#: editors.py:232
+msgid "No keys on the current frame"
+msgstr "目前影格沒有關鍵格"
+
+#: editors.py:241
+msgid "Node Editor"
+msgstr "節點編輯器"
+
+#: editors.py:243
+msgid "Blender Principled materials"
+msgstr "Blender原則性材質"
+
+#: editors.py:246
+msgid "Select an object with material support."
+msgstr "請選取支援材質的物件."
+
+#: editors.py:261
+msgid "Assign to Selection"
+msgstr "指派給所選項目"
+
+#: editors.py:268 material_ui.py:60 material_ui.py:342 material_ui.py:816
+msgid "Base Color"
+msgstr "基礎色彩"
+
+#: editors.py:268 material_ui.py:60 material_ui.py:344 material_ui.py:816
+msgid "Metallic"
+msgstr "金屬度"
+
+#: editors.py:268 material_ui.py:60 material_ui.py:343 material_ui.py:816
+msgid "Roughness"
+msgstr "粗糙度"
+
+#: editors.py:268 material_ui.py:60 material_ui.py:816
+msgid "Alpha"
+msgstr "Alpha"
+
+#: editors.py:275
+msgid "Edit this shader in Node Editor."
+msgstr "在節點編輯器中編輯此著色器."
+
+#: editors.py:281 editors.py:277
+msgid "Viewport Color"
+msgstr "視窗顏色"
+
+#: editors.py:287 ui.py:122
+msgid "Auto Key"
+msgstr "自動關鍵格"
+
+#: editors.py:290
+msgid "Auto Key uses Blender keying rules."
+msgstr "自動關鍵格使用Blender的關鍵格規則."
+
+#: editors.py:292 keymap.py:55 ui.py:123
+msgid "Set Keys"
+msgstr "設定關鍵格"
+
+#: editors.py:294
+msgid "Key Channels"
+msgstr "關鍵格通道"
+
+#: editors.py:295
+msgid "Current Key Interpolation"
+msgstr "目前的關鍵格插值"
+
+#: editors.py:297 ui.py:120
+msgid "Start"
+msgstr "開始"
+
+#: flyouts.py:29
+msgid "This 3ds Max command has no Blender equivalent"
+msgstr "此3ds Max指令在Blender中沒有對應功能"
+
+#: flyouts.py:41
+msgid "Set Option"
+msgstr "設定選項"
+
+#: flyouts.py:67 surfaces.py:371 ui.py:52
+msgid "Selection Filter"
+msgstr "選取篩選器"
+
+#: flyouts.py:71 params.py:51 surfaces.py:324 surfaces.py:371 (+1)
+msgid "All"
+msgstr "全部"
+
+#: flyouts.py:71 max_menus.py:518 scene_ui.py:16 surfaces.py:324 (+3)
+msgid "Shapes"
+msgstr "圖形"
+
+#: flyouts.py:71 max_menus.py:996 max_menus.py:535 operators.py:202 (+5)
+msgid "Lights"
+msgstr "燈光"
+
+#: flyouts.py:72 max_menus.py:995 max_menus.py:554 max_menus.py:673 (+6)
+msgid "Cameras"
+msgstr "攝影機"
+
+#: flyouts.py:72 max_menus.py:563 scene_ui.py:18 surfaces.py:325 (+3)
+msgid "Helpers"
+msgstr "輔助物件"
+
+#: flyouts.py:72 surfaces.py:325
+msgid "Warps"
+msgstr "變形器"
+
+#: flyouts.py:74
+msgid "Combos..."
+msgstr "組合..."
+
+#: flyouts.py:76
+msgid "IK Chain Object"
+msgstr "IK鏈結物件"
+
+#: flyouts.py:78
+msgid "CAT Bone"
+msgstr "CAT骨骼"
+
+#: flyouts.py:82 max_menus.py:284 ui.py:50
+msgid "Selection Region"
+msgstr "選取區域"
+
+#: flyouts.py:86 surfaces.py:374
+msgid "Rectangular Selection Region"
+msgstr "矩形選取區域"
+
+#: flyouts.py:86
+msgid "Circular Selection Region"
+msgstr "圓形選取區域"
+
+#: flyouts.py:87
+msgid "Fence Selection Region"
+msgstr "圍欄選取區域"
+
+#: flyouts.py:87
+msgid "Lasso Selection Region"
+msgstr "套索選取區域"
+
+#: flyouts.py:87 max_menus.py:289
+msgid "Paint Selection Region"
+msgstr "筆刷選取區域"
+
+#: flyouts.py:90
+msgid "Window (off: Crossing)"
+msgstr "視窗(關閉：交叉選取)"
+
+#: flyouts.py:97 max_gizmo.py:784
+msgid "Select and Uniform Scale"
+msgstr "選取並等比例縮放"
+
+#: flyouts.py:97
+msgid "Select and Non-uniform Scale"
+msgstr "選取並非等比例縮放"
+
+#: flyouts.py:97
+msgid "Select and Squash"
+msgstr "選取並壓扁"
+
+#: flyouts.py:102 interactions.py:648 surfaces.py:382 ui.py:54
+msgid "Reference Coordinate System"
+msgstr "參考座標系統"
+
+#: flyouts.py:106 surfaces.py:322
+msgid "Parent"
+msgstr "父級"
+
+#: flyouts.py:106 surfaces.py:322
+msgid "Local"
+msgstr "區域"
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Gimbal"
+msgstr "萬向軸"
+
+#: flyouts.py:107 max_menus.py:1035 max_menus.py:566 operators.py:439 (+3)
+msgid "Grid"
+msgstr "格線"
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Working"
+msgstr "工作"
+
+#: flyouts.py:107 surfaces.py:323
+msgid "Local Aligned"
+msgstr "局部對齊"
+
+#: flyouts.py:109 surfaces.py:323
+msgid "Pick"
+msgstr "拾取"
+
+#: flyouts.py:113 interactions.py:655
+msgid "Transform Center"
+msgstr "變換中心"
+
+#: flyouts.py:117 surfaces.py:383
+msgid "Use Pivot Point Center"
+msgstr "使用樞紐點中心"
+
+#: flyouts.py:117
+msgid "Use Selection Center"
+msgstr "使用選取中心"
+
+#: flyouts.py:118
+msgid "Use Transform Coordinate Center"
+msgstr "使用變換座標中心"
+
+#: flyouts.py:124 flyouts.py:496 keymap.py:69 max_menus.py:324 (+1)
+msgid "Align"
+msgstr "對齊"
+
+#: flyouts.py:128 max_menus.py:325
+msgid "Align..."
+msgstr "對齊..."
+
+#: flyouts.py:129 keymap.py:70 max_menus.py:326 toolbar.py:10
+msgid "Quick Align"
+msgstr "快速對齊"
+
+#: flyouts.py:130 max_menus.py:331
+msgid "Normal Align..."
+msgstr "法線對齊..."
+
+#: flyouts.py:131
+msgid "Place Highlight..."
+msgstr "放置反白標示..."
+
+#: flyouts.py:132 max_menus.py:332
+msgid "Align Camera"
+msgstr "對齊攝影機"
+
+#: flyouts.py:133 max_menus.py:330
+msgid "Align to View..."
+msgstr "對齊至視圖..."
+
+#: flyouts.py:137 keymap.py:53 max_menus.py:844 max_menus.py:878 (+3)
+msgid "Material Editor"
+msgstr "材質編輯器"
+
+#: flyouts.py:140 max_menus.py:845
+msgid "Compact Material Editor..."
+msgstr "精簡材質編輯器..."
+
+#: flyouts.py:141 max_menus.py:846
+msgid "Slate Material Editor..."
+msgstr "石板材質編輯器..."
+
+#: flyouts.py:149 ui.py:66
+msgid "Render Iterative"
+msgstr "迭代算圖"
+
+#: flyouts.py:154 ui.py:34
+msgid "Object Category"
+msgstr "物件類別"
+
+#: flyouts.py:180 surfaces.py:780
+msgid "Modifier List"
+msgstr "修飾詞清單"
+
+#: flyouts.py:185 max_menus.py:278
+msgid "Select By"
+msgstr "選取依據"
+
+#: flyouts.py:189
+msgid "SELECTION MODIFIERS"
+msgstr "選取修飾詞"
+
+#: flyouts.py:189
+msgid "WORLD-SPACE MODIFIERS"
+msgstr "世界空間修飾詞"
+
+#: flyouts.py:189
+msgid "OBJECT-SPACE MODIFIERS"
+msgstr "物件空間修飾詞"
+
+#: flyouts.py:203 surfaces.py:835
+msgid "Configure Modifier Sets"
+msgstr "配置修改器"
+
+#: flyouts.py:207 ui.py:45
+msgid "Show Buttons"
+msgstr "顯示按鈕"
+
+#: flyouts.py:208
+msgid "Configure Modifier Sets..."
+msgstr "配置修改器..."
+
+#: flyouts.py:209
+msgid "Show All Sets in List"
+msgstr "在清單中顯示所有集"
+
+#: flyouts.py:213
+msgid "Modifier Stack"
+msgstr "修飾詞堆疊"
+
+#: flyouts.py:229 flyouts.py:488 keymap.py:151 operators.py:963 (+2)
+msgid "Cut"
+msgstr "切割"
+
+#: flyouts.py:231
+msgid "Paste"
+msgstr "貼上"
+
+#: flyouts.py:234
+msgid "Collapse To"
+msgstr "塌陷至"
+
+#: flyouts.py:237 surfaces.py:104
+msgid "On"
+msgstr "開啟"
+
+#: flyouts.py:238
+msgid "Off in Viewport"
+msgstr "在檢視區中關閉"
+
+#: flyouts.py:239
+msgid "Off in Renderer"
+msgstr "在算圖器中關閉"
+
+#: flyouts.py:241
+msgid "Move Up"
+msgstr "上移"
+
+#: flyouts.py:242
+msgid "Move Down"
+msgstr "下移"
+
+#: flyouts.py:245
+msgid "Convert to: Editable Poly"
+msgstr "轉換為：可編輯多邊形"
+
+#: flyouts.py:246
+msgid "Convert to: Editable Mesh"
+msgstr "轉換為：可編輯網格"
+
+#: flyouts.py:247
+msgid "Convert to: Editable Spline"
+msgstr "轉換為：可編輯樣條線"
+
+#: flyouts.py:255 operators.py:710
+msgid "Modifier Stack Action"
+msgstr "修飾器堆疊動作"
+
+#: flyouts.py:267
+msgid "Rename Modifier"
+msgstr "重新命名修飾器"
+
+#: flyouts.py:283
+msgid "Select an Edit Poly modifier"
+msgstr "選取編輯多邊形修飾器"
+
+#: flyouts.py:323
+msgid "Return to the top level first"
+msgstr "請先返回頂層"
+
+#: flyouts.py:375
+msgid "Choose"
+msgstr "選擇"
+
+#: flyouts.py:388
+msgid "Key Tangents"
+msgstr "關鍵格切線"
+
+#: flyouts.py:393 trackbar.py:276
+msgid "Fast"
+msgstr "快速"
+
+#: flyouts.py:393 trackbar.py:276
+msgid "Slow"
+msgstr "慢速"
+
+#: flyouts.py:398
+msgid "Set Key Filters"
+msgstr "設定關鍵格篩選器"
+
+#: flyouts.py:403
+msgid "Object Parameters"
+msgstr "物件參數"
+
+#: flyouts.py:403
+msgid "Custom Attributes"
+msgstr "自訂屬性"
+
+#: flyouts.py:403
+msgid "Other"
+msgstr "其他"
+
+#: flyouts.py:408 max_menus.py:759 surfaces.py:1424 surfaces.py:569 (+1)
+msgid "Utilities"
+msgstr "公用程式"
+
+#: flyouts.py:417 preferences.py:39
+msgid "Shortcut Reference"
+msgstr "快速鍵參照"
+
+#: flyouts.py:419
+msgid "Return to Blender"
+msgstr "返回Blender"
+
+#: flyouts.py:428 flyouts.py:495 keymap.py:75 keymap.py:160 (+6)
+msgid "Unhide All"
+msgstr "全部取消隱藏"
+
+#: flyouts.py:430 quad.py:67 scene_ui.py:229 surfaces.py:1367 (+1)
+msgid "Unfreeze All"
+msgstr "全部解除凍結"
+
+#: flyouts.py:436 max_menus.py:297 quad.py:89
+msgid "Object Properties..."
+msgstr "物件屬性..."
+
+#: flyouts.py:443
+msgid "Open Scene Explorer"
+msgstr "開啟場景總管"
+
+#: flyouts.py:450
+msgid "Expand or Collapse All"
+msgstr "全部展開或摺疊"
+
+#: flyouts.py:466
+msgid "Show Full Ribbon"
+msgstr "顯示完整功能區"
+
+#: flyouts.py:467
+msgid "Minimize to Panel Titles"
+msgstr "最小化為面板標題"
+
+#: flyouts.py:468 ui.py:64
+msgid "Show Ribbon"
+msgstr "顯示功能區"
+
+#: flyouts.py:480 surfaces.py:1859 surfaces.py:1860
+msgid "Polygon Modeling"
+msgstr "多邊形建模"
+
+#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1234
+msgid "Vertex"
+msgstr "頂點"
+
+#: flyouts.py:480 params.py:124 quad.py:96 surfaces.py:743 (+1)
+msgid "Edge"
+msgstr "邊"
+
+#: flyouts.py:480 quad.py:96 surfaces.py:743
+msgid "Border"
+msgstr "邊界"
+
+#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1234
+msgid "Polygon"
+msgstr "多邊形"
+
+#: flyouts.py:480 quad.py:97 surfaces.py:743
+msgid "Element"
+msgstr "元素"
+
+#: flyouts.py:481
+msgid "Top Level"
+msgstr "最上層"
+
+#: flyouts.py:481
+msgid "Collapse Stack"
+msgstr "塌陷堆疊"
+
+#: flyouts.py:482
+msgid "Convert to Poly"
+msgstr "轉換為多邊形"
+
+#: flyouts.py:483
+msgid "Apply Edit Poly Mod"
+msgstr "套用編輯多邊形修改器"
+
+#: flyouts.py:484 keymap.py:123 ui.py:44
+msgid "Show End Result"
+msgstr "顯示最終結果"
+
+#: flyouts.py:485 surfaces.py:1860
+msgid "Modify Selection"
+msgstr "修改選取範圍"
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Grow"
+msgstr "擴大"
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Shrink"
+msgstr "縮小"
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Loop"
+msgstr "迴圈"
+
+#: flyouts.py:485 surfaces.py:1094
+msgid "Ring"
+msgstr "環選"
+
+#: flyouts.py:486
+msgid "Similar"
+msgstr "相似"
+
+#: flyouts.py:486
+msgid "Fill"
+msgstr "填滿"
+
+#: flyouts.py:486
+msgid "Step Loop"
+msgstr "步進循環"
+
+#: flyouts.py:487
+msgid "Preserve UVs"
+msgstr "保留UV"
+
+#: flyouts.py:487 quad.py:102
+msgid "Repeat"
+msgstr "重複"
+
+#: flyouts.py:487 surfaces.py:1015
+msgid "QuickSlice"
+msgstr "快速切片"
+
+#: flyouts.py:487 operators.py:963
+msgid "SwiftLoop"
+msgstr "快速加邊"
+
+#: flyouts.py:488
+msgid "P Connect"
+msgstr "P連接"
+
+#: flyouts.py:488 max_menus.py:686 max_menus.py:741
+msgid "Constraints"
+msgstr "限制條件"
+
+#: flyouts.py:489 surfaces.py:1860
+msgid "Geometry (All)"
+msgstr "全部幾何體"
+
+#: flyouts.py:489 max_menus.py:389 max_menus.py:399 quad.py:104 (+1)
+msgid "Attach"
+msgstr "附加"
+
+#: flyouts.py:489 keymap.py:152 max_menus.py:390 max_menus.py:399 (+2)
+msgid "Detach"
+msgstr "分離"
+
+#: flyouts.py:490 keymap.py:150 quad.py:104 surfaces.py:1014 (+2)
+msgid "Collapse"
+msgstr "塌陷"
+
+#: flyouts.py:490
+msgid "Cap Poly"
+msgstr "封口多邊形"
+
+#: flyouts.py:490
+msgid "Quadrify All"
+msgstr "全部四邊化"
+
+#: flyouts.py:490 surfaces.py:1015
+msgid "Slice Plane"
+msgstr "切片平面"
+
+#: flyouts.py:491 surfaces.py:1860
+msgid "Loops"
+msgstr "迴圈"
+
+#: flyouts.py:491 flyouts.py:501 flyouts.py:504 flyouts.py:506 (+10)
+msgid "Connect"
+msgstr "連接"
+
+#: flyouts.py:491
+msgid "Insert Loop"
+msgstr "插入迴圈"
+
+#: flyouts.py:491
+msgid "Remove Loop"
+msgstr "移除迴圈"
+
+#: flyouts.py:492
+msgid "Distance Connect"
+msgstr "距離連接"
+
+#: flyouts.py:492
+msgid "Flow Connect"
+msgstr "流動連接"
+
+#: flyouts.py:492
+msgid "Build End"
+msgstr "建立端點"
+
+#: flyouts.py:492
+msgid "Build Corner"
+msgstr "建立角點"
+
+#: flyouts.py:493 surfaces.py:1860
+msgid "Tris"
+msgstr "三角面"
+
+#: flyouts.py:493 flyouts.py:509 surfaces.py:1011 surfaces.py:1012
+msgid "Retriangulate"
+msgstr "重新三角化"
+
+#: flyouts.py:493 surfaces.py:1006 surfaces.py:1011 surfaces.py:1012
+msgid "Turn"
+msgstr "旋轉"
+
+#: flyouts.py:493
+msgid "Quadrify"
+msgstr "四邊面化"
+
+#: flyouts.py:494 surfaces.py:1860
+msgid "Subdivision"
+msgstr "細分"
+
+#: flyouts.py:494
+msgid "Use Displacement"
+msgstr "使用位移"
+
+#: flyouts.py:495 surfaces.py:1860
+msgid "Visibility"
+msgstr "可視化"
+
+#: flyouts.py:495 surfaces.py:1017 surfaces.py:1354 ui.py:176
+msgid "Hide Selected"
+msgstr "隱藏所選項目"
+
+#: flyouts.py:495 keymap.py:74 quad.py:64 quad.py:105 (+3)
+msgid "Hide Unselected"
+msgstr "隱藏未選項目"
+
+#: flyouts.py:496 keymap.py:154 surfaces.py:1016
+msgid "Make Planar"
+msgstr "平面化"
+
+#: flyouts.py:497
+msgid "To View"
+msgstr "對齊視圖"
+
+#: flyouts.py:497
+msgid "To Grid"
+msgstr "對齊格線"
+
+#: flyouts.py:498 surfaces.py:1860
+msgid "Properties"
+msgstr "屬性"
+
+#: flyouts.py:498
+msgid "Hard"
+msgstr "硬化"
+
+#: flyouts.py:498
+msgid "Smooth 30"
+msgstr "平滑30"
+
+#: flyouts.py:499 surfaces.py:1125
+msgid "Set ID"
+msgstr "設定ID"
+
+#: flyouts.py:499 surfaces.py:1126
+msgid "Select ID"
+msgstr "選取ID"
+
+#: flyouts.py:500 surfaces.py:1866
+msgid "Vertices"
+msgstr "頂點"
+
+#: flyouts.py:500 flyouts.py:502 material_ui.py:898 operators.py:965 (+4)
+msgid "Remove"
+msgstr "移除"
+
+#: flyouts.py:500 keymap.py:148 quad.py:109 surfaces.py:1000
+msgid "Break"
+msgstr "斷開"
+
+#: flyouts.py:501 flyouts.py:503 quad.py:110 quad.py:113 (+2)
+msgid "Target Weld"
+msgstr "目標焊接"
+
+#: flyouts.py:502 surfaces.py:1866
+msgid "Edges"
+msgstr "邊"
+
+#: flyouts.py:502 quad.py:112 quad.py:114 quad.py:116 (+4)
+msgid "Insert Vertex"
+msgstr "插入頂點"
+
+#: flyouts.py:502 quad.py:111 surfaces.py:1003
+msgid "Split"
+msgstr "分割"
+
+#: flyouts.py:504 flyouts.py:505 flyouts.py:508 operators.py:962 (+3)
+msgid "Bridge"
+msgstr "橋接"
+
+#: flyouts.py:504 quad.py:113 quad.py:115
+msgid "Create Shape"
+msgstr "建立形狀"
+
+#: flyouts.py:505 surfaces.py:1866
+msgid "Borders"
+msgstr "邊界"
+
+#: flyouts.py:505 keymap.py:149 quad.py:114 surfaces.py:1007
+msgid "Cap"
+msgstr "封口"
+
+#: flyouts.py:507 surfaces.py:1866
+msgid "Polygons"
+msgstr "多邊形"
+
+#: flyouts.py:507 quad.py:116 surfaces.py:1009
+msgid "Outline"
+msgstr "外框"
+
+#: flyouts.py:507 operators.py:961 quad.py:117 surfaces.py:1010
+msgid "Inset"
+msgstr "內插"
+
+#: flyouts.py:508 flyouts.py:509 operators.py:964 surfaces.py:1010 (+1)
+msgid "Flip"
+msgstr "翻轉"
+
+#: flyouts.py:508
+msgid "Hinge"
+msgstr "鉸鏈"
+
+#: flyouts.py:508
+msgid "Extrude on Spline"
+msgstr "沿樣條擠出"
+
+#: flyouts.py:509 surfaces.py:1866 utility_editors.py:788
+msgid "Elements"
+msgstr "元素"
+
+#: flyouts.py:510 surfaces.py:1861
+msgid "PolyDraw"
+msgstr "多邊形繪製"
+
+#: flyouts.py:510 max_menus.py:591 operators.py:440 surfaces.py:513
+msgid "Drag"
+msgstr "拖曳"
+
+#: flyouts.py:510
+msgid "Step Build"
+msgstr "逐步建立"
+
+#: flyouts.py:510
+msgid "Extend"
+msgstr "延伸"
+
+#: flyouts.py:510
+msgid "Strips"
+msgstr "條帶"
+
+#: flyouts.py:511 flyouts.py:548 surfaces.py:1861
+msgid "Paint Deform"
+msgstr "繪製變形"
+
+#: flyouts.py:511
+msgid "Shift"
+msgstr "位移"
+
+#: flyouts.py:511
+msgid "Push/Pull"
+msgstr "推/拉"
+
+#: flyouts.py:512
+msgid "Relax/Soften"
+msgstr "鬆弛/柔化"
+
+#: flyouts.py:512
+msgid "Smudge"
+msgstr "塗抹"
+
+#: flyouts.py:513
+msgid "Flatten"
+msgstr "壓平"
+
+#: flyouts.py:513
+msgid "Pinch/Spread"
+msgstr ""
+"壓平\n"
+"捏合/展開"
+
+#: flyouts.py:514 surfaces.py:1861
+msgid "Defaults"
+msgstr "預設值"
+
+#: flyouts.py:514
+msgid "Freeform Defaults"
+msgstr "自由形態預設值"
+
+#: flyouts.py:516 surfaces.py:1347
+msgid "Invert"
+msgstr "反轉"
+
+#: flyouts.py:517 surfaces.py:1862
+msgid "Stored Selections"
+msgstr "已儲存的選取集"
+
+#: flyouts.py:517
+msgid "Copy Store 1"
+msgstr "複製儲存集1"
+
+#: flyouts.py:517
+msgid "Paste Store 1"
+msgstr "貼上儲存區1"
+
+#: flyouts.py:517
+msgid "Add"
+msgstr "增加"
+
+#: flyouts.py:517
+msgid "Subtract"
+msgstr "相減"
+
+#: flyouts.py:517
+msgid "Intersect"
+msgstr "相交"
+
+#: flyouts.py:518 surfaces.py:1862 surfaces.py:1428
+msgid "Sets"
+msgstr "設置"
+
+#: flyouts.py:518 max_menus.py:295 surfaces.py:394 toolbar.py:157
+msgid "Manage Selection Sets..."
+msgstr "管理選取設置..."
+
+#: flyouts.py:519 surfaces.py:1862
+msgid "By Random"
+msgstr "隨機"
+
+#: flyouts.py:519
+msgid "Select Random"
+msgstr "隨機選取"
+
+#: flyouts.py:554
+msgid "Paint Deform needs an Editable Poly"
+msgstr "繪製變形需要可編輯多邊形"
+
+#: flyouts.py:570 flyouts.py:489 max_menus.py:458 quad.py:109 (+5)
+msgid "Create"
+msgstr "建立"
+
+#: flyouts.py:596 flyouts.py:604 surfaces.py:1631
+msgid "Time Configuration"
+msgstr "時間設定"
+
+#: flyouts.py:606
+msgid "Frame Rate"
+msgstr "影格速率"
+
+#: flyouts.py:608
+msgid "Film"
+msgstr "影片"
+
+#: flyouts.py:613
+msgid "Playback"
+msgstr "播放"
+
+#: flyouts.py:614
+msgid "Real Time"
+msgstr "即時"
+
+#: flyouts.py:616 max_menus.py:677 max_menus.py:640
+msgid "Animation"
+msgstr "動畫"
+
+#: flyouts.py:618
+msgid "Start Time"
+msgstr "開始時間"
+
+#: flyouts.py:619
+msgid "End Time"
+msgstr "結束時間"
+
+#: flyouts.py:621
+msgid "Current Time"
+msgstr "目前時間"
+
+#: icons.py:116
+msgid "Non-simple icon outline"
+msgstr "非簡單圖示外框"
+
+#: interactions.py:70 operators.py:645
+msgid "Create Object"
+msgstr "建立物件"
+
+#: interactions.py:102
+msgid "Drag to define the base; release, then move to set the next dimension"
+msgstr "拖曳以自訂底面；放開後移動以設定下一個尺寸"
+
+#: interactions.py:186 operators.py:539
+msgid "Fillet"
+msgstr "圓角"
+
+#: interactions.py:249
+msgid "Move the mouse to set the next dimension; click to finish"
+msgstr "移動滑鼠以設定下一個尺寸；按一下以完成"
+
+#: interactions.py:355 keymap.py:19 quad.py:463
+msgid "Select Object"
+msgstr "選取物件"
+
+#: interactions.py:507 interactions.py:518 surfaces.py:778 surfaces.py:585 (+3)
+msgid "Object Color"
+msgstr "物件顏色"
+
+#: interactions.py:522
+msgid "Next new object"
+msgstr "下一個新物件"
+
+#: interactions.py:527
+msgid "Modifier Parameters"
+msgstr "修改器參數"
+
+#: interactions.py:539
+msgid "Select a modifier in the stack"
+msgstr "在堆疊中選取修改器"
+
+#: interactions.py:549
+msgid "Navigate Viewport"
+msgstr "導航檢視"
+
+#: interactions.py:550 keymap.py:39 trackbar.py:460 trackbar.py:461 (+1)
+msgid "Pan View"
+msgstr "平移視圖"
+
+#: interactions.py:550 keymap.py:40 trackbar.py:462 trackbar.py:463
+msgid "Orbit"
+msgstr "環繞"
+
+#: interactions.py:550 surfaces.py:1644 trackbar.py:373
+msgid "Zoom All"
+msgstr "縮放至全部"
+
+#: interactions.py:551 keymap.py:36 trackbar.py:455 trackbar.py:457
+msgid "Zoom Extents All"
+msgstr "縮放至所有範圍"
+
+#: interactions.py:573 keymap.py:23
+msgid "Select and Place"
+msgstr "選取並放置"
+
+#: interactions.py:574
+msgid "Place selected objects on another visible mesh, aligned to its surface"
+msgstr "將選取的物件放置於另一個可見網格上，並與其表面對齊"
+
+#: interactions.py:594
+msgid ""
+"Place on a visible surface. Click to finish; Esc or right-click restores the "
+"original transform."
+msgstr "放置於可見表面上按一下以完成；按Esc或按滑鼠右鍵可還原原始變換."
+
+#: interactions.py:672
+msgid "Object Categories"
+msgstr "物件類別"
+
+#: keymap.py:20 max_gizmo.py:764
+msgid "Select and Move"
+msgstr "選取並移動"
+
+#: keymap.py:21 max_gizmo.py:774
+msgid "Select and Rotate"
+msgstr "選取並旋轉"
+
+#: keymap.py:22 max_gizmo.py:566
+msgid "Select and Scale"
+msgstr "選取並縮放"
+
+#: keymap.py:24
+msgid "Vertex level"
+msgstr "頂點層級"
+
+#: keymap.py:25
+msgid "Edge level"
+msgstr "邊層級"
+
+#: keymap.py:27
+msgid "Polygon level"
+msgstr "多邊形層級"
+
+#: keymap.py:28
+msgid "Border level"
+msgstr "邊界層級"
+
+#: keymap.py:29
+msgid "Element level"
+msgstr "元素層級"
+
+#: keymap.py:30 max_menus.py:1090
+msgid "Shade Selected Faces"
+msgstr "著色選取的面"
+
+#: keymap.py:31
+msgid "Wireframe / Smooth + Highlights"
+msgstr "線框/平滑+高光"
+
+#: keymap.py:32 max_menus.py:1086 operators.py:213
+msgid "Edged Faces"
+msgstr "顯示邊面"
+
+#: keymap.py:33 max_menus.py:971
+msgid "Show Grids"
+msgstr "顯示格線"
+
+#: keymap.py:34 material_ui.py:1206 operators.py:236 trackbar.py:454 (+2)
+msgid "Zoom Extents Selected"
+msgstr "縮放至選取範圍"
+
+#: keymap.py:41 material_ui.py:1535
+msgid "Zoom In"
+msgstr "放大"
+
+#: keymap.py:42 material_ui.py:1535
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: keymap.py:43 max_menus.py:405
+msgid "Undo View Change"
+msgstr "復原檢視變更"
+
+#: keymap.py:44 max_menus.py:406
+msgid "Redo View Change"
+msgstr "重做檢視變更"
+
+#: keymap.py:45
+msgid "Front view"
+msgstr "前視圖"
+
+#: keymap.py:46
+msgid "Left view"
+msgstr "左視圖"
+
+#: keymap.py:47
+msgid "Top view"
+msgstr "頂視圖"
+
+#: keymap.py:48
+msgid "Perspective view"
+msgstr "透視檢視"
+
+#: keymap.py:49
+msgid "Orthographic view"
+msgstr "正交檢視"
+
+#: keymap.py:50
+msgid "Camera view"
+msgstr "攝影機檢視"
+
+#: keymap.py:51 max_menus.py:963 operators.py:285
+msgid "Maximize Viewport Toggle"
+msgstr "切換最大化檢視區"
+
+#: keymap.py:52 max_menus.py:456 operators.py:252
+msgid "Expert Mode"
+msgstr "專家模式"
+
+#: keymap.py:54 max_menus.py:263 quad.py:88
+msgid "Clone"
+msgstr "複製"
+
+#: keymap.py:56
+msgid "Auto Key Mode Toggle"
+msgstr "切換自動插入關鍵格模式"
+
+#: keymap.py:57
+msgid "Previous Frame"
+msgstr "上一影格"
+
+#: keymap.py:58
+msgid "Next Frame"
+msgstr "下一影格"
+
+#: keymap.py:59 keymap.py:128 operators.py:784
+msgid "Selection Lock Toggle"
+msgstr "切換選取鎖定"
+
+#: keymap.py:61
+msgid "Sidebar (Add-on Panels)"
+msgstr "側邊欄(附加元件面板)"
+
+#: keymap.py:62 max_menus.py:360
+msgid "Snaps Toggle"
+msgstr "切換吸附"
+
+#: keymap.py:63 max_menus.py:361
+msgid "Angle Snap Toggle"
+msgstr "角度捕捉切換"
+
+#: keymap.py:64
+msgid "Select by Name"
+msgstr "依名稱選取"
+
+#: keymap.py:65
+msgid "Window/Crossing Toggle"
+msgstr "視窗/穿越選取切換"
+
+#: keymap.py:66 max_menus.py:276 quad.py:83
+msgid "Select Similar"
+msgstr "選取相似物件"
+
+#: keymap.py:67
+msgid "Select Ancestor"
+msgstr "選取上層"
+
+#: keymap.py:68
+msgid "Select Child"
+msgstr "選取子物件"
+
+#: keymap.py:71 surfaces.py:1194
+msgid "Affect Pivot Only"
+msgstr "僅影響樞紐"
+
+#: keymap.py:72 max_menus.py:312 quad.py:70 toolbar.py:14
+msgid "Isolate Selection"
+msgstr "隔離選取項目"
+
+#: keymap.py:73 quad.py:63 scene_ui.py:227 toolbar.py:13
+msgid "Hide Selection"
+msgstr "隱藏選取項目"
+
+#: keymap.py:76 max_menus.py:180
+msgid "Show Statistics"
+msgstr "顯示統計資料"
+
+#: keymap.py:77
+msgid "Environment"
+msgstr "環境"
+
+#: keymap.py:78
+msgid "Search 3ds Max Commands"
+msgstr "搜尋3ds Max命令"
+
+#: keymap.py:80 max_menus.py:259
+msgid "Hold"
+msgstr "暫存"
+
+#: keymap.py:83
+msgid "Render Last"
+msgstr "重新算圖上次結果"
+
+#: keymap.py:87 quad.py:431 toolbar.py:162
+msgid "Transform Type-In"
+msgstr "變換數值輸入"
+
+#: keymap.py:88
+msgid "Go to Start Frame"
+msgstr "移至起始影格"
+
+#: keymap.py:89
+msgid "Go to End Frame"
+msgstr "移至結束影格"
+
+#: keymap.py:90
+msgid "Play Animation"
+msgstr "播放動畫"
+
+#: keymap.py:95
+msgid "Transform Gizmo X Constraint"
+msgstr "變換操縱器X軸限制"
+
+#: keymap.py:96
+msgid "Transform Gizmo Y Constraint"
+msgstr "變換操縱器Y軸限制"
+
+#: keymap.py:97
+msgid "Transform Gizmo Z Constraint"
+msgstr "變換操縱器Z軸限制"
+
+#: keymap.py:98
+msgid "Transform Gizmo Plane Constraint Cycle"
+msgstr "變換操縱器平面限制循環"
+
+#: keymap.py:99
+msgid "Transform Gizmo Size Down"
+msgstr "縮小變換操縱器"
+
+#: keymap.py:100
+msgid "Transform Gizmo Size Up"
+msgstr "放大變換操縱器"
+
+#: keymap.py:101 max_menus.py:217
+msgid "Save Incremental (+)"
+msgstr "遞增儲存(+)"
+
+#: keymap.py:102
+msgid "Spot/Directional Light View"
+msgstr "聚光燈/方向光檢視"
+
+#: keymap.py:103
+msgid "Hide Geometry Toggle"
+msgstr "切換隱藏幾何體"
+
+#: keymap.py:104
+msgid "Hide Shapes Toggle"
+msgstr "切換隱藏形狀"
+
+#: keymap.py:105
+msgid "Hide Lights Toggle"
+msgstr "切換隱藏燈光"
+
+#: keymap.py:106
+msgid "Hide Cameras Toggle"
+msgstr "切換隱藏攝影機"
+
+#: keymap.py:107
+msgid "Hide Helpers Toggle"
+msgstr "切換隱藏輔助物件"
+
+#: keymap.py:108
+msgid "Cycle Selection Method"
+msgstr "循環選擇方法"
+
+#: keymap.py:109
+msgid "Illuminate with Default / Scene Lights"
+msgstr "使用預設/場景燈光照明"
+
+#: keymap.py:110
+msgid "Sound Toggle"
+msgstr "切換音效"
+
+#: keymap.py:111 max_menus.py:410
+msgid "Redraw All Views"
+msgstr "重新繪製所有檢視"
+
+#: keymap.py:112
+msgid "Sub-object Selection Toggle"
+msgstr "切換子物件選取"
+
+#: keymap.py:113
+msgid "Home View"
+msgstr "主視圖"
+
+#: keymap.py:114
+msgid "Selection/Preview Highlights Toggle"
+msgstr "選取/預覽反白顯示切換"
+
+#: keymap.py:115
+msgid "Viewport Safeframes Toggle"
+msgstr "切換視口安全框"
+
+#: keymap.py:116
+msgid "Group Attach"
+msgstr "群組附加"
+
+#: keymap.py:117
+msgid "Pan Viewport"
+msgstr "平移視口"
+
+#: keymap.py:118 trackbar.py:325
+msgid "Isolate Selection Toggle"
+msgstr "切換隔離選取"
+
+#: keymap.py:120 surfaces.py:386
+msgid "Keyboard Shortcut Override Toggle"
+msgstr "切換鍵盤快捷鍵覆寫"
+
+#: keymap.py:121
+msgid "Zoom Out 2X"
+msgstr "縮小2倍"
+
+#: keymap.py:122
+msgid "Center Point Cycle"
+msgstr "循環切換中心點"
+
+#: keymap.py:124 keymap.py:125 max_menus.py:431 max_menus.py:559
+msgid "Create Physical Camera From View"
+msgstr "從視圖建立實體攝影機"
+
+#: keymap.py:126 max_menus.py:432 max_menus.py:560
+msgid "Create Standard Camera From View"
+msgstr "從視圖建立標準攝影機"
+
+#: keymap.py:127
+msgid "WalkThrough View Mode"
+msgstr "漫遊視圖模式"
+
+#: keymap.py:129
+msgid "Viewports quad (views)"
+msgstr "四視口(視圖)"
+
+#: keymap.py:137
+msgid "Select Sub-object Loop"
+msgstr "選取子物件迴圈"
+
+#: keymap.py:138
+msgid "Select Sub-object Ring"
+msgstr "選取子物件環選"
+
+#: keymap.py:139 keymap.py:140
+msgid "Grow Selection"
+msgstr "擴大選取範圍"
+
+#: keymap.py:141 keymap.py:142
+msgid "Shrink Selection"
+msgstr "縮小選取範圍"
+
+#: keymap.py:143
+msgid "Extrude Mode"
+msgstr "擠出模式"
+
+#: keymap.py:144
+msgid "Extrude Face"
+msgstr "擠出面"
+
+#: keymap.py:145
+msgid "Bevel Mode"
+msgstr "斜角模式"
+
+#: keymap.py:146
+msgid "Chamfer Mode"
+msgstr "倒角模式"
+
+#: keymap.py:155
+msgid "Quickslice Mode"
+msgstr "快速切片模式"
+
+#: keymap.py:156
+msgid "Target Weld Mode"
+msgstr "目標焊接模式"
+
+#: keymap.py:157 surfaces.py:1102
+msgid "Use Soft Selection"
+msgstr "使用軟選取"
+
+#: keymap.py:158
+msgid "Repeat Last Operation"
+msgstr "重複上次操作"
+
+#: keymap.py:161
+msgid "Ignore Backfacing in Selections"
+msgstr "選取時忽略背面"
+
+#: keymap.py:162
+msgid "Swift Loop"
+msgstr "快速環切"
+
+#: keymap.py:163
+msgid "Spin Edge"
+msgstr "旋轉邊"
+
+#: keymap.py:262 max_menus.py:1155
+msgid "Object Mode"
+msgstr "物件模式"
+
+#: keymap.py:293
+msgid "Font"
+msgstr "字型"
+
+#: material_ui.py:38 material_ui.py:191 material_ui.py:248
+msgid "Physical Material"
+msgstr "物理材質"
+
+#: material_ui.py:39
+msgid "Diffuse"
+msgstr "漫反射"
+
+#: material_ui.py:40
+msgid "Glass"
+msgstr "玻璃"
+
+#: material_ui.py:41 material_ui.py:821 utility_editors.py:758
+msgid "Emission"
+msgstr "自發光"
+
+#: material_ui.py:42
+msgid "Mix Material"
+msgstr "混合材質"
+
+#: material_ui.py:43
+msgid "Material Output"
+msgstr "材質輸出"
+
+#: material_ui.py:44 material_ui.py:45 material_ui.py:46 material_ui.py:47
+#: (+12)
+msgid "Maps"
+msgstr "貼圖"
+
+#: material_ui.py:44
+msgid "Bitmap"
+msgstr "點陣圖"
+
+#: material_ui.py:46
+msgid "Checker"
+msgstr "棋盤格"
+
+#: material_ui.py:47 material_ui.py:879
+msgid "Gradient"
+msgstr "漸層"
+
+#: material_ui.py:48
+msgid "Voronoi"
+msgstr "碎裂"
+
+#: material_ui.py:49
+msgid "Color Correction"
+msgstr "色彩校正"
+
+#: material_ui.py:50
+msgid "Color Ramp"
+msgstr "色彩漸層"
+
+#: material_ui.py:51
+msgid "Bump"
+msgstr "凹凸"
+
+#: material_ui.py:52
+msgid "Normal Map"
+msgstr "法線貼圖"
+
+#: material_ui.py:53
+msgid "Texture Coordinates"
+msgstr "材質座標"
+
+#: material_ui.py:54 utility_editors.py:1252 utility_editors.py:527
+#: utility_editors.py:439
+msgid "Mapping"
+msgstr "映射"
+
+#: material_ui.py:55
+msgid "Math"
+msgstr "數學"
+
+#: material_ui.py:56
+msgid "RGB Color"
+msgstr "RGB色彩"
+
+#: material_ui.py:60 material_ui.py:816 utility_editors.py:756
+msgid "Normal"
+msgstr "法線"
+
+#: material_ui.py:61
+msgid "Coat Weight"
+msgstr "塗層權重"
+
+#: material_ui.py:61
+msgid "Emission Color"
+msgstr "放射色彩"
+
+#: material_ui.py:61
+msgid "Emission Strength"
+msgstr "放射強度"
+
+#: material_ui.py:240
+msgid "Choose a material first"
+msgstr "請先選擇材質"
+
+#: material_ui.py:510
+msgid "Select Tool"
+msgstr "選取工具"
+
+#: material_ui.py:510
+msgid "Pick Material from Object"
+msgstr "從物件擷取材質"
+
+#: material_ui.py:511
+msgid "Put Material to Scene"
+msgstr "將材質加入場景"
+
+#: material_ui.py:512 material_ui.py:1198
+msgid "Delete Selected"
+msgstr "刪除選取項目"
+
+#: material_ui.py:512 material_ui.py:1201
+msgid "Move Children"
+msgstr "移動子項"
+
+#: material_ui.py:513 material_ui.py:1202
+msgid "Hide Unused Nodeslots"
+msgstr "隱藏未使用的節點插槽"
+
+#: material_ui.py:514 material_ui.py:954 material_ui.py:963
+msgid "Show Shaded Material in Viewport"
+msgstr "在檢視中顯示著色材質"
+
+#: material_ui.py:515
+msgid "Show Background in Preview"
+msgstr "在預覽中顯示背景"
+
+#: material_ui.py:517 material_ui.py:1199 material_ui.py:1521
+#: material_ui.py:1535
+msgid "Lay Out All"
+msgstr "排列所有項目"
+
+#: material_ui.py:517 material_ui.py:1200 material_ui.py:1311
+msgid "Lay Out Children"
+msgstr "排列子項"
+
+#: material_ui.py:518 material_ui.py:587 material_ui.py:1203
+#: material_ui.py:1545
+msgid "Material/Map Browser"
+msgstr "材質/貼圖瀏覽器"
+
+#: material_ui.py:518 material_ui.py:1204 material_ui.py:1545 max_menus.py:881
+msgid "Parameter Editor"
+msgstr "參數編輯器"
+
+#: material_ui.py:519 material_ui.py:961 material_ui.py:572
+msgid "Select by Material"
+msgstr "依材質選取"
+
+#: material_ui.py:590
+msgid "Search by Name..."
+msgstr "依名稱搜尋..."
+
+#: material_ui.py:642 material_ui.py:577
+msgid "View 1"
+msgstr "視圖1"
+
+#: material_ui.py:655
+msgid "Double-click a material in the browser to create it."
+msgstr "在瀏覽器中按兩下材質即可建立"
+
+#: material_ui.py:656
+msgid "Create Physical Material"
+msgstr "建立實體材質"
+
+#: material_ui.py:678
+msgid "ShaderNodeTex"
+msgstr "著色器節點紋理"
+
+#: material_ui.py:754
+msgid "Mapped"
+msgstr "已貼圖"
+
+#: material_ui.py:781
+msgid "Material Parameter Editor"
+msgstr "材質參數編輯器"
+
+#: material_ui.py:781 material_ui.py:826
+msgid "Material Parameters"
+msgstr "材質參數"
+
+#: material_ui.py:786
+msgid "No material selected"
+msgstr "未選取材質"
+
+#: material_ui.py:787 material_ui.py:1225 material_ui.py:1566
+#: material_ui.py:1508
+msgid "Create Material"
+msgstr "建立材質"
+
+#: material_ui.py:801
+msgid "Shader"
+msgstr "著色器"
+
+#: material_ui.py:803
+msgid "Enable Physical Material"
+msgstr "啟用物理材質"
+
+#: material_ui.py:806
+msgid "Basic Parameters"
+msgstr "基本參數"
+
+#: material_ui.py:811
+msgid "Mute"
+msgstr "靜音"
+
+#: material_ui.py:816
+msgid "Base Color and Reflections"
+msgstr "基礎色彩與反射"
+
+#: material_ui.py:816
+msgid "Diffuse Roughness"
+msgstr "漫射粗糙度"
+
+#: material_ui.py:817
+msgid "Specular"
+msgstr "鏡面反射"
+
+#: material_ui.py:817
+msgid "Tangent"
+msgstr "切線"
+
+#: material_ui.py:817
+msgid "Anisotropic"
+msgstr "各向異性"
+
+#: material_ui.py:818
+msgid "Coating"
+msgstr "塗層"
+
+#: material_ui.py:818
+msgid "Coat"
+msgstr "塗層"
+
+#: material_ui.py:819
+msgid "Transparency"
+msgstr "透明度"
+
+#: material_ui.py:819
+msgid "Transmission"
+msgstr "透射"
+
+#: material_ui.py:820
+msgid "Sub-Surface Scattering"
+msgstr "次表面散射"
+
+#: material_ui.py:820
+msgid "Subsurface"
+msgstr "次表面"
+
+#: material_ui.py:822
+msgid "Sheen"
+msgstr "光澤"
+
+#: material_ui.py:825
+msgid "Additional Parameters"
+msgstr "其他參數"
+
+#: material_ui.py:826
+msgid "Map Parameters"
+msgstr "貼圖參數"
+
+#: material_ui.py:837
+msgid "No numeric inputs"
+msgstr "沒有數值輸入"
+
+#: material_ui.py:840 utility_editors.py:739
+msgid "Output"
+msgstr "輸出"
+
+#: material_ui.py:865
+msgid "Open Bitmap..."
+msgstr "開啟點陣圖..."
+
+#: material_ui.py:866
+msgid "No image selected"
+msgstr "未選取影像"
+
+#: material_ui.py:884
+msgid "Ramp Color"
+msgstr "色階顏色"
+
+#: material_ui.py:887
+msgid "Add Stop"
+msgstr "添加色標"
+
+#: material_ui.py:894
+msgid "No maps assigned"
+msgstr "未指定貼圖"
+
+#: material_ui.py:907 material_ui.py:1205 material_ui.py:1545
+msgid "Navigator"
+msgstr "導覽器"
+
+#: material_ui.py:916
+msgid "Frame All Nodes"
+msgstr "框選所有節點"
+
+#: material_ui.py:955
+msgid "Sample Slots"
+msgstr "取樣槽"
+
+#: material_ui.py:956 material_ui.py:861 utility_editors.py:1260
+#: utility_editors.py:440 (+1)
+msgid "Options"
+msgstr "選項"
+
+#: material_ui.py:961
+msgid "Make Material Copy"
+msgstr "製作材質副本"
+
+#: material_ui.py:962
+msgid "Reset Map/Mtl to Default Settings"
+msgstr "將貼圖/材質重設為預設設定"
+
+#: material_ui.py:962
+msgid "Make Preview"
+msgstr "製作預覽"
+
+#: material_ui.py:969 material_ui.py:979
+msgid "Preview approximation"
+msgstr "預覽近似值"
+
+#: material_ui.py:974
+msgid "Active Sample"
+msgstr "作用中樣本"
+
+#: material_ui.py:1079
+msgid "Connect Material Map"
+msgstr "連接材質貼圖"
+
+#: material_ui.py:1087
+msgid "Move Material Nodes"
+msgstr "移動材質節點"
+
+#: material_ui.py:1152 material_ui.py:1086 material_ui.py:1367
+msgid "Create Material Map"
+msgstr "建立材質貼圖"
+
+#: material_ui.py:1197
+msgid "Select Tree"
+msgstr "選取樹狀結構"
+
+#: material_ui.py:1208 material_ui.py:1535
+msgid "Pan to Selected"
+msgstr "平移至所選項目"
+
+#: material_ui.py:1209
+msgid "Update Selected Previews"
+msgstr "更新所選項目的預覽"
+
+#: material_ui.py:1214 material_ui.py:953 material_ui.py:960 material_ui.py:571
+msgid "Get Material"
+msgstr "取得材質"
+
+#: material_ui.py:1227
+msgid "Enable Material Shader"
+msgstr "啟用材質著色器"
+
+#: material_ui.py:1242
+msgid "Clear Material Sample Slot"
+msgstr "清除材質樣本插槽"
+
+#: material_ui.py:1247
+msgid "Create Material Sample"
+msgstr "建立材質樣本"
+
+#: material_ui.py:1280
+msgid "Delete Material Nodes"
+msgstr "刪除材質節點"
+
+#: material_ui.py:1357
+msgid "Lay Out Material Nodes"
+msgstr "排列材質節點"
+
+#: material_ui.py:1372
+msgid "Remove Material Map Connection"
+msgstr "移除材質貼圖連線"
+
+#: material_ui.py:1386
+msgid "Assign Bitmap Map"
+msgstr "指定點陣圖貼圖"
+
+#: material_ui.py:1392
+msgid "Add Color Ramp Stop"
+msgstr "新增色彩漸層控制點"
+
+#: material_ui.py:1396
+msgid "Remove Color Ramp Stop"
+msgstr "移除色彩漸層控制點"
+
+#: material_ui.py:1406
+msgid "Material Editor Action"
+msgstr "材質編輯器操作"
+
+#: material_ui.py:1428 material_ui.py:516 material_ui.py:1293
+msgid "Material ID Channel"
+msgstr "材質ID通道"
+
+#: material_ui.py:1438
+msgid "Color Selector"
+msgstr "色彩選擇器"
+
+#: material_ui.py:1473
+msgid "Open Bitmap"
+msgstr "開啟點陣圖"
+
+#: material_ui.py:1485
+msgid "The selected file could not be decoded as an image"
+msgstr "無法將選取的檔案解碼為影像"
+
+#: material_ui.py:1499 material_ui.py:497
+msgid "Modes"
+msgstr "模式"
+
+#: material_ui.py:1508
+msgid "Get Material from Selected Object"
+msgstr "從選取的物件取得材質"
+
+#: material_ui.py:1510 material_ui.py:812
+msgid "Select By Material"
+msgstr "依材質選取"
+
+#: material_ui.py:1510
+msgid "Show Material in Viewport"
+msgstr "在檢視中顯示材質"
+
+#: material_ui.py:1511
+msgid "Update Preview"
+msgstr "更新預覽"
+
+#: material_ui.py:1520
+msgid "Delete Selected Nodes"
+msgstr "刪除選取的節點"
+
+#: material_ui.py:1520
+msgid "Show All / Main Inputs"
+msgstr "顯示全部/主要輸入"
+
+#: material_ui.py:1528
+msgid "Select All Nodes"
+msgstr "選取所有節點"
+
+#: material_ui.py:1529
+msgid "Select Objects By Material"
+msgstr "依材質選取物件"
+
+#: material_ui.py:1543 material_ui.py:499 max_menus.py:299 scene_ui.py:245 (+3)
+msgid "Tools"
+msgstr "工具"
+
+#: material_ui.py:1550
+msgid "Materials and Maps"
+msgstr "材質與貼圖"
+
+#: material_ui.py:1561
+msgid "Scene Materials"
+msgstr "場景材質"
+
+#: material_ui.py:1565
+msgid "No scene materials"
+msgstr "沒有場景材質"
+
+#: material_ui.py:1570 material_ui.py:1421
+msgid "Material Option"
+msgstr "材質選項"
+
+#: max_gizmo.py:765
+msgid ""
+"Move with the 3ds Max move gizmo: axis arrows, plane corners and the view-"
+"plane square"
+msgstr "使用3dsMax移動操控器移動：軸向箭頭、平面角落與視圖平面方塊"
+
+#: max_gizmo.py:775
+msgid ""
+"Rotate with the 3ds Max rotate gizmo: axis rings, the view ring and free "
+"rotation inside"
+msgstr "使用3dsMax旋轉操控器旋轉：軸向環、視圖環與內部自由旋轉區"
+
+#: max_gizmo.py:785
+msgid ""
+"Scale with the 3ds Max scale gizmo: uniform centre, plane bands and axes"
+msgstr "使用3dsMax縮放操控器縮放：等比例中心、平面帶與軸向"
+
+#: max_menus.py:29
+msgid "Item(%r, %r)"
+msgstr "項目(%r,%r)"
+
+#: max_menus.py:44
+msgid "Sub(%r, %d items)"
+msgstr "子項(%r,%d個項目)"
+
+#: max_menus.py:141 ui.py:90
+msgid "Show the ViewCube"
+msgstr "顯示檢視立方體"
+
+#: max_menus.py:143
+msgid "Show For Active View"
+msgstr "僅在作用中視圖顯示"
+
+#: max_menus.py:143
+msgid "Show For All Views"
+msgstr "在所有視圖中顯示"
+
+#: max_menus.py:147 max_menus.py:999 max_menus.py:414 operators.py:121
+msgid "Orthographic"
+msgstr "正交"
+
+#: max_menus.py:150
+msgid "Set Current View as Home"
+msgstr "將目前視圖設為首頁"
+
+#: max_menus.py:150
+msgid "Set Current View as Front"
+msgstr "將目前視圖設為前視圖"
+
+#: max_menus.py:150
+msgid "Reset Front"
+msgstr "重設前視圖"
+
+#: max_menus.py:152 max_menus.py:163 max_menus.py:192
+msgid "Configure..."
+msgstr "設定..."
+
+#: max_menus.py:155
+msgid "Toggle SteeringWheels"
+msgstr "切換導覽輪"
+
+#: max_menus.py:157
+msgid "View Object Wheel"
+msgstr "檢視物件導覽輪"
+
+#: max_menus.py:158
+msgid "Tour Building Wheel"
+msgstr "建築導覽輪"
+
+#: max_menus.py:159
+msgid "Full Navigation Wheel"
+msgstr "完整導覽輪"
+
+#: max_menus.py:161
+msgid "Mini View Object Wheel"
+msgstr "迷你檢視物件導覽輪"
+
+#: max_menus.py:161
+msgid "Mini Tour Building Wheel"
+msgstr "建築導覽輪盤"
+
+#: max_menus.py:161
+msgid "Mini Full Navigation Wheel"
+msgstr "完整導覽輪盤"
+
+#: max_menus.py:166
+msgid "Enable Transparency"
+msgstr "啟用透明度"
+
+#: max_menus.py:169
+msgid "Standard Display"
+msgstr "標準顯示"
+
+#: max_menus.py:169
+msgid "Standard Display with Maps"
+msgstr "標準顯示(含貼圖)"
+
+#: max_menus.py:169
+msgid "Hardware Display"
+msgstr "硬體顯示"
+
+#: max_menus.py:169
+msgid "Hardware Display with Maps"
+msgstr "硬體顯示(含貼圖)"
+
+#: max_menus.py:170
+msgid "Shaded Materials without Maps"
+msgstr "著色材質(不含貼圖)"
+
+#: max_menus.py:171
+msgid "Shaded Materials with Maps"
+msgstr "著色材質(含貼圖)"
+
+#: max_menus.py:172
+msgid "Realistic Materials without Maps"
+msgstr "寫實材質(不含貼圖)"
+
+#: max_menus.py:173
+msgid "Realistic Materials with Maps"
+msgstr "寫實材質(含貼圖)"
+
+#: max_menus.py:175
+msgid "Override Off"
+msgstr "關閉覆寫"
+
+#: max_menus.py:176
+msgid "Override with UV Checker"
+msgstr "以UV檢查器覆寫"
+
+#: max_menus.py:177
+msgid "Override with Fast Shader"
+msgstr "以快速著色器覆寫"
+
+#: max_menus.py:177
+msgid "Override with Rendering Setting"
+msgstr "以算圖設定覆寫"
+
+#: max_menus.py:181
+msgid "Face Orientation"
+msgstr "面朝向"
+
+#: max_menus.py:182
+msgid "Overlapping Faces"
+msgstr "重疊面"
+
+#: max_menus.py:183
+msgid "Open Edges"
+msgstr "開放邊"
+
+#: max_menus.py:185
+msgid "Multiple Edges"
+msgstr "多重邊"
+
+#: max_menus.py:185
+msgid "Isolated Vertices"
+msgstr "孤立頂點"
+
+#: max_menus.py:185
+msgid "Overlapping Vertices"
+msgstr "重疊頂點"
+
+#: max_menus.py:185
+msgid "T-Vertices"
+msgstr "T型頂點"
+
+#: max_menus.py:186
+msgid "Missing UVW Coordinates"
+msgstr "缺少UVW座標"
+
+#: max_menus.py:186
+msgid "Flipped UVW Faces"
+msgstr "翻轉的UVW面"
+
+#: max_menus.py:186
+msgid "Overlapped UVW Faces"
+msgstr "重疊的UVW面"
+
+#: max_menus.py:188
+msgid "Select Results"
+msgstr "選取結果"
+
+#: max_menus.py:190 surfaces.py:1375
+msgid "See-Through"
+msgstr "透視"
+
+#: max_menus.py:190
+msgid "Auto Update"
+msgstr "自動更新"
+
+#: max_menus.py:190
+msgid "Display On Top"
+msgstr "顯示於最上層"
+
+#: max_menus.py:195
+msgid "Gradient Color"
+msgstr "漸層色彩"
+
+#: max_menus.py:196
+msgid "Solid Color"
+msgstr "純色"
+
+#: max_menus.py:198
+msgid "Environment Background"
+msgstr "環境背景"
+
+#: max_menus.py:198
+msgid "Custom Image File"
+msgstr "自訂圖片檔案"
+
+#: max_menus.py:200
+msgid "Configure Viewport Background..."
+msgstr "設定檢視區背景..."
+
+#: max_menus.py:204
+msgid "File"
+msgstr "檔案"
+
+#: max_menus.py:205 max_menus.py:1012 max_menus.py:1019 max_menus.py:1028
+msgid "New"
+msgstr "新增"
+
+#: max_menus.py:206
+msgid "New All"
+msgstr "全部新增"
+
+#: max_menus.py:207
+msgid "New from Template"
+msgstr "從範本新增"
+
+#: max_menus.py:209 surfaces.py:1209
+msgid "Reset"
+msgstr "重設"
+
+#: max_menus.py:210
+msgid "Open..."
+msgstr "開啟..."
+
+#: max_menus.py:211
+msgid "Open Recent"
+msgstr "開啟最近使用的檔案"
+
+#: max_menus.py:212 surfaces.py:435
+msgid "Autobackup"
+msgstr "自動備份"
+
+#: max_menus.py:213
+msgid "View Image File..."
+msgstr "檢視圖片檔案..."
+
+#: max_menus.py:215
+msgid "Save"
+msgstr "儲存"
+
+#: max_menus.py:216
+msgid "Save As..."
+msgstr "另存新檔..."
+
+#: max_menus.py:218
+msgid "Save Copy As..."
+msgstr "另存副本..."
+
+#: max_menus.py:219
+msgid "Save Selected..."
+msgstr "儲存所選項目..."
+
+#: max_menus.py:219
+msgid "Archive..."
+msgstr "封存..."
+
+#: max_menus.py:221
+msgid "Import"
+msgstr "匯入"
+
+#: max_menus.py:222
+msgid "Import..."
+msgstr "匯入..."
+
+#: max_menus.py:223
+msgid "Merge..."
+msgstr "合併..."
+
+#: max_menus.py:224
+msgid "Replace..."
+msgstr "取代..."
+
+#: max_menus.py:224
+msgid "Link Revit"
+msgstr "連結 Revit"
+
+#: max_menus.py:224
+msgid "Link FBX"
+msgstr "連結 FBX"
+
+#: max_menus.py:224
+msgid "Link AutoCAD"
+msgstr "連結 AutoCAD"
+
+#: max_menus.py:226
+msgid "Export"
+msgstr "匯出"
+
+#: max_menus.py:227
+msgid "Export..."
+msgstr "匯出..."
+
+#: max_menus.py:228
+msgid "Export Selected..."
+msgstr "匯出選取項目..."
+
+#: max_menus.py:228
+msgid "Publish to DWF..."
+msgstr "發佈至DWF..."
+
+#: max_menus.py:228
+msgid "Real-Time Exporter..."
+msgstr "即時匯出工具..."
+
+#: max_menus.py:230
+msgid "Send to"
+msgstr "傳送至"
+
+#: max_menus.py:231
+msgid "Send to Maya"
+msgstr "傳送至 Maya"
+
+#: max_menus.py:232
+msgid "Send to Motion Builder"
+msgstr "傳送至 Motion Builder"
+
+#: max_menus.py:233
+msgid "Send to Mudbox"
+msgstr "傳送至 Mudbox"
+
+#: max_menus.py:236
+msgid "XRef Objects..."
+msgstr "外部參照物件..."
+
+#: max_menus.py:237
+msgid "XRef Scene..."
+msgstr "外部參照場景..."
+
+#: max_menus.py:238
+msgid "Manage Links"
+msgstr "管理連結"
+
+#: max_menus.py:239
+msgid "Asset Tracking Toggle"
+msgstr "切換資產追蹤"
+
+#: max_menus.py:241
+msgid "Project"
+msgstr "專案"
+
+#: max_menus.py:242
+msgid "Recent Projects"
+msgstr "最近的專案"
+
+#: max_menus.py:243
+msgid "Set Active Project..."
+msgstr "設定作用中專案..."
+
+#: max_menus.py:245
+msgid "Create Empty..."
+msgstr "建立空白..."
+
+#: max_menus.py:245
+msgid "Create Default..."
+msgstr "建立預設..."
+
+#: max_menus.py:245
+msgid "Create From Current..."
+msgstr "從目前內容建立..."
+
+#: max_menus.py:249
+msgid "Summary Info..."
+msgstr "摘要資訊..."
+
+#: max_menus.py:250
+msgid "File Properties..."
+msgstr "檔案屬性..."
+
+#: max_menus.py:251 max_menus.py:903
+msgid "Preferences..."
+msgstr "偏好設定..."
+
+#: max_menus.py:253
+msgid "Exit"
+msgstr "離開"
+
+#: max_menus.py:256
+msgid "Undo Scene Operation"
+msgstr "復原場景操作"
+
+#: max_menus.py:257
+msgid "Redo Scene Operation"
+msgstr "重做場景操作"
+
+#: max_menus.py:262
+msgid "Del"
+msgstr "刪除"
+
+#: max_menus.py:268 quad.py:82
+msgid "Placement"
+msgstr "放置"
+
+#: max_menus.py:269
+msgid "Transform Type-In..."
+msgstr "變換類型輸入..."
+
+#: max_menus.py:270
+msgid "Transform Toolbox..."
+msgstr "變換工具箱..."
+
+#: max_menus.py:277 ui.py:162
+msgid "Select Instances"
+msgstr "選取實例"
+
+#: max_menus.py:280
+msgid "Layer..."
+msgstr "圖層..."
+
+#: max_menus.py:285
+msgid "Rectangular Region"
+msgstr "矩形區域"
+
+#: max_menus.py:286
+msgid "Circular Region"
+msgstr "圓形區域"
+
+#: max_menus.py:287
+msgid "Fence Region"
+msgstr "圍欄區域"
+
+#: max_menus.py:288
+msgid "Lasso Region"
+msgstr "套索區域"
+
+#: max_menus.py:292
+msgid "Crossing"
+msgstr "交叉選取"
+
+#: max_menus.py:300
+msgid "Scene Explorer..."
+msgstr "場景探索器..."
+
+#: max_menus.py:301
+msgid "Layer Explorer..."
+msgstr "圖層探索器..."
+
+#: max_menus.py:302
+msgid "Crease Explorer..."
+msgstr "摺痕探索器..."
+
+#: max_menus.py:303
+msgid "All Global Explorers"
+msgstr "所有全域探索器"
+
+#: max_menus.py:304
+msgid "Manage Local Explorers..."
+msgstr "管理本機探索器..."
+
+#: max_menus.py:305
+msgid "Local Scene Explorers"
+msgstr "本機場景探索器"
+
+#: max_menus.py:307
+msgid "Containers"
+msgstr "容器"
+
+#: max_menus.py:308
+msgid "Local Content"
+msgstr "本機內容"
+
+#: max_menus.py:309
+msgid "Inherited Content"
+msgstr "繼承的內容"
+
+#: max_menus.py:313 quad.py:69
+msgid "End Isolate"
+msgstr "結束隔離"
+
+#: max_menus.py:314 quad.py:68
+msgid "Zoom Extents On Isolate"
+msgstr "隔離時縮放至範圍"
+
+#: max_menus.py:316
+msgid "Display Floater..."
+msgstr "顯示浮動視窗..."
+
+#: max_menus.py:318
+msgid "Manage Scene States..."
+msgstr "管理場景狀態..."
+
+#: max_menus.py:318
+msgid "Manage Templates..."
+msgstr "管理範本..."
+
+#: max_menus.py:320
+msgid "Light Lister..."
+msgstr "燈光清單..."
+
+#: max_menus.py:322 surfaces.py:405
+msgid "Mirror..."
+msgstr "鏡射..."
+
+#: max_menus.py:323
+msgid "Array..."
+msgstr "陣列..."
+
+#: max_menus.py:327
+msgid "Spacing Tool..."
+msgstr "間距工具..."
+
+#: max_menus.py:328
+msgid "Clone and Align ..."
+msgstr "複製並對齊..."
+
+#: max_menus.py:332
+msgid "Place Highlight"
+msgstr "放置高光"
+
+#: max_menus.py:334
+msgid "Snapshot..."
+msgstr "快照..."
+
+#: max_menus.py:336
+msgid "Flow Studio"
+msgstr "Flow Studio"
+
+#: max_menus.py:337
+msgid "Launch Flow Studio"
+msgstr "啟動Flow Studio"
+
+#: max_menus.py:340
+msgid "Rename Objects..."
+msgstr "重新命名物件..."
+
+#: max_menus.py:342
+msgid "Assign Vertex Colors..."
+msgstr "指派頂點色彩..."
+
+#: max_menus.py:342
+msgid "Color Clipboard..."
+msgstr "色彩剪貼簿..."
+
+#: max_menus.py:342
+msgid "Perspective Match..."
+msgstr "透視匹配..."
+
+#: max_menus.py:344
+msgid "Viewport Canvas..."
+msgstr "檢視畫布..."
+
+#: max_menus.py:346
+msgid "Screen Capture"
+msgstr "螢幕擷取"
+
+#: max_menus.py:351
+msgid "Open Preview Animation folder..."
+msgstr "開啟預覽動畫資料夾..."
+
+#: max_menus.py:354
+msgid "Grids and Snaps"
+msgstr "格線與吸附"
+
+#: max_menus.py:355
+msgid "Grid and Snap Settings..."
+msgstr "格線與吸附設定..."
+
+#: max_menus.py:357 ui.py:19
+msgid "Show Home Grid"
+msgstr "顯示主格線"
+
+#: max_menus.py:358
+msgid "Activate Home Grid"
+msgstr "啟用主格線"
+
+#: max_menus.py:358
+msgid "Activate Grid Object"
+msgstr "啟用格線物件"
+
+#: max_menus.py:358
+msgid "Align Grid to View"
+msgstr "將格線對齊至視圖"
+
+#: max_menus.py:362 surfaces.py:391
+msgid "Percent Snap Toggle"
+msgstr "百分比吸附切換"
+
+#: max_menus.py:363
+msgid "Enable Axis Constraints in Snaps"
+msgstr "在吸附中啟用軸向限制"
+
+#: max_menus.py:365
+msgid "Snap Working Pivot Tools"
+msgstr "吸附作用中樞軸工具"
+
+#: max_menus.py:366 quad.py:84
+msgid "Place Working Pivot"
+msgstr "放置作用中樞軸"
+
+#: max_menus.py:367
+msgid "Selection Pivot"
+msgstr "選取範圍樞軸"
+
+#: max_menus.py:368 quad.py:85
+msgid "Align Working Pivot"
+msgstr "對齊作用中樞軸"
+
+#: max_menus.py:368 quad.py:85
+msgid "Reset Working Pivot"
+msgstr "重設作用中樞軸"
+
+#: max_menus.py:370
+msgid "Align Pivot To Working Pivot"
+msgstr "將樞軸對齊至作用中樞軸"
+
+#: max_menus.py:372
+msgid "Place Pivot Bounding Box"
+msgstr "放置樞軸至邊界框"
+
+#: max_menus.py:374
+msgid "Create Grid From Working Pivot"
+msgstr "以作用中樞軸建立格線"
+
+#: max_menus.py:374
+msgid "Create Point From Working Pivot"
+msgstr "以作用中樞軸建立點"
+
+#: max_menus.py:376
+msgid "Measure Distance..."
+msgstr "測量距離..."
+
+#: max_menus.py:378
+msgid "Channel Info..."
+msgstr "通道資訊..."
+
+#: max_menus.py:379
+msgid "Mesh Inspector"
+msgstr "網格檢查器"
+
+#: max_menus.py:379
+msgid "Activate Mesh Inspector"
+msgstr "啟用網格檢查器"
+
+#: max_menus.py:379
+msgid "Mesh Auto Repair"
+msgstr "網格自動修復"
+
+#: max_menus.py:382 ui.py:148
+msgid "Group..."
+msgstr "群組..."
+
+#: max_menus.py:383 ui.py:149
+msgid "Ungroup"
+msgstr "取消群組"
+
+#: max_menus.py:385 max_menus.py:397
+msgid "Open"
+msgstr "開啟"
+
+#: max_menus.py:386
+msgid "Open Recursively"
+msgstr "遞迴開啟"
+
+#: max_menus.py:387 max_menus.py:397
+msgid "Close"
+msgstr "關閉"
+
+#: max_menus.py:392 max_menus.py:401
+msgid "Explode"
+msgstr "炸開"
+
+#: max_menus.py:394
+msgid "Assembly"
+msgstr "組件"
+
+#: max_menus.py:395
+msgid "Assemble"
+msgstr "組裝"
+
+#: max_menus.py:395
+msgid "Disassemble"
+msgstr "拆解"
+
+#: max_menus.py:404
+msgid "Views"
+msgstr "檢視"
+
+#: max_menus.py:409
+msgid "Viewports Configuration..."
+msgstr "檢視區組態..."
+
+#: max_menus.py:412
+msgid "Set Active Viewport"
+msgstr "設為作用中檢視區"
+
+#: max_menus.py:434
+msgid "Show Materials in Viewport As"
+msgstr "在檢視區中顯示材質的方式"
+
+#: max_menus.py:436 quad.py:71
+msgid "Viewport Lighting and Shadows"
+msgstr "檢視燈光與陰影"
+
+#: max_menus.py:437 max_menus.py:1062 quad.py:71
+msgid "Auto Display Selected Lights"
+msgstr "自動顯示選取的燈光"
+
+#: max_menus.py:439 max_menus.py:1064 quad.py:72
+msgid "Lock Selected Lights"
+msgstr "鎖定選取的燈光"
+
+#: max_menus.py:439 max_menus.py:1064 quad.py:72
+msgid "Unlock Selected Lights"
+msgstr "解除鎖定選取的燈光"
+
+#: max_menus.py:446
+msgid "Show Transform Gizmo"
+msgstr "顯示變換操縱器"
+
+#: max_menus.py:447
+msgid "Show Ghosting"
+msgstr "顯示殘影"
+
+#: max_menus.py:448
+msgid "Show Key Times"
+msgstr "顯示關鍵格時間"
+
+#: max_menus.py:449
+msgid "Shade Selected"
+msgstr "為選取項目著色"
+
+#: max_menus.py:450
+msgid "Show Dependencies"
+msgstr "顯示相依項目"
+
+#: max_menus.py:452
+msgid "Update During Spinner Drag"
+msgstr "拖曳微調器時更新"
+
+#: max_menus.py:453
+msgid "Adaptive Degradation"
+msgstr "符合降級"
+
+#: max_menus.py:454
+msgid "Progressive Display"
+msgstr "漸進式顯示"
+
+#: max_menus.py:459 surfaces.py:481
+msgid "Standard Primitives"
+msgstr "標準圖元"
+
+#: max_menus.py:460 operators.py:430 params.py:10 params.py:122 (+1)
+msgid "Box"
+msgstr "立方"
+
+#: max_menus.py:461 operators.py:430 params.py:10 surfaces.py:481
+msgid "Cone"
+msgstr "圓錐體"
+
+#: max_menus.py:462 operators.py:430 params.py:10 surfaces.py:481
+msgid "Sphere"
+msgstr "球體"
+
+#: max_menus.py:463 operators.py:430 params.py:10 surfaces.py:481
+msgid "GeoSphere"
+msgstr "幾何球體"
+
+#: max_menus.py:464 operators.py:430 params.py:10 surfaces.py:482
+msgid "Cylinder"
+msgstr "圓柱體"
+
+#: max_menus.py:465 operators.py:430 params.py:10 surfaces.py:482
+msgid "Tube"
+msgstr "圓管"
+
+#: max_menus.py:466 operators.py:431 params.py:10 surfaces.py:482
+msgid "Torus"
+msgstr "圓環"
+
+#: max_menus.py:467 operators.py:431 params.py:10 surfaces.py:482
+msgid "Pyramid"
+msgstr "金字塔"
+
+#: max_menus.py:468 operators.py:431 params.py:10 surfaces.py:483
+msgid "Teapot"
+msgstr "茶壺"
+
+#: max_menus.py:469 operators.py:431 params.py:10 surfaces.py:483
+msgid "Plane"
+msgstr "平面"
+
+#: max_menus.py:470 operators.py:431 surfaces.py:483
+msgid "TextPlus"
+msgstr "文字增強"
+
+#: max_menus.py:472 surfaces.py:484
+msgid "Extended Primitives"
+msgstr "擴充圖元"
+
+#: max_menus.py:473 surfaces.py:484
+msgid "Hedra"
+msgstr "多面體"
+
+#: max_menus.py:473 surfaces.py:484
+msgid "Torus Knot"
+msgstr "環面結"
+
+#: max_menus.py:474
+msgid "Chamfer Box"
+msgstr "倒角方箱"
+
+#: max_menus.py:475
+msgid "Chamfer Cylinder"
+msgstr "倒角圓柱"
+
+#: max_menus.py:476
+msgid "Oil Tank"
+msgstr "油槽"
+
+#: max_menus.py:477 operators.py:432 surfaces.py:485
+msgid "Capsule"
+msgstr "膠囊"
+
+#: max_menus.py:478 surfaces.py:485
+msgid "Spindle"
+msgstr "紡錘"
+
+#: max_menus.py:478
+msgid "L-Extrusion"
+msgstr "L型擠出體"
+
+#: max_menus.py:478 surfaces.py:485
+msgid "Gengon"
+msgstr "球稜柱"
+
+#: max_menus.py:478
+msgid "C-Extrusion"
+msgstr "C型擠出體"
+
+#: max_menus.py:478 surfaces.py:486
+msgid "RingWave"
+msgstr "環波"
+
+#: max_menus.py:478 surfaces.py:486
+msgid "Hose"
+msgstr "軟管"
+
+#: max_menus.py:478 surfaces.py:486
+msgid "Prism"
+msgstr "稜柱"
+
+#: max_menus.py:480
+msgid "AEC Objects"
+msgstr "建築物件"
+
+#: max_menus.py:481
+msgid "Foliage"
+msgstr "植物"
+
+#: max_menus.py:481
+msgid "Railing"
+msgstr "欄杆"
+
+#: max_menus.py:481
+msgid "Wall"
+msgstr "牆"
+
+#: max_menus.py:483
+msgid "Pivot Door"
+msgstr "樞軸門"
+
+#: max_menus.py:483
+msgid "Sliding Door"
+msgstr "滑門"
+
+#: max_menus.py:483
+msgid "BiFold Door"
+msgstr "雙折門"
+
+#: max_menus.py:485
+msgid "Straight Stair"
+msgstr "直梯"
+
+#: max_menus.py:485
+msgid "L-Type Stair"
+msgstr "L型樓梯"
+
+#: max_menus.py:485
+msgid "U-Type Stair"
+msgstr "U型樓梯"
+
+#: max_menus.py:485
+msgid "Spiral Stair"
+msgstr "螺旋樓梯"
+
+#: max_menus.py:488
+msgid "Awning Window"
+msgstr "遮雨窗"
+
+#: max_menus.py:488
+msgid "Casement Window"
+msgstr "平開窗"
+
+#: max_menus.py:488
+msgid "Fixed Window"
+msgstr "固定窗"
+
+#: max_menus.py:488
+msgid "Pivoted Window"
+msgstr "樞軸窗"
+
+#: max_menus.py:488
+msgid "Sliding Window"
+msgstr "滑窗"
+
+#: max_menus.py:489
+msgid "Projected Window"
+msgstr "投影視窗"
+
+#: max_menus.py:491
+msgid "MCG Tools"
+msgstr "MCG工具"
+
+#: max_menus.py:499
+msgid "Compound"
+msgstr "複合物件"
+
+#: max_menus.py:500 surfaces.py:487
+msgid "Morph"
+msgstr "變形"
+
+#: max_menus.py:500 surfaces.py:487
+msgid "Scatter"
+msgstr "散佈"
+
+#: max_menus.py:500 surfaces.py:487
+msgid "BlobMesh"
+msgstr "液體網格"
+
+#: max_menus.py:500 surfaces.py:488
+msgid "ShapeMerge"
+msgstr "圖形合併"
+
+#: max_menus.py:500 surfaces.py:488
+msgid "Terrain"
+msgstr "地形"
+
+#: max_menus.py:500 surfaces.py:488
+msgid "Loft"
+msgstr "放樣"
+
+#: max_menus.py:501 surfaces.py:488
+msgid "Mesher"
+msgstr "網格生成器"
+
+#: max_menus.py:501 surfaces.py:489
+msgid "ProCutter"
+msgstr "專業切割器"
+
+#: max_menus.py:502
+msgid "Particles"
+msgstr "粒子"
+
+#: max_menus.py:503
+msgid "Particle Flow Source"
+msgstr "粒子流來源"
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Spray"
+msgstr "噴霧"
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Snow"
+msgstr "雪"
+
+#: max_menus.py:505 surfaces.py:490
+msgid "Blizzard"
+msgstr "暴風雪"
+
+#: max_menus.py:505 surfaces.py:490
+msgid "PArray"
+msgstr "粒子陣列"
+
+#: max_menus.py:505 surfaces.py:491
+msgid "PCloud"
+msgstr "粒子雲"
+
+#: max_menus.py:505 surfaces.py:491
+msgid "Super Spray"
+msgstr "超級噴灑"
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Patch Grids"
+msgstr "面片柵格"
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Quad Patch"
+msgstr "四邊面片"
+
+#: max_menus.py:507 surfaces.py:492
+msgid "Tri Patch"
+msgstr "三角面片"
+
+#: max_menus.py:509
+msgid "CV Surface"
+msgstr "控制點曲面"
+
+#: max_menus.py:510
+msgid "Point Surface"
+msgstr "點曲面"
+
+#: max_menus.py:512 operators.py:442 surfaces.py:499
+msgid "CV Curve"
+msgstr "控制點曲線"
+
+#: max_menus.py:513 operators.py:442 surfaces.py:499
+msgid "Point Curve"
+msgstr "點曲線"
+
+#: max_menus.py:515
+msgid "Point Cloud"
+msgstr "點雲"
+
+#: max_menus.py:516
+msgid "Dynamics"
+msgstr "動力學"
+
+#: max_menus.py:516
+msgid "Damper"
+msgstr "阻尼器"
+
+#: max_menus.py:516 max_menus.py:706
+msgid "Spring"
+msgstr "彈簧"
+
+#: max_menus.py:519 operators.py:433 surfaces.py:496
+msgid "Line"
+msgstr "直線"
+
+#: max_menus.py:520 operators.py:433 params.py:123 surfaces.py:496
+msgid "Rectangle"
+msgstr "矩形"
+
+#: max_menus.py:521 operators.py:433 surfaces.py:496
+msgid "Circle"
+msgstr "圓形"
+
+#: max_menus.py:522 operators.py:433 surfaces.py:496
+msgid "Ellipse"
+msgstr "橢圓"
+
+#: max_menus.py:523 operators.py:433 surfaces.py:496
+msgid "Arc"
+msgstr "弧線"
+
+#: max_menus.py:524 operators.py:433 surfaces.py:497
+msgid "Donut"
+msgstr "圓環"
+
+#: max_menus.py:525 operators.py:434 surfaces.py:497
+msgid "NGon"
+msgstr "多邊形"
+
+#: max_menus.py:526 operators.py:434 surfaces.py:497
+msgid "Star"
+msgstr "星形"
+
+#: max_menus.py:528 operators.py:434 surfaces.py:497
+msgid "Helix"
+msgstr "螺旋線"
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Section"
+msgstr "截面"
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Egg"
+msgstr "蛋形"
+
+#: max_menus.py:529 surfaces.py:498
+msgid "Freehand"
+msgstr "徒手繪製"
+
+#: max_menus.py:531
+msgid "ShapeBoolean"
+msgstr "圖形布林運算"
+
+#: max_menus.py:533
+msgid "Extended Shapes"
+msgstr "擴充形狀"
+
+#: max_menus.py:533 surfaces.py:500
+msgid "WRectangle"
+msgstr "雙內矩形"
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Channel"
+msgstr "槽鋼"
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Tee"
+msgstr "T形"
+
+#: max_menus.py:533 surfaces.py:500
+msgid "Wide Flange"
+msgstr "寬翼緣"
+
+#: max_menus.py:536
+msgid "Photometric Lights"
+msgstr "光度燈光"
+
+#: max_menus.py:537 operators.py:436 surfaces.py:503
+msgid "Target Light"
+msgstr "目標燈光"
+
+#: max_menus.py:538 operators.py:436 surfaces.py:503
+msgid "Free Light"
+msgstr "自由燈光"
+
+#: max_menus.py:540
+msgid "Standard Lights"
+msgstr "標準燈光"
+
+#: max_menus.py:541
+msgid "Target Spotlight"
+msgstr "目標聚光燈"
+
+#: max_menus.py:542
+msgid "Free Spotlight"
+msgstr "自由聚光燈"
+
+#: max_menus.py:543
+msgid "Target Directional"
+msgstr "目標方向"
+
+#: max_menus.py:544
+msgid "Directional"
+msgstr "方向性"
+
+#: max_menus.py:545 operators.py:435 surfaces.py:505
+msgid "Omni"
+msgstr "全向"
+
+#: max_menus.py:546 operators.py:436 surfaces.py:505
+msgid "Skylight"
+msgstr "天光"
+
+#: max_menus.py:548
+msgid "Add Default Lights to Scene"
+msgstr "將預設燈光新增至場景"
+
+#: max_menus.py:551 max_menus.py:616
+msgid "Daylight System"
+msgstr "日光系統"
+
+#: max_menus.py:552 operators.py:437 surfaces.py:503
+msgid "Sun Positioner"
+msgstr "太陽定位器"
+
+#: max_menus.py:555 operators.py:438
+msgid "Free Camera"
+msgstr "自由攝影機"
+
+#: max_menus.py:556 operators.py:438
+msgid "Target Camera"
+msgstr "目標攝影機"
+
+#: max_menus.py:557 operators.py:438 surfaces.py:735
+msgid "Physical Camera"
+msgstr "物理攝影機"
+
+#: max_menus.py:564 operators.py:439 surfaces.py:509 surfaces.py:735
+msgid "Dummy"
+msgstr "虛擬物件"
+
+#: max_menus.py:565
+msgid "Expose Transform"
+msgstr "顯示變換"
+
+#: max_menus.py:568 surfaces.py:509
+msgid "Container"
+msgstr "容器"
+
+#: max_menus.py:569 operators.py:439 surfaces.py:511
+msgid "Arrow"
+msgstr "箭頭"
+
+#: max_menus.py:571
+msgid "Tape Measure"
+msgstr "捲尺"
+
+#: max_menus.py:572 operators.py:439 surfaces.py:510
+msgid "Protractor"
+msgstr "量角器"
+
+#: max_menus.py:573 operators.py:440 surfaces.py:510
+msgid "Compass"
+msgstr "指南針"
+
+#: max_menus.py:575
+msgid "Camera Point"
+msgstr "攝影機點"
+
+#: max_menus.py:577
+msgid "Influence Helper"
+msgstr "影響輔助物件"
+
+#: max_menus.py:579 surfaces.py:509
+msgid "Delegate"
+msgstr "代理物件"
+
+#: max_menus.py:579 surfaces.py:509
+msgid "Crowd"
+msgstr "群集"
+
+#: max_menus.py:581 utility_editors.py:655 utility_editors.py:660
+msgid "Atmospherics"
+msgstr "大氣效果"
+
+#: max_menus.py:581
+msgid "Box Gizmo"
+msgstr "立方操控器"
+
+#: max_menus.py:581
+msgid "Cylinder Gizmo"
+msgstr "圓柱體操控器"
+
+#: max_menus.py:581
+msgid "Sphere Gizmo"
+msgstr "球體操控器"
+
+#: max_menus.py:582
+msgid "Manipulators"
+msgstr "操控器"
+
+#: max_menus.py:582
+msgid "Slider"
+msgstr "滑桿"
+
+#: max_menus.py:582
+msgid "Plane Angle"
+msgstr "平面角度"
+
+#: max_menus.py:582
+msgid "Cone Angle"
+msgstr "圓錐角度"
+
+#: max_menus.py:583
+msgid "Particle Flow"
+msgstr "粒子流"
+
+#: max_menus.py:584
+msgid "Speed by Icon"
+msgstr "依圖示設定速度"
+
+#: max_menus.py:584
+msgid "Find Target"
+msgstr "尋找目標"
+
+#: max_menus.py:584
+msgid "Particle Paint"
+msgstr "粒子繪製"
+
+#: max_menus.py:584
+msgid "Birth Texture"
+msgstr "出生貼圖"
+
+#: max_menus.py:584
+msgid "Initial State"
+msgstr "初始狀態"
+
+#: max_menus.py:585
+msgid "Group Select"
+msgstr "群組選取"
+
+#: max_menus.py:587
+msgid "SpaceWarps"
+msgstr "空間扭曲"
+
+#: max_menus.py:588 surfaces.py:513
+msgid "Forces"
+msgstr "力場"
+
+#: max_menus.py:589 operators.py:440 surfaces.py:513
+msgid "Motor"
+msgstr "馬達"
+
+#: max_menus.py:592 operators.py:440 surfaces.py:513
+msgid "Vortex"
+msgstr "漩渦"
+
+#: max_menus.py:593 operators.py:441 surfaces.py:514
+msgid "Path Follow"
+msgstr "路徑追隨"
+
+#: max_menus.py:594 surfaces.py:513
+msgid "PBomb"
+msgstr "粒子爆炸"
+
+#: max_menus.py:596 operators.py:441 surfaces.py:514
+msgid "Gravity"
+msgstr "重力"
+
+#: max_menus.py:597 operators.py:440 surfaces.py:514
+msgid "Wind"
+msgstr "風"
+
+#: max_menus.py:600 surfaces.py:515
+msgid "Deflectors"
+msgstr "導向板"
+
+#: max_menus.py:601 surfaces.py:515
+msgid "POmniFlect"
+msgstr "泛方向導向板"
+
+#: max_menus.py:601 surfaces.py:515
+msgid "SOmniFlect"
+msgstr "空間扭曲"
+
+#: max_menus.py:601
+msgid "SDeflector"
+msgstr "導向球"
+
+#: max_menus.py:601 surfaces.py:515
+msgid "UOmniFlect"
+msgstr "全泛向導向"
+
+#: max_menus.py:601
+msgid "UDeflector"
+msgstr "全導向板"
+
+#: max_menus.py:601 surfaces.py:515
+msgid "Deflector"
+msgstr "導向板"
+
+#: max_menus.py:602 surfaces.py:516
+msgid "Geometric/Deformable"
+msgstr "幾何/可變形"
+
+#: max_menus.py:603 surfaces.py:516
+msgid "FFD(Box)"
+msgstr "FFD(立方)"
+
+#: max_menus.py:603 surfaces.py:516
+msgid "FFD(Cyl)"
+msgstr "FFD(圓柱)"
+
+#: max_menus.py:605 surfaces.py:517
+msgid "Bomb"
+msgstr "爆炸"
+
+#: max_menus.py:607
+msgid "Modifier-Based"
+msgstr "以修改器為基礎"
+
+#: max_menus.py:608
+msgid "Particles & Dynamics"
+msgstr "粒子與動力學"
+
+#: max_menus.py:609
+msgid "Vector Field"
+msgstr "向量場"
+
+#: max_menus.py:612 surfaces.py:523 ui.py:33
+msgid "Systems"
+msgstr "系統"
+
+#: max_menus.py:613
+msgid "Bones IK Chain"
+msgstr "骨骼IK鏈"
+
+#: max_menus.py:614 surfaces.py:519
+msgid "Biped"
+msgstr "雙足"
+
+#: max_menus.py:619 max_menus.py:769
+msgid "Fluids"
+msgstr "流體"
+
+#: max_menus.py:620 max_menus.py:770
+msgid "Liquid"
+msgstr "液體"
+
+#: max_menus.py:621 max_menus.py:771
+msgid "Fluid Loader"
+msgstr "流體載入器"
+
+#: max_menus.py:625
+msgid "Selection Modifiers"
+msgstr "選取修改器"
+
+#: max_menus.py:626
+msgid "FFD Select"
+msgstr "FFD選取"
+
+#: max_menus.py:626
+msgid "Mesh Select"
+msgstr "網格選取"
+
+#: max_menus.py:626
+msgid "Patch Select"
+msgstr "面片選取"
+
+#: max_menus.py:626
+msgid "Poly Select"
+msgstr "多邊形選取"
+
+#: max_menus.py:626
+msgid "Select By Channel"
+msgstr "依通道選取"
+
+#: max_menus.py:626
+msgid "Spline Select"
+msgstr "樣條線選取"
+
+#: max_menus.py:627
+msgid "Volume Select"
+msgstr "體積選取"
+
+#: max_menus.py:629
+msgid "Patch/Spline Editing"
+msgstr "面片/樣條線編輯"
+
+#: max_menus.py:630
+msgid "Cross Section"
+msgstr "橫截面"
+
+#: max_menus.py:630
+msgid "Delete Patch"
+msgstr "刪除面片"
+
+#: max_menus.py:630
+msgid "Delete Spline"
+msgstr "刪除樣條線"
+
+#: max_menus.py:630
+msgid "Edit Patch"
+msgstr "編輯面片"
+
+#: max_menus.py:630
+msgid "Edit Spline"
+msgstr "編輯樣條線"
+
+#: max_menus.py:630
+msgid "Spline Chamfer"
+msgstr "樣條線倒角"
+
+#: max_menus.py:631
+msgid "Normalize Spline"
+msgstr "正規化樣條線"
+
+#: max_menus.py:631
+msgid "Sweep"
+msgstr "掃描"
+
+#: max_menus.py:631
+msgid "Trim/Extend"
+msgstr "修剪/延伸"
+
+#: max_menus.py:632
+msgid "Optimize Spline"
+msgstr "最佳化樣條線"
+
+#: max_menus.py:632
+msgid "Spline Mirror"
+msgstr "樣條線鏡射"
+
+#: max_menus.py:632
+msgid "Spline Relax"
+msgstr "樣條線鬆弛"
+
+#: max_menus.py:633
+msgid "Mesh Editing"
+msgstr "網格編輯"
+
+#: max_menus.py:634
+msgid "Delete Mesh"
+msgstr "刪除網格"
+
+#: max_menus.py:635
+msgid "Face Extrude"
+msgstr "面擠出"
+
+#: max_menus.py:636
+msgid "STL Check"
+msgstr "STL檢查"
+
+#: max_menus.py:636
+msgid "Vertex Paint"
+msgstr "頂點上色"
+
+#: max_menus.py:638
+msgid "Conversion"
+msgstr "轉換"
+
+#: max_menus.py:638
+msgid "Turn To Patch"
+msgstr "轉換為面片"
+
+#: max_menus.py:641
+msgid "Attribute Holder"
+msgstr "屬性承載器"
+
+#: max_menus.py:641
+msgid "Linked XForm"
+msgstr "連結變換"
+
+#: max_menus.py:641
+msgid "Patch Deform"
+msgstr "面片變形"
+
+#: max_menus.py:641
+msgid "Patch Deform (WSM)"
+msgstr "面片變形(WSM)"
+
+#: max_menus.py:642
+msgid "Spline Influence"
+msgstr "樣條線影響"
+
+#: max_menus.py:642
+msgid "Spline Morph"
+msgstr "樣條線變形"
+
+#: max_menus.py:642
+msgid "Spline Overlap"
+msgstr "樣條線重疊"
+
+#: max_menus.py:643
+msgid "Skin Morph"
+msgstr "表皮變形"
+
+#: max_menus.py:643
+msgid "Skin Wrap Patch"
+msgstr "表皮包覆面片"
+
+#: max_menus.py:643
+msgid "SplineIk Control"
+msgstr "樣條線IK控制"
+
+#: max_menus.py:643
+msgid "Surf Deform (WSM)"
+msgstr "曲面變形(WSM)"
+
+#: max_menus.py:645
+msgid "Garment Maker"
+msgstr "服裝製作器"
+
+#: max_menus.py:645
+msgid "Welder"
+msgstr "焊接"
+
+#: max_menus.py:647
+msgid "Hair and Fur"
+msgstr "頭髮和毛髮"
+
+#: max_menus.py:651
+msgid "UV Coordinates"
+msgstr "UV座標"
+
+#: max_menus.py:652
+msgid "Camera Map"
+msgstr "攝影機貼圖"
+
+#: max_menus.py:652
+msgid "Camera Map (WSM)"
+msgstr "攝影機貼圖(WSM)"
+
+#: max_menus.py:652
+msgid "MapScaler (WSM)"
+msgstr "貼圖縮放器(WSM)"
+
+#: max_menus.py:652 surfaces.py:922
+msgid "Projection"
+msgstr "投影"
+
+#: max_menus.py:653
+msgid "UVW Mapping Add"
+msgstr "新增UVW貼圖"
+
+#: max_menus.py:653
+msgid "UVW Mapping Clear"
+msgstr "清除UVW貼圖"
+
+#: max_menus.py:653
+msgid "UVW XForm"
+msgstr "UVW變換"
+
+#: max_menus.py:655
+msgid "Cache Tools"
+msgstr "快取工具"
+
+#: max_menus.py:657
+msgid "Subdivision Surfaces"
+msgstr "細分曲面"
+
+#: max_menus.py:658
+msgid "Crease"
+msgstr "摺痕"
+
+#: max_menus.py:658
+msgid "CreaseSet"
+msgstr "摺痕集"
+
+#: max_menus.py:658
+msgid "HSDS Modifier"
+msgstr "HSDS修改器"
+
+#: max_menus.py:660
+msgid "Free Form Deformers"
+msgstr "自由形式變形器"
+
+#: max_menus.py:662
+msgid "Parametric Deformers"
+msgstr "參數式變形器"
+
+#: max_menus.py:663
+msgid "Affect Region"
+msgstr "影響區域"
+
+#: max_menus.py:663
+msgid "Data Channel"
+msgstr "資料通道"
+
+#: max_menus.py:664
+msgid "Physique"
+msgstr "骨骼表皮"
+
+#: max_menus.py:664
+msgid "Preserve"
+msgstr "保留"
+
+#: max_menus.py:664 max_menus.py:607
+msgid "Skew"
+msgstr "傾斜"
+
+#: max_menus.py:665
+msgid "Squeeze"
+msgstr "擠壓"
+
+#: max_menus.py:665
+msgid "Substitute"
+msgstr "替代"
+
+#: max_menus.py:665
+msgid "XForm"
+msgstr "變換"
+
+#: max_menus.py:667 max_menus.py:631
+msgid "Surface"
+msgstr "曲面"
+
+#: max_menus.py:667 max_menus.py:669
+msgid "Disp Approx"
+msgstr "位移近似"
+
+#: max_menus.py:667
+msgid "Displace Mesh (WSM)"
+msgstr "位移網格(WSM)"
+
+#: max_menus.py:667
+msgid "Material By Element"
+msgstr "依元素指定材質"
+
+#: max_menus.py:669
+msgid "NURBS Editing"
+msgstr "NURBS編輯"
+
+#: max_menus.py:669
+msgid "Surface Select"
+msgstr "曲面選取"
+
+#: max_menus.py:671
+msgid "Radiosity"
+msgstr "輻射度"
+
+#: max_menus.py:671
+msgid "Subdivide (WSM)"
+msgstr "細分(WSM)"
+
+#: max_menus.py:674
+msgid "Camera Correction"
+msgstr "攝影機校正"
+
+#: max_menus.py:680
+msgid "IK Solvers"
+msgstr "IK解算器"
+
+#: max_menus.py:681
+msgid "HI Solver"
+msgstr "HI解算器"
+
+#: max_menus.py:681
+msgid "HD Solver"
+msgstr "HD解算器"
+
+#: max_menus.py:681
+msgid "IK Limb Solver"
+msgstr "IK肢體解算器"
+
+#: max_menus.py:683
+msgid "SplineIK Solver"
+msgstr "樣條IK解算器"
+
+#: max_menus.py:687 max_menus.py:708
+msgid "Attachment Constraint"
+msgstr "附著約束"
+
+#: max_menus.py:688 max_menus.py:711
+msgid "Surface Constraint"
+msgstr "曲面約束"
+
+#: max_menus.py:690 max_menus.py:709
+msgid "Path Constraint"
+msgstr "路徑約束"
+
+#: max_menus.py:691 max_menus.py:710
+msgid "Position Constraint"
+msgstr "位置約束"
+
+#: max_menus.py:693 max_menus.py:700
+msgid "Link Constraint"
+msgstr "連結約束"
+
+#: max_menus.py:695 max_menus.py:718
+msgid "LookAt Constraint"
+msgstr "注視約束"
+
+#: max_menus.py:696 max_menus.py:719
+msgid "Orientation Constraint"
+msgstr "方向約束"
+
+#: max_menus.py:699
+msgid "Transform Controllers"
+msgstr "變換控制器"
+
+#: max_menus.py:701
+msgid "Position/Rotation/Scale"
+msgstr "位置/旋轉/縮放"
+
+#: max_menus.py:703
+msgid "Position Controllers"
+msgstr "位置控制器"
+
+#: max_menus.py:705
+msgid "TCB Position"
+msgstr "TCB位置"
+
+#: max_menus.py:713
+msgid "Rotation Controllers"
+msgstr "旋轉控制器"
+
+#: max_menus.py:715
+msgid "Euler X Y Z"
+msgstr "離合  XYZ"
+
+#: max_menus.py:715 surfaces.py:1248
+msgid "TCB Rotation"
+msgstr "TCB旋轉"
+
+#: max_menus.py:721
+msgid "Scale Controllers"
+msgstr "縮放控制器"
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715
+msgid "Audio"
+msgstr "音訊"
+
+#: max_menus.py:722 max_menus.py:705
+msgid "Expression"
+msgstr "運算式"
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715 surfaces.py:1418
+msgid "Motion Capture"
+msgstr "動作擷取"
+
+#: max_menus.py:722
+msgid "TCB Scale"
+msgstr "TCB縮放"
+
+#: max_menus.py:722 max_menus.py:705 max_menus.py:715
+msgid "Reaction"
+msgstr "反應"
+
+#: max_menus.py:723 max_menus.py:706
+msgid "X Y Z"
+msgstr "XYZ"
+
+#: max_menus.py:723 max_menus.py:701 max_menus.py:706 max_menus.py:716
+msgid "List"
+msgstr "清單"
+
+#: max_menus.py:724 max_menus.py:492
+msgid "MCG Controllers"
+msgstr "MCG控制器"
+
+#: max_menus.py:725 max_menus.py:493
+msgid "MCG LookAt Constraint"
+msgstr "MCG注視約束"
+
+#: max_menus.py:725 max_menus.py:493
+msgid "MCG Ray to Surface Position Constraint"
+msgstr "MCG射線至曲面位置約束"
+
+#: max_menus.py:726 max_menus.py:494
+msgid "MCG Ray to Surface Position and Orientation Constraints"
+msgstr "MCG射線至曲面位置與方向約束"
+
+#: max_menus.py:726 max_menus.py:495
+msgid "MCG Ray to Surface Transform Constraint"
+msgstr "MCG射線至曲面轉換約束"
+
+#: max_menus.py:727 max_menus.py:495
+msgid "MCG 1 DOF Rotation Spring Controller"
+msgstr "MCG 1 自由度旋轉彈簧控制器"
+
+#: max_menus.py:727 max_menus.py:496
+msgid "MCG 3 DOF Rotation Spring Controller"
+msgstr "MCG 3 自由度旋轉彈簧控制器"
+
+#: max_menus.py:728
+msgid "Capture Animation"
+msgstr "擷取動畫"
+
+#: max_menus.py:728
+msgid "Pose Mixer"
+msgstr "姿勢混合器"
+
+#: max_menus.py:728
+msgid "Apply Max IK"
+msgstr "套用Max IK"
+
+#: max_menus.py:729
+msgid "MassFX"
+msgstr "MassFX"
+
+#: max_menus.py:730
+msgid "Rigid Bodies"
+msgstr "剛體"
+
+#: max_menus.py:731
+msgid "Set Selected as Dynamic Rigid Body"
+msgstr "將所選項目設為動態剛體"
+
+#: max_menus.py:732
+msgid "Set Selected as Kinematic Rigid Body"
+msgstr "將所選項目設為運動學剛體"
+
+#: max_menus.py:733
+msgid "Set Selected as Static Rigid Body"
+msgstr "將所選項目設為靜態剛體"
+
+#: max_menus.py:735
+msgid "Create Dynamic Ragdoll"
+msgstr "建立動態布娃娃"
+
+#: max_menus.py:735
+msgid "Create Kinematic Ragdoll"
+msgstr "建立運動學布娃娃"
+
+#: max_menus.py:735
+msgid "Remove Ragdoll"
+msgstr "移除布娃娃"
+
+#: max_menus.py:738
+msgid "Create mCloth"
+msgstr "建立mCloth"
+
+#: max_menus.py:739
+msgid "Remove mCloth"
+msgstr "移除mCloth"
+
+#: max_menus.py:742
+msgid "Create Rigid Constraint"
+msgstr "建立剛性約束"
+
+#: max_menus.py:743
+msgid "Create Slide Constraint"
+msgstr "建立滑動約束"
+
+#: max_menus.py:744
+msgid "Create Hinge Constraint"
+msgstr "建立鉸鏈約束"
+
+#: max_menus.py:745
+msgid "Create Twist Constraint"
+msgstr "建立扭轉約束"
+
+#: max_menus.py:746
+msgid "Create Ball-and-Socket Constraint"
+msgstr "建立球窩約束"
+
+#: max_menus.py:747
+msgid "Create Universal Constraint"
+msgstr "建立萬向約束"
+
+#: max_menus.py:749
+msgid "Simulation"
+msgstr "模擬"
+
+#: max_menus.py:750
+msgid "Play Simulation"
+msgstr "播放模擬"
+
+#: max_menus.py:751
+msgid "Step Simulation"
+msgstr "逐步模擬"
+
+#: max_menus.py:752
+msgid "Reset Simulation"
+msgstr "重設模擬"
+
+#: max_menus.py:754
+msgid "Bake All Objects"
+msgstr "烘焙所有物件"
+
+#: max_menus.py:755
+msgid "Bake Selected Objects"
+msgstr "烘焙選取的物件"
+
+#: max_menus.py:756
+msgid "Unbake All Objects"
+msgstr "取消烘焙所有物件"
+
+#: max_menus.py:757
+msgid "Unbake Selected Objects"
+msgstr "取消烘焙選取的物件"
+
+#: max_menus.py:760
+msgid "Show MassFX Tools"
+msgstr "顯示MassFX工具"
+
+#: max_menus.py:760
+msgid "Open Dynamics Explorer"
+msgstr "開啟動力學資源管理器"
+
+#: max_menus.py:762
+msgid "Validate MassFX Scene"
+msgstr "驗證MassFX場景"
+
+#: max_menus.py:762
+msgid "Export MassFX Scene"
+msgstr "匯出MassFX場景"
+
+#: max_menus.py:764
+msgid "Capture Current Transforms"
+msgstr "擷取目前變換"
+
+#: max_menus.py:766
+msgid "About MassFX"
+msgstr "關於MassFX"
+
+#: max_menus.py:771 max_menus.py:598
+msgid "Motion Field"
+msgstr "動態場"
+
+#: max_menus.py:771
+msgid "Simulation View"
+msgstr "模擬視圖"
+
+#: max_menus.py:774
+msgid "Offset Controllers"
+msgstr "偏移控制器"
+
+#: max_menus.py:774
+msgid "Add Offset Controllers"
+msgstr "新增偏移控制器"
+
+#: max_menus.py:774
+msgid "Delete Offset Controllers"
+msgstr "刪除偏移控制器"
+
+#: max_menus.py:774
+msgid "Remove All"
+msgstr "全部移除"
+
+#: max_menus.py:775
+msgid "Parameter Editor..."
+msgstr "參數編輯器..."
+
+#: max_menus.py:775
+msgid "Parameter Collector..."
+msgstr "參數收集器..."
+
+#: max_menus.py:777
+msgid "Wire Parameters"
+msgstr "連接參數"
+
+#: max_menus.py:777 quad.py:90
+msgid "Wire Parameters..."
+msgstr "連接參數..."
+
+#: max_menus.py:777
+msgid "Parameter Wire Dialog..."
+msgstr "參數連接對話框..."
+
+#: max_menus.py:779
+msgid "Animation Layers..."
+msgstr "動畫圖層..."
+
+#: max_menus.py:781
+msgid "Reaction Manager..."
+msgstr "反應管理員..."
+
+#: max_menus.py:783
+msgid "Bone Tools..."
+msgstr "骨骼工具..."
+
+#: max_menus.py:785
+msgid "Set as Skin Pose"
+msgstr "設為表皮姿勢"
+
+#: max_menus.py:785
+msgid "Assume Skin Pose"
+msgstr "採用表皮姿勢"
+
+#: max_menus.py:785
+msgid "Skin Pose Mode"
+msgstr "表皮姿勢模式"
+
+#: max_menus.py:787
+msgid "Toggle Limits"
+msgstr "切換限制"
+
+#: max_menus.py:789
+msgid "Delete Selected Animation"
+msgstr "刪除選取的動畫"
+
+#: max_menus.py:791 surfaces.py:1857
+msgid "Populate"
+msgstr "填充"
+
+#: max_menus.py:792
+msgid "Populate Tools..."
+msgstr "填充工具..."
+
+#: max_menus.py:794
+msgid "Walkthrough Assistant..."
+msgstr "漫遊助手..."
+
+#: max_menus.py:795
+msgid "Presets"
+msgstr "預設集"
+
+#: max_menus.py:796
+msgid "Load Preset"
+msgstr "載入預設集"
+
+#: max_menus.py:798
+msgid "Add Scene Preset to Selected"
+msgstr "將場景預設集新增至選取項目"
+
+#: max_menus.py:798
+msgid "Remove Preset from Selected"
+msgstr "從選取項目移除預設集"
+
+#: max_menus.py:800
+msgid "Create Preset"
+msgstr "建立預設集"
+
+#: max_menus.py:802
+msgid "Remove Preset From Disk"
+msgstr "從硬碟移除預設集"
+
+#: max_menus.py:805
+msgid "Graph Editors"
+msgstr "圖形編輯器"
+
+#: max_menus.py:806
+msgid "Track View - Curve Editor..."
+msgstr "軌跡檢視－曲線編輯器..."
+
+#: max_menus.py:807
+msgid "Track View - Dope Sheet..."
+msgstr "軌跡檢視－攝影表..."
+
+#: max_menus.py:808
+msgid "New Track View..."
+msgstr "新增軌跡檢視..."
+
+#: max_menus.py:809
+msgid "Delete Track View..."
+msgstr "刪除軌跡檢視..."
+
+#: max_menus.py:810
+msgid "Saved Track Views"
+msgstr "已儲存的軌跡檢視"
+
+#: max_menus.py:811
+msgid "Saved Track View 1"
+msgstr "已儲存的軌跡檢視1"
+
+#: max_menus.py:811
+msgid "Saved Track View 2"
+msgstr "已儲存的軌跡檢視2"
+
+#: max_menus.py:811
+msgid "Saved Track View 3"
+msgstr "已儲存的軌跡檢視3"
+
+#: max_menus.py:811
+msgid "Saved Track View 4"
+msgstr "已儲存的軌跡檢視4"
+
+#: max_menus.py:812
+msgid "Saved Track View 5"
+msgstr "已儲存的軌跡檢視5"
+
+#: max_menus.py:812
+msgid "Saved Track View 6"
+msgstr "已儲存的軌跡檢視6"
+
+#: max_menus.py:812
+msgid "Saved Track View 7"
+msgstr "已儲存的軌跡檢視7"
+
+#: max_menus.py:812
+msgid "Saved Track View 8"
+msgstr "已儲存的軌跡檢視8"
+
+#: max_menus.py:813
+msgid "Saved Track View 9"
+msgstr "已儲存的軌跡檢視9"
+
+#: max_menus.py:813
+msgid "Saved Track View 10"
+msgstr "已儲存的軌跡檢視10"
+
+#: max_menus.py:813
+msgid "Saved Track View 11"
+msgstr "已儲存的軌跡檢視11"
+
+#: max_menus.py:813
+msgid "Saved Track View 12"
+msgstr "已儲存的軌跡檢視12"
+
+#: max_menus.py:814
+msgid "Saved Track View 13"
+msgstr "已儲存的軌跡檢視13"
+
+#: max_menus.py:816
+msgid "New Schematic View..."
+msgstr "新增示意圖檢視..."
+
+#: max_menus.py:817
+msgid "Delete Schematic View..."
+msgstr "刪除示意圖檢視..."
+
+#: max_menus.py:818
+msgid "Saved Schematic Views"
+msgstr "已儲存的示意圖檢視"
+
+#: max_menus.py:819
+msgid "Saved Schematic View 1"
+msgstr "已儲存的示意圖檢視1"
+
+#: max_menus.py:819
+msgid "Saved Schematic View 2"
+msgstr "已儲存的示意圖檢視2"
+
+#: max_menus.py:819
+msgid "Saved Schematic View 3"
+msgstr "已儲存的示意圖檢視3"
+
+#: max_menus.py:819
+msgid "Saved Schematic View 4"
+msgstr "已儲存的示意圖檢視4"
+
+#: max_menus.py:820
+msgid "Saved Schematic View 5"
+msgstr "已儲存的示意圖檢視5"
+
+#: max_menus.py:820
+msgid "Saved Schematic View 6"
+msgstr "已儲存的示意圖檢視6"
+
+#: max_menus.py:820
+msgid "Saved Schematic View 7"
+msgstr "已儲存的示意圖檢視7"
+
+#: max_menus.py:820
+msgid "Saved Schematic View 8"
+msgstr "已儲存的示意圖檢視8"
+
+#: max_menus.py:821
+msgid "Saved Schematic View 9"
+msgstr "已儲存的示意圖檢視9"
+
+#: max_menus.py:821
+msgid "Saved Schematic View 10"
+msgstr "已儲存的示意圖檢視10"
+
+#: max_menus.py:821
+msgid "Saved Schematic View 11"
+msgstr "已儲存的示意圖檢視11"
+
+#: max_menus.py:822
+msgid "Saved Schematic View 12"
+msgstr "已儲存的示意圖檢視12"
+
+#: max_menus.py:822
+msgid "Saved Schematic View 13"
+msgstr "已儲存的示意圖檢視13"
+
+#: max_menus.py:824
+msgid "Particle View Toggle"
+msgstr "切換粒子檢視"
+
+#: max_menus.py:826
+msgid "Motion Mixer..."
+msgstr "動作混合器..."
+
+#: max_menus.py:828 surfaces.py:1162
+msgid "Rendering"
+msgstr "算圖"
+
+#: max_menus.py:830
+msgid "Render Setup..."
+msgstr "算圖設定..."
+
+#: max_menus.py:831
+msgid "Rendered Frame Window..."
+msgstr "算圖影格視窗..."
+
+#: max_menus.py:833
+msgid "Radiosity..."
+msgstr "輻射度..."
+
+#: max_menus.py:833
+msgid "Light Tracer..."
+msgstr "光線追蹤器..."
+
+#: max_menus.py:835
+msgid "Scene Converter..."
+msgstr "場景轉換器..."
+
+#: max_menus.py:837
+msgid "Exposure Control..."
+msgstr "曝光控制..."
+
+#: max_menus.py:839
+msgid "Environment..."
+msgstr "環境..."
+
+#: max_menus.py:840
+msgid "Effects..."
+msgstr "特效..."
+
+#: max_menus.py:840
+msgid "Raytracer Settings..."
+msgstr "光線追蹤器設定..."
+
+#: max_menus.py:840
+msgid "Raytrace Global Include/Exclude..."
+msgstr "光線追蹤全域包含/排除..."
+
+#: max_menus.py:842
+msgid "Render to Texture..."
+msgstr "貼圖算圖..."
+
+#: max_menus.py:842
+msgid "Render Surface Map..."
+msgstr "算圖表面貼圖..."
+
+#: max_menus.py:848
+msgid "Material/Map Browser..."
+msgstr "材質/貼圖瀏覽器..."
+
+#: max_menus.py:849
+msgid "Material Explorer..."
+msgstr "材質總管..."
+
+#: max_menus.py:851
+msgid "Video Post..."
+msgstr "影片後製..."
+
+#: max_menus.py:853
+msgid "Panorama Exporter..."
+msgstr "全景匯出工具..."
+
+#: max_menus.py:854
+msgid "Print Size Assistant..."
+msgstr "列印尺寸助理..."
+
+#: max_menus.py:856
+msgid "Color Management..."
+msgstr "色彩管理..."
+
+#: max_menus.py:857
+msgid "Compare Media in RAM Player..."
+msgstr "在RAM播放器中比較媒體..."
+
+#: max_menus.py:859
+msgid "Customize"
+msgstr "自訂"
+
+#: max_menus.py:860
+msgid "Customize User Interface..."
+msgstr "自訂使用者界面..."
+
+#: max_menus.py:861
+msgid "Hotkey Editor..."
+msgstr "快速鍵編輯器..."
+
+#: max_menus.py:862
+msgid "Menu Editor..."
+msgstr "功能表編輯器..."
+
+#: max_menus.py:864
+msgid "Load Custom UI Scheme..."
+msgstr "載入自訂UI配置..."
+
+#: max_menus.py:864
+msgid "Save Custom UI Scheme..."
+msgstr "儲存自訂UI配置..."
+
+#: max_menus.py:866
+msgid "Custom Defaults Switcher..."
+msgstr "自訂預設切換器..."
+
+#: max_menus.py:868
+msgid "Revert to Startup UI Layout"
+msgstr "還原為啟動時的UI配置"
+
+#: max_menus.py:868
+msgid "Lock UI Layout"
+msgstr "鎖定UI配置"
+
+#: max_menus.py:870
+msgid "Show UI"
+msgstr "顯示UI"
+
+#: max_menus.py:871 ui.py:23
+msgid "Command Panel"
+msgstr "命令面板"
+
+#: max_menus.py:871
+msgid "Shared Views"
+msgstr "共用視圖"
+
+#: max_menus.py:871
+msgid "Time Slider"
+msgstr "時間滑桿"
+
+#: max_menus.py:871
+msgid "Viewport Layout Tabs"
+msgstr "檢視配置分頁"
+
+#: max_menus.py:875
+msgid "Main Toolbar"
+msgstr "主工具列"
+
+#: max_menus.py:875
+msgid "Floating Toolbars"
+msgstr "浮動工具列"
+
+#: max_menus.py:877
+msgid "Show Editors"
+msgstr "顯示編輯器"
+
+#: max_menus.py:883
+msgid "Asset Tracking"
+msgstr "資產追蹤"
+
+#: max_menus.py:886
+msgid "Particle View"
+msgstr "粒子視圖"
+
+#: max_menus.py:888
+msgid "Show Explorers"
+msgstr "顯示瀏覽器"
+
+#: max_menus.py:892
+msgid "Crease Explorer"
+msgstr "摺痕瀏覽器"
+
+#: max_menus.py:892
+msgid "Container Explorer"
+msgstr "容器瀏覽器"
+
+#: max_menus.py:892
+msgid "Dynamics Explorer"
+msgstr "動力學總管"
+
+#: max_menus.py:892
+msgid "Light Explorer"
+msgstr "燈光總管"
+
+#: max_menus.py:893
+msgid "Missing Plug-in Explorer"
+msgstr "遺失外掛程式總管"
+
+#: max_menus.py:893
+msgid "Revit Property Explorer"
+msgstr "Revit屬性總管"
+
+#: max_menus.py:896 max_menus.py:247 surfaces.py:430
+msgid "Configure Project Paths..."
+msgstr "設定專案路徑..."
+
+#: max_menus.py:897
+msgid "Configure User and System Paths..."
+msgstr "設定使用者與系統路徑..."
+
+#: max_menus.py:899
+msgid "Units Setup..."
+msgstr "單位設定..."
+
+#: max_menus.py:901
+msgid "Plug-in Manager..."
+msgstr "外掛程式管理員..."
+
+#: max_menus.py:905
+msgid "Scripting"
+msgstr "指令碼"
+
+#: max_menus.py:906
+msgid "Install Max Creation Graph (.mcg) Package..."
+msgstr "安裝Max Creation Graph(.mcg)套件..."
+
+#: max_menus.py:908
+msgid "New Max Creation Graph"
+msgstr "新增Max Creation Graph"
+
+#: max_menus.py:908
+msgid "Open Max Creation Graph..."
+msgstr "開啟Max Creation Graph..."
+
+#: max_menus.py:908 max_menus.py:881
+msgid "Max Creation Graph Editor"
+msgstr "Max Creation Graph編輯器"
+
+#: max_menus.py:910
+msgid "Create MCG Geometry..."
+msgstr "建立MCG幾何.."
+
+#: max_menus.py:910
+msgid "Create and Apply MCG Modifier..."
+msgstr "建立並套用MCG修改器..."
+
+#: max_menus.py:912 surfaces.py:1462
+msgid "New Script"
+msgstr "新增指令碼"
+
+#: max_menus.py:913
+msgid "Open Script..."
+msgstr "開啟指令碼..."
+
+#: max_menus.py:914
+msgid "Run Script..."
+msgstr "執行指令碼..."
+
+#: max_menus.py:916
+msgid "Scripting Listener..."
+msgstr "指令碼接聽器..."
+
+#: max_menus.py:917
+msgid "Scripting Editor..."
+msgstr "指令碼編輯器..."
+
+#: max_menus.py:921
+msgid "Visual MAXScript Editor..."
+msgstr "可視化MAXScript編輯器..."
+
+#: max_menus.py:923
+msgid "Debugger Dialog..."
+msgstr "偵錯工具對話方塊..."
+
+#: max_menus.py:925
+msgid "MAXScript Help..."
+msgstr "MAXScript說明..."
+
+#: max_menus.py:927
+msgid "Python Help..."
+msgstr "Python說明..."
+
+#: max_menus.py:930
+msgid "Help"
+msgstr "說明"
+
+#: max_menus.py:931
+msgid "Blender Manual"
+msgstr "Blender使用手冊"
+
+#: max_menus.py:932
+msgid "What's New"
+msgstr "新功能"
+
+#: max_menus.py:933
+msgid "Welcome Screen"
+msgstr "歡迎畫面"
+
+#: max_menus.py:934
+msgid "Plugin Help..."
+msgstr "外掛程式說明..."
+
+#: max_menus.py:935
+msgid "Developer Resources"
+msgstr "開發者資源"
+
+#: max_menus.py:936
+msgid "Blender Python API"
+msgstr "Blender Python API"
+
+#: max_menus.py:937
+msgid "Blender Developer Documentation"
+msgstr "Blender開發者文件"
+
+#: max_menus.py:940
+msgid "Search 3ds Max Commands..."
+msgstr "搜尋3dsMax指令..."
+
+#: max_menus.py:942
+msgid "Feedback"
+msgstr "意見回饋"
+
+#: max_menus.py:943
+msgid "Report a MaxFlow Problem..."
+msgstr "回報MaxFlow問題..."
+
+#: max_menus.py:945
+msgid "Services and Support"
+msgstr "服務與支援"
+
+#: max_menus.py:946
+msgid "Blender Support"
+msgstr "Blender支援"
+
+#: max_menus.py:948
+msgid "Resources and Tools"
+msgstr "資源與工具"
+
+#: max_menus.py:949
+msgid "Blender Extensions"
+msgstr "Blender擴充功能"
+
+#: max_menus.py:950
+msgid "Diagnose Video Hardware"
+msgstr "診斷影片硬體"
+
+#: max_menus.py:951
+msgid "Keyboard Shortcut Map"
+msgstr "鍵盤快速鍵對照表"
+
+#: max_menus.py:953
+msgid "Product Information"
+msgstr "產品資訊"
+
+#: max_menus.py:954
+msgid "Blender Home Page"
+msgstr "Blender首頁"
+
+#: max_menus.py:956
+msgid "About Blender"
+msgstr "關於Blender"
+
+#: max_menus.py:964
+msgid "Active Viewport"
+msgstr "作用中檢視"
+
+#: max_menus.py:965
+msgid "Active Viewport 1"
+msgstr "作用中檢視1"
+
+#: max_menus.py:965
+msgid "Active Viewport 2"
+msgstr "作用中檢視2"
+
+#: max_menus.py:965
+msgid "Active Viewport 3"
+msgstr "作用中檢視3"
+
+#: max_menus.py:965
+msgid "Active Viewport 4"
+msgstr "作用中檢視4"
+
+#: max_menus.py:966
+msgid "Disable Viewport"
+msgstr "停用檢視"
+
+#: max_menus.py:968
+msgid "Presentation Mode"
+msgstr "簡報模式"
+
+#: max_menus.py:973 max_menus.py:428
+msgid "ViewCube"
+msgstr "視角方塊"
+
+#: max_menus.py:974 max_menus.py:429
+msgid "SteeringWheels"
+msgstr "導覽環"
+
+#: max_menus.py:978
+msgid "Create Preview"
+msgstr "建立預覽"
+
+#: max_menus.py:979 max_menus.py:348
+msgid "Capture Still Image..."
+msgstr "擷取靜態影像..."
+
+#: max_menus.py:980 max_menus.py:347
+msgid "Create Preview Animation..."
+msgstr "建立預覽動畫..."
+
+#: max_menus.py:982 max_menus.py:350
+msgid "Play Preview Animation..."
+msgstr "播放預覽動畫..."
+
+#: max_menus.py:983 max_menus.py:351
+msgid "Save Preview Animation As..."
+msgstr "另存預覽動畫為..."
+
+#: max_menus.py:986
+msgid "Configure Viewports..."
+msgstr "設定檢視..."
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Float Viewport"
+msgstr "浮動檢視"
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Floating Viewport - 2"
+msgstr "浮動檢視-2"
+
+#: max_menus.py:990 max_menus.py:873
+msgid "Floating Viewport - 3"
+msgstr "浮動檢視-3"
+
+#: max_menus.py:1007 max_menus.py:426 max_menus.py:423
+msgid "Restore Active View"
+msgstr "還原作用中檢視"
+
+#: max_menus.py:1008 max_menus.py:425 max_menus.py:422
+msgid "Save Active View"
+msgstr "儲存作用中檢視"
+
+#: max_menus.py:1010
+msgid "Extended Viewports"
+msgstr "延伸檢視"
+
+#: max_menus.py:1011
+msgid "Track View"
+msgstr "軌跡檢視"
+
+#: max_menus.py:1015
+msgid "Saved Trackview 1"
+msgstr "已儲存的軌跡檢視1"
+
+#: max_menus.py:1015
+msgid "Saved Trackview 2"
+msgstr "已儲存的軌跡檢視2"
+
+#: max_menus.py:1015
+msgid "Saved Trackview 3"
+msgstr "已儲存的軌跡檢視3"
+
+#: max_menus.py:1015
+msgid "Saved Trackview 4"
+msgstr "已儲存的軌跡檢視4"
+
+#: max_menus.py:1016
+msgid "Saved Trackview 5"
+msgstr "已儲存的軌跡檢視5"
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 1"
+msgstr "檢視場景總管1"
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 2"
+msgstr "檢視場景總管2"
+
+#: max_menus.py:1022
+msgid "Viewport Scene Explorer 3"
+msgstr "檢視場景總管3"
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 4"
+msgstr "檢視場景總管4"
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 5"
+msgstr "檢視場景總管5"
+
+#: max_menus.py:1023
+msgid "Viewport Scene Explorer 6"
+msgstr "檢視場景總管6"
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 7"
+msgstr "檢視場景總管7"
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 8"
+msgstr "檢視場景總管8"
+
+#: max_menus.py:1024
+msgid "Viewport Scene Explorer 9"
+msgstr "檢視場景總管9"
+
+#: max_menus.py:1025
+msgid "Viewport Scene Explorer 10"
+msgstr "檢視場景總管10"
+
+#: max_menus.py:1025 surfaces.py:1427
+msgid "More..."
+msgstr "更多..."
+
+#: max_menus.py:1031
+msgid "Schematic View Save 1"
+msgstr "示意圖檢視儲存1"
+
+#: max_menus.py:1031
+msgid "Schematic View Save 2"
+msgstr "示意圖檢視儲存2"
+
+#: max_menus.py:1031
+msgid "Schematic View Save 3"
+msgstr "示意圖檢視儲存3"
+
+#: max_menus.py:1032
+msgid "Schematic View Save 4"
+msgstr "示意圖檢視儲存4"
+
+#: max_menus.py:1032
+msgid "Schematic View Save 5"
+msgstr "示意圖檢視儲存5"
+
+#: max_menus.py:1035
+msgid "Display Planes"
+msgstr "顯示平面"
+
+#: max_menus.py:1036 operators.py:910
+msgid "Shape"
+msgstr "形狀"
+
+#: max_menus.py:1039
+msgid "Extended Views 1"
+msgstr "延伸檢視1"
+
+#: max_menus.py:1039
+msgid "Extended Views 2"
+msgstr "延伸視圖2"
+
+#: max_menus.py:1039
+msgid "Extended Views 3"
+msgstr "延伸視圖3"
+
+#: max_menus.py:1039
+msgid "Extended Views 4"
+msgstr "延伸視圖4"
+
+#: max_menus.py:1039
+msgid "Extended Views 5"
+msgstr "延伸視圖5"
+
+#: max_menus.py:1040
+msgid "Extended Views 6"
+msgstr "延伸視圖6"
+
+#: max_menus.py:1040
+msgid "Extended Views 7"
+msgstr "延伸視圖7"
+
+#: max_menus.py:1040
+msgid "Extended Views 8"
+msgstr "延伸視圖8"
+
+#: max_menus.py:1040
+msgid "Extended Views 9"
+msgstr "延伸視圖9"
+
+#: max_menus.py:1041
+msgid "Extended Views 10"
+msgstr "延伸視圖10"
+
+#: max_menus.py:1044
+msgid "Show Safe Frames"
+msgstr "顯示安全框"
+
+#: max_menus.py:1046
+msgid "Viewport Clipping"
+msgstr "檢視裁切"
+
+#: max_menus.py:1046
+msgid "Select Viewport Node"
+msgstr "選取檢視節點"
+
+#: max_menus.py:1046
+msgid "Select Viewport Node Target"
+msgstr "選取檢視節點目標"
+
+#: max_menus.py:1048
+msgid "Undo Viewport Operation"
+msgstr "復原檢視操作"
+
+#: max_menus.py:1049
+msgid "Redo Viewport Operation"
+msgstr "重做檢視操作"
+
+#: max_menus.py:1054
+msgid "Performance"
+msgstr "效能"
+
+#: max_menus.py:1055
+msgid "DX Mode"
+msgstr "DX模式"
+
+#: max_menus.py:1056
+msgid "User Defined"
+msgstr "使用者自訂"
+
+#: max_menus.py:1058
+msgid "Lighting and Shadows"
+msgstr "照明與陰影"
+
+#: max_menus.py:1059
+msgid "Illuminate with Default Lights"
+msgstr "使用預設燈光照明"
+
+#: max_menus.py:1060
+msgid "Illuminate with Scene Lights"
+msgstr "使用場景燈光照明"
+
+#: max_menus.py:1061
+msgid "Scene Lights Control"
+msgstr "場景燈光控制"
+
+#: max_menus.py:1067
+msgid "Progressive Skylight"
+msgstr "漸進式天光"
+
+#: max_menus.py:1068 quad.py:125 utility_editors.py:719
+msgid "Shadows"
+msgstr "陰影"
+
+#: max_menus.py:1072
+msgid "Viewports Configuration"
+msgstr "檢視組態"
+
+#: max_menus.py:1073 max_menus.py:408
+msgid "Active Viewport Settings"
+msgstr "作用中檢視設定"
+
+#: max_menus.py:1077
+msgid "Facets"
+msgstr "刻面"
+
+#: max_menus.py:1078
+msgid "Bounding Box"
+msgstr "邊界方塊"
+
+#: max_menus.py:1082
+msgid "Model Assist"
+msgstr "模型輔助"
+
+#: max_menus.py:1083
+msgid "Stylized"
+msgstr "風格化"
+
+#: max_menus.py:1083
+msgid "Graphite"
+msgstr "石墨"
+
+#: max_menus.py:1083
+msgid "Color Pencil"
+msgstr "色鉛筆"
+
+#: max_menus.py:1083
+msgid "Ink"
+msgstr "墨水"
+
+#: max_menus.py:1083
+msgid "Color Ink"
+msgstr "彩色墨水"
+
+#: max_menus.py:1083
+msgid "Acrylic"
+msgstr "壓克力"
+
+#: max_menus.py:1083
+msgid "Pastel"
+msgstr "粉彩"
+
+#: max_menus.py:1083
+msgid "Tech"
+msgstr "技術"
+
+#: max_menus.py:1088
+msgid "Display Selected"
+msgstr "顯示選取項目"
+
+#: max_menus.py:1089
+msgid "Display Selected With Edged Faces"
+msgstr "顯示選取項目及邊面"
+
+#: max_menus.py:1093 max_menus.py:444
+msgid "Viewport Background"
+msgstr "檢視背景"
+
+#: max_menus.py:1095
+msgid "Viewport Preferences"
+msgstr "檢視偏好設定"
+
+#: max_menus.py:1096
+msgid "Viewport Filter"
+msgstr "檢視篩選器"
+
+#: max_menus.py:1203
+msgid "Not Available"
+msgstr "無法使用"
+
+#: max_menus.py:1250
+msgid "Blender menu %s is not available"
+msgstr "Blender選單%s無法使用"
+
+#: max_menus.py:1254
+msgid "Needs %s, which is not available"
+msgstr "需要無法使用的%s"
+
+#: max_menus.py:1289
+msgid "Sub %r is used twice; give each place its own Sub"
+msgstr "使用了兩次 %r 請分別對每個位置進行細分"
+
+#: max_menus.py:1294
+msgid "Views - General Viewport Label Menu"
+msgstr "視圖-一般檢視標籤選單"
+
+#: max_menus.py:1294
+msgid "Views - POV Viewport Label Menu"
+msgstr "視圖-視角檢視標籤選單"
+
+#: max_menus.py:1295
+msgid "Views - Shading Viewport Nitrous Label Menu"
+msgstr "視圖-著色檢視Nitrous標籤選單"
+
+#: max_menus.py:1295
+msgid "Views - Viewport Preferences"
+msgstr "視圖-檢視偏好設定"
+
+#: operators.py:41
+msgid "No 3D viewport is open"
+msgstr "沒有開啟3D檢視"
+
+#: operators.py:49
+msgid "Switch Environment"
+msgstr "切換環境"
+
+#: operators.py:50
+msgid "Switch between the original Blender workspace and MaxFlow"
+msgstr "在原始Blender工作區與MaxFlow之間切換"
+
+#: operators.py:92
+msgid "Select Transform Tool"
+msgstr "選取變換工具"
+
+#: operators.py:127
+msgid "Viewport Direction"
+msgstr "檢視方向"
+
+#: operators.py:141
+msgid "No cameras in scene"
+msgstr "場景中沒有攝影機"
+
+#: operators.py:157
+msgid "View Through Object"
+msgstr "透過物件檢視"
+
+#: operators.py:198
+msgid "No cameras in the scene"
+msgstr "場景中沒有攝影機"
+
+#: operators.py:207
+msgid "No spot or directional lights in the scene"
+msgstr "場景中沒有聚光燈或方向光"
+
+#: operators.py:212
+msgid "Viewport Display"
+msgstr "檢視顯示"
+
+#: operators.py:213
+msgid "Wireframe"
+msgstr "線框"
+
+#: operators.py:368
+msgid "Sub-object Level"
+msgstr "子物件層級"
+
+#: operators.py:387 params.py:32
+msgid "Primitive"
+msgstr "基本物件"
+
+#: operators.py:432 surfaces.py:484
+msgid "ChamferBox"
+msgstr "倒角方塊"
+
+#: operators.py:432 surfaces.py:484
+msgid "ChamferCyl"
+msgstr "倒角圓柱"
+
+#: operators.py:435 surfaces.py:504
+msgid "Target Spot"
+msgstr "目標聚光燈"
+
+#: operators.py:435 surfaces.py:504
+msgid "Free Spot"
+msgstr "自由聚光燈"
+
+#: operators.py:435 surfaces.py:504
+msgid "Target Direct"
+msgstr "目標平行光"
+
+#: operators.py:436 surfaces.py:505
+msgid "Free Direct"
+msgstr "自由平行光"
+
+#: operators.py:437 surfaces.py:506
+msgid "Arnold Light"
+msgstr "Arnold燈光"
+
+#: operators.py:439 surfaces.py:510
+msgid "Tape"
+msgstr "捲尺"
+
+#: operators.py:441
+msgid "Turbulence"
+msgstr "湍流"
+
+#: operators.py:442 scene_ui.py:18 surfaces.py:519
+msgid "Bones"
+msgstr "骨骼"
+
+#: operators.py:442 surfaces.py:493
+msgid "CV Surf"
+msgstr "CV曲面"
+
+#: operators.py:442 surfaces.py:493
+msgid "Point Surf"
+msgstr "點曲面"
+
+#: operators.py:548
+msgid "Select an operand object for Boolean"
+msgstr "選取布林運算的運算元物件"
+
+#: operators.py:580
+msgid "Skylight maps to the scene World background (set to white)"
+msgstr "天空光源會對應至場景的世界背景(設為白色)"
+
+#: operators.py:618
+msgid "Bone001"
+msgstr "骨骼001"
+
+#: operators.py:679
+msgid "Geometry Nodes"
+msgstr "幾何節點"
+
+#: operators.py:720
+msgid "Return to Object level to apply a modifier"
+msgstr "返回物件層級以套用修改器"
+
+#: operators.py:733 operators.py:748
+msgid "Clone Options"
+msgstr "複製選項"
+
+#: operators.py:735
+msgid "Independent object data"
+msgstr "獨立物件資料"
+
+#: operators.py:735
+msgid "Shared object data"
+msgstr "共用物件資料"
+
+#: operators.py:736
+msgid "Shared object data (Blender has no one-way references)"
+msgstr "共用物件資料(Blender沒有單向參照)"
+
+#: operators.py:739
+msgid "Number of Copies"
+msgstr "複製數量"
+
+#: operators.py:744
+msgid "Select objects to clone"
+msgstr "選取要複製的物件"
+
+#: operators.py:762
+msgid "Select objects at Object level"
+msgstr "在物件層級選取物件"
+
+#: operators.py:806
+msgid "Open Editor"
+msgstr "開啟編輯器"
+
+#: operators.py:811
+msgid "Floating Window"
+msgstr "浮動視窗"
+
+#: operators.py:841
+msgid "MaxFlow Shortcut Reference"
+msgstr "MaxFlow快捷鍵參照"
+
+#: operators.py:856
+msgid ""
+"MMB pan · Alt+MMB orbit · Ctrl+Alt+MMB zoom · Wheel zoom · Right-click quad "
+"menu"
+msgstr "中鍵平移·Alt+中鍵環繞·Ctrl+Alt+中鍵縮放·滾輪縮放·右鍵開啟四分選單"
+
+#: operators.py:861 quad.py:344
+msgid "Quad Menu"
+msgstr "四元選單"
+
+#: operators.py:964
+msgid "Unify Normals"
+msgstr "統一法線"
+
+#: operators.py:966 utility_editors.py:528
+msgid "Unwrap"
+msgstr "展開 UVW"
+
+#: operators.py:971
+msgid "Editable Poly Command"
+msgstr "可編輯多邊形命令"
+
+#: operators.py:974
+msgid "Confirm on Release"
+msgstr "放開時確認"
+
+#: operators.py:974
+msgid ""
+"Set the amount when the mouse button is released (dragging from the "
+"command); otherwise the next click sets it"
+msgstr "放開滑鼠按鈕時設定數量(從命令開始拖曳)；否則由下一次點擊設定"
+
+#: operators.py:999
+msgid "Choose a sub-object level first (1-5)"
+msgstr "請先選擇次物件層級(1-5)"
+
+#: params.py:33
+msgid "Length"
+msgstr "長度"
+
+#: params.py:34
+msgid "Width"
+msgstr "寬度"
+
+#: params.py:35
+msgid "Height"
+msgstr "高度"
+
+#: params.py:36
+msgid "Depth"
+msgstr "深度"
+
+#: params.py:37
+msgid "Radius"
+msgstr "半徑"
+
+#: params.py:38
+msgid "Radius 1"
+msgstr "半徑1"
+
+#: params.py:39
+msgid "Radius 2"
+msgstr "半徑2"
+
+#: params.py:40
+msgid "Length Segs"
+msgstr "長度分段"
+
+#: params.py:41
+msgid "Width Segs"
+msgstr "寬度分段"
+
+#: params.py:42
+msgid "Height Segs"
+msgstr "高度分段"
+
+#: params.py:43
+msgid "Depth Segs"
+msgstr "深度分段"
+
+#: params.py:44
+msgid "Cap Segments"
+msgstr "封口分段"
+
+#: params.py:45 params.py:51
+msgid "Sides"
+msgstr "邊數"
+
+#: params.py:46 params.py:47 params.py:48 params.py:52
+msgid "Segments"
+msgstr "分段數"
+
+#: params.py:51
+msgid "Smooth the whole torus"
+msgstr "將整個圓環體平滑化"
+
+#: params.py:51
+msgid "Smooth bands running around the torus"
+msgstr "沿圓環體環繞方向延伸的環帶平滑化"
+
+#: params.py:52
+msgid "Faceted torus"
+msgstr "平面化圓環體"
+
+#: params.py:52
+msgid "Smooth each segment as a ring"
+msgstr "將各分段平滑化為環狀"
+
+#: params.py:54 params.py:96
+msgid "Squash"
+msgstr "壓扁"
+
+#: params.py:55 params.py:53 params.py:98
+msgid "Hemisphere"
+msgstr "半球"
+
+#: params.py:56 params.py:97
+msgid "Geodesic Base Type"
+msgstr "測地線基底類型"
+
+#: params.py:57
+msgid "Tetra"
+msgstr "四面體"
+
+#: params.py:57
+msgid "Tetrahedron base"
+msgstr "四面體底座"
+
+#: params.py:57
+msgid "Octa"
+msgstr "八面體"
+
+#: params.py:57
+msgid "Octahedron base"
+msgstr "八面體底座"
+
+#: params.py:57
+msgid "Icosa"
+msgstr "二十面體"
+
+#: params.py:57
+msgid "Icosahedron base"
+msgstr "二十面體底座"
+
+#: params.py:58 params.py:88
+msgid "Slice On"
+msgstr "啟用切片"
+
+#: params.py:59
+msgid "Slice From"
+msgstr "切片起點"
+
+#: params.py:60
+msgid "Slice To"
+msgstr "切片終點"
+
+#: params.py:63 params.py:96
+msgid "Base To Pivot"
+msgstr "底座對齊樞軸點"
+
+#: params.py:64 params.py:105
+msgid "Body"
+msgstr "本體"
+
+#: params.py:65 params.py:105
+msgid "Handle"
+msgstr "握把"
+
+#: params.py:66 params.py:106
+msgid "Spout"
+msgstr "壺嘴"
+
+#: params.py:67 params.py:106
+msgid "Lid"
+msgstr "壺蓋"
+
+#: params.py:68 params.py:89
+msgid "Generate Mapping Coords."
+msgstr "產生貼圖座標"
+
+#: params.py:69 params.py:89
+msgid "Real-World Map Size"
+msgstr "實際尺寸貼圖"
+
+#: params.py:88
+msgid "Slice From:"
+msgstr "切片起點："
+
+#: params.py:88
+msgid "Slice To:"
+msgstr "切片終點："
+
+#: params.py:90
+msgid "Height Segments:"
+msgstr "高度分段："
+
+#: params.py:90
+msgid "Cap Segments:"
+msgstr "頂面分段："
+
+#: params.py:90 params.py:102 surfaces.py:1167
+msgid "Sides:"
+msgstr "邊數："
+
+#: params.py:92 params.py:107
+msgid "Length Segs:"
+msgstr "長度分段："
+
+#: params.py:93 params.py:103 params.py:107
+msgid "Width Segs:"
+msgstr "寬度分段："
+
+#: params.py:93 params.py:104
+msgid "Height Segs:"
+msgstr "高度分段："
+
+#: params.py:95
+msgid "Hemisphere:"
+msgstr "半球："
+
+#: params.py:97 params.py:105 params.py:102 params.py:95 (+2)
+msgid "Segments:"
+msgstr "分段數："
+
+#: params.py:98
+msgid "Base to Pivot"
+msgstr "底部對齊樞軸點"
+
+#: params.py:101
+msgid "Rotation:"
+msgstr "旋轉："
+
+#: params.py:101
+msgid "Twist:"
+msgstr "扭轉："
+
+#: params.py:104
+msgid "Depth Segs:"
+msgstr "深度分段："
+
+#: params.py:110 params.py:119 params.py:92 params.py:107
+msgid "Length:"
+msgstr "長度："
+
+#: params.py:110 params.py:117 params.py:119 params.py:92 (+3)
+msgid "Width:"
+msgstr "寬度："
+
+#: params.py:110 params.py:111 params.py:114 params.py:115 (+7)
+msgid "Height:"
+msgstr "高度："
+
+#: params.py:111 params.py:101 params.py:94 params.py:100
+msgid "Radius 1:"
+msgstr "半徑1："
+
+#: params.py:111 params.py:101 params.py:94 params.py:100
+msgid "Radius 2:"
+msgstr "半徑2："
+
+#: params.py:112 params.py:113 params.py:114 params.py:118 (+4)
+msgid "Radius:"
+msgstr "半徑："
+
+#: params.py:115
+msgid "Inner Radius:"
+msgstr "內半徑："
+
+#: params.py:115
+msgid "Outer Radius:"
+msgstr "外半徑："
+
+#: params.py:116
+msgid "Major Radius:"
+msgstr "主半徑："
+
+#: params.py:116
+msgid "Minor Radius:"
+msgstr "次半徑："
+
+#: params.py:117 params.py:103
+msgid "Depth:"
+msgstr "深度："
+
+#: params.py:122 runtime.py:366 runtime.py:390
+msgid "Cube"
+msgstr "立方"
+
+#: params.py:122
+msgid "Diameter"
+msgstr "直徑"
+
+#: params.py:123
+msgid "Base/Apex"
+msgstr "底面/頂點"
+
+#: params.py:123
+msgid "Square"
+msgstr "正方形"
+
+#: preferences.py:13
+msgid "Start in MaxFlow"
+msgstr "啟動時進入MaxFlow"
+
+#: preferences.py:14
+msgid "Max gray colors"
+msgstr "Max灰階色彩"
+
+#: preferences.py:15
+msgid ""
+"Temporarily apply original gray UI colors; restore the previous colors on "
+"exit"
+msgstr "暫時套用原始灰色界面色彩；結束時還原先前的色彩"
+
+#: preferences.py:17
+msgid "Custom Splash Image"
+msgstr "自訂啟動畫面圖片"
+
+#: preferences.py:18
+msgid ""
+"PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's "
+"own splash is 1000 x 500 px; the version number is drawn at the top right"
+msgstr ""
+"Max模式開啟時，以PNG或JPEG顯示為Blender的啟動畫面Blender預設的啟動畫面尺寸為"
+"1000x500px；版本號碼會顯示在右上角"
+
+#: preferences.py:25
+msgid "MaxFlow · 0.8.3 development preview"
+msgstr "MaxFlow·0.8.3開發預覽版"
+
+#: preferences.py:33
+msgid "Switch back to Blender before changing the color option."
+msgstr "變更色彩選項前，請先切換回Blender"
+
+#: preferences.py:37
+msgid ""
+"Splash: 1000 x 500 px like the original; used at startup while Max mode is "
+"on."
+msgstr "啟動畫面：1000x500px，與原版相同；在Max模式開啟時於啟動期間使用"
+
+#: preferences.py:38
+msgid "Materials, modifiers and animation use Blender data."
+msgstr "材質、修改器與動畫使用Blender資料"
+
+#: quad.py:61
+msgid "Show Motion Paths"
+msgstr "顯示動作路徑"
+
+#: quad.py:62
+msgid "Manage State Sets..."
+msgstr "管理狀態集..."
+
+#: quad.py:62
+msgid "State Sets"
+msgstr "狀態集"
+
+#: quad.py:65
+msgid "Unhide by Name"
+msgstr "依名稱取消隱藏"
+
+#: quad.py:66 scene_ui.py:228 toolbar.py:14
+msgid "Freeze Selection"
+msgstr "凍結選取項目"
+
+#: quad.py:74
+msgid "Convert to Editable Spline"
+msgstr "轉換為可編輯樣條線"
+
+#: quad.py:75
+msgid "Convert to Editable Mesh"
+msgstr "轉換為可編輯網格"
+
+#: quad.py:76
+msgid "Convert to Editable Poly"
+msgstr "轉換為可編輯多邊形"
+
+#: quad.py:77
+msgid "Convert to Deformable gPoly"
+msgstr "轉換為可變形G多邊形"
+
+#: quad.py:77
+msgid "Convert to Editable Patch"
+msgstr "轉換為可編輯面片"
+
+#: quad.py:77
+msgid "Convert to NURBS"
+msgstr "轉換為NURBS"
+
+#: quad.py:86
+msgid "Snap Pivot"
+msgstr "吸附樞軸點"
+
+#: quad.py:86
+msgid "Pivot to Bounding Box"
+msgstr "將樞軸點移至邊界方塊"
+
+#: quad.py:87
+msgid "Pivot to Working Pivot"
+msgstr "將樞軸點移至工作樞軸點"
+
+#: quad.py:90 surfaces.py:412
+msgid "Curve Editor..."
+msgstr "曲線編輯器..."
+
+#: quad.py:90
+msgid "Dope Sheet..."
+msgstr "動作編輯器..."
+
+#: quad.py:91
+msgid "Convert To:"
+msgstr "轉換為："
+
+#: quad.py:95
+msgid "Sub-objects"
+msgstr "子物件"
+
+#: quad.py:95
+msgid "Top-level"
+msgstr "頂層"
+
+#: quad.py:99
+msgid "Convert to Vertex"
+msgstr "轉換為頂點"
+
+#: quad.py:100
+msgid "Convert to Edge"
+msgstr "轉換為邊"
+
+#: quad.py:101
+msgid "Convert to Face"
+msgstr "轉換為面"
+
+#: quad.py:103
+msgid "Quickslice"
+msgstr "快速切片"
+
+#: quad.py:106
+msgid "NURMS Toggle"
+msgstr "切換NURMS"
+
+#: quad.py:113 quad.py:117 surfaces.py:1011 surfaces.py:1012
+msgid "Edit Triangulation"
+msgstr "編輯三角剖分"
+
+#: quad.py:117
+msgid "Hinge from Edge"
+msgstr "從邊緣建立鉸鏈"
+
+#: quad.py:117
+msgid "Extrude along Spline"
+msgstr "沿樣條線擠出"
+
+#: quad.py:117
+msgid "Flip Normals"
+msgstr "翻轉法線"
+
+#: quad.py:124
+msgid "Light On"
+msgstr "開啟燈光"
+
+#: quad.py:124
+msgid "Light Off"
+msgstr "關閉燈光"
+
+#: quad.py:127
+msgid "Select Target"
+msgstr "選取目標"
+
+#: quad.py:129
+msgid "Set Active Camera"
+msgstr "設為作用中攝影機"
+
+#: quad.py:170 surfaces.py:75
+msgid "Fonts"
+msgstr "字型"
+
+#: quad.py:170 surfaces.py:75
+msgid "C:/Windows"
+msgstr "C:/Windows"
+
+#: quad.py:432
+msgid ""
+"Choose the transform and open its Type-In dialog, like the option box in Max"
+msgstr "選擇變換並開啟其數值輸入對話框，如同Max中的選項方塊"
+
+#: quad.py:442 quad.py:106 surfaces.py:1090
+msgid "Ignore Backfacing"
+msgstr "忽略背面"
+
+#: quad.py:451
+msgid "Light On/Off"
+msgstr "燈光開啟/關閉"
+
+#: runtime.py:18
+msgid "Blender Studio Max"
+msgstr "Blender Studio Max"
+
+#: runtime.py:18
+msgid "Blender Max"
+msgstr "Blender Max"
+
+#: runtime.py:150
+msgid "MaxFlow: invalid theme recovery data; snapshot retained"
+msgstr "MaxFlow：佈景主題復原資料無效；已保留快照"
+
+#: runtime.py:452
+msgid "The MaxFlow workspace could not be appended"
+msgstr "無法附加MaxFlow工作區"
+
+#: runtime.py:477 runtime.py:482
+msgid "Layout"
+msgstr "配置"
+
+#: runtime.py:576
+msgid "MaxFlow switch failed:"
+msgstr "MaxFlow切換失敗："
+
+#: scene_ui.py:19
+msgid "Other Objects"
+msgstr "其他物件"
+
+#: scene_ui.py:20
+msgid "Type"
+msgstr "類型"
+
+#: scene_ui.py:21
+msgid "Frozen"
+msgstr "凍結"
+
+#: scene_ui.py:21
+msgid "Hidden"
+msgstr "隱藏"
+
+#: scene_ui.py:21
+msgid "Renderable"
+msgstr "可算圖"
+
+#: scene_ui.py:169
+msgid "Scene Explorer Property"
+msgstr "場景總管屬性"
+
+#: scene_ui.py:196
+msgid "Scene Explorer Link"
+msgstr "場景總管連結"
+
+#: scene_ui.py:224
+msgid "Select Parents"
+msgstr "選取父級物件"
+
+#: scene_ui.py:224 scene_ui.py:234
+msgid "Find Selected Object"
+msgstr "尋找選取的物件"
+
+#: scene_ui.py:225
+msgid "Display All Types"
+msgstr "顯示所有類型"
+
+#: scene_ui.py:225
+msgid "Display No Types"
+msgstr "不顯示任何類型"
+
+#: scene_ui.py:226
+msgid "Invert Object Filters"
+msgstr "反轉物件篩選條件"
+
+#: scene_ui.py:226
+msgid "Show Hidden Objects"
+msgstr "顯示隱藏物件"
+
+#: scene_ui.py:227
+msgid "Show Frozen Objects"
+msgstr "顯示凍結物件"
+
+#: scene_ui.py:230 ui.py:145
+msgid "Rename..."
+msgstr "重新命名..."
+
+#: scene_ui.py:230
+msgid "Delete Selection"
+msgstr "刪除選取項目"
+
+#: scene_ui.py:231 surfaces.py:368 toolbar.py:9
+msgid "Unlink Selection"
+msgstr "取消連結選取項目"
+
+#: scene_ui.py:232
+msgid "Sort By Hierarchy"
+msgstr "依階層排序"
+
+#: scene_ui.py:232
+msgid "Sort By Layer"
+msgstr "依圖層排序"
+
+#: scene_ui.py:245 scene_ui.py:225 surfaces.py:1864 surfaces.py:569 (+4)
+msgid "Display"
+msgstr "顯示"
+
+#: scene_ui.py:247
+msgid "Search:"
+msgstr "搜尋："
+
+#: scene_ui.py:298
+msgid "Ctrl: add/remove    Shift: range    Drag name: link to parent"
+msgstr "Ctrl：新增/移除Shift：範圍選取拖曳名稱：連結至父級物件"
+
+#: scene_ui.py:304
+msgid "Scroll Objects"
+msgstr "捲動物件"
+
+#: scene_ui.py:350
+msgid "Scene Explorer Display"
+msgstr "場景探索器顯示設定"
+
+#: scene_ui.py:375
+msgid "Delete Objects"
+msgstr "刪除物件"
+
+#: scene_ui.py:455
+msgid "Search Scene Explorer"
+msgstr "搜尋場景總管"
+
+#: scene_ui.py:456
+msgid "Name or Layer"
+msgstr "名稱或圖層"
+
+#: scene_ui.py:468
+msgid "Rename Object"
+msgstr "重新命名物件"
+
+#: scene_ui.py:475
+msgid "Select an editable object"
+msgstr "選取可編輯的物件"
+
+#: surfaces.py:41 surfaces.py:626 ui.py:39
+msgid "Keyboard Entry"
+msgstr "鍵盤輸入"
+
+#: surfaces.py:41 surfaces.py:1100
+msgid "Soft Selection"
+msgstr "柔性選取"
+
+#: surfaces.py:41 surfaces.py:1137
+msgid "Subdivision Surface"
+msgstr "細分曲面"
+
+#: surfaces.py:41 surfaces.py:1129
+msgid "Polygon: Smoothing Groups"
+msgstr "多邊形：平滑群組"
+
+#: surfaces.py:42 utility_editors.py:685 utility_editors.py:688
+msgid "Email Notifications"
+msgstr "電子郵件通知"
+
+#: surfaces.py:42 utility_editors.py:685 utility_editors.py:690
+msgid "Scripts"
+msgstr "指令碼"
+
+#: surfaces.py:42 utility_editors.py:685
+msgid "Assign Renderer"
+msgstr "指派算圖器"
+
+#: surfaces.py:104
+msgid "Off"
+msgstr "關閉"
+
+#: surfaces.py:263
+msgid "Drag to change; right-click resets"
+msgstr "拖曳以變更；按一下滑鼠右鍵可重設"
+
+#: surfaces.py:292 ui.py:18
+msgid "Search All Objects"
+msgstr "搜尋所有物件"
+
+#: surfaces.py:367
+msgid "Select and Link"
+msgstr "選取並連結"
+
+#: surfaces.py:369
+msgid "Bind to Space Warp"
+msgstr "繫結至空間扭曲"
+
+#: surfaces.py:372
+msgid "Select Object (Q)"
+msgstr "選取物件(Q)"
+
+#: surfaces.py:373
+msgid "Select by Name (H)"
+msgstr "依名稱選取(H)"
+
+#: surfaces.py:375
+msgid "Window/Crossing (Shift+O)"
+msgstr "視窗/交叉選取(Shift+O)"
+
+#: surfaces.py:378
+msgid "Select and Move (W)"
+msgstr "選取並移動(W)"
+
+#: surfaces.py:379
+msgid "Select and Rotate (E)"
+msgstr "選取並旋轉(E)"
+
+#: surfaces.py:380
+msgid "Select and Uniform Scale (R)"
+msgstr "選取並等比例縮放(R)"
+
+#: surfaces.py:381
+msgid "Select and Place (Y)"
+msgstr "選取並放置(Y)"
+
+#: surfaces.py:385 ui.py:57
+msgid "Select and Manipulate"
+msgstr "選取並操控"
+
+#: surfaces.py:389
+msgid "Snaps Toggle (S)"
+msgstr "切換捕捉(S)"
+
+#: surfaces.py:390
+msgid "Angle Snap Toggle (A)"
+msgstr "切換角度捕捉(A)"
+
+#: surfaces.py:392
+msgid "Spinner Snap Toggle"
+msgstr "切換微調器捕捉"
+
+#: surfaces.py:399 toolbar.py:104
+msgid "Create Selection Set"
+msgstr "建立選取集"
+
+#: surfaces.py:406
+msgid "Align... (Alt+A)"
+msgstr "對齊...(Alt+A)"
+
+#: surfaces.py:408
+msgid "Toggle Scene Explorer"
+msgstr "切換場景總管"
+
+#: surfaces.py:409
+msgid "Toggle Layer Explorer"
+msgstr "切換圖層總管"
+
+#: surfaces.py:411
+msgid "Toggle Ribbon"
+msgstr "切換功能區"
+
+#: surfaces.py:413
+msgid "Schematic View (Open)"
+msgstr "示意圖視圖(開啟)"
+
+#: surfaces.py:417
+msgid "Compact Material Editor (M)"
+msgstr "精簡材質編輯器(M)"
+
+#: surfaces.py:417
+msgid "Slate Material Editor (M)"
+msgstr "石板材質編輯器(M)"
+
+#: surfaces.py:419
+msgid "Render Setup... (F10)"
+msgstr "算圖設定...(F10)"
+
+#: surfaces.py:420 utility_editors.py:680
+msgid "Rendered Frame Window"
+msgstr "已算圖影格視窗"
+
+#: surfaces.py:422
+msgid "Render Production (Shift+Q)"
+msgstr "算圖製作(Shift+Q)"
+
+#: surfaces.py:428
+msgid "Project Folder"
+msgstr "專案資料夾"
+
+#: surfaces.py:429
+msgid "Open File..."
+msgstr "開啟檔案..."
+
+#: surfaces.py:431
+msgid "New Scene"
+msgstr "新增場景"
+
+#: surfaces.py:432
+msgid "Project Settings"
+msgstr "專案設定"
+
+#: surfaces.py:441
+msgid "Arnold RenderView → Render Result"
+msgstr "Arnold 算圖視窗→算圖結果"
+
+#: surfaces.py:442
+msgid "Render in Arnold Render View → Render active view"
+msgstr "在Arnold 算圖視窗中算圖→算圖作用中的視圖"
+
+#: surfaces.py:443
+msgid "IPR → Rendered viewport shading"
+msgstr "IPR→已算圖視口著色"
+
+#: surfaces.py:444
+msgid "Flow Render (cloud; not available)"
+msgstr "流程算圖(雲端；無法使用)"
+
+#: surfaces.py:445
+msgid "Flow Render Monitor (not available)"
+msgstr "流程算圖監視器(無法使用)"
+
+#: surfaces.py:446
+msgid "Enable Denoiser(s)"
+msgstr "啟用降噪器"
+
+#: surfaces.py:448
+msgid "Arnold Light → Area light"
+msgstr "Arnold燈光→區域燈光"
+
+#: surfaces.py:450
+msgid "Arnold Alembic → Import Alembic"
+msgstr "Arnold Alembic→匯入Alembic"
+
+#: surfaces.py:451
+msgid "Arnold Volume → Import OpenVDB"
+msgstr "Arnold體積→匯入OpenVDB"
+
+#: surfaces.py:453
+msgid "Bake Selected Geometries → Snapshot mesh"
+msgstr "烘焙選取的幾何體→網格快照"
+
+#: surfaces.py:454
+msgid "Add Arnold Properties Modifier → Object Properties"
+msgstr "新增Arnold屬性修改器→物件屬性"
+
+#: surfaces.py:456
+msgid "Arbitrary Output Variables (AOVs) → Render passes"
+msgstr "任意輸出變數(AOV)→算圖通道"
+
+#: surfaces.py:457
+msgid "AOV Light Group Manager → Light groups"
+msgstr "AOV燈光群組管理員→燈光群組"
+
+#: surfaces.py:458
+msgid "Operator Graph (not available)"
+msgstr "運算子圖形(無法使用)"
+
+#: surfaces.py:485
+msgid "OilTank"
+msgstr "油罐"
+
+#: surfaces.py:485
+msgid "L-Ext"
+msgstr "L-擠出"
+
+#: surfaces.py:486
+msgid "C-Ext"
+msgstr "C-擠出"
+
+#: surfaces.py:487
+msgid "Compound Objects"
+msgstr "複合物件"
+
+#: surfaces.py:490
+msgid "PF Source"
+msgstr "PF來源"
+
+#: surfaces.py:493
+msgid "NURBS Surfaces"
+msgstr "NURBS曲面"
+
+#: surfaces.py:496
+msgid "Splines"
+msgstr "樣條線"
+
+#: surfaces.py:499
+msgid "NURBS Curves"
+msgstr "NURBS曲線"
+
+#: surfaces.py:500
+msgid "Extended Splines"
+msgstr "擴充樣條線"
+
+#: surfaces.py:503
+msgid "Photometric"
+msgstr "光度學"
+
+#: surfaces.py:506
+msgid "Arnold"
+msgstr "Arnold"
+
+#: surfaces.py:508
+msgid "Physical"
+msgstr "物理"
+
+#: surfaces.py:508
+msgid "Free"
+msgstr "自由"
+
+#: surfaces.py:509
+msgid "ExposeTm"
+msgstr "曝光時間"
+
+#: surfaces.py:515
+msgid "PDynaFlect"
+msgstr "平面動力學導向器"
+
+#: surfaces.py:519
+msgid "Ring Array"
+msgstr "環形陣列"
+
+#: surfaces.py:519
+msgid "Sunlight"
+msgstr "陽光"
+
+#: surfaces.py:519
+msgid "Daylight"
+msgstr "日光"
+
+#: surfaces.py:522 surfaces.py:1319 ui.py:33
+msgid "Space Warps"
+msgstr "空間扭曲"
+
+#: surfaces.py:567 ui.py:25
+msgid "Modify"
+msgstr "修改"
+
+#: surfaces.py:568 ui.py:26
+msgid "Hierarchy"
+msgstr "階層"
+
+#: surfaces.py:568 ui.py:27
+msgid "Motion"
+msgstr "動作"
+
+#: surfaces.py:574
+msgid "Search All Objects..."
+msgstr "搜尋所有物件..."
+
+#: surfaces.py:580
+msgid "Name and Color"
+msgstr "名稱與色彩"
+
+#: surfaces.py:600
+msgid "Object Type"
+msgstr "物件類型"
+
+#: surfaces.py:602 ui.py:35
+msgid "AutoGrid"
+msgstr "自動柵格"
+
+#: surfaces.py:609
+msgid "No tools in this category"
+msgstr "此類別中沒有工具"
+
+#: surfaces.py:619
+msgid "Creation Method"
+msgstr "建立方法"
+
+#: surfaces.py:698
+msgid "Intensity/Color/Attenuation"
+msgstr "強度/色彩/衰減"
+
+#: surfaces.py:700
+msgid "Multiplier:"
+msgstr "倍增器："
+
+#: surfaces.py:701
+msgid "Color:"
+msgstr "色彩"
+
+#: surfaces.py:703
+msgid "Light Color"
+msgstr "燈光色彩"
+
+#: surfaces.py:710
+msgid "Lens:"
+msgstr "鏡頭："
+
+#: surfaces.py:711
+msgid "FOV:"
+msgstr "視野："
+
+#: surfaces.py:712
+msgid "Orthographic Projection"
+msgstr "正交投影"
+
+#: surfaces.py:714
+msgid "Near Clip:"
+msgstr "近裁切："
+
+#: surfaces.py:733
+msgid "Editable Poly"
+msgstr "可編輯多邊形"
+
+#: surfaces.py:733
+msgid "Editable Spline"
+msgstr "可編輯樣條線"
+
+#: surfaces.py:733
+msgid "NURBS Surface"
+msgstr "NURBS曲面"
+
+#: surfaces.py:734
+msgid "Omni Light"
+msgstr "全向燈"
+
+#: surfaces.py:734
+msgid "Spot Light"
+msgstr "聚光燈"
+
+#: surfaces.py:734
+msgid "Direct Light"
+msgstr "平行光"
+
+#: surfaces.py:734
+msgid "Area Light"
+msgstr "區域光"
+
+#: surfaces.py:735
+msgid "Helper"
+msgstr "輔助物件"
+
+#: surfaces.py:736
+msgid "FFD Lattice"
+msgstr "FFD晶格"
+
+#: surfaces.py:815
+msgid "Turn modifier on/off"
+msgstr "開啟/關閉修改器"
+
+#: surfaces.py:820 surfaces.py:825
+msgid "Expand sub-object levels"
+msgstr "展開次物件層級"
+
+#: surfaces.py:831 ui.py:42
+msgid "Pin Stack"
+msgstr "釘選堆疊"
+
+#: surfaces.py:832
+msgid "Show end result on/off toggle"
+msgstr "開啟/關閉顯示最終結果"
+
+#: surfaces.py:833
+msgid "Make unique"
+msgstr "設為唯一"
+
+#: surfaces.py:834
+msgid "Remove modifier from the stack"
+msgstr "從堆疊移除修改器"
+
+#: surfaces.py:853
+msgid "Text:"
+msgstr "文字："
+
+#: surfaces.py:855 surfaces.py:720
+msgid "Size:"
+msgstr "大小："
+
+#: surfaces.py:856
+msgid "Tracking:"
+msgstr "字距："
+
+#: surfaces.py:907 surfaces.py:913 surfaces.py:1141
+msgid "Iterations:"
+msgstr "迭代次數："
+
+#: surfaces.py:907
+msgid "Render Iters:"
+msgstr "算圖迭代次數："
+
+#: surfaces.py:907
+msgid "Quality:"
+msgstr "品質："
+
+#: surfaces.py:907
+msgid "Smooth Result"
+msgstr "平滑結果"
+
+#: surfaces.py:908 surfaces.py:909 surfaces.py:912
+msgid "Amount:"
+msgstr "數量："
+
+#: surfaces.py:908
+msgid "Tension:"
+msgstr "張力："
+
+#: surfaces.py:908 surfaces.py:912
+msgid "Angle:"
+msgstr "角度："
+
+#: surfaces.py:908 surfaces.py:912
+msgid "Limit Effect"
+msgstr "限制效果"
+
+#: surfaces.py:909
+msgid "Offset:"
+msgstr "偏移："
+
+#: surfaces.py:909
+msgid "Even"
+msgstr "均勻"
+
+#: surfaces.py:909
+msgid "Straighten Corners"
+msgstr "拉直角落"
+
+#: surfaces.py:910
+msgid "Slice Along Mirror"
+msgstr "沿鏡像切片"
+
+#: surfaces.py:910
+msgid "Weld Seam"
+msgstr "焊接接縫"
+
+#: surfaces.py:910 surfaces.py:918
+msgid "Threshold:"
+msgstr "閾值："
+
+#: surfaces.py:911
+msgid "Count:"
+msgstr "數量："
+
+#: surfaces.py:912
+msgid "Axis"
+msgstr "軸"
+
+#: surfaces.py:913
+msgid "Relax Value:"
+msgstr "鬆弛值："
+
+#: surfaces.py:914
+msgid "Vertex %:"
+msgstr "頂點 %："
+
+#: surfaces.py:915 surfaces.py:919
+msgid "Strength:"
+msgstr "強度："
+
+#: surfaces.py:915
+msgid "Center:"
+msgstr "中心："
+
+#: surfaces.py:915 surfaces.py:923
+msgid "Direction"
+msgstr "方向"
+
+#: surfaces.py:916
+msgid "Amplitude:"
+msgstr "振幅："
+
+#: surfaces.py:916
+msgid "Wave Length:"
+msgstr "波長："
+
+#: surfaces.py:916
+msgid "Speed:"
+msgstr "速度："
+
+#: surfaces.py:916
+msgid "Phase:"
+msgstr "相位："
+
+#: surfaces.py:917
+msgid "Percent:"
+msgstr "百分比："
+
+#: surfaces.py:920
+msgid "Struts Radius:"
+msgstr "支撐桿半徑："
+
+#: surfaces.py:920
+msgid "Struts Only"
+msgstr "僅支撐桿"
+
+#: surfaces.py:921
+msgid "Operation"
+msgstr "操作"
+
+#: surfaces.py:921
+msgid "Solver"
+msgstr "求解器"
+
+#: surfaces.py:922
+msgid "Standoff:"
+msgstr "間隔："
+
+#: surfaces.py:923
+msgid "Degrees:"
+msgstr "角度："
+
+#: surfaces.py:923
+msgid "Weld Core"
+msgstr "焊接核心"
+
+#: surfaces.py:924
+msgid "Voxel Size:"
+msgstr "體素大小："
+
+#: surfaces.py:925
+msgid "Quad Method"
+msgstr "四邊形方法"
+
+#: surfaces.py:926
+msgid "Weight:"
+msgstr "權重："
+
+#: surfaces.py:926
+msgid "Weighting"
+msgstr "權重設定"
+
+#: surfaces.py:982
+msgid "Object:"
+msgstr "物件："
+
+#: surfaces.py:982 utility_editors.py:774
+msgid "Target:"
+msgstr "目標："
+
+#: surfaces.py:985
+msgid "More Parameters..."
+msgstr "更多參數..."
+
+#: surfaces.py:1000
+msgid "Edit Vertices"
+msgstr "編輯頂點"
+
+#: surfaces.py:1002
+msgid "Remove Isolated Vertices"
+msgstr "移除孤立頂點"
+
+#: surfaces.py:1003
+msgid "Edit Edges"
+msgstr "編輯邊"
+
+#: surfaces.py:1005 surfaces.py:1008
+msgid "Create Shape From Selection"
+msgstr "從選取項目建立圖形"
+
+#: surfaces.py:1007
+msgid "Edit Borders"
+msgstr "編輯邊界"
+
+#: surfaces.py:1009
+msgid "Edit Polygons"
+msgstr "編輯多邊形"
+
+#: surfaces.py:1010
+msgid "Hinge From Edge"
+msgstr "從邊建立樞軸"
+
+#: surfaces.py:1011
+msgid "Extrude Along Spline"
+msgstr "沿樣條線擠出"
+
+#: surfaces.py:1012
+msgid "Edit Elements"
+msgstr "編輯元素"
+
+#: surfaces.py:1014
+msgid "Repeat Last"
+msgstr "重複上次操作"
+
+#: surfaces.py:1015
+msgid "MSmooth"
+msgstr "網格平滑"
+
+#: surfaces.py:1016
+msgid "View Align"
+msgstr "視圖對齊"
+
+#: surfaces.py:1016
+msgid "Grid Align"
+msgstr "格線對齊"
+
+#: surfaces.py:1018
+msgid "Delete Isolated Vertices"
+msgstr "刪除孤立頂點"
+
+#: surfaces.py:1023
+msgid "Whole Object Selected"
+msgstr "已選取整個物件"
+
+#: surfaces.py:1078
+msgid "Edit Poly Mode"
+msgstr "編輯多邊形模式"
+
+#: surfaces.py:1080
+msgid "Moves stay in this modifier and"
+msgstr "移動會保留在此修改器中"
+
+#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1043
+msgid "Selection"
+msgstr "選取"
+
+#: surfaces.py:1092
+msgid "By Angle:"
+msgstr "依角度："
+
+#: surfaces.py:1103
+msgid "Falloff:"
+msgstr "衰減："
+
+#: surfaces.py:1115
+msgid "Edit Geometry"
+msgstr "編輯幾何體"
+
+#: surfaces.py:1121
+msgid "Polygon: Material IDs"
+msgstr "多邊形：材質ID"
+
+#: surfaces.py:1123
+msgid "Set ID:"
+msgstr "設定ID："
+
+#: surfaces.py:1132
+msgid "Auto Smooth"
+msgstr "自動平滑"
+
+#: surfaces.py:1133
+msgid "Clear All"
+msgstr "全部清除"
+
+#: surfaces.py:1139
+msgid "Use NURMS Subdivision"
+msgstr "使用NURMS細分"
+
+#: surfaces.py:1164
+msgid "Enable In Viewport"
+msgstr "在視口中啟用"
+
+#: surfaces.py:1166
+msgid "Thickness:"
+msgstr "厚度："
+
+#: surfaces.py:1172
+msgid "Steps:"
+msgstr "步數："
+
+#: surfaces.py:1189 ui.py:68
+msgid "Pivot"
+msgstr "樞紐點"
+
+#: surfaces.py:1189 ui.py:68
+msgid "Link Info"
+msgstr "連結資訊"
+
+#: surfaces.py:1191
+msgid "Adjust Pivot"
+msgstr "調整樞紐點"
+
+#: surfaces.py:1193
+msgid "Move/Rotate/Scale:"
+msgstr "移動/旋轉/縮放:"
+
+#: surfaces.py:1195
+msgid "Affect Object Only"
+msgstr "僅影響物件"
+
+#: surfaces.py:1196
+msgid "Affect Hierarchy Only"
+msgstr "僅影響階層"
+
+#: surfaces.py:1197
+msgid "Alignment:"
+msgstr "對齊:"
+
+#: surfaces.py:1198 toolbar.py:11
+msgid "Center to Object"
+msgstr "中心對齊至物件"
+
+#: surfaces.py:1199 toolbar.py:11
+msgid "Align to World"
+msgstr "對齊至世界"
+
+#: surfaces.py:1200 toolbar.py:11
+msgid "Reset Pivot"
+msgstr "重設樞紐點"
+
+#: surfaces.py:1203
+msgid "Working Pivot"
+msgstr "工作樞紐"
+
+#: surfaces.py:1206
+msgid "Edit Working Pivot"
+msgstr "編輯工作樞紐"
+
+#: surfaces.py:1207
+msgid "Use Working Pivot"
+msgstr "使用工作樞紐"
+
+#: surfaces.py:1208
+msgid "Align To View"
+msgstr "對齊至視圖"
+
+#: surfaces.py:1210
+msgid "Place Pivot To: Surface"
+msgstr "將樞紐放置於：表面"
+
+#: surfaces.py:1213
+msgid "Adjust Transform"
+msgstr "調整變換"
+
+#: surfaces.py:1215
+msgid "Don't Affect Children"
+msgstr "不影響子物件"
+
+#: surfaces.py:1216
+msgid "Reset:"
+msgstr "重設："
+
+#: surfaces.py:1222
+msgid "Inverse Kinematics"
+msgstr "反向運動學"
+
+#: surfaces.py:1224
+msgid "Interactive IK"
+msgstr "互動式反向運動學"
+
+#: surfaces.py:1224
+msgid "Apply IK"
+msgstr "套用反向運動學"
+
+#: surfaces.py:1224
+msgid "Apply Only To Keys"
+msgstr "僅套用至關鍵格"
+
+#: surfaces.py:1228
+msgid "Locks"
+msgstr "鎖定"
+
+#: surfaces.py:1236
+msgid "Inherit"
+msgstr "繼承"
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Move:"
+msgstr "移動："
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Rotate:"
+msgstr "旋轉："
+
+#: surfaces.py:1238 surfaces.py:1230
+msgid "Scale:"
+msgstr "縮放："
+
+#: surfaces.py:1247
+msgid "Euler XYZ"
+msgstr "離合 XYZ"
+
+#: surfaces.py:1247
+msgid "Euler XZY"
+msgstr "離合 XZY"
+
+#: surfaces.py:1247
+msgid "Euler YXZ"
+msgstr "離合 YXZ"
+
+#: surfaces.py:1247
+msgid "Euler YZX"
+msgstr "離合 YZX"
+
+#: surfaces.py:1247
+msgid "Euler ZXY"
+msgstr "離合 ZXY"
+
+#: surfaces.py:1248
+msgid "Euler ZYX"
+msgstr "離合 ZYX"
+
+#: surfaces.py:1258
+msgid "Assign Controller"
+msgstr "指定控制器"
+
+#: surfaces.py:1260
+msgid "Transform : Position/Rotation/Scale"
+msgstr "變換：位置/旋轉/縮放"
+
+#: surfaces.py:1261
+msgid "Position : Position XYZ"
+msgstr "位置：位置XYZ"
+
+#: surfaces.py:1263
+msgid "Assign Rotation Controller"
+msgstr "指定旋轉控制器"
+
+#: surfaces.py:1264
+msgid "Scale : Bezier Scale"
+msgstr "縮放：貝茲線縮放"
+
+#: surfaces.py:1267
+msgid "PRS Parameters"
+msgstr "PRS參數"
+
+#: surfaces.py:1270 trackbar.py:157
+msgid "Create Key"
+msgstr "建立關鍵格"
+
+#: surfaces.py:1271
+msgid "Delete Key"
+msgstr "刪除關鍵格"
+
+#: surfaces.py:1277
+msgid "Key Info (Basic)"
+msgstr "關鍵格資訊(基本)"
+
+#: surfaces.py:1279
+msgid "Time:"
+msgstr "時間："
+
+#: surfaces.py:1283
+msgid "In/Out: Interpolation..."
+msgstr "輸入/輸出：內插…"
+
+#: surfaces.py:1288 surfaces.py:1253 ui.py:69
+msgid "Motion Paths"
+msgstr "運動路徑"
+
+#: surfaces.py:1290
+msgid "Hide Motion Path"
+msgstr "隱藏運動路徑"
+
+#: surfaces.py:1290
+msgid "Show Motion Path"
+msgstr "顯示運動路徑"
+
+#: surfaces.py:1292
+msgid "Start Time:"
+msgstr "開始時間："
+
+#: surfaces.py:1293
+msgid "End Time:"
+msgstr "結束時間："
+
+#: surfaces.py:1294
+msgid "Samples:"
+msgstr "取樣數："
+
+#: surfaces.py:1320 surfaces.py:490
+msgid "Particle Systems"
+msgstr "粒子系統"
+
+#: surfaces.py:1320
+msgid "Bone Objects"
+msgstr "骨骼物件"
+
+#: surfaces.py:1327
+msgid "Display Color"
+msgstr "顯示顏色"
+
+#: surfaces.py:1330
+msgid "Wireframe:"
+msgstr "線框："
+
+#: surfaces.py:1332 surfaces.py:1335
+msgid "Material Color"
+msgstr "材質顏色"
+
+#: surfaces.py:1333
+msgid "Shaded:"
+msgstr "著色："
+
+#: surfaces.py:1339
+msgid "Hide by Category"
+msgstr "依類別隱藏"
+
+#: surfaces.py:1355
+msgid "Hide by Name..."
+msgstr "依名稱隱藏..."
+
+#: surfaces.py:1355
+msgid "Hide by Hit"
+msgstr "依點選隱藏"
+
+#: surfaces.py:1356
+msgid "Unhide by Name..."
+msgstr "依名稱取消隱藏..."
+
+#: surfaces.py:1359 ui.py:70
+msgid "Hide Frozen Objects"
+msgstr "隱藏凍結物件"
+
+#: surfaces.py:1365
+msgid "Freeze Selected"
+msgstr "凍結選取項目"
+
+#: surfaces.py:1365 toolbar.py:15
+msgid "Freeze Unselected"
+msgstr "凍結未選取項目"
+
+#: surfaces.py:1366
+msgid "Freeze by Name..."
+msgstr "依名稱凍結..."
+
+#: surfaces.py:1366
+msgid "Freeze by Hit"
+msgstr "依點選凍結"
+
+#: surfaces.py:1367
+msgid "Unfreeze by Name..."
+msgstr "依名稱解凍..."
+
+#: surfaces.py:1368
+msgid "Unfreeze by Hit"
+msgstr "依點擊解凍"
+
+#: surfaces.py:1374 surfaces.py:1381
+msgid "Display as Box"
+msgstr "以方框顯示"
+
+#: surfaces.py:1374
+msgid "Backface Cull"
+msgstr "背面剔除"
+
+#: surfaces.py:1374
+msgid "Vertex Ticks"
+msgstr "頂點標記"
+
+#: surfaces.py:1375
+msgid "Trajectory"
+msgstr "軌跡"
+
+#: surfaces.py:1375
+msgid "Ignore Extents"
+msgstr "忽略範圍"
+
+#: surfaces.py:1375 ui.py:71
+msgid "Show Frozen in Gray"
+msgstr "以灰色顯示凍結物件"
+
+#: surfaces.py:1376
+msgid "Never Degrade"
+msgstr "永不降低品質"
+
+#: surfaces.py:1376
+msgid "Vertex Colors"
+msgstr "頂點色彩"
+
+#: surfaces.py:1376
+msgid "Shaded"
+msgstr "著色"
+
+#: surfaces.py:1398
+msgid "Link Display"
+msgstr "連結顯示"
+
+#: surfaces.py:1400
+msgid "Display Links"
+msgstr "顯示連結"
+
+#: surfaces.py:1401
+msgid "Link Replaces Object"
+msgstr "連結取代物件"
+
+#: surfaces.py:1417
+msgid "Perspective Match"
+msgstr "透視匹配"
+
+#: surfaces.py:1417
+msgid "Color Clipboard"
+msgstr "色彩剪貼簿"
+
+#: surfaces.py:1417 surfaces.py:1445
+msgid "Measure"
+msgstr "測量"
+
+#: surfaces.py:1418
+msgid "Reset XForm"
+msgstr "重設變換"
+
+#: surfaces.py:1418 surfaces.py:1460
+msgid "MAXScript"
+msgstr "MAXScript"
+
+#: surfaces.py:1418
+msgid "Flight Studio"
+msgstr "Flight Studio"
+
+#: surfaces.py:1440
+msgid "Output Type: Modifier Stack Result"
+msgstr "輸出類型：修改器堆疊結果"
+
+#: surfaces.py:1441
+msgid "Collapse Selected"
+msgstr "塌陷選取項目"
+
+#: surfaces.py:1448
+msgid "No object"
+msgstr "沒有物件"
+
+#: surfaces.py:1454
+msgid "Reset Transform"
+msgstr "重設變換"
+
+#: surfaces.py:1456
+msgid "Reset Selected"
+msgstr "重設選取項目"
+
+#: surfaces.py:1462
+msgid "Open Listener"
+msgstr "開啟監聽器"
+
+#: surfaces.py:1463
+msgid "Open Script"
+msgstr "開啟指令碼"
+
+#: surfaces.py:1471 utility_editors.py:502
+msgid "Select a mesh object"
+msgstr "選取網格物件"
+
+#: surfaces.py:1525
+msgid "Time Slider (right-click: Create Key)"
+msgstr "時間滑桿(按右鍵：建立關鍵格)"
+
+#: surfaces.py:1529 surfaces.py:1623
+msgid "Previous Frame (,)"
+msgstr "上一影格(,)"
+
+#: surfaces.py:1530 surfaces.py:1625
+msgid "Next Frame (.)"
+msgstr "下一影格(.)"
+
+#: surfaces.py:1534
+msgid "Open Mini Curve Editor"
+msgstr "開啟迷你曲線編輯器"
+
+#: surfaces.py:1539 trackbar.py:102 trackbar.py:138
+msgid "Track Bar"
+msgstr "軌跡列"
+
+#: surfaces.py:1581
+msgid "Scripting Mini"
+msgstr "迷你指令碼"
+
+#: surfaces.py:1582
+msgid "MAXScript Mini Listener"
+msgstr "MAXScript迷你監聽器"
+
+#: surfaces.py:1584
+msgid "None Selected"
+msgstr "未選取任何項目"
+
+#: surfaces.py:1589
+msgid "Isolate Selection Toggle (Alt+Q)"
+msgstr "切換隔離選取(Alt+Q)"
+
+#: surfaces.py:1591
+msgid "Selection Lock Toggle (Space)"
+msgstr "切換選取鎖定(空格鍵)"
+
+#: surfaces.py:1593
+msgid "Absolute Mode Transform Type-In (click for Offset Mode)"
+msgstr "絕對模式變換類型輸入(點擊切換至偏移模式)"
+
+#: surfaces.py:1608
+msgid "Safe Scene Script Execution (Blender: Auto Run Python Scripts is off)"
+msgstr "安全執行場景指令碼(Blender：自動執行Python指令碼已關閉)"
+
+#: surfaces.py:1609
+msgid "Enabled:"
+msgstr "已啟用："
+
+#: surfaces.py:1609
+msgid "Disabled:"
+msgstr "已停用："
+
+#: surfaces.py:1617
+msgid "Add Time Tag"
+msgstr "新增時間標記"
+
+#: surfaces.py:1618
+msgid "Time Tags: add, edit, delete or go to a tag"
+msgstr "時間標記：新增、編輯、刪除或前往標記"
+
+#: surfaces.py:1622
+msgid "Go to Start (Home)"
+msgstr "移至起點(Home)"
+
+#: surfaces.py:1624
+msgid "Play Animation (/)"
+msgstr "播放動畫(/)"
+
+#: surfaces.py:1626
+msgid "Go to End (End)"
+msgstr "移至終點(End)"
+
+#: surfaces.py:1629
+msgid "Key Mode Toggle: Previous/Next jump between keys"
+msgstr "關鍵格模式切換：上一個/下一個在關鍵格間跳轉"
+
+#: surfaces.py:1633
+msgid "Set Keys (K)"
+msgstr "設定關鍵格(K)"
+
+#: surfaces.py:1634
+msgid "Toggle Auto Key Mode (N)"
+msgstr "切換自動關鍵格模式(N)"
+
+#: surfaces.py:1635
+msgid "Set K."
+msgstr "設影格"
+
+#: surfaces.py:1636
+msgid "Toggle Set Key Mode"
+msgstr "切換設定關鍵格模式"
+
+#: surfaces.py:1637
+msgid "Selection Set for Set Keys"
+msgstr "設定關鍵格的選取集"
+
+#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1303
+msgid "Selected"
+msgstr "已選取"
+
+#: surfaces.py:1639 trackbar.py:291
+msgid "Default In/Out Tangents for New Keys"
+msgstr "新關鍵格的預設入/出切線"
+
+#: surfaces.py:1641
+msgid "Filters..."
+msgstr "篩選器..."
+
+#: surfaces.py:1641
+msgid "Open Filters Dialog (Set Key Filters)"
+msgstr "開啟篩選器對話方塊(設定關鍵格篩選器)"
+
+#: surfaces.py:1645
+msgid "Zoom Extents Selected (Z)"
+msgstr "縮放至所選範圍(Z)"
+
+#: surfaces.py:1647 trackbar.py:456 trackbar.py:376
+msgid "Zoom Extents All Selected"
+msgstr "縮放至所有所選項目的範圍"
+
+#: surfaces.py:1648 trackbar.py:458 trackbar.py:459 trackbar.py:374
+msgid "Field-of-View"
+msgstr "視野"
+
+#: surfaces.py:1649
+msgid "Pan View (Ctrl+P)"
+msgstr "平移視圖(Ctrl+P)"
+
+#: surfaces.py:1650
+msgid "Orbit (Ctrl+R)"
+msgstr "環繞(Ctrl+R)"
+
+#: surfaces.py:1651
+msgid "Maximize Viewport Toggle (Alt+W)"
+msgstr "最大化檢視切換(Alt+W)"
+
+#: surfaces.py:1664
+msgid "Click and drag to begin creation process"
+msgstr "按一下並拖曳以開始建立"
+
+#: surfaces.py:1666
+msgid "Click and drag to select and move objects"
+msgstr "按一下並拖曳以選取並移動物件"
+
+#: surfaces.py:1666
+msgid "Click and drag to select and rotate objects"
+msgstr "按一下並拖曳以選取並旋轉物件"
+
+#: surfaces.py:1667
+msgid "Click and drag to select and scale objects (uniformly)"
+msgstr "按一下並拖曳以選取並等比例縮放物件"
+
+#: surfaces.py:1669
+msgid "Click or click-and-drag to select objects"
+msgstr "按一下或按住並拖曳以選取物件"
+
+#: surfaces.py:1695
+msgid "Display Geometry"
+msgstr "顯示幾何體"
+
+#: surfaces.py:1695
+msgid "Display Shapes"
+msgstr "顯示圖形"
+
+#: surfaces.py:1695
+msgid "Display Lights"
+msgstr "顯示燈光"
+
+#: surfaces.py:1696
+msgid "Display Cameras"
+msgstr "顯示攝影機"
+
+#: surfaces.py:1696
+msgid "Display Helpers"
+msgstr "顯示輔助物件"
+
+#: surfaces.py:1696
+msgid "Display Space Warps"
+msgstr "顯示空間扭曲"
+
+#: surfaces.py:1697
+msgid "Display Groups"
+msgstr "顯示群組"
+
+#: surfaces.py:1697
+msgid "Display Object XRefs"
+msgstr "顯示物件外部參照"
+
+#: surfaces.py:1697
+msgid "Display Bone Objects"
+msgstr "顯示骨骼物件"
+
+#: surfaces.py:1698
+msgid "Display Containers"
+msgstr "顯示容器"
+
+#: surfaces.py:1698
+msgid "Display Frozen Objects"
+msgstr "顯示凍結物件"
+
+#: surfaces.py:1698
+msgid "Display Hidden Objects"
+msgstr "顯示隱藏物件"
+
+#: surfaces.py:1761
+msgid "Display All"
+msgstr "全部顯示"
+
+#: surfaces.py:1761
+msgid "Display None"
+msgstr "全部不顯示"
+
+#: surfaces.py:1761
+msgid "Invert Display"
+msgstr "反轉顯示"
+
+#: surfaces.py:1767
+msgid "Name (Sorted Ascending)"
+msgstr "名稱(升序)"
+
+#: surfaces.py:1782
+msgid "Expand"
+msgstr "展開"
+
+#: surfaces.py:1785
+msgid "Hide/Unhide"
+msgstr "隱藏/取消隱藏"
+
+#: surfaces.py:1796
+msgid "Freeze/Unfreeze"
+msgstr "凍結/取消凍結"
+
+#: surfaces.py:1798
+msgid "Default"
+msgstr "預設"
+
+#: surfaces.py:1857
+msgid "Modeling"
+msgstr "建模"
+
+#: surfaces.py:1857
+msgid "Freeform"
+msgstr "自由形式"
+
+#: surfaces.py:1857
+msgid "Object Paint"
+msgstr "物件繪製"
+
+#: surfaces.py:1862 surfaces.py:1088
+msgid "By Vertex"
+msgstr "依頂點"
+
+#: surfaces.py:1862
+msgid "By Angle"
+msgstr "依角度"
+
+#: surfaces.py:1862
+msgid "By Normal"
+msgstr "依法線"
+
+#: surfaces.py:1862
+msgid "By Perspective"
+msgstr "依透視"
+
+#: surfaces.py:1862
+msgid "By Half"
+msgstr "依半數"
+
+#: surfaces.py:1862
+msgid "By Pivot Distance"
+msgstr "依樞紐點距離"
+
+#: surfaces.py:1862
+msgid "By View"
+msgstr "依視圖"
+
+#: surfaces.py:1862
+msgid "By Symmetry"
+msgstr "依對稱"
+
+#: surfaces.py:1862
+msgid "By Numeric"
+msgstr "依數值"
+
+#: surfaces.py:1863
+msgid "Paint Objects"
+msgstr "繪製物件"
+
+#: surfaces.py:1863
+msgid "Brush Settings"
+msgstr "筆刷設定"
+
+#: surfaces.py:1864
+msgid "Define Flows"
+msgstr "自訂流動"
+
+#: surfaces.py:1864
+msgid "Define Idle Areas"
+msgstr "自訂閒置區域"
+
+#: surfaces.py:1864
+msgid "Simulate"
+msgstr "模擬"
+
+#: surfaces.py:1864
+msgid "Edit Selected"
+msgstr "編輯所選項目"
+
+#: surfaces.py:1900
+msgid "Ribbon display options"
+msgstr "功能區顯示選項"
+
+#: surfaces.py:1929
+msgid "Max Action"
+msgstr "最大化動作"
+
+#: surfaces.py:1965
+msgid "Max Edit"
+msgstr "最大化編輯"
+
+#: toolbar.py:9
+msgid "Link / Parent"
+msgstr "連結/父級項"
+
+#: toolbar.py:9
+msgid "Rectangular Selection"
+msgstr "矩形選取"
+
+#: toolbar.py:10
+msgid "Circular Selection"
+msgstr "圓形選取"
+
+#: toolbar.py:10
+msgid "Lasso Selection"
+msgstr "套索選取"
+
+#: toolbar.py:12
+msgid "Working Pivot Align To View"
+msgstr "工作樞紐對齊至視圖"
+
+#: toolbar.py:12
+msgid "Symmetry Modifier"
+msgstr "對稱修改器"
+
+#: toolbar.py:12
+msgid "Array Modifier"
+msgstr "陣列修改器"
+
+#: toolbar.py:13
+msgid "Smooth Shading"
+msgstr "平滑著色"
+
+#: toolbar.py:13
+msgid "Flat Shading"
+msgstr "平面著色"
+
+#: toolbar.py:16
+msgid "Interactive Render"
+msgstr "互動式算圖"
+
+#: toolbar.py:16
+msgid "Denoiser"
+msgstr "降噪器"
+
+#: toolbar.py:16
+msgid "Render Passes"
+msgstr "算圖通道"
+
+#: toolbar.py:21
+msgid "Max Toolbar Action"
+msgstr "最大工具列動作"
+
+#: toolbar.py:56
+msgid "Denoising is a Cycles render setting"
+msgstr "降噪是Cycles算圖設定"
+
+#: toolbar.py:106
+msgid "Set Name"
+msgstr "設定名稱"
+
+#: toolbar.py:114
+msgid "Select objects before creating a selection set"
+msgstr "請先選取物件，再建立選取集"
+
+#: toolbar.py:131
+msgid "Recall Selection Set"
+msgstr "叫出選取集"
+
+#: toolbar.py:183
+msgid "Absolute:World"
+msgstr "絕對：世界"
+
+#: toolbar.py:186
+msgid "Offset:World"
+msgstr "偏移：世界"
+
+#: toolbar.py:193 toolbar.py:188
+msgid "Apply Offset"
+msgstr "套用偏移"
+
+#: trackbar.py:104 trackbar.py:146
+msgid "Delete Selected Keys"
+msgstr "刪除選取的關鍵格"
+
+#: trackbar.py:104
+msgid "Goto Time"
+msgstr "前往時間"
+
+#: trackbar.py:105 trackbar.py:147
+msgid "Select All Keys"
+msgstr "選取所有關鍵格"
+
+#: trackbar.py:110
+msgid "Select keys on the track bar first"
+msgstr "請先在軌跡列上選取關鍵格"
+
+#: trackbar.py:123
+msgid "Filter"
+msgstr "篩選"
+
+#: trackbar.py:130
+msgid "Configure"
+msgstr "設定"
+
+#: trackbar.py:134
+msgid "Key Mode (Previous/Next Key)"
+msgstr "關鍵格模式(上一個/下一個關鍵格)"
+
+#: trackbar.py:159
+msgid "Source Time"
+msgstr "來源時間"
+
+#: trackbar.py:160
+msgid "Destination Time"
+msgstr "目標時間"
+
+#: trackbar.py:174
+msgid "Select objects and at least one transform"
+msgstr "選取物件及至少一個變換"
+
+#: trackbar.py:197
+msgid "Time Tag"
+msgstr "時間標記"
+
+#: trackbar.py:199 trackbar.py:241
+msgid "Add Tag"
+msgstr "新增標記"
+
+#: trackbar.py:199
+msgid "Edit Tag"
+msgstr "編輯標記"
+
+#: trackbar.py:199
+msgid "Go to Tag"
+msgstr "前往標記"
+
+#: trackbar.py:200
+msgid "Tag Name"
+msgstr "標記名稱"
+
+#: trackbar.py:208
+msgid "No time tag at the current frame"
+msgstr "目前影格沒有時間標記"
+
+#: trackbar.py:220
+msgid "Tag"
+msgstr "標記"
+
+#: trackbar.py:237
+msgid "Time Tags"
+msgstr "時間標記"
+
+#: trackbar.py:243
+msgid "Edit Tag..."
+msgstr "編輯標籤..."
+
+#: trackbar.py:243 trackbar.py:199
+msgid "Delete Tag"
+msgstr "刪除標籤"
+
+#: trackbar.py:256 ui.py:82
+msgid "Key Selection Set"
+msgstr "關鍵格選取集"
+
+#: trackbar.py:266
+msgid "Selection Sets"
+msgstr "選取集"
+
+#: trackbar.py:292
+msgid ""
+"Sets Blender's interpolation and handle type for new keys (Preferences > "
+"Animation)"
+msgstr "設定Blender新增關鍵格的插值與控制柄類型(偏好設定>動畫)"
+
+#: trackbar.py:309
+msgid "Default In/Out Tangents"
+msgstr "預設入切線/出切線"
+
+#: trackbar.py:326
+msgid ""
+"Show only the selection in the active viewport, or end isolation (Alt+Q)"
+msgstr "只在作用中的檢視顯示選取項目，或結束隔離模式(Alt+Q)"
+
+#: trackbar.py:334
+msgid "Toggle Auto Key Mode"
+msgstr "切換自動關鍵格模式"
+
+#: trackbar.py:335
+msgid "Record transforms as keys while Auto Key is on (N)"
+msgstr "開啟自動插入關鍵格時，將變換記錄為關鍵格(N)"
+
+#: trackbar.py:348
+msgid "Previous/Next Frame"
+msgstr "上一格/下一格"
+
+#: trackbar.py:349
+msgid ""
+"One frame back or forward; with Key Mode on, the previous or next key of the "
+"selection"
+msgstr ""
+"向後或向前移動一格；開啟關鍵格模式時，移至選取項目的上一個或下一個關鍵格"
+
+#: trackbar.py:372
+msgid "Viewport Navigation"
+msgstr "檢視導覽"
+
+#: trackbar.py:373
+msgid "Zoom every viewport together"
+msgstr "同步縮放所有檢視"
+
+#: trackbar.py:374
+msgid "Change the perspective field of view"
+msgstr "變更透視視野"
+
+#: trackbar.py:375
+msgid "Frame all objects in the active viewport"
+msgstr "在作用中的檢視中聚焦所有物件"
+
+#: trackbar.py:376
+msgid "Frame the selection in every viewport"
+msgstr "在所有檢視中聚焦選取項目"
+
+#: trackbar.py:461 trackbar.py:377
+msgid "Walk Through"
+msgstr "漫遊"
+
+#: trackbar.py:463 trackbar.py:377
+msgid "Orbit Selected"
+msgstr "環視所選項目"
+
+#: trackbar.py:464 trackbar.py:378
+msgid "Orbit Point of Interest"
+msgstr "環視興趣點"
+
+#: trackbar.py:474
+msgid "Safe Scene Script Execution"
+msgstr "安全執行場景指令碼"
+
+#: trackbar.py:475
+msgid ""
+"Blender's protection against Python scripts embedded in scene files "
+"(Preferences > Save & Load)"
+msgstr "Blender防護場景檔案中嵌入的Python指令碼(偏好設定>儲存與載入)"
+
+#: trackbar.py:479
+msgid "Scripts in this file were blocked"
+msgstr "此檔案中的指令碼已遭封鎖"
+
+#: ui.py:13
+msgid "Search Scene"
+msgstr "搜尋場景"
+
+#: ui.py:20
+msgid "Grid Spacing"
+msgstr "網格間距"
+
+#: ui.py:24
+msgid "Create objects"
+msgstr "建立物件"
+
+#: ui.py:25
+msgid "Modifier stack and mesh tools"
+msgstr "修改器堆疊與網格工具"
+
+#: ui.py:26
+msgid "Pivots and linking"
+msgstr "樞軸與連結"
+
+#: ui.py:27
+msgid "Controllers, keys and motion paths"
+msgstr "控制器、關鍵格與動態路徑"
+
+#: ui.py:28
+msgid "Visibility and viewport display"
+msgstr "可見化與檢視顯示"
+
+#: ui.py:29
+msgid "Scene and object utilities"
+msgstr "場景與物件工具"
+
+#: ui.py:30
+msgid "Material assignment and shader controls"
+msgstr "材質指派與著色器控制項"
+
+#: ui.py:31
+msgid "Category"
+msgstr "類別"
+
+#: ui.py:36
+msgid "Creation Tool"
+msgstr "建立工具"
+
+#: ui.py:40
+msgid "Selected Modifier"
+msgstr "選取的修改器"
+
+#: ui.py:43
+msgid "Show Sub-object Levels"
+msgstr "顯示子物件層級"
+
+#: ui.py:48
+msgid "Material ID"
+msgstr "材質ID"
+
+#: ui.py:51
+msgid "Window/Crossing"
+msgstr "視窗/交叉選取"
+
+#: ui.py:51
+msgid "On: objects must be fully inside the region (Window); off: Crossing"
+msgstr "開啟：物件必須完全位於選取區域內(視窗選取)；關閉：交叉選取"
+
+#: ui.py:58
+msgid "Keyboard Shortcut Override"
+msgstr "鍵盤快速鍵覆寫"
+
+#: ui.py:59
+msgid "On: 3ds Max shortcuts; off: Blender shortcuts"
+msgstr "開啟：3dsMax快速鍵；關閉：Blender快速鍵"
+
+#: ui.py:60
+msgid "Snaps"
+msgstr "吸附"
+
+#: ui.py:61 ui.py:62
+msgid "Spinner Snap"
+msgstr "微調器吸附"
+
+#: ui.py:73
+msgid "Offset Mode Transform Type-In"
+msgstr "偏移模式轉換輸入"
+
+#: ui.py:79
+msgid "Key Mode Toggle"
+msgstr "切換鍵模式"
+
+#: ui.py:79
+msgid "Previous and Next Frame jump between keys of the selection"
+msgstr "上一格與下一格會在所選項目的關鍵格之間跳轉"
+
+#: ui.py:80
+msgid "Set Key Mode"
+msgstr "設定鍵模式"
+
+#: ui.py:80
+msgid "Pose freely, then commit keys with the Set Keys button (K)"
+msgstr "自由擺姿勢，然後按一下「設定鍵」按鈕(K)提交關鍵格"
+
+#: ui.py:82
+msgid "Named selection set keyed by Set Keys; empty keys the selection"
+msgstr "以設定鍵設鍵的具名選取集；空白鍵會鍵選取項目"
+
+#: ui.py:83
+msgid "Track Bar Filter"
+msgstr "追蹤列篩選器"
+
+#: ui.py:84
+msgid "All Keys"
+msgstr "所有鍵"
+
+#: ui.py:84
+msgid "All Transform Keys"
+msgstr "所有變換鍵"
+
+#: ui.py:84
+msgid "Current Transform: Position"
+msgstr "目前變換：位置"
+
+#: ui.py:85
+msgid "Current Transform: Rotation"
+msgstr "目前變換：旋轉"
+
+#: ui.py:85
+msgid "Current Transform: Scale"
+msgstr "目前變換：縮放"
+
+#: ui.py:87
+msgid "Show Frame Numbers"
+msgstr "顯示影格編號"
+
+#: ui.py:88
+msgid "Cursor Position"
+msgstr "遊標位置"
+
+#: ui.py:150
+msgid "Unlink Selected"
+msgstr "取消連結所選項目"
+
+#: ui.py:163
+msgid "Select Dependents"
+msgstr "選取相依項目"
+
+#: ui.py:165
+msgid "Find..."
+msgstr "尋找..."
+
+#: utility_editors.py:21 utility_editors.py:610 utility_editors.py:788
+msgid "Common"
+msgstr "一般"
+
+#: utility_editors.py:230
+msgid "The mesh topology changed during the UV edit"
+msgstr "UV編輯期間網格拓樸已變更"
+
+#: utility_editors.py:267
+msgid "Finish editing the other object before editing these UVs"
+msgstr "請先完成其他物件的編輯，再編輯這些UV"
+
+#: utility_editors.py:273
+msgid "No editor area is available for UV operations"
+msgstr "沒有可用於UV操作的編輯器區域"
+
+#: utility_editors.py:314 utility_editors.py:63 utility_editors.py:1112
+msgid "Select an editable mesh object"
+msgstr "請選取可編輯的網格物件"
+
+#: utility_editors.py:326
+msgid "Select the texture vertices to weld"
+msgstr "請選取要焊接的紋理頂點"
+
+#: utility_editors.py:329
+msgid "The mesh has no polygon faces to map"
+msgstr "網格沒有可供映射的多邊形面"
+
+#: utility_editors.py:354
+msgid "The UV operation was cancelled by Blender"
+msgstr "Blender已取消UV操作"
+
+#: utility_editors.py:452
+msgid "CheckerPattern"
+msgstr "內建檢查圖"
+
+#: utility_editors.py:500
+msgid "The mesh has no faces"
+msgstr "網格沒有面"
+
+#: utility_editors.py:502
+msgid "Create UV coordinates with Unwrap or Flatten Mapping"
+msgstr "使用解開或展平映射建立UV座標"
+
+#: utility_editors.py:517
+msgid "Selection Modes"
+msgstr "選取模式"
+
+#: utility_editors.py:523
+msgid "Quick Transform"
+msgstr "快速變換"
+
+#: utility_editors.py:524 utility_editors.py:1245
+msgid "Rotate +90°"
+msgstr "旋轉+90°"
+
+#: utility_editors.py:524 utility_editors.py:1245
+msgid "Mirror Horizontal"
+msgstr "水平鏡像"
+
+#: utility_editors.py:524 utility_editors.py:1246
+msgid "Mirror Vertical"
+msgstr "垂直鏡像"
+
+#: utility_editors.py:528
+msgid "Flatten Mapping"
+msgstr "展平映射"
+
+#: utility_editors.py:528 utility_editors.py:1255
+msgid "Pack Islands"
+msgstr "打包島區"
+
+#: utility_editors.py:528 utility_editors.py:1255
+msgid "Rescale Islands"
+msgstr "重新縮放島區"
+
+#: utility_editors.py:531
+msgid "Selection and Pins"
+msgstr "選取與釘選"
+
+#: utility_editors.py:532 utility_editors.py:1230
+msgid "Selection From Base"
+msgstr "從基底選取"
+
+#: utility_editors.py:532 utility_editors.py:1231
+msgid "Selection To Base"
+msgstr "選取至基底"
+
+#: utility_editors.py:537
+msgid "Selected Polygons Only"
+msgstr "僅限選取的多邊形"
+
+#: utility_editors.py:539
+msgid "MMB: Pan   Wheel: Zoom   W/E/R: Transform   Esc: Cancel"
+msgstr "中鍵:平移 滾輪:縮放 W/E/R:變換 Esc:取消"
+
+#: utility_editors.py:563
+msgid "Choose a Camera"
+msgstr "選擇攝影機"
+
+#: utility_editors.py:611
+msgid "Common Parameters"
+msgstr "一般參數"
+
+#: utility_editors.py:613
+msgid "Time Output"
+msgstr "時間輸出"
+
+#: utility_editors.py:615
+msgid "Single"
+msgstr "單一"
+
+#: utility_editors.py:616
+msgid "Every Nth Frame:"
+msgstr "每隔N格："
+
+#: utility_editors.py:620
+msgid "Range:"
+msgstr "範圍："
+
+#: utility_editors.py:622
+msgid "To"
+msgstr "至"
+
+#: utility_editors.py:624
+msgid "File Number Base:"
+msgstr "檔案編號基底："
+
+#: utility_editors.py:626
+msgid "Frames"
+msgstr "影格"
+
+#: utility_editors.py:631
+msgid "Auto Region Selected"
+msgstr "自動選取區域"
+
+#: utility_editors.py:634
+msgid "HDTV (video)"
+msgstr "HDTV(影像)"
+
+#: utility_editors.py:638 utility_editors.py:639
+msgid "Aperture Width(mm):"
+msgstr "光圈寬度(mm):"
+
+#: utility_editors.py:642
+msgid "Aperture Width(mm): 36.000"
+msgstr "光圈寬度(mm):36.000"
+
+#: utility_editors.py:652
+msgid "Pixel Aspect:"
+msgstr "像素長寬比:"
+
+#: utility_editors.py:655
+msgid "Effects"
+msgstr "效果"
+
+#: utility_editors.py:655 utility_editors.py:660
+msgid "Displacement"
+msgstr "位移"
+
+#: utility_editors.py:656
+msgid "Video Color Check"
+msgstr "視訊色彩檢查"
+
+#: utility_editors.py:656
+msgid "Render to Fields"
+msgstr "算圖視訊場"
+
+#: utility_editors.py:661
+msgid "Render Hidden Geometry"
+msgstr "算圖隱藏幾何"
+
+#: utility_editors.py:661
+msgid "Area Lights/Shadows as Points"
+msgstr "區域燈光/陰影以點光源計算"
+
+#: utility_editors.py:661
+msgid "Force 2-Sided"
+msgstr "強制雙面"
+
+#: utility_editors.py:661
+msgid "Super Black"
+msgstr "超級黑"
+
+#: utility_editors.py:663
+msgid "Advanced Lighting"
+msgstr "進階照明"
+
+#: utility_editors.py:664
+msgid "Use Advanced Lighting"
+msgstr "使用進階照明"
+
+#: utility_editors.py:665
+msgid "Compute Advanced Lighting when Required"
+msgstr "需要時才計算進階照明"
+
+#: utility_editors.py:666
+msgid "Bitmap Performance and Memory Options"
+msgstr "點陣圖效能與記憶體選項"
+
+#: utility_editors.py:667
+msgid "Bitmap Proxies / Paging Disabled"
+msgstr "停用點陣圖代理/分頁"
+
+#: utility_editors.py:668
+msgid "Setup..."
+msgstr "設定..."
+
+#: utility_editors.py:669
+msgid "Render Output"
+msgstr "算圖輸出"
+
+#: utility_editors.py:673
+msgid "Put Image File List(s) in Output Path(s)"
+msgstr "將影像檔案清單放入輸出路徑"
+
+#: utility_editors.py:674
+msgid "Create Now"
+msgstr "立即建立"
+
+#: utility_editors.py:675
+msgid "Autodesk ME Image Sequence File (.imsq)"
+msgstr "AutodeskME影像序列檔案(.imsq)"
+
+#: utility_editors.py:676
+msgid "Legacy 3ds Max Image File List (.ifl)"
+msgstr "舊版3dsMax影像檔案清單(.ifl)"
+
+#: utility_editors.py:677
+msgid "Use Device"
+msgstr "使用裝置"
+
+#: utility_editors.py:679
+msgid "Devices..."
+msgstr "裝置..."
+
+#: utility_editors.py:682
+msgid "Skip Existing Images"
+msgstr "略過現有影像"
+
+#: utility_editors.py:689
+msgid "Enable Notifications"
+msgstr "啟用通知"
+
+#: utility_editors.py:691
+msgid "Pre-Render: Enable"
+msgstr "預先算圖：啟用"
+
+#: utility_editors.py:692
+msgid "Post-Render: Enable"
+msgstr "後處理算圖：啟用"
+
+#: utility_editors.py:694
+msgid "Production:"
+msgstr "製作："
+
+#: utility_editors.py:694
+msgid "Material Editor:"
+msgstr "材質編輯器："
+
+#: utility_editors.py:694
+msgid "ActiveShade:"
+msgstr "實時算圖："
+
+#: utility_editors.py:709 utility_editors.py:716
+msgid "Render Samples"
+msgstr "算圖取樣數"
+
+#: utility_editors.py:709 utility_editors.py:716
+msgid "Viewport Samples"
+msgstr "檢視取樣數"
+
+#: utility_editors.py:710
+msgid "Max Bounces"
+msgstr "最大反彈次數"
+
+#: utility_editors.py:710
+msgid "Diffuse Bounces"
+msgstr "漫射反彈次數"
+
+#: utility_editors.py:711
+msgid "Glossy Bounces"
+msgstr "光澤反彈次數"
+
+#: utility_editors.py:711
+msgid "Transmission Bounces"
+msgstr "傳輸反彈"
+
+#: utility_editors.py:712
+msgid "Transparent Bounces"
+msgstr "透明反彈"
+
+#: utility_editors.py:712
+msgid "Noise Threshold"
+msgstr "雜訊閾值"
+
+#: utility_editors.py:713
+msgid "Denoising"
+msgstr "降噪"
+
+#: utility_editors.py:713
+msgid "Adaptive Sampling"
+msgstr "符合取樣"
+
+#: utility_editors.py:717
+msgid "Shadow Rays"
+msgstr "陰影光線"
+
+#: utility_editors.py:717
+msgid "Shadow Steps"
+msgstr "陰影步數"
+
+#: utility_editors.py:718
+msgid "Volume Samples"
+msgstr "體積取樣"
+
+#: utility_editors.py:718
+msgid "Light Threshold"
+msgstr "光線閾值"
+
+#: utility_editors.py:719
+msgid "Ray Tracing"
+msgstr "光線追蹤"
+
+#: utility_editors.py:722
+msgid "Render Anti-Aliasing"
+msgstr "算圖抗鋸齒"
+
+#: utility_editors.py:741
+msgid "File Format:"
+msgstr "檔案格式："
+
+#: utility_editors.py:744
+msgid "Output %:"
+msgstr "輸出%："
+
+#: utility_editors.py:747
+msgid "Transparent Background"
+msgstr "透明背景"
+
+#: utility_editors.py:749
+msgid "Motion Blur"
+msgstr "動態模糊"
+
+#: utility_editors.py:756
+msgid "Z Depth"
+msgstr "Z景深"
+
+#: utility_editors.py:756
+msgid "Mist"
+msgstr "霧"
+
+#: utility_editors.py:757
+msgid "Diffuse Color"
+msgstr "漫射色彩"
+
+#: utility_editors.py:757
+msgid "Specular (Glossy) Color"
+msgstr "鏡面(光澤)顏色"
+
+#: utility_editors.py:758
+msgid "Ambient Occlusion"
+msgstr "環境光遮蔽"
+
+#: utility_editors.py:759
+msgid "Shadow"
+msgstr "陰影"
+
+#: utility_editors.py:759
+msgid "Cryptomatte Object"
+msgstr "加密遮罩物件"
+
+#: utility_editors.py:760
+msgid "Cryptomatte Material"
+msgstr "加密遮罩材質"
+
+#: utility_editors.py:775 utility_editors.py:1313
+msgid "Production Rendering Mode"
+msgstr "製作算圖模式"
+
+#: utility_editors.py:776
+msgid "Preset:"
+msgstr "預設："
+
+#: utility_editors.py:777
+msgid "No preset selected"
+msgstr "未選取預設"
+
+#: utility_editors.py:778
+msgid "Renderer:"
+msgstr "算圖器："
+
+#: utility_editors.py:781
+msgid "Render Animation"
+msgstr "算圖動畫"
+
+#: utility_editors.py:782 utility_editors.py:670
+msgid "Save File"
+msgstr "儲存檔案"
+
+#: utility_editors.py:783 utility_editors.py:671
+msgid "Files..."
+msgstr "檔案..."
+
+#: utility_editors.py:784
+msgid "View to Render:"
+msgstr "要算圖的視圖："
+
+#: utility_editors.py:786
+msgid "Lock View (not available in Blender)"
+msgstr "鎖定視圖(Blender不支援)"
+
+#: utility_editors.py:788 utility_editors.py:762
+msgid "Render Elements"
+msgstr "算圖元素"
+
+#: utility_editors.py:888
+msgid "Freeform Mode (Select)"
+msgstr "自由模式(選取)"
+
+#: utility_editors.py:889
+msgid "Texture Vertex Move Mode"
+msgstr "紋理頂點移動模式"
+
+#: utility_editors.py:890
+msgid "Texture Vertex Rotate Mode"
+msgstr "紋理頂點旋轉模式"
+
+#: utility_editors.py:891
+msgid "Texture Vertex Scale Mode"
+msgstr "貼圖頂點縮放模式"
+
+#: utility_editors.py:892
+msgid "Vertex sub-object level"
+msgstr "頂點次物件層級"
+
+#: utility_editors.py:893
+msgid "Edge sub-object level"
+msgstr "邊次物件層級"
+
+#: utility_editors.py:894
+msgid "Polygon sub-object level"
+msgstr "多邊形次物件層級"
+
+#: utility_editors.py:901
+msgid "Rotate +90"
+msgstr "旋轉+90"
+
+#: utility_editors.py:902
+msgid "Rotate -90"
+msgstr "旋轉-90"
+
+#: utility_editors.py:903
+msgid "Pack"
+msgstr "封裝"
+
+#: utility_editors.py:904
+msgid "Quick Peel Unfold"
+msgstr "快速剝離展開"
+
+#: utility_editors.py:905
+msgid "Texture Vertex Weld Selected"
+msgstr "焊接選取的貼圖頂點"
+
+#: utility_editors.py:964 utility_editors.py:970
+msgid "UV Selection"
+msgstr "UV選取"
+
+#: utility_editors.py:1077
+msgid "Render Output Size"
+msgstr "算圖輸出尺寸"
+
+#: utility_editors.py:1143
+msgid "Render Output File"
+msgstr "算圖輸出檔案"
+
+#: utility_editors.py:1171
+msgid "Max Editor Setting"
+msgstr "Max編輯器設定"
+
+#: utility_editors.py:1182
+msgid "The camera is no longer in this scene"
+msgstr "攝影機已不在此場景中"
+
+#: utility_editors.py:1191
+msgid "Unknown editor setting"
+msgstr "未知的編輯器設定"
+
+#: utility_editors.py:1199
+msgid "Edit UVWs Action"
+msgstr "編輯UVW動作"
+
+#: utility_editors.py:1222 utility_editors.py:532
+msgid "Pin Selected"
+msgstr "固定選取項目"
+
+#: utility_editors.py:1223 utility_editors.py:532
+msgid "Unpin Selected"
+msgstr "取消固定選取項目"
+
+#: utility_editors.py:1242
+msgid "Region Select"
+msgstr "區域選取"
+
+#: utility_editors.py:1254
+msgid "Unwrap (Angle Based)"
+msgstr "展開 (依角度)"
+
+#: utility_editors.py:1254 utility_editors.py:1108
+msgid "Flatten Mapping (Smart UV Project)"
+msgstr "展平映射(智慧型UV投影)"
+
+#: utility_editors.py:1262
+msgid "Show Checker Pattern"
+msgstr "顯示棋盤格圖樣"
+
+#: utility_editors.py:1263
+msgid "Display Only Selected Polygons"
+msgstr "僅顯示選取的多邊形"
+
+#: utility_editors.py:1267 utility_editors.py:704 utility_editors.py:788
+#: utility_editors.py:705
+msgid "Renderer"
+msgstr "算圖器"
+
+#: utility_editors.py:1273
+msgid "View to Render"
+msgstr "檢視以進行算圖"
+
+#: utility_editors.py:1281
+msgid "Add a camera to this scene"
+msgstr "在此場景中新增攝影機"
+
+#: utility_editors.py:1285 utility_editors.py:632
+msgid "Output Size"
+msgstr "輸出尺寸"
+
+#: utility_editors.py:1287
+msgid "HDTV 1280 × 720"
+msgstr "HDTV 1280×720"
+
+#: utility_editors.py:1287
+msgid "HDTV 1920 × 1080"
+msgstr "HDTV 1920×1080"
+
+#: utility_editors.py:1288
+msgid "UHD 3840 × 2160"
+msgstr "UHD 3840×2160"
+
+#: utility_editors.py:1288
+msgid "Square 1024 × 1024"
+msgstr "正方形 1024×1024"
+
+#: utility_editors.py:1289
+msgid "Square 2048 × 2048"
+msgstr "正方形 2048×2048"
+
+#: utility_editors.py:1295 utility_editors.py:628
+msgid "Area to Render"
+msgstr "算圖範圍"
+
+#: utility_editors.py:1300 utility_editors.py:629
+msgid "Crop"
+msgstr "裁切"
+
+#: utility_editors.py:1303
+msgid "Blowup"
+msgstr "放大算圖"
+
+#: utility_editors.py:1314
+msgid "Iterative Rendering Mode"
+msgstr "迭代式算圖模式"
+
+#: utility_editors.py:1314
+msgid "ActiveShade Mode"
+msgstr "實時算圖模式"
+
+#: utility_editors.py:1314
+msgid "Submit to Network Rendering"
+msgstr "提交至網路算圖"
+
+#: utility_editors.py:1321
+msgid "Output File Format"
+msgstr "輸出檔案格式"

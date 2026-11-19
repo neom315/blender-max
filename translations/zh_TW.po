@@ -4,16 +4,10 @@
 # empty to keep the English text. See docs/TRANSLATING.md.
 msgid ""
 msgstr ""
-"Project-Id-Version: MaxFlow 0.8.3\n"
+"Project-Id-Version: MaxFlow 0.8.5\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8.12\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_TW\n"
 
 #: __init__.py:6 chrome.py:452 chrome.py:431 i18n.py:15 (+4)
@@ -40,11 +34,15 @@ msgstr "MaxFlow：無法停用"
 msgid "MaxFlow: preferences migrated from Blender Studio Max"
 msgstr "MaxFlow：已從Blender Studio Max移轉偏好設定"
 
+#: animation_ui.py:35 animation_ui.py:363 animation_ui.py:300 animation_ui.py:419 (+17)
+msgid "Curve"
+msgstr "曲線"
+
 #: animation_ui.py:101 animation_ui.py:111 editors.py:156 surfaces.py:1272 (+2)
 msgid "Position"
 msgstr "位置"
 
-#: animation_ui.py:101 animation_ui.py:111 animation_ui.py:112 (+5)
+#: animation_ui.py:101 animation_ui.py:111 animation_ui.py:112 animation_ui.py:112 (+5)
 msgid "Rotation"
 msgstr "旋轉"
 
@@ -63,6 +61,10 @@ msgstr "縮放"
 #: animation_ui.py:113 surfaces.py:644 surfaces.py:955 surfaces.py:851 (+4)
 msgid "Parameters"
 msgstr "參數"
+
+#: animation_ui.py:118 flyouts.py:106 operators.py:575 surfaces.py:322
+msgid "World"
+msgstr "世界"
 
 #: animation_ui.py:121
 msgid "Objects"
@@ -92,8 +94,7 @@ msgstr "縮放數值"
 msgid "Add Keys"
 msgstr "新增關鍵格"
 
-#: animation_ui.py:292 animation_ui.py:320 keymap.py:35 material_ui.py:1207
-#: (+7)
+#: animation_ui.py:292 animation_ui.py:320 keymap.py:35 material_ui.py:1207 (+7)
 msgid "Zoom Extents"
 msgstr "縮放至全部"
 
@@ -141,8 +142,7 @@ msgstr "攝影表"
 msgid "Return to Viewports"
 msgstr "返回檢視"
 
-#: animation_ui.py:317 animation_ui.py:374 flyouts.py:487 material_ui.py:1517
-#: (+10)
+#: animation_ui.py:317 animation_ui.py:374 flyouts.py:487 material_ui.py:1517 (+10)
 msgid "Edit"
 msgstr "編輯"
 
@@ -166,14 +166,17 @@ msgstr "複製關鍵格"
 msgid "Paste Keys"
 msgstr "貼上關鍵格"
 
-#: animation_ui.py:320 animation_ui.py:374 flyouts.py:106 material_ui.py:1533
-#: (+5)
+#: animation_ui.py:320 animation_ui.py:374 flyouts.py:106 material_ui.py:1533 (+5)
 msgid "View"
 msgstr "檢視"
 
 #: animation_ui.py:322
 msgid "Enable Auto-Zoom"
 msgstr "啟用自動縮放"
+
+#: animation_ui.py:324 animation_ui.py:374
+msgid "Curves"
+msgstr "曲線"
 
 #: animation_ui.py:324
 msgid "Constant Interpolation"
@@ -203,7 +206,7 @@ msgstr "線性外插"
 msgid "Keys"
 msgstr "關鍵格"
 
-#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1230
+#: animation_ui.py:332 scene_ui.py:223 utility_editors.py:1231
 msgid "Invert Selection"
 msgstr "反轉選取"
 
@@ -223,7 +226,7 @@ msgstr "自動"
 msgid "Clamped"
 msgstr "限制"
 
-#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:634
+#: animation_ui.py:337 flyouts.py:393 trackbar.py:278 utility_editors.py:635
 msgid "Custom"
 msgstr "自訂"
 
@@ -243,8 +246,7 @@ msgstr "平坦"
 msgid "Step"
 msgstr "步數"
 
-#: animation_ui.py:339 animation_ui.py:1079 animation_ui.py:374 editors.py:299
-#: (+1)
+#: animation_ui.py:339 animation_ui.py:1079 animation_ui.py:374 editors.py:299 (+1)
 msgid "Time"
 msgstr "時間"
 
@@ -347,6 +349,10 @@ msgstr "編輯動畫軌跡"
 #: animation_ui.py:797
 msgid "Isolate Curve"
 msgstr "隔離曲線"
+
+#: animation_ui.py:798 trackbar.py:275
+msgid "Spline"
+msgstr "樣條線"
 
 #: animation_ui.py:799
 msgid "Stepped"
@@ -536,18 +542,15 @@ msgstr "新增/移除動畫鍵"
 msgid "Move Keys"
 msgstr "移動動畫鍵"
 
-#: animation_ui.py:920 animation_ui.py:330 animation_ui.py:805 flyouts.py:515
-#: (+8)
+#: animation_ui.py:920 animation_ui.py:330 animation_ui.py:805 flyouts.py:515 (+8)
 msgid "Select All"
 msgstr "全選"
 
-#: animation_ui.py:921 animation_ui.py:331 animation_ui.py:804 flyouts.py:516
-#: (+9)
+#: animation_ui.py:921 animation_ui.py:331 animation_ui.py:804 flyouts.py:516 (+9)
 msgid "Select None"
 msgstr "取消全選"
 
-#: animation_ui.py:922 animation_ui.py:804 keymap.py:93 material_ui.py:1195
-#: (+3)
+#: animation_ui.py:922 animation_ui.py:804 keymap.py:93 material_ui.py:1195 (+3)
 msgid "Select Invert"
 msgstr "反向選取"
 
@@ -567,8 +570,7 @@ msgstr "框選水平範圍"
 msgid "Frame Horizontal Extents Keys"
 msgstr "框選動畫鍵的水平範圍"
 
-#: animation_ui.py:927 animation_ui.py:295 animation_ui.py:323
-#: interactions.py:550 (+2)
+#: animation_ui.py:927 animation_ui.py:295 animation_ui.py:323 interactions.py:550 (+2)
 msgid "Zoom"
 msgstr "縮放"
 
@@ -576,8 +578,7 @@ msgstr "縮放"
 msgid "Zoom Region"
 msgstr "縮放至區域"
 
-#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323
-#: utility_editors.py:900 (+1)
+#: animation_ui.py:929 animation_ui.py:294 animation_ui.py:323 utility_editors.py:901 (+1)
 msgid "Pan"
 msgstr "平移"
 
@@ -641,8 +642,7 @@ msgstr "複製(關鍵格)"
 msgid "Paste (keys)"
 msgstr "貼上(關鍵格)"
 
-#: animation_ui.py:944 animation_ui.py:291 animation_ui.py:319
-#: animation_ui.py:335 (+2)
+#: animation_ui.py:944 animation_ui.py:291 animation_ui.py:319 animation_ui.py:335 (+2)
 msgid "Delete Keys"
 msgstr "刪除關鍵格"
 
@@ -689,6 +689,10 @@ msgstr "精簡"
 #: chrome.py:27 editor_host.py:8 editor_host.py:10 editor_host.py:91 (+10)
 msgid "Render"
 msgstr "算圖"
+
+#: chrome.py:27 editor_host.py:8 editor_host.py:10 editor_host.py:300 (+2)
+msgid "Scene"
+msgstr ""
 
 #: chrome.py:28 chrome.py:112 chrome.py:1177
 msgid "Toolbar"
@@ -766,7 +770,7 @@ msgstr "預設著色"
 msgid "Workspaces: Default"
 msgstr "工作區：預設"
 
-#: chrome.py:430 operators.py:51 preferences.py:28 ui.py:98
+#: chrome.py:430 operators.py:51 preferences.py:30 ui.py:98
 msgid "Blender"
 msgstr "Blender"
 
@@ -870,7 +874,7 @@ msgstr "Max指令"
 msgid "UVW Mapping Gizmo"
 msgstr "UVW貼圖操控器"
 
-#: commands.py:677 params.py:461 utility_editors.py:77 utility_editors.py:88
+#: commands.py:677 params.py:461 utility_editors.py:78 utility_editors.py:89
 msgid "UVMap"
 msgstr "UV貼圖"
 
@@ -902,9 +906,13 @@ msgstr "雜訊增強"
 msgid "Displace"
 msgstr "置換"
 
+#: commands.py:691 keymap.py:293 max_menus.py:663
+msgid "Lattice"
+msgstr "晶格"
+
 #: commands.py:692 max_menus.py:663
 msgid "Mirror"
-msgstr "鏡射"
+msgstr ""
 
 #: commands.py:692 max_menus.py:636 operators.py:675 surfaces.py:782
 msgid "Symmetry"
@@ -1211,8 +1219,7 @@ msgid "Pick a space warp (force field)"
 msgstr "選取空間扭曲(力場)"
 
 #: commands.py:1021
-msgid ""
-"Blender space warps affect simulations (cloth, soft body, particles) only"
+msgid "Blender space warps affect simulations (cloth, soft body, particles) only"
 msgstr "Blender空間扭曲只會影響模擬(布料 柔體 粒子)"
 
 #: commands.py:1048
@@ -1227,7 +1234,7 @@ msgstr "附加：請先返回編輯多邊形頂層"
 msgid "Align Selection"
 msgstr "對齊選取項目"
 
-#: commands.py:1101 surfaces.py:508 utility_editors.py:1310
+#: commands.py:1101 surfaces.py:508 utility_editors.py:1311
 msgid "Target"
 msgstr "目標"
 
@@ -1391,6 +1398,10 @@ msgstr "重新命名物件"
 msgid "Base Name"
 msgstr "基底名稱"
 
+#: commands.py:1326 operators.py:735 operators.py:753
+msgid "Object"
+msgstr "物件"
+
 #: commands.py:1327 commands.py:1328
 msgid "Prefix"
 msgstr "前綴"
@@ -1491,7 +1502,7 @@ msgstr "物件資訊"
 msgid "Scene Root"
 msgstr "場景根節點"
 
-#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:454
+#: commands.py:1516 params.py:52 surfaces.py:1347 utility_editors.py:455
 msgid "None"
 msgstr "無"
 
@@ -1611,8 +1622,7 @@ msgstr "切換四視圖檢視/最大化"
 msgid "Background"
 msgstr "背景"
 
-#: commands.py:1605 material_ui.py:1445 material_ui.py:846 material_ui.py:1382
-#: (+2)
+#: commands.py:1605 material_ui.py:1445 material_ui.py:846 material_ui.py:1382 (+2)
 msgid "Color"
 msgstr "顏色"
 
@@ -1685,12 +1695,10 @@ msgid "Edit Poly layers keep moves only: use this on the base Editable Poly"
 msgstr "編輯多邊形圖層只保留移動：請用於基礎可編輯多邊形"
 
 #: edit_poly.py:47
-msgid ""
-"MaxFlow Edit Poly layer: moves each vertex by the offset stored in the mesh "
-"attribute named by Layer"
+msgid "MaxFlow Edit Poly layer: moves each vertex by the offset stored in the mesh attribute named by Layer"
 msgstr "MaxFlow編輯多邊形圖層：依據名為圖層的網格屬性，移動每個頂點"
 
-#: edit_poly.py:48 edit_poly.py:52 edit_poly.py:62 (+10)
+#: edit_poly.py:48 edit_poly.py:52 edit_poly.py:62 edit_poly.py:62 (+10)
 msgid "Geometry"
 msgstr "幾何體"
 
@@ -1698,9 +1706,12 @@ msgstr "幾何體"
 msgid "Layer"
 msgstr "圖層"
 
+#: edit_poly.py:63
+msgid "Attribute"
+msgstr "屬性"
+
 #: edit_poly.py:284
-msgid ""
-"Edit Poly keeps moves: the added or deleted vertices went to the base object"
+msgid "Edit Poly keeps moves: the added or deleted vertices went to the base object"
 msgstr "編輯多邊形只保留移動：新增或刪除的頂點已移至基礎物件"
 
 #: edit_poly.py:388 keymap.py:220
@@ -1723,7 +1734,7 @@ msgstr "軌跡檢視-曲線編輯器"
 msgid "Track View - Dope Sheet"
 msgstr "軌跡檢視-攝影表"
 
-#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:436
+#: editor_host.py:10 flyouts.py:412 operators.py:809 utility_editors.py:437
 msgid "Edit UVWs"
 msgstr "編輯UVW"
 
@@ -1735,7 +1746,7 @@ msgstr "算圖設定"
 msgid "Scene Explorer"
 msgstr "場景總管"
 
-#: editor_host.py:141 utility_editors.py:551
+#: editor_host.py:141 utility_editors.py:552
 msgid "Cycles"
 msgstr "Cycles"
 
@@ -1759,16 +1770,17 @@ msgstr "選取支援材質的可編輯物件"
 msgid "Max Material"
 msgstr "Max材質"
 
-#: editors.py:69 material_ui.py:511 material_ui.py:1192 material_ui.py:1213
-#: (+4)
+#: editors.py:69 material_ui.py:511 material_ui.py:1192 material_ui.py:1213 (+4)
 msgid "Assign Material to Selection"
 msgstr "將材質指派給選取項目"
 
 #: editors.py:70
-msgid ""
-"Assign the active material to selected objects, or selected faces in Edit "
-"Mode"
+msgid "Assign the active material to selected objects, or selected faces in Edit Mode"
 msgstr "將作用中的材質指派給選取的物件，或編輯模式中選取的面"
+
+#: editors.py:72 material_ui.py:1506 material_ui.py:797 material_ui.py:87 (+4)
+msgid "Material"
+msgstr "材質"
 
 #: editors.py:79
 msgid "Choose a material and select editable objects"
@@ -1803,9 +1815,7 @@ msgid "Set Transform Keys"
 msgstr "設定變換鍵"
 
 #: editors.py:152
-msgid ""
-"Insert Blender transform keys for selected objects or pose bones at the "
-"current frame"
+msgid "Insert Blender transform keys for selected objects or pose bones at the current frame"
 msgstr "在目前影格為選取的物件或姿勢骨骼插入Blender變換鍵"
 
 #: editors.py:154
@@ -1845,9 +1855,7 @@ msgid "Keyed"
 msgstr "已設定關鍵格"
 
 #: editors.py:206
-msgid ""
-"Set interpolation on keys at the current frame for selected objects or "
-"selected pose bones"
+msgid "Set interpolation on keys at the current frame for selected objects or selected pose bones"
 msgstr "為選取的物件或姿勢骨骼，在目前影格的關鍵格上設定插值"
 
 #: editors.py:208 surfaces.py:1170
@@ -1970,9 +1978,17 @@ msgstr "變形器"
 msgid "Combos..."
 msgstr "組合..."
 
+#: flyouts.py:75 surfaces.py:325 surfaces.py:736
+msgid "Bone"
+msgstr "骨骼"
+
 #: flyouts.py:76
 msgid "IK Chain Object"
 msgstr "IK鏈結物件"
+
+#: flyouts.py:77 max_menus.py:567 operators.py:439 surfaces.py:510 (+1)
+msgid "Point"
+msgstr "點"
 
 #: flyouts.py:78
 msgid "CAT Bone"
@@ -2021,6 +2037,10 @@ msgstr "選取並壓扁"
 #: flyouts.py:102 interactions.py:648 surfaces.py:382 ui.py:54
 msgid "Reference Coordinate System"
 msgstr "參考座標系統"
+
+#: flyouts.py:106 max_menus.py:1155 surfaces.py:322
+msgid "Screen"
+msgstr "螢幕"
 
 #: flyouts.py:106 surfaces.py:322
 msgid "Parent"
@@ -2250,7 +2270,7 @@ msgstr "其他"
 msgid "Utilities"
 msgstr "公用程式"
 
-#: flyouts.py:417 preferences.py:39
+#: flyouts.py:417 preferences.py:41
 msgid "Shortcut Reference"
 msgstr "快速鍵參照"
 
@@ -2294,7 +2314,7 @@ msgstr "顯示功能區"
 msgid "Polygon Modeling"
 msgstr "多邊形建模"
 
-#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1234
+#: flyouts.py:480 quad.py:95 surfaces.py:743 utility_editors.py:1235
 msgid "Vertex"
 msgstr "頂點"
 
@@ -2306,7 +2326,7 @@ msgstr "邊"
 msgid "Border"
 msgstr "邊界"
 
-#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1234
+#: flyouts.py:480 quad.py:97 surfaces.py:743 utility_editors.py:1235
 msgid "Polygon"
 msgstr "多邊形"
 
@@ -2586,7 +2606,7 @@ msgstr "鉸鏈"
 msgid "Extrude on Spline"
 msgstr "沿樣條擠出"
 
-#: flyouts.py:509 surfaces.py:1866 utility_editors.py:788
+#: flyouts.py:509 surfaces.py:1866 utility_editors.py:789
 msgid "Elements"
 msgstr "元素"
 
@@ -2734,6 +2754,10 @@ msgstr "結束時間"
 msgid "Current Time"
 msgstr "目前時間"
 
+#: i18n.py:16
+msgid "Operator"
+msgstr "操作器"
+
 #: icons.py:116
 msgid "Non-simple icon outline"
 msgstr "非簡單圖示外框"
@@ -2803,9 +2827,7 @@ msgid "Place selected objects on another visible mesh, aligned to its surface"
 msgstr "將選取的物件放置於另一個可見網格上，並與其表面對齊"
 
 #: interactions.py:594
-msgid ""
-"Place on a visible surface. Click to finish; Esc or right-click restores the "
-"original transform."
+msgid "Place on a visible surface. Click to finish; Esc or right-click restores the original transform."
 msgstr "放置於可見表面上按一下以完成；按Esc或按滑鼠右鍵可還原原始變換."
 
 #: interactions.py:672
@@ -3132,6 +3154,10 @@ msgstr "從視圖建立標準攝影機"
 msgid "WalkThrough View Mode"
 msgstr "漫遊視圖模式"
 
+#: keymap.py:128
+msgid "Space"
+msgstr "空白鍵"
+
 #: keymap.py:129
 msgid "Viewports quad (views)"
 msgstr "四視口(視圖)"
@@ -3200,6 +3226,18 @@ msgstr "旋轉邊"
 msgid "Object Mode"
 msgstr "物件模式"
 
+#: keymap.py:263 max_menus.py:1155
+msgid "Mesh"
+msgstr "網格"
+
+#: keymap.py:293
+msgid "Armature"
+msgstr "骨骼"
+
+#: keymap.py:293
+msgid "Pose"
+msgstr "姿勢"
+
 #: keymap.py:293
 msgid "Font"
 msgstr "字型"
@@ -3216,7 +3254,7 @@ msgstr "漫反射"
 msgid "Glass"
 msgstr "玻璃"
 
-#: material_ui.py:41 material_ui.py:821 utility_editors.py:758
+#: material_ui.py:41 material_ui.py:821 material_ui.py:821 utility_editors.py:759
 msgid "Emission"
 msgstr "自發光"
 
@@ -3228,8 +3266,7 @@ msgstr "混合材質"
 msgid "Material Output"
 msgstr "材質輸出"
 
-#: material_ui.py:44 material_ui.py:45 material_ui.py:46 material_ui.py:47
-#: (+12)
+#: material_ui.py:44 material_ui.py:45 material_ui.py:46 material_ui.py:47 (+12)
 msgid "Maps"
 msgstr "貼圖"
 
@@ -3269,8 +3306,7 @@ msgstr "法線貼圖"
 msgid "Texture Coordinates"
 msgstr "材質座標"
 
-#: material_ui.py:54 utility_editors.py:1252 utility_editors.py:527
-#: utility_editors.py:439
+#: material_ui.py:54 utility_editors.py:1253 utility_editors.py:528 utility_editors.py:440
 msgid "Mapping"
 msgstr "映射"
 
@@ -3282,7 +3318,7 @@ msgstr "數學"
 msgid "RGB Color"
 msgstr "RGB色彩"
 
-#: material_ui.py:60 material_ui.py:816 utility_editors.py:756
+#: material_ui.py:60 material_ui.py:816 utility_editors.py:757
 msgid "Normal"
 msgstr "法線"
 
@@ -3334,8 +3370,7 @@ msgstr "在檢視中顯示著色材質"
 msgid "Show Background in Preview"
 msgstr "在預覽中顯示背景"
 
-#: material_ui.py:517 material_ui.py:1199 material_ui.py:1521
-#: material_ui.py:1535
+#: material_ui.py:517 material_ui.py:1199 material_ui.py:1521 material_ui.py:1535
 msgid "Lay Out All"
 msgstr "排列所有項目"
 
@@ -3343,8 +3378,7 @@ msgstr "排列所有項目"
 msgid "Lay Out Children"
 msgstr "排列子項"
 
-#: material_ui.py:518 material_ui.py:587 material_ui.py:1203
-#: material_ui.py:1545
+#: material_ui.py:518 material_ui.py:587 material_ui.py:1203 material_ui.py:1545
 msgid "Material/Map Browser"
 msgstr "材質/貼圖瀏覽器"
 
@@ -3392,8 +3426,7 @@ msgstr "材質參數"
 msgid "No material selected"
 msgstr "未選取材質"
 
-#: material_ui.py:787 material_ui.py:1225 material_ui.py:1566
-#: material_ui.py:1508
+#: material_ui.py:787 material_ui.py:1225 material_ui.py:1566 material_ui.py:1508
 msgid "Create Material"
 msgstr "建立材質"
 
@@ -3473,7 +3506,7 @@ msgstr "貼圖參數"
 msgid "No numeric inputs"
 msgstr "沒有數值輸入"
 
-#: material_ui.py:840 utility_editors.py:739
+#: material_ui.py:840 utility_editors.py:740
 msgid "Output"
 msgstr "輸出"
 
@@ -3505,12 +3538,11 @@ msgstr "導覽器"
 msgid "Frame All Nodes"
 msgstr "框選所有節點"
 
-#: material_ui.py:955
+#: material_ui.py:955 material_ui.py:1005
 msgid "Sample Slots"
 msgstr "取樣槽"
 
-#: material_ui.py:956 material_ui.py:861 utility_editors.py:1260
-#: utility_editors.py:440 (+1)
+#: material_ui.py:956 material_ui.py:861 utility_editors.py:1261 utility_editors.py:441 (+1)
 msgid "Options"
 msgstr "選項"
 
@@ -3675,20 +3707,15 @@ msgid "Material Option"
 msgstr "材質選項"
 
 #: max_gizmo.py:765
-msgid ""
-"Move with the 3ds Max move gizmo: axis arrows, plane corners and the view-"
-"plane square"
+msgid "Move with the 3ds Max move gizmo: axis arrows, plane corners and the view-plane square"
 msgstr "使用3dsMax移動操控器移動：軸向箭頭、平面角落與視圖平面方塊"
 
 #: max_gizmo.py:775
-msgid ""
-"Rotate with the 3ds Max rotate gizmo: axis rings, the view ring and free "
-"rotation inside"
+msgid "Rotate with the 3ds Max rotate gizmo: axis rings, the view ring and free rotation inside"
 msgstr "使用3dsMax旋轉操控器旋轉：軸向環、視圖環與內部自由旋轉區"
 
 #: max_gizmo.py:785
-msgid ""
-"Scale with the 3ds Max scale gizmo: uniform centre, plane bands and axes"
+msgid "Scale with the 3ds Max scale gizmo: uniform centre, plane bands and axes"
 msgstr "使用3dsMax縮放操控器縮放：等比例中心、平面帶與軸向"
 
 #: max_menus.py:29
@@ -4429,7 +4456,7 @@ msgstr "標準圖元"
 
 #: max_menus.py:460 operators.py:430 params.py:10 params.py:122 (+1)
 msgid "Box"
-msgstr "立方"
+msgstr "立方體"
 
 #: max_menus.py:461 operators.py:430 params.py:10 surfaces.py:481
 msgid "Cone"
@@ -4743,6 +4770,10 @@ msgstr "多邊形"
 msgid "Star"
 msgstr "星形"
 
+#: max_menus.py:527 operators.py:434 operators.py:554 surfaces.py:733 (+1)
+msgid "Text"
+msgstr "文本"
+
 #: max_menus.py:528 operators.py:434 surfaces.py:497
 msgid "Helix"
 msgstr "螺旋線"
@@ -4891,7 +4922,7 @@ msgstr "代理物件"
 msgid "Crowd"
 msgstr "群集"
 
-#: max_menus.py:581 utility_editors.py:655 utility_editors.py:660
+#: max_menus.py:581 utility_editors.py:656 utility_editors.py:661
 msgid "Atmospherics"
 msgstr "大氣效果"
 
@@ -6507,7 +6538,7 @@ msgstr "場景燈光控制"
 msgid "Progressive Skylight"
 msgstr "漸進式天光"
 
-#: max_menus.py:1068 quad.py:125 utility_editors.py:719
+#: max_menus.py:1068 quad.py:125 utility_editors.py:720
 msgid "Shadows"
 msgstr "陰影"
 
@@ -6583,6 +6614,10 @@ msgstr "檢視偏好設定"
 msgid "Viewport Filter"
 msgstr "檢視篩選器"
 
+#: max_menus.py:1155 max_menus.py:291
+msgid "Window"
+msgstr "視窗"
+
 #: max_menus.py:1203
 msgid "Not Available"
 msgstr "無法使用"
@@ -6630,6 +6665,10 @@ msgstr "在原始Blender工作區與MaxFlow之間切換"
 #: operators.py:92
 msgid "Select Transform Tool"
 msgstr "選取變換工具"
+
+#: operators.py:116 runtime.py:367 runtime.py:390
+msgid "Camera"
+msgstr "攝影機"
 
 #: operators.py:127
 msgid "Viewport Direction"
@@ -6776,9 +6815,7 @@ msgid "MaxFlow Shortcut Reference"
 msgstr "MaxFlow快捷鍵參照"
 
 #: operators.py:856
-msgid ""
-"MMB pan · Alt+MMB orbit · Ctrl+Alt+MMB zoom · Wheel zoom · Right-click quad "
-"menu"
+msgid "MMB pan · Alt+MMB orbit · Ctrl+Alt+MMB zoom · Wheel zoom · Right-click quad menu"
 msgstr "中鍵平移·Alt+中鍵環繞·Ctrl+Alt+中鍵縮放·滾輪縮放·右鍵開啟四分選單"
 
 #: operators.py:861 quad.py:344
@@ -6789,7 +6826,7 @@ msgstr "四元選單"
 msgid "Unify Normals"
 msgstr "統一法線"
 
-#: operators.py:966 utility_editors.py:528
+#: operators.py:966 utility_editors.py:529
 msgid "Unwrap"
 msgstr "展開 UVW"
 
@@ -6802,9 +6839,7 @@ msgid "Confirm on Release"
 msgstr "放開時確認"
 
 #: operators.py:974
-msgid ""
-"Set the amount when the mouse button is released (dragging from the "
-"command); otherwise the next click sets it"
+msgid "Set the amount when the mouse button is released (dragging from the command); otherwise the next click sets it"
 msgstr "放開滑鼠按鈕時設定數量(從命令開始拖曳)；否則由下一次點擊設定"
 
 #: operators.py:999
@@ -7084,9 +7119,7 @@ msgid "Max gray colors"
 msgstr "Max灰階色彩"
 
 #: preferences.py:15
-msgid ""
-"Temporarily apply original gray UI colors; restore the previous colors on "
-"exit"
+msgid "Temporarily apply original gray UI colors; restore the previous colors on exit"
 msgstr "暫時套用原始灰色界面色彩；結束時還原先前的色彩"
 
 #: preferences.py:17
@@ -7094,28 +7127,22 @@ msgid "Custom Splash Image"
 msgstr "自訂啟動畫面圖片"
 
 #: preferences.py:18
-msgid ""
-"PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's "
-"own splash is 1000 x 500 px; the version number is drawn at the top right"
-msgstr ""
-"Max模式開啟時，以PNG或JPEG顯示為Blender的啟動畫面Blender預設的啟動畫面尺寸為"
-"1000x500px；版本號碼會顯示在右上角"
+msgid "PNG or JPEG shown as Blender's splash screen while Max mode is on. Blender's own splash is 1000 x 500 px; the version number is drawn at the top right"
+msgstr "Max模式開啟時，以PNG或JPEG顯示為Blender的啟動畫面Blender預設的啟動畫面尺寸為1000x500px；版本號碼會顯示在右上角"
 
-#: preferences.py:25
+#: preferences.py:27
 msgid "Development preview"
 msgstr "開發預覽版"
 
-#: preferences.py:33
+#: preferences.py:35
 msgid "Switch back to Blender before changing the color option."
 msgstr "變更色彩選項前，請先切換回Blender"
 
-#: preferences.py:37
-msgid ""
-"Splash: 1000 x 500 px like the original; used at startup while Max mode is "
-"on."
+#: preferences.py:39
+msgid "Splash: 1000 x 500 px like the original; used at startup while Max mode is on."
 msgstr "啟動畫面：1000x500px，與原版相同；在Max模式開啟時於啟動期間使用"
 
-#: preferences.py:38
+#: preferences.py:40
 msgid "Materials, modifiers and animation use Blender data."
 msgstr "材質、修改器與動畫使用Blender資料"
 
@@ -7256,8 +7283,7 @@ msgid "C:/Windows"
 msgstr "C:/Windows"
 
 #: quad.py:432
-msgid ""
-"Choose the transform and open its Type-In dialog, like the option box in Max"
+msgid "Choose the transform and open its Type-In dialog, like the option box in Max"
 msgstr "選擇變換並開啟其數值輸入對話框，如同Max中的選項方塊"
 
 #: quad.py:442 quad.py:106 surfaces.py:1090
@@ -7279,6 +7305,10 @@ msgstr "Blender Max"
 #: runtime.py:150
 msgid "MaxFlow: invalid theme recovery data; snapshot retained"
 msgstr "MaxFlow：佈景主題復原資料無效；已保留快照"
+
+#: runtime.py:368 runtime.py:390 surfaces.py:734
+msgid "Light"
+msgstr "燈光"
 
 #: runtime.py:452
 msgid "The MaxFlow workspace could not be appended"
@@ -7424,15 +7454,15 @@ msgstr "細分曲面"
 msgid "Polygon: Smoothing Groups"
 msgstr "多邊形：平滑群組"
 
-#: surfaces.py:42 utility_editors.py:685 utility_editors.py:688
+#: surfaces.py:42 utility_editors.py:686 utility_editors.py:689
 msgid "Email Notifications"
 msgstr "電子郵件通知"
 
-#: surfaces.py:42 utility_editors.py:685 utility_editors.py:690
+#: surfaces.py:42 utility_editors.py:686 utility_editors.py:691
 msgid "Scripts"
 msgstr "指令碼"
 
-#: surfaces.py:42 utility_editors.py:685
+#: surfaces.py:42 utility_editors.py:686
 msgid "Assign Renderer"
 msgstr "指派算圖器"
 
@@ -7536,7 +7566,7 @@ msgstr "石板材質編輯器(M)"
 msgid "Render Setup... (F10)"
 msgstr "算圖設定...(F10)"
 
-#: surfaces.py:420 utility_editors.py:680
+#: surfaces.py:420 utility_editors.py:681
 msgid "Rendered Frame Window"
 msgstr "已算圖影格視窗"
 
@@ -7984,7 +8014,7 @@ msgstr "權重設定"
 msgid "Object:"
 msgstr "物件："
 
-#: surfaces.py:982 utility_editors.py:774
+#: surfaces.py:982 utility_editors.py:775
 msgid "Target:"
 msgstr "目標："
 
@@ -8060,7 +8090,7 @@ msgstr "編輯多邊形模式"
 msgid "Moves stay in this modifier and"
 msgstr "移動會保留在此修改器中"
 
-#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1043
+#: surfaces.py:1084 surfaces.py:1857 utility_editors.py:1044
 msgid "Selection"
 msgstr "選取"
 
@@ -8476,7 +8506,7 @@ msgstr "開啟監聽器"
 msgid "Open Script"
 msgstr "開啟指令碼"
 
-#: surfaces.py:1471 utility_editors.py:502
+#: surfaces.py:1471 utility_editors.py:503
 msgid "Select a mesh object"
 msgstr "選取網格物件"
 
@@ -8580,7 +8610,7 @@ msgstr "切換設定關鍵格模式"
 msgid "Selection Set for Set Keys"
 msgstr "設定關鍵格的選取集"
 
-#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1303
+#: surfaces.py:1637 trackbar.py:269 utility_editors.py:1304
 msgid "Selected"
 msgstr "已選取"
 
@@ -8973,9 +9003,7 @@ msgid "Selection Sets"
 msgstr "選取集"
 
 #: trackbar.py:292
-msgid ""
-"Sets Blender's interpolation and handle type for new keys (Preferences > "
-"Animation)"
+msgid "Sets Blender's interpolation and handle type for new keys (Preferences > Animation)"
 msgstr "設定Blender新增關鍵格的插值與控制柄類型(偏好設定>動畫)"
 
 #: trackbar.py:309
@@ -8983,8 +9011,7 @@ msgid "Default In/Out Tangents"
 msgstr "預設入切線/出切線"
 
 #: trackbar.py:326
-msgid ""
-"Show only the selection in the active viewport, or end isolation (Alt+Q)"
+msgid "Show only the selection in the active viewport, or end isolation (Alt+Q)"
 msgstr "只在作用中的檢視顯示選取項目，或結束隔離模式(Alt+Q)"
 
 #: trackbar.py:334
@@ -9000,10 +9027,7 @@ msgid "Previous/Next Frame"
 msgstr "上一格/下一格"
 
 #: trackbar.py:349
-msgid ""
-"One frame back or forward; with Key Mode on, the previous or next key of the "
-"selection"
-msgstr ""
+msgid "One frame back or forward; with Key Mode on, the previous or next key of the selection"
 "向後或向前移動一格；開啟關鍵格模式時，移至選取項目的上一個或下一個關鍵格"
 
 #: trackbar.py:372
@@ -9043,9 +9067,7 @@ msgid "Safe Scene Script Execution"
 msgstr "安全執行場景指令碼"
 
 #: trackbar.py:475
-msgid ""
-"Blender's protection against Python scripts embedded in scene files "
-"(Preferences > Save & Load)"
+msgid "Blender's protection against Python scripts embedded in scene files (Preferences > Save & Load)"
 msgstr "Blender防護場景檔案中嵌入的Python指令碼(偏好設定>儲存與載入)"
 
 #: trackbar.py:479
@@ -9200,587 +9222,590 @@ msgstr "選取相依項目"
 msgid "Find..."
 msgstr "尋找..."
 
-#: utility_editors.py:21 utility_editors.py:610 utility_editors.py:788
+#: utility_editors.py:22 utility_editors.py:611 utility_editors.py:789 utility_editors.py:789
 msgid "Common"
 msgstr "一般"
 
-#: utility_editors.py:230
+#: utility_editors.py:231
 msgid "The mesh topology changed during the UV edit"
 msgstr "UV編輯期間網格拓樸已變更"
 
-#: utility_editors.py:267
+#: utility_editors.py:268
 msgid "Finish editing the other object before editing these UVs"
 msgstr "請先完成其他物件的編輯，再編輯這些UV"
 
-#: utility_editors.py:273
+#: utility_editors.py:274
 msgid "No editor area is available for UV operations"
 msgstr "沒有可用於UV操作的編輯器區域"
 
-#: utility_editors.py:314 utility_editors.py:63 utility_editors.py:1112
+#: utility_editors.py:315 utility_editors.py:64 utility_editors.py:1113
 msgid "Select an editable mesh object"
 msgstr "請選取可編輯的網格物件"
 
-#: utility_editors.py:326
+#: utility_editors.py:327
 msgid "Select the texture vertices to weld"
 msgstr "請選取要焊接的紋理頂點"
 
-#: utility_editors.py:329
+#: utility_editors.py:330
 msgid "The mesh has no polygon faces to map"
 msgstr "網格沒有可供映射的多邊形面"
 
-#: utility_editors.py:354
+#: utility_editors.py:355
 msgid "The UV operation was cancelled by Blender"
 msgstr "Blender已取消UV操作"
 
-#: utility_editors.py:452
+#: utility_editors.py:447 utility_editors.py:1301 utility_editors.py:630
+msgid "Region"
+msgstr "地區"
+
+#: utility_editors.py:453
 msgid "CheckerPattern"
 msgstr "內建檢查圖"
 
-#: utility_editors.py:500
+#: utility_editors.py:501
 msgid "The mesh has no faces"
 msgstr "網格沒有面"
 
-#: utility_editors.py:502
+#: utility_editors.py:503
 msgid "Create UV coordinates with Unwrap or Flatten Mapping"
 msgstr "使用解開或展平映射建立UV座標"
 
-#: utility_editors.py:517
+#: utility_editors.py:518
 msgid "Selection Modes"
 msgstr "選取模式"
 
-#: utility_editors.py:523
+#: utility_editors.py:524
 msgid "Quick Transform"
 msgstr "快速變換"
 
-#: utility_editors.py:524 utility_editors.py:1245
+#: utility_editors.py:525 utility_editors.py:1246
 msgid "Rotate +90°"
 msgstr "旋轉+90°"
 
-#: utility_editors.py:524 utility_editors.py:1245
+#: utility_editors.py:525 utility_editors.py:1246
 msgid "Mirror Horizontal"
 msgstr "水平鏡像"
 
-#: utility_editors.py:524 utility_editors.py:1246
+#: utility_editors.py:525 utility_editors.py:1247
 msgid "Mirror Vertical"
 msgstr "垂直鏡像"
 
-#: utility_editors.py:528
+#: utility_editors.py:529
 msgid "Flatten Mapping"
 msgstr "展平映射"
 
-#: utility_editors.py:528 utility_editors.py:1255
+#: utility_editors.py:529 utility_editors.py:1256
 msgid "Pack Islands"
 msgstr "打包島區"
 
-#: utility_editors.py:528 utility_editors.py:1255
+#: utility_editors.py:529 utility_editors.py:1256
 msgid "Rescale Islands"
 msgstr "重新縮放島區"
 
-#: utility_editors.py:531
+#: utility_editors.py:532
 msgid "Selection and Pins"
 msgstr "選取與釘選"
 
-#: utility_editors.py:532 utility_editors.py:1230
+#: utility_editors.py:533 utility_editors.py:1231
 msgid "Selection From Base"
 msgstr "從基底選取"
 
-#: utility_editors.py:532 utility_editors.py:1231
+#: utility_editors.py:533 utility_editors.py:1232
 msgid "Selection To Base"
 msgstr "選取至基底"
 
-#: utility_editors.py:537
+#: utility_editors.py:538
 msgid "Selected Polygons Only"
 msgstr "僅限選取的多邊形"
 
-#: utility_editors.py:539
+#: utility_editors.py:540
 msgid "MMB: Pan   Wheel: Zoom   W/E/R: Transform   Esc: Cancel"
 msgstr "中鍵:平移 滾輪:縮放 W/E/R:變換 Esc:取消"
 
-#: utility_editors.py:563
+#: utility_editors.py:564
 msgid "Choose a Camera"
 msgstr "選擇攝影機"
 
-#: utility_editors.py:611
+#: utility_editors.py:612 utility_editors.py:612
 msgid "Common Parameters"
 msgstr "一般參數"
 
-#: utility_editors.py:613
+#: utility_editors.py:614
 msgid "Time Output"
 msgstr "時間輸出"
 
-#: utility_editors.py:615
+#: utility_editors.py:616
 msgid "Single"
 msgstr "單一"
 
-#: utility_editors.py:616
+#: utility_editors.py:617
 msgid "Every Nth Frame:"
 msgstr "每隔N格："
 
-#: utility_editors.py:620
+#: utility_editors.py:621
 msgid "Range:"
 msgstr "範圍："
 
-#: utility_editors.py:622
+#: utility_editors.py:623
 msgid "To"
 msgstr "至"
 
-#: utility_editors.py:624
+#: utility_editors.py:625
 msgid "File Number Base:"
 msgstr "檔案編號基底："
 
-#: utility_editors.py:626
+#: utility_editors.py:627
 msgid "Frames"
 msgstr "影格"
 
-#: utility_editors.py:631
+#: utility_editors.py:632
 msgid "Auto Region Selected"
 msgstr "自動選取區域"
 
-#: utility_editors.py:634
+#: utility_editors.py:635
 msgid "HDTV (video)"
 msgstr "HDTV(影像)"
 
-#: utility_editors.py:638 utility_editors.py:639
+#: utility_editors.py:639 utility_editors.py:640
 msgid "Aperture Width(mm):"
 msgstr "光圈寬度(mm):"
 
-#: utility_editors.py:642
+#: utility_editors.py:643
 msgid "Aperture Width(mm): 36.000"
 msgstr "光圈寬度(mm):36.000"
 
-#: utility_editors.py:652
+#: utility_editors.py:653
 msgid "Pixel Aspect:"
 msgstr "像素長寬比:"
 
-#: utility_editors.py:655
+#: utility_editors.py:656
 msgid "Effects"
 msgstr "效果"
 
-#: utility_editors.py:655 utility_editors.py:660
+#: utility_editors.py:656 utility_editors.py:661
 msgid "Displacement"
 msgstr "位移"
 
-#: utility_editors.py:656
+#: utility_editors.py:657
 msgid "Video Color Check"
 msgstr "視訊色彩檢查"
 
-#: utility_editors.py:656
+#: utility_editors.py:657
 msgid "Render to Fields"
 msgstr "算圖視訊場"
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Render Hidden Geometry"
 msgstr "算圖隱藏幾何"
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Area Lights/Shadows as Points"
 msgstr "區域燈光/陰影以點光源計算"
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Force 2-Sided"
 msgstr "強制雙面"
 
-#: utility_editors.py:661
+#: utility_editors.py:662
 msgid "Super Black"
 msgstr "超級黑"
 
-#: utility_editors.py:663
+#: utility_editors.py:664
 msgid "Advanced Lighting"
 msgstr "進階照明"
 
-#: utility_editors.py:664
+#: utility_editors.py:665
 msgid "Use Advanced Lighting"
 msgstr "使用進階照明"
 
-#: utility_editors.py:665
+#: utility_editors.py:666
 msgid "Compute Advanced Lighting when Required"
 msgstr "需要時才計算進階照明"
 
-#: utility_editors.py:666
+#: utility_editors.py:667
 msgid "Bitmap Performance and Memory Options"
 msgstr "點陣圖效能與記憶體選項"
 
-#: utility_editors.py:667
+#: utility_editors.py:668
 msgid "Bitmap Proxies / Paging Disabled"
 msgstr "停用點陣圖代理/分頁"
 
-#: utility_editors.py:668
+#: utility_editors.py:669
 msgid "Setup..."
 msgstr "設定..."
 
-#: utility_editors.py:669
+#: utility_editors.py:670
 msgid "Render Output"
 msgstr "算圖輸出"
 
-#: utility_editors.py:673
+#: utility_editors.py:674
 msgid "Put Image File List(s) in Output Path(s)"
 msgstr "將影像檔案清單放入輸出路徑"
 
-#: utility_editors.py:674
+#: utility_editors.py:675
 msgid "Create Now"
 msgstr "立即建立"
 
-#: utility_editors.py:675
+#: utility_editors.py:676
 msgid "Autodesk ME Image Sequence File (.imsq)"
 msgstr "AutodeskME影像序列檔案(.imsq)"
 
-#: utility_editors.py:676
+#: utility_editors.py:677
 msgid "Legacy 3ds Max Image File List (.ifl)"
 msgstr "舊版3dsMax影像檔案清單(.ifl)"
 
-#: utility_editors.py:677
+#: utility_editors.py:678
 msgid "Use Device"
 msgstr "使用裝置"
 
-#: utility_editors.py:679
+#: utility_editors.py:680
 msgid "Devices..."
 msgstr "裝置..."
 
-#: utility_editors.py:682
+#: utility_editors.py:683
 msgid "Skip Existing Images"
 msgstr "略過現有影像"
 
-#: utility_editors.py:689
+#: utility_editors.py:690
 msgid "Enable Notifications"
 msgstr "啟用通知"
 
-#: utility_editors.py:691
+#: utility_editors.py:692
 msgid "Pre-Render: Enable"
 msgstr "預先算圖：啟用"
 
-#: utility_editors.py:692
+#: utility_editors.py:693
 msgid "Post-Render: Enable"
 msgstr "後處理算圖：啟用"
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "Production:"
 msgstr "製作："
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "Material Editor:"
 msgstr "材質編輯器："
 
-#: utility_editors.py:694
+#: utility_editors.py:695
 msgid "ActiveShade:"
 msgstr "實時算圖："
 
-#: utility_editors.py:709 utility_editors.py:716
+#: utility_editors.py:710 utility_editors.py:717
 msgid "Render Samples"
 msgstr "算圖取樣數"
 
-#: utility_editors.py:709 utility_editors.py:716
+#: utility_editors.py:710 utility_editors.py:717
 msgid "Viewport Samples"
 msgstr "檢視取樣數"
 
-#: utility_editors.py:710
+#: utility_editors.py:711
 msgid "Max Bounces"
 msgstr "最大反彈次數"
 
-#: utility_editors.py:710
+#: utility_editors.py:711
 msgid "Diffuse Bounces"
 msgstr "漫射反彈次數"
 
-#: utility_editors.py:711
+#: utility_editors.py:712
 msgid "Glossy Bounces"
 msgstr "光澤反彈次數"
 
-#: utility_editors.py:711
+#: utility_editors.py:712
 msgid "Transmission Bounces"
 msgstr "傳輸反彈"
 
-#: utility_editors.py:712
+#: utility_editors.py:713
 msgid "Transparent Bounces"
 msgstr "透明反彈"
 
-#: utility_editors.py:712
+#: utility_editors.py:713
 msgid "Noise Threshold"
 msgstr "雜訊閾值"
 
-#: utility_editors.py:713
+#: utility_editors.py:714
 msgid "Denoising"
 msgstr "降噪"
 
-#: utility_editors.py:713
+#: utility_editors.py:714
 msgid "Adaptive Sampling"
 msgstr "符合取樣"
 
-#: utility_editors.py:717
+#: utility_editors.py:718
 msgid "Shadow Rays"
 msgstr "陰影光線"
 
-#: utility_editors.py:717
+#: utility_editors.py:718
 msgid "Shadow Steps"
 msgstr "陰影步數"
 
-#: utility_editors.py:718
+#: utility_editors.py:719
 msgid "Volume Samples"
 msgstr "體積取樣"
 
-#: utility_editors.py:718
+#: utility_editors.py:719
 msgid "Light Threshold"
 msgstr "光線閾值"
 
-#: utility_editors.py:719
+#: utility_editors.py:720
 msgid "Ray Tracing"
 msgstr "光線追蹤"
 
-#: utility_editors.py:722
+#: utility_editors.py:723
 msgid "Render Anti-Aliasing"
 msgstr "算圖抗鋸齒"
 
-#: utility_editors.py:741
+#: utility_editors.py:742
 msgid "File Format:"
 msgstr "檔案格式："
 
-#: utility_editors.py:744
+#: utility_editors.py:745
 msgid "Output %:"
 msgstr "輸出%："
 
-#: utility_editors.py:747
+#: utility_editors.py:748
 msgid "Transparent Background"
 msgstr "透明背景"
 
-#: utility_editors.py:749
+#: utility_editors.py:750
 msgid "Motion Blur"
 msgstr "動態模糊"
 
-#: utility_editors.py:756
+#: utility_editors.py:757
 msgid "Z Depth"
 msgstr "Z景深"
 
-#: utility_editors.py:756
+#: utility_editors.py:757
 msgid "Mist"
 msgstr "霧"
 
-#: utility_editors.py:757
+#: utility_editors.py:758
 msgid "Diffuse Color"
 msgstr "漫射色彩"
 
-#: utility_editors.py:757
+#: utility_editors.py:758
 msgid "Specular (Glossy) Color"
 msgstr "鏡面(光澤)顏色"
 
-#: utility_editors.py:758
+#: utility_editors.py:759
 msgid "Ambient Occlusion"
 msgstr "環境光遮蔽"
 
-#: utility_editors.py:759
+#: utility_editors.py:760
 msgid "Shadow"
 msgstr "陰影"
 
-#: utility_editors.py:759
+#: utility_editors.py:760
 msgid "Cryptomatte Object"
 msgstr "加密遮罩物件"
 
-#: utility_editors.py:760
+#: utility_editors.py:761
 msgid "Cryptomatte Material"
 msgstr "加密遮罩材質"
 
-#: utility_editors.py:775 utility_editors.py:1313
+#: utility_editors.py:776 utility_editors.py:1314
 msgid "Production Rendering Mode"
 msgstr "製作算圖模式"
 
-#: utility_editors.py:776
+#: utility_editors.py:777
 msgid "Preset:"
 msgstr "預設："
 
-#: utility_editors.py:777
+#: utility_editors.py:778
 msgid "No preset selected"
 msgstr "未選取預設"
 
-#: utility_editors.py:778
+#: utility_editors.py:779
 msgid "Renderer:"
 msgstr "算圖器："
 
-#: utility_editors.py:781
+#: utility_editors.py:782
 msgid "Render Animation"
 msgstr "算圖動畫"
 
-#: utility_editors.py:782 utility_editors.py:670
+#: utility_editors.py:783 utility_editors.py:671
 msgid "Save File"
 msgstr "儲存檔案"
 
-#: utility_editors.py:783 utility_editors.py:671
+#: utility_editors.py:784 utility_editors.py:672
 msgid "Files..."
 msgstr "檔案..."
 
-#: utility_editors.py:784
+#: utility_editors.py:785
 msgid "View to Render:"
 msgstr "要算圖的視圖："
 
-#: utility_editors.py:786
+#: utility_editors.py:787
 msgid "Lock View (not available in Blender)"
 msgstr "鎖定視圖(Blender不支援)"
 
-#: utility_editors.py:788 utility_editors.py:762
+#: utility_editors.py:789 utility_editors.py:763 utility_editors.py:763
 msgid "Render Elements"
 msgstr "算圖元素"
 
-#: utility_editors.py:888
+#: utility_editors.py:889
 msgid "Freeform Mode (Select)"
 msgstr "自由模式(選取)"
 
-#: utility_editors.py:889
+#: utility_editors.py:890
 msgid "Texture Vertex Move Mode"
 msgstr "紋理頂點移動模式"
 
-#: utility_editors.py:890
+#: utility_editors.py:891
 msgid "Texture Vertex Rotate Mode"
 msgstr "紋理頂點旋轉模式"
 
-#: utility_editors.py:891
+#: utility_editors.py:892
 msgid "Texture Vertex Scale Mode"
 msgstr "貼圖頂點縮放模式"
 
-#: utility_editors.py:892
+#: utility_editors.py:893
 msgid "Vertex sub-object level"
 msgstr "頂點次物件層級"
 
-#: utility_editors.py:893
+#: utility_editors.py:894
 msgid "Edge sub-object level"
 msgstr "邊次物件層級"
 
-#: utility_editors.py:894
+#: utility_editors.py:895
 msgid "Polygon sub-object level"
 msgstr "多邊形次物件層級"
 
-#: utility_editors.py:901
+#: utility_editors.py:902
 msgid "Rotate +90"
 msgstr "旋轉+90"
 
-#: utility_editors.py:902
+#: utility_editors.py:903
 msgid "Rotate -90"
 msgstr "旋轉-90"
 
-#: utility_editors.py:903
+#: utility_editors.py:904
 msgid "Pack"
 msgstr "封裝"
 
-#: utility_editors.py:904
+#: utility_editors.py:905
 msgid "Quick Peel Unfold"
 msgstr "快速剝離展開"
 
-#: utility_editors.py:905
+#: utility_editors.py:906
 msgid "Texture Vertex Weld Selected"
 msgstr "焊接選取的貼圖頂點"
 
-#: utility_editors.py:964 utility_editors.py:970
+#: utility_editors.py:965 utility_editors.py:971
 msgid "UV Selection"
 msgstr "UV選取"
 
-#: utility_editors.py:1077
+#: utility_editors.py:1078
 msgid "Render Output Size"
 msgstr "算圖輸出尺寸"
 
-#: utility_editors.py:1143
+#: utility_editors.py:1144
 msgid "Render Output File"
 msgstr "算圖輸出檔案"
 
-#: utility_editors.py:1171
+#: utility_editors.py:1172
 msgid "Max Editor Setting"
 msgstr "Max編輯器設定"
 
-#: utility_editors.py:1182
+#: utility_editors.py:1183
 msgid "The camera is no longer in this scene"
 msgstr "攝影機已不在此場景中"
 
-#: utility_editors.py:1191
+#: utility_editors.py:1192
 msgid "Unknown editor setting"
 msgstr "未知的編輯器設定"
 
-#: utility_editors.py:1199
+#: utility_editors.py:1200
 msgid "Edit UVWs Action"
 msgstr "編輯UVW動作"
 
-#: utility_editors.py:1222 utility_editors.py:532
+#: utility_editors.py:1223 utility_editors.py:533
 msgid "Pin Selected"
 msgstr "固定選取項目"
 
-#: utility_editors.py:1223 utility_editors.py:532
+#: utility_editors.py:1224 utility_editors.py:533
 msgid "Unpin Selected"
 msgstr "取消固定選取項目"
 
-#: utility_editors.py:1242
+#: utility_editors.py:1243
 msgid "Region Select"
 msgstr "區域選取"
 
-#: utility_editors.py:1254
+#: utility_editors.py:1255
 msgid "Unwrap (Angle Based)"
 msgstr "展開 (依角度)"
 
-#: utility_editors.py:1254 utility_editors.py:1108
+#: utility_editors.py:1255 utility_editors.py:1109
 msgid "Flatten Mapping (Smart UV Project)"
 msgstr "展平映射(智慧型UV投影)"
 
-#: utility_editors.py:1262
+#: utility_editors.py:1263
 msgid "Show Checker Pattern"
 msgstr "顯示棋盤格圖樣"
 
-#: utility_editors.py:1263
+#: utility_editors.py:1264
 msgid "Display Only Selected Polygons"
 msgstr "僅顯示選取的多邊形"
 
-#: utility_editors.py:1267 utility_editors.py:704 utility_editors.py:788
-#: utility_editors.py:705
+#: utility_editors.py:1268 utility_editors.py:705 utility_editors.py:789 utility_editors.py:706
 msgid "Renderer"
 msgstr "算圖器"
 
-#: utility_editors.py:1273
+#: utility_editors.py:1274
 msgid "View to Render"
 msgstr "檢視以進行算圖"
 
-#: utility_editors.py:1281
+#: utility_editors.py:1282
 msgid "Add a camera to this scene"
 msgstr "在此場景中新增攝影機"
 
-#: utility_editors.py:1285 utility_editors.py:632
+#: utility_editors.py:1286 utility_editors.py:633
 msgid "Output Size"
 msgstr "輸出尺寸"
 
-#: utility_editors.py:1287
+#: utility_editors.py:1288
 msgid "HDTV 1280 × 720"
 msgstr "HDTV 1280×720"
 
-#: utility_editors.py:1287
+#: utility_editors.py:1288
 msgid "HDTV 1920 × 1080"
 msgstr "HDTV 1920×1080"
 
-#: utility_editors.py:1288
+#: utility_editors.py:1289
 msgid "UHD 3840 × 2160"
 msgstr "UHD 3840×2160"
 
-#: utility_editors.py:1288
+#: utility_editors.py:1289
 msgid "Square 1024 × 1024"
 msgstr "正方形 1024×1024"
 
-#: utility_editors.py:1289
+#: utility_editors.py:1290
 msgid "Square 2048 × 2048"
 msgstr "正方形 2048×2048"
 
-#: utility_editors.py:1295 utility_editors.py:628
+#: utility_editors.py:1296 utility_editors.py:629
 msgid "Area to Render"
 msgstr "算圖範圍"
 
-#: utility_editors.py:1300 utility_editors.py:629
+#: utility_editors.py:1301 utility_editors.py:630
 msgid "Crop"
 msgstr "裁切"
 
-#: utility_editors.py:1303
+#: utility_editors.py:1304
 msgid "Blowup"
 msgstr "放大算圖"
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "Iterative Rendering Mode"
 msgstr "迭代式算圖模式"
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "ActiveShade Mode"
 msgstr "實時算圖模式"
 
-#: utility_editors.py:1314
+#: utility_editors.py:1315
 msgid "Submit to Network Rendering"
 msgstr "提交至網路算圖"
 
-#: utility_editors.py:1321
+#: utility_editors.py:1322
 msgid "Output File Format"
 msgstr "輸出檔案格式"
